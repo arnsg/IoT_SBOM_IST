@@ -1,0 +1,44 @@
+{
+    "junit:4.11": {
+        "name": "junit",
+        "version": "4.11",
+        "type": "java-archive",
+        "licenses": [
+            "BSD-3-Clause"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-269g-pwp5-87pp",
+                "severity": "MODERATE",
+                "description": "TemporaryFolder on unix-like systems does not limit access to created files",
+                "links": [],
+                "cvss_score": 4.4,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:N/A:N",
+                "published_at": "2020-10-12",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            }
+        ]
+    },
+    "junit:4.8.1": {
+        "name": "junit",
+        "version": "4.8.1",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-269g-pwp5-87pp",
+                "severity": "MODERATE",
+                "description": "TemporaryFolder on unix-like systems does not limit access to created files",
+                "links": [],
+                "cvss_score": 4.4,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:N/A:N",
+                "published_at": "2020-10-12",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            }
+        ]
+    }
+}

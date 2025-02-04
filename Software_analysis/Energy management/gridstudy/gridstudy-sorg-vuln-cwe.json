@@ -1,0 +1,42 @@
+{
+    "ag-grid-community:31.2.0": {
+        "name": "ag-grid-community",
+        "version": "31.2.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-328p-362g-r48j",
+                "severity": "MODERATE",
+                "description": "ag-grid packages vulnerable to Prototype Pollution",
+                "links": [],
+                "cvss_score": 6.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+                "published_at": "2024-07-01",
+                "updated_at": "2024-07-12",
+                "CWE_ID": "CWE-1321",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "fast-xml-parser:4.3.6": {
+        "name": "fast-xml-parser",
+        "version": "4.3.6",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-mpg4-rc92-vx8v",
+                "severity": "HIGH",
+                "description": "fast-xml-parser vulnerable to ReDOS at currency parsing",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-07-29",
+                "updated_at": "2024-07-29",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    }
+}

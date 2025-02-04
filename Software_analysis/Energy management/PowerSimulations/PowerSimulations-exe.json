@@ -1,0 +1,1117 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:25d55d0b-04fd-4ad3-8624-1493278e92fc",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-07-30T15:42:00+02:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.4.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "ffcda265bef4a702",
+      "type": "file",
+      "name": "/Users/massimocoppolaro/Desktop/Università/Tirocinio2.0/Software/PowerSimulations.jl"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:github/juliaregistries/tagbot@v1?package-id=d6818b6bd771e50a",
+      "type": "library",
+      "name": "JuliaRegistries/TagBot",
+      "version": "v1",
+      "cpe": "cpe:2.3:a:JuliaRegistries\\/TagBot:JuliaRegistries\\/TagBot:v1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/JuliaRegistries/TagBot@v1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/TagBot.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/codecov/codecov-action@v4?package-id=57d55f800f894d6b",
+      "type": "library",
+      "name": "codecov/codecov-action",
+      "version": "v4",
+      "cpe": "cpe:2.3:a:codecov\\/codecov-action:codecov\\/codecov-action:v4:*:*:*:*:*:*:*",
+      "purl": "pkg:github/codecov/codecov-action@v4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:codecov\\/codecov-action:codecov\\/codecov_action:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:codecov\\/codecov_action:codecov\\/codecov-action:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:codecov\\/codecov_action:codecov\\/codecov_action:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:codecov\\/codecov:codecov\\/codecov-action:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:codecov\\/codecov:codecov\\/codecov_action:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/pr_testing.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/julia-actions/julia-buildpkg@latest?package-id=4d16134925b0eed5",
+      "type": "library",
+      "name": "julia-actions/julia-buildpkg",
+      "version": "latest",
+      "cpe": "cpe:2.3:a:julia-actions\\/julia-buildpkg:julia-actions\\/julia-buildpkg:latest:*:*:*:*:*:*:*",
+      "purl": "pkg:github/julia-actions/julia-buildpkg@latest",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia-actions\\/julia-buildpkg:julia_actions\\/julia_buildpkg:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/julia_buildpkg:julia-actions\\/julia-buildpkg:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/julia_buildpkg:julia_actions\\/julia_buildpkg:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia-actions\\/julia:julia-actions\\/julia-buildpkg:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia-actions\\/julia:julia_actions\\/julia_buildpkg:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/julia:julia-actions\\/julia-buildpkg:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/julia:julia_actions\\/julia_buildpkg:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia:julia-actions\\/julia-buildpkg:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia:julia_actions\\/julia_buildpkg:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/main-tests.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/julia-actions/julia-buildpkg@latest?package-id=90620b3d555c006f",
+      "type": "library",
+      "name": "julia-actions/julia-buildpkg",
+      "version": "latest",
+      "cpe": "cpe:2.3:a:julia-actions\\/julia-buildpkg:julia-actions\\/julia-buildpkg:latest:*:*:*:*:*:*:*",
+      "purl": "pkg:github/julia-actions/julia-buildpkg@latest",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia-actions\\/julia-buildpkg:julia_actions\\/julia_buildpkg:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/julia_buildpkg:julia-actions\\/julia-buildpkg:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/julia_buildpkg:julia_actions\\/julia_buildpkg:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia-actions\\/julia:julia-actions\\/julia-buildpkg:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia-actions\\/julia:julia_actions\\/julia_buildpkg:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/julia:julia-actions\\/julia-buildpkg:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/julia:julia_actions\\/julia_buildpkg:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia:julia-actions\\/julia-buildpkg:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia:julia_actions\\/julia_buildpkg:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/pr_testing.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/julia-actions/julia-processcoverage@v1?package-id=4c12e4f57c114bd3",
+      "type": "library",
+      "name": "julia-actions/julia-processcoverage",
+      "version": "v1",
+      "cpe": "cpe:2.3:a:julia-actions\\/julia-processcoverage:julia-actions\\/julia-processcoverage:v1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/julia-actions/julia-processcoverage@v1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia-actions\\/julia-processcoverage:julia_actions\\/julia_processcoverage:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/julia_processcoverage:julia-actions\\/julia-processcoverage:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/julia_processcoverage:julia_actions\\/julia_processcoverage:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia-actions\\/julia:julia-actions\\/julia-processcoverage:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia-actions\\/julia:julia_actions\\/julia_processcoverage:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/julia:julia-actions\\/julia-processcoverage:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/julia:julia_actions\\/julia_processcoverage:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia:julia-actions\\/julia-processcoverage:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia:julia_actions\\/julia_processcoverage:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/main-tests.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/julia-actions/julia-processcoverage@v1?package-id=8f5b50256b8d14ce",
+      "type": "library",
+      "name": "julia-actions/julia-processcoverage",
+      "version": "v1",
+      "cpe": "cpe:2.3:a:julia-actions\\/julia-processcoverage:julia-actions\\/julia-processcoverage:v1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/julia-actions/julia-processcoverage@v1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia-actions\\/julia-processcoverage:julia_actions\\/julia_processcoverage:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/julia_processcoverage:julia-actions\\/julia-processcoverage:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/julia_processcoverage:julia_actions\\/julia_processcoverage:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia-actions\\/julia:julia-actions\\/julia-processcoverage:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia-actions\\/julia:julia_actions\\/julia_processcoverage:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/julia:julia-actions\\/julia-processcoverage:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/julia:julia_actions\\/julia_processcoverage:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia:julia-actions\\/julia-processcoverage:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia:julia_actions\\/julia_processcoverage:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/pr_testing.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/julia-actions/julia-runtest@latest?package-id=1889eed14aa3469f",
+      "type": "library",
+      "name": "julia-actions/julia-runtest",
+      "version": "latest",
+      "cpe": "cpe:2.3:a:julia-actions\\/julia-runtest:julia-actions\\/julia-runtest:latest:*:*:*:*:*:*:*",
+      "purl": "pkg:github/julia-actions/julia-runtest@latest",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia-actions\\/julia-runtest:julia_actions\\/julia_runtest:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/julia_runtest:julia-actions\\/julia-runtest:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/julia_runtest:julia_actions\\/julia_runtest:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia-actions\\/julia:julia-actions\\/julia-runtest:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia-actions\\/julia:julia_actions\\/julia_runtest:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/julia:julia-actions\\/julia-runtest:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/julia:julia_actions\\/julia_runtest:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia:julia-actions\\/julia-runtest:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia:julia_actions\\/julia_runtest:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/main-tests.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.xhtmlrenderer/flying-saucer-core@9.0.1?package-id=5adaa8a05f7c374a",
+      "type": "library",
+      "group": "org.xhtmlrenderer",
+      "name": "flying-saucer-core",
+      "version": "9.0.1",
+      "cpe": "cpe:2.3:a:flying-saucer-core:flying-saucer-core:9.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.xhtmlrenderer/flying-saucer-core@9.0.1",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "9a41783e38c66aac1b6ebb6b0fa48434697c1144"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flying-saucer-core:flying_saucer_core:9.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flying_saucer_core:flying-saucer-core:9.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flying_saucer_core:flying_saucer_core:9.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flying-saucer:flying-saucer-core:9.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flying-saucer:flying_saucer_core:9.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flying_saucer:flying-saucer-core:9.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flying_saucer:flying_saucer_core:9.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:xhtmlrenderer:flying-saucer-core:9.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:xhtmlrenderer:flying_saucer_core:9.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flying:flying-saucer-core:9.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flying:flying_saucer_core:9.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/server/lib/extensions/doc/flying-saucer-core-9.0.1.jar"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "flying-saucer-core"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.xhtmlrenderer"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/server/lib/extensions/doc/flying-saucer-core-9.0.1.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.xhtmlrenderer/flying-saucer-pdf@9.0.1?package-id=8a8a22ad726d77e7",
+      "type": "library",
+      "group": "org.xhtmlrenderer",
+      "name": "flying-saucer-pdf",
+      "version": "9.0.1",
+      "cpe": "cpe:2.3:a:flying-saucer-pdf:flying-saucer-pdf:9.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.xhtmlrenderer/flying-saucer-pdf@9.0.1",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "ce4a7b619c7c2aff466f23a831bd4655471e2d81"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flying-saucer-pdf:flying_saucer_pdf:9.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flying_saucer_pdf:flying-saucer-pdf:9.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flying_saucer_pdf:flying_saucer_pdf:9.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flying-saucer:flying-saucer-pdf:9.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flying-saucer:flying_saucer_pdf:9.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flying_saucer:flying-saucer-pdf:9.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flying_saucer:flying_saucer_pdf:9.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:xhtmlrenderer:flying-saucer-pdf:9.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:xhtmlrenderer:flying_saucer_pdf:9.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flying:flying-saucer-pdf:9.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:flying:flying_saucer_pdf:9.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/server/lib/extensions/doc/flying-saucer-pdf-9.0.1.jar"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "flying-saucer-pdf"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.xhtmlrenderer"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/server/lib/extensions/doc/flying-saucer-pdf-9.0.1.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/julia-actions/julia-runtest@latest?package-id=7d6b9ea2d3a7effc",
+      "type": "library",
+      "name": "julia-actions/julia-runtest",
+      "version": "latest",
+      "cpe": "cpe:2.3:a:julia-actions\\/julia-runtest:julia-actions\\/julia-runtest:latest:*:*:*:*:*:*:*",
+      "purl": "pkg:github/julia-actions/julia-runtest@latest",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia-actions\\/julia-runtest:julia_actions\\/julia_runtest:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/julia_runtest:julia-actions\\/julia-runtest:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/julia_runtest:julia_actions\\/julia_runtest:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia-actions\\/julia:julia-actions\\/julia-runtest:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia-actions\\/julia:julia_actions\\/julia_runtest:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/julia:julia-actions\\/julia-runtest:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/julia:julia_actions\\/julia_runtest:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia:julia-actions\\/julia-runtest:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia:julia_actions\\/julia_runtest:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/pr_testing.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/julia-actions/setup-julia@latest?package-id=56d374300b94e5c8",
+      "type": "library",
+      "name": "julia-actions/setup-julia",
+      "version": "latest",
+      "cpe": "cpe:2.3:a:julia-actions\\/setup-julia:julia-actions\\/setup-julia:latest:*:*:*:*:*:*:*",
+      "purl": "pkg:github/julia-actions/setup-julia@latest",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia-actions\\/setup-julia:julia_actions\\/setup_julia:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/setup_julia:julia-actions\\/setup-julia:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/setup_julia:julia_actions\\/setup_julia:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia-actions\\/setup:julia-actions\\/setup-julia:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia-actions\\/setup:julia_actions\\/setup_julia:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/setup:julia-actions\\/setup-julia:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/setup:julia_actions\\/setup_julia:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia:julia-actions\\/setup-julia:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia:julia_actions\\/setup_julia:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/format-check.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/julia-actions/setup-julia@latest?package-id=357fe33889aa95e5",
+      "type": "library",
+      "name": "julia-actions/setup-julia",
+      "version": "latest",
+      "cpe": "cpe:2.3:a:julia-actions\\/setup-julia:julia-actions\\/setup-julia:latest:*:*:*:*:*:*:*",
+      "purl": "pkg:github/julia-actions/setup-julia@latest",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia-actions\\/setup-julia:julia_actions\\/setup_julia:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/setup_julia:julia-actions\\/setup-julia:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/setup_julia:julia_actions\\/setup_julia:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia-actions\\/setup:julia-actions\\/setup-julia:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia-actions\\/setup:julia_actions\\/setup_julia:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/setup:julia-actions\\/setup-julia:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/setup:julia_actions\\/setup_julia:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia:julia-actions\\/setup-julia:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia:julia_actions\\/setup_julia:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/main-tests.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/julia-actions/setup-julia@latest?package-id=7c271bfd0cf0954d",
+      "type": "library",
+      "name": "julia-actions/setup-julia",
+      "version": "latest",
+      "cpe": "cpe:2.3:a:julia-actions\\/setup-julia:julia-actions\\/setup-julia:latest:*:*:*:*:*:*:*",
+      "purl": "pkg:github/julia-actions/setup-julia@latest",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia-actions\\/setup-julia:julia_actions\\/setup_julia:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/setup_julia:julia-actions\\/setup-julia:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/setup_julia:julia_actions\\/setup_julia:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia-actions\\/setup:julia-actions\\/setup-julia:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia-actions\\/setup:julia_actions\\/setup_julia:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/setup:julia-actions\\/setup-julia:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/setup:julia_actions\\/setup_julia:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia:julia-actions\\/setup-julia:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia:julia_actions\\/setup_julia:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/performance_comparison.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/julia-actions/setup-julia@latest?package-id=f0cd0ac899556540",
+      "type": "library",
+      "name": "julia-actions/setup-julia",
+      "version": "latest",
+      "cpe": "cpe:2.3:a:julia-actions\\/setup-julia:julia-actions\\/setup-julia:latest:*:*:*:*:*:*:*",
+      "purl": "pkg:github/julia-actions/setup-julia@latest",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia-actions\\/setup-julia:julia_actions\\/setup_julia:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/setup_julia:julia-actions\\/setup-julia:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/setup_julia:julia_actions\\/setup_julia:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia-actions\\/setup:julia-actions\\/setup-julia:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia-actions\\/setup:julia_actions\\/setup_julia:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/setup:julia-actions\\/setup-julia:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/setup:julia_actions\\/setup_julia:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia:julia-actions\\/setup-julia:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia:julia_actions\\/setup_julia:latest:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/pr_testing.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/julia-actions/setup-julia@v1?package-id=c5d533f54d44240e",
+      "type": "library",
+      "name": "julia-actions/setup-julia",
+      "version": "v1",
+      "cpe": "cpe:2.3:a:julia-actions\\/setup-julia:julia-actions\\/setup-julia:v1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/julia-actions/setup-julia@v1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia-actions\\/setup-julia:julia_actions\\/setup_julia:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/setup_julia:julia-actions\\/setup-julia:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/setup_julia:julia_actions\\/setup_julia:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia-actions\\/setup:julia-actions\\/setup-julia:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia-actions\\/setup:julia_actions\\/setup_julia:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/setup:julia-actions\\/setup-julia:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia_actions\\/setup:julia_actions\\/setup_julia:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia:julia-actions\\/setup-julia:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:julia:julia_actions\\/setup_julia:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/docs.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/peter-evans/create-or-update-comment@v1?package-id=94841cc2cd227876",
+      "type": "library",
+      "name": "peter-evans/create-or-update-comment",
+      "version": "v1",
+      "cpe": "cpe:2.3:a:peter-evans\\/create-or-update-comment:peter-evans\\/create-or-update-comment:v1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/peter-evans/create-or-update-comment@v1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter-evans\\/create-or-update-comment:peter_evans\\/create_or_update_comment:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter_evans\\/create_or_update_comment:peter-evans\\/create-or-update-comment:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter_evans\\/create_or_update_comment:peter_evans\\/create_or_update_comment:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter-evans\\/create-or-update:peter-evans\\/create-or-update-comment:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter-evans\\/create-or-update:peter_evans\\/create_or_update_comment:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter_evans\\/create_or_update:peter-evans\\/create-or-update-comment:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter_evans\\/create_or_update:peter_evans\\/create_or_update_comment:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter-evans\\/create-or:peter-evans\\/create-or-update-comment:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter-evans\\/create-or:peter_evans\\/create_or_update_comment:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter_evans\\/create_or:peter-evans\\/create-or-update-comment:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter_evans\\/create_or:peter_evans\\/create_or_update_comment:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter-evans\\/create:peter-evans\\/create-or-update-comment:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter-evans\\/create:peter_evans\\/create_or_update_comment:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter_evans\\/create:peter-evans\\/create-or-update-comment:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter_evans\\/create:peter_evans\\/create_or_update_comment:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter:peter-evans\\/create-or-update-comment:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter:peter_evans\\/create_or_update_comment:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/performance_comparison.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/peter-evans/find-comment@v1?package-id=3c69536de66da4b6",
+      "type": "library",
+      "name": "peter-evans/find-comment",
+      "version": "v1",
+      "cpe": "cpe:2.3:a:peter-evans\\/find-comment:peter-evans\\/find-comment:v1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/peter-evans/find-comment@v1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter-evans\\/find-comment:peter_evans\\/find_comment:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter_evans\\/find_comment:peter-evans\\/find-comment:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter_evans\\/find_comment:peter_evans\\/find_comment:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter-evans\\/find:peter-evans\\/find-comment:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter-evans\\/find:peter_evans\\/find_comment:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter_evans\\/find:peter-evans\\/find-comment:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter_evans\\/find:peter_evans\\/find_comment:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter:peter-evans\\/find-comment:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter:peter_evans\\/find_comment:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/performance_comparison.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/reviewdog/action-suggester@v1?package-id=12f45711eb3601a2",
+      "type": "library",
+      "name": "reviewdog/action-suggester",
+      "version": "v1",
+      "cpe": "cpe:2.3:a:reviewdog\\/action-suggester:reviewdog\\/action-suggester:v1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/reviewdog/action-suggester@v1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:reviewdog\\/action-suggester:reviewdog\\/action_suggester:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:reviewdog\\/action_suggester:reviewdog\\/action-suggester:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:reviewdog\\/action_suggester:reviewdog\\/action_suggester:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:reviewdog\\/action:reviewdog\\/action-suggester:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:reviewdog\\/action:reviewdog\\/action_suggester:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/format-check.yml"
+        }
+      ]
+    }
+  ]
+}

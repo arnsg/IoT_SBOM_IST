@@ -1,0 +1,889 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:e9299ace-e2e3-492e-9408-e317c3497556",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-07-29T10:13:58+02:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.4.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "c8682b1db9a984c2",
+      "type": "file",
+      "name": "/Users/massimocoppolaro/Desktop/Università/Tirocinio2.0/Software/fdroidclient"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "5ecbb40e27b37009",
+      "type": "library",
+      "name": "",
+      "purl": "pkg:maven/",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "8f479e45dabf906940f01d4707edd7910ff9f0bf"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/libs/sharedTest/src/main/assets/testy.at.or.at_no-.RSA_index-v1.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/libs/sharedTest/src/main/assets/testy.at.or.at_no-.RSA_index-v1.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "e5c7c13086ee9085",
+      "type": "library",
+      "name": "",
+      "purl": "pkg:maven/",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "a060e1047f398d0771f7f3ad6d4a2302bf8f9fa6"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/libs/sharedTest/src/main/assets/testy.at.or.at_no-.SF_index-v1.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/libs/sharedTest/src/main/assets/testy.at.or.at_no-.SF_index-v1.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/invalid-MD5-SHA1withRSA-v1/invalid-MD5-SHA1withRSA-v1?package-id=f19b12d2c586095f",
+      "type": "library",
+      "name": "invalid-MD5-SHA1withRSA-v1",
+      "cpe": "cpe:2.3:a:invalid-MD5-SHA1withRSA-v1:invalid-MD5-SHA1withRSA-v1:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/invalid-MD5-SHA1withRSA-v1/invalid-MD5-SHA1withRSA-v1",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "e50c68d63feccd92b24b8863e34cc2c75e97f8d6"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid-MD5-SHA1withRSA-v1:invalid_MD5_SHA1withRSA_v1:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid_MD5_SHA1withRSA_v1:invalid-MD5-SHA1withRSA-v1:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid_MD5_SHA1withRSA_v1:invalid_MD5_SHA1withRSA_v1:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid-MD5-SHA1withRSA:invalid-MD5-SHA1withRSA-v1:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid-MD5-SHA1withRSA:invalid_MD5_SHA1withRSA_v1:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid_MD5_SHA1withRSA:invalid-MD5-SHA1withRSA-v1:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid_MD5_SHA1withRSA:invalid_MD5_SHA1withRSA_v1:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid-MD5:invalid-MD5-SHA1withRSA-v1:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid-MD5:invalid_MD5_SHA1withRSA_v1:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid_MD5:invalid-MD5-SHA1withRSA-v1:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid_MD5:invalid_MD5_SHA1withRSA_v1:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid:invalid-MD5-SHA1withRSA-v1:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid:invalid_MD5_SHA1withRSA_v1:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/libs/index/src/commonTest/resources/verification/invalid-MD5-SHA1withRSA-v1.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/libs/index/src/commonTest/resources/verification/invalid-MD5-SHA1withRSA-v1.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/invalid-MD5-SHA1withRSA-v2/invalid-MD5-SHA1withRSA-v2?package-id=9dcce1de8d9bb442",
+      "type": "library",
+      "name": "invalid-MD5-SHA1withRSA-v2",
+      "cpe": "cpe:2.3:a:invalid-MD5-SHA1withRSA-v2:invalid-MD5-SHA1withRSA-v2:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/invalid-MD5-SHA1withRSA-v2/invalid-MD5-SHA1withRSA-v2",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "920340073b934bfefbf5cbac38b40225ef00aa79"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid-MD5-SHA1withRSA-v2:invalid_MD5_SHA1withRSA_v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid_MD5_SHA1withRSA_v2:invalid-MD5-SHA1withRSA-v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid_MD5_SHA1withRSA_v2:invalid_MD5_SHA1withRSA_v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid-MD5-SHA1withRSA:invalid-MD5-SHA1withRSA-v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid-MD5-SHA1withRSA:invalid_MD5_SHA1withRSA_v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid_MD5_SHA1withRSA:invalid-MD5-SHA1withRSA-v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid_MD5_SHA1withRSA:invalid_MD5_SHA1withRSA_v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid-MD5:invalid-MD5-SHA1withRSA-v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid-MD5:invalid_MD5_SHA1withRSA_v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid_MD5:invalid-MD5-SHA1withRSA-v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid_MD5:invalid_MD5_SHA1withRSA_v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid:invalid-MD5-SHA1withRSA-v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid:invalid_MD5_SHA1withRSA_v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/libs/index/src/commonTest/resources/verification/invalid-MD5-SHA1withRSA-v2.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/libs/index/src/commonTest/resources/verification/invalid-MD5-SHA1withRSA-v2.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/invalid-SHA1-SHA1withRSA-v2/invalid-SHA1-SHA1withRSA-v2?package-id=18390713eb5e93a8",
+      "type": "library",
+      "name": "invalid-SHA1-SHA1withRSA-v2",
+      "cpe": "cpe:2.3:a:invalid-SHA1-SHA1withRSA-v2:invalid-SHA1-SHA1withRSA-v2:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/invalid-SHA1-SHA1withRSA-v2/invalid-SHA1-SHA1withRSA-v2",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "c89d324384e4022a069a4572182b16837cd02863"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid-SHA1-SHA1withRSA-v2:invalid_SHA1_SHA1withRSA_v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid_SHA1_SHA1withRSA_v2:invalid-SHA1-SHA1withRSA-v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid_SHA1_SHA1withRSA_v2:invalid_SHA1_SHA1withRSA_v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid-SHA1-SHA1withRSA:invalid-SHA1-SHA1withRSA-v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid-SHA1-SHA1withRSA:invalid_SHA1_SHA1withRSA_v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid_SHA1_SHA1withRSA:invalid-SHA1-SHA1withRSA-v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid_SHA1_SHA1withRSA:invalid_SHA1_SHA1withRSA_v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid-SHA1:invalid-SHA1-SHA1withRSA-v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid-SHA1:invalid_SHA1_SHA1withRSA_v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid_SHA1:invalid-SHA1-SHA1withRSA-v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid_SHA1:invalid_SHA1_SHA1withRSA_v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid:invalid-SHA1-SHA1withRSA-v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid:invalid_SHA1_SHA1withRSA_v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/libs/index/src/commonTest/resources/verification/invalid-SHA1-SHA1withRSA-v2.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/libs/index/src/commonTest/resources/verification/invalid-SHA1-SHA1withRSA-v2.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/invalid-v1/invalid-v1?package-id=d29ab619acc30386",
+      "type": "library",
+      "name": "invalid-v1",
+      "cpe": "cpe:2.3:a:invalid-v1:invalid-v1:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/invalid-v1/invalid-v1",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "ee3999503d6f1c4fa866b6235c5daa2898d9c4c7"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid-v1:invalid_v1:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid_v1:invalid-v1:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid_v1:invalid_v1:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid:invalid-v1:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid:invalid_v1:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/libs/index/src/commonTest/resources/verification/invalid-v1.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/libs/index/src/commonTest/resources/verification/invalid-v1.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/invalid-v2/invalid-v2?package-id=d0b0b3896da4d542",
+      "type": "library",
+      "name": "invalid-v2",
+      "cpe": "cpe:2.3:a:invalid-v2:invalid-v2:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/invalid-v2/invalid-v2",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "e4df5367ef98d972725ef41208f156471025ae6f"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid-v2:invalid_v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid_v2:invalid-v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid_v2:invalid_v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid:invalid-v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid:invalid_v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/libs/index/src/commonTest/resources/verification/invalid-v2.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/libs/index/src/commonTest/resources/verification/invalid-v2.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/invalid-wrong-entry-v1/invalid-wrong-entry-v1?package-id=0b490e1f554391af",
+      "type": "library",
+      "name": "invalid-wrong-entry-v1",
+      "cpe": "cpe:2.3:a:invalid-wrong-entry-v1:invalid-wrong-entry-v1:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/invalid-wrong-entry-v1/invalid-wrong-entry-v1",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "f34472018dc31bb0fee2a67c0c2f38a8a9523e53"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid-wrong-entry-v1:invalid_wrong_entry_v1:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid_wrong_entry_v1:invalid-wrong-entry-v1:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid_wrong_entry_v1:invalid_wrong_entry_v1:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid-wrong-entry:invalid-wrong-entry-v1:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid-wrong-entry:invalid_wrong_entry_v1:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid_wrong_entry:invalid-wrong-entry-v1:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid_wrong_entry:invalid_wrong_entry_v1:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid-wrong:invalid-wrong-entry-v1:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid-wrong:invalid_wrong_entry_v1:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid_wrong:invalid-wrong-entry-v1:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid_wrong:invalid_wrong_entry_v1:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid:invalid-wrong-entry-v1:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:invalid:invalid_wrong_entry_v1:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/libs/index/src/commonTest/resources/verification/invalid-wrong-entry-v1.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/libs/index/src/commonTest/resources/verification/invalid-wrong-entry-v1.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/unsigned/unsigned?package-id=9035909db5f99054",
+      "type": "library",
+      "name": "unsigned",
+      "cpe": "cpe:2.3:a:unsigned:unsigned:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/unsigned/unsigned",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "70d327089be3fac6f380d2934029cb905252212b"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/libs/index/src/commonTest/resources/verification/unsigned.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/libs/index/src/commonTest/resources/verification/unsigned.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/valid-apksigner-v2/valid-apksigner-v2?package-id=6acce45b1105a039",
+      "type": "library",
+      "name": "valid-apksigner-v2",
+      "cpe": "cpe:2.3:a:valid-apksigner-v2:valid-apksigner-v2:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/valid-apksigner-v2/valid-apksigner-v2",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "49cc9061b57f3c7a4afdb07faff2d97bdd0dbe7a"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:valid-apksigner-v2:valid_apksigner_v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:valid_apksigner_v2:valid-apksigner-v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:valid_apksigner_v2:valid_apksigner_v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:valid-apksigner:valid-apksigner-v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:valid-apksigner:valid_apksigner_v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:valid_apksigner:valid-apksigner-v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:valid_apksigner:valid_apksigner_v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:valid:valid-apksigner-v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:valid:valid_apksigner_v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/libs/index/src/commonTest/resources/verification/valid-apksigner-v2.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/libs/index/src/commonTest/resources/verification/valid-apksigner-v2.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/valid-v1/valid-v1?package-id=06a81a5111b217bd",
+      "type": "library",
+      "name": "valid-v1",
+      "cpe": "cpe:2.3:a:valid-v1:valid-v1:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/valid-v1/valid-v1",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "85081127d3e4e0ee3a3ef45b31567c7a7a114256"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:valid-v1:valid_v1:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:valid_v1:valid-v1:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:valid_v1:valid_v1:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:valid:valid-v1:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:valid:valid_v1:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/libs/index/src/commonTest/resources/verification/valid-v1.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/libs/index/src/commonTest/resources/verification/valid-v1.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/valid-v2/valid-v2?package-id=01b91e449692c69a",
+      "type": "library",
+      "name": "valid-v2",
+      "cpe": "cpe:2.3:a:valid-v2:valid-v2:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/valid-v2/valid-v2",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "eea4b6be8df29dbc2038486a23fbb88ed96bf426"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:valid-v2:valid_v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:valid_v2:valid-v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:valid_v2:valid_v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:valid:valid-v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:valid:valid_v2:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/libs/index/src/commonTest/resources/verification/valid-v2.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/libs/index/src/commonTest/resources/verification/valid-v2.jar"
+        }
+      ]
+    }
+  ]
+}

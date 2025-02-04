@@ -1,0 +1,222 @@
+{
+    "braces:2.3.2": {
+        "name": "braces",
+        "version": "2.3.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-grv7-fg5c-xmjg",
+                "severity": "HIGH",
+                "description": "Uncontrolled resource consumption in braces",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-05-14",
+                "updated_at": "2024-07-05",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "ip:1.1.9": {
+        "name": "ip",
+        "version": "1.1.9",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-2p57-rm9w-gvfp",
+                "severity": "HIGH",
+                "description": "ip SSRF improper categorization in isPublic",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-06-02",
+                "updated_at": "2024-06-02",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "ip:2.0.1": {
+        "name": "ip",
+        "version": "2.0.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-2p57-rm9w-gvfp",
+                "severity": "HIGH",
+                "description": "ip SSRF improper categorization in isPublic",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-06-02",
+                "updated_at": "2024-06-02",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "kibana-buildkite:1.0.0": {
+        "name": "kibana-buildkite",
+        "version": "1.0.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-5ghp-rm73-w7m8",
+                "severity": "CRITICAL",
+                "description": "Malware in kibana-buildkite",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-06-20",
+                "updated_at": "2022-06-20",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "pdfjs-dist:2.13.216": {
+        "name": "pdfjs-dist",
+        "version": "2.13.216",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-wgrm-67xf-hhpq",
+                "severity": "HIGH",
+                "description": "PDF.js vulnerable to arbitrary JavaScript execution upon opening a malicious PDF",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-05-07",
+                "updated_at": "2024-06-10",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "postcss:7.0.39": {
+        "name": "postcss",
+        "version": "7.0.39",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-7fh5-64p2-3v2j",
+                "severity": "MODERATE",
+                "description": "PostCSS line return parsing error",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2023-09-30",
+                "updated_at": "2023-11-05",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "requirejs:2.3.6": {
+        "name": "requirejs",
+        "version": "2.3.6",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-x3m3-4wpv-5vgc",
+                "severity": "HIGH",
+                "description": "jrburke requirejs vulnerable to prototype pollution",
+                "links": [],
+                "cvss_score": 10.0,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2024-07-01",
+                "updated_at": "2024-07-25",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "semver:5.6.0": {
+        "name": "semver",
+        "version": "5.6.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c2qf-rxjj-qqgw",
+                "severity": "MODERATE",
+                "description": "semver vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2023-06-21",
+                "updated_at": "2024-02-14",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "trim-newlines:1.0.0": {
+        "name": "trim-newlines",
+        "version": "1.0.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-7p7h-4mm5-852v",
+                "severity": "HIGH",
+                "description": "Uncontrolled Resource Consumption in trim-newlines",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-06-07",
+                "updated_at": "2023-11-29",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "webpack-dev-middleware:3.7.3": {
+        "name": "webpack-dev-middleware",
+        "version": "3.7.3",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-wr3j-pwj9-hqq6",
+                "severity": "HIGH",
+                "description": "Path traversal in webpack-dev-middleware",
+                "links": [],
+                "cvss_score": 7.4,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:N/A:N",
+                "published_at": "2024-03-21",
+                "updated_at": "2024-03-21",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "ws:8.17.0": {
+        "name": "ws",
+        "version": "8.17.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-3h5v-q93c-6h6q",
+                "severity": "HIGH",
+                "description": "ws affected by a DoS when handling a request with many HTTP headers",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-06-17",
+                "updated_at": "2024-06-17",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    }
+}

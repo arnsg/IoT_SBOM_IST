@@ -1,0 +1,234 @@
+{
+    "Jinja2:2.11.2": {
+        "name": "Jinja2",
+        "version": "2.11.2",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-h75v-3vvj-5mfj",
+                "severity": "MODERATE",
+                "description": "Jinja vulnerable to HTML attribute injection when passing user input as keys to xmlattr filter",
+                "links": [],
+                "cvss_score": 5.4,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+                "published_at": "2024-05-06",
+                "updated_at": "2024-06-10",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            },
+            {
+                "id": "GHSA-h5c8-rqwp-cp95",
+                "severity": "MODERATE",
+                "description": "Jinja vulnerable to HTML attribute injection when passing user input as keys to xmlattr filter",
+                "links": [],
+                "cvss_score": 5.4,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+                "published_at": "2024-01-11",
+                "updated_at": "2024-01-27",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            },
+            {
+                "id": "GHSA-g3rq-g295-4j3m",
+                "severity": "MODERATE",
+                "description": "Regular Expression Denial of Service (ReDoS) in Jinja2",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2021-03-19",
+                "updated_at": "2023-09-07",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "aiohttp:3.7.4": {
+        "name": "aiohttp",
+        "version": "3.7.4",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-q3qx-c6g2-7pw2",
+                "severity": "HIGH",
+                "description": "aiohttp's ClientSession is vulnerable to CRLF injection via version",
+                "links": [],
+                "cvss_score": 7.2,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
+                "published_at": "2023-11-27",
+                "updated_at": "2024-01-29",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            },
+            {
+                "id": "GHSA-5m98-qgg9-wh84",
+                "severity": "HIGH",
+                "description": "aiohttp vulnerable to Denial of Service when trying to parse malformed POST requests",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-05-03",
+                "updated_at": "2024-05-03",
+                "CWE_ID": "CWE-835",
+                "CWE_DESCRIPTION": "Loop with Unreachable Exit Condition ('Infinite Loop')"
+            },
+            {
+                "id": "GHSA-qvrw-v9rv-5rjx",
+                "severity": "MODERATE",
+                "description": "aiohttp's ClientSession is vulnerable to CRLF injection via method",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2023-11-27",
+                "updated_at": "2024-01-29",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            },
+            {
+                "id": "GHSA-pjjw-qhg8-p2p9",
+                "severity": "MODERATE",
+                "description": "aiohttp has vulnerable dependency that is vulnerable to request smuggling",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2023-11-27",
+                "updated_at": "2023-11-27",
+                "CWE_ID": "CWE-444",
+                "CWE_DESCRIPTION": "Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling')"
+            },
+            {
+                "id": "GHSA-gfw2-4jvh-wgfg",
+                "severity": "MODERATE",
+                "description": "AIOHTTP has problems in HTTP parser (the python one, not llhttp)",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2023-11-14",
+                "updated_at": "2024-02-15",
+                "CWE_ID": "CWE-444",
+                "CWE_DESCRIPTION": "Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling')"
+            },
+            {
+                "id": "GHSA-8qpw-xqxj-h4r2",
+                "severity": "MODERATE",
+                "description": "aiohttp's HTTP parser (the python one, not llhttp) still overly lenient about separators",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
+                "published_at": "2024-01-29",
+                "updated_at": "2024-02-18",
+                "CWE_ID": "CWE-444",
+                "CWE_DESCRIPTION": "Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling')"
+            },
+            {
+                "id": "GHSA-7gpw-8wmc-pm8g",
+                "severity": "MODERATE",
+                "description": "aiohttp Cross-site Scripting vulnerability on index pages for static file handling",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2024-04-18",
+                "updated_at": "2024-05-02",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            },
+            {
+                "id": "GHSA-5h86-8mv2-jq9f",
+                "severity": "MODERATE",
+                "description": "aiohttp is vulnerable to directory traversal",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2024-01-29",
+                "updated_at": "2024-02-18",
+                "CWE_ID": "CWE-22",
+                "CWE_DESCRIPTION": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            },
+            {
+                "id": "GHSA-45c4-8wx5-qw6w",
+                "severity": "MODERATE",
+                "description": "aiohttp.web.Application vulnerable to HTTP request smuggling via llhttp HTTP request parser",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2023-07-20",
+                "updated_at": "2023-11-06",
+                "CWE_ID": "CWE-444",
+                "CWE_DESCRIPTION": "Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling')"
+            },
+            {
+                "id": "GHSA-xx9p-xxvh-7g8j",
+                "severity": "LOW",
+                "description": "Aiohttp has inconsistent interpretation of `Content-Length` vs. `Transfer-Encoding` differing in C and Python fallbacks",
+                "links": [],
+                "cvss_score": 3.4,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:N/A:N",
+                "published_at": "2023-11-14",
+                "updated_at": "2023-11-14",
+                "CWE_ID": "CWE-444",
+                "CWE_DESCRIPTION": "Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling')"
+            }
+        ]
+    },
+    "black:19.10b0": {
+        "name": "black",
+        "version": "19.10b0",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-fj7x-q9j7-g6q6",
+                "severity": "MODERATE",
+                "description": "Black vulnerable to Regular Expression Denial of Service (ReDoS)",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2024-03-19",
+                "updated_at": "2024-07-03",
+                "CWE_ID": "CWE-75",
+                "CWE_DESCRIPTION": "Failure to Sanitize Special Elements into a Different Plane (Special Element Injection)"
+            }
+        ]
+    },
+    "pydash:4.7.6": {
+        "name": "pydash",
+        "version": "4.7.6",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-8mjr-6c96-39w8",
+                "severity": "HIGH",
+                "description": "pydash Command Injection vulnerability",
+                "links": [],
+                "cvss_score": 7.4,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+                "published_at": "2023-09-28",
+                "updated_at": "2023-11-07",
+                "CWE_ID": "CWE-77",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements used in a Command ('Command Injection')"
+            }
+        ]
+    },
+    "pyinstaller:3.6": {
+        "name": "pyinstaller",
+        "version": "3.6",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-9w2p-rh8c-v9g5",
+                "severity": "HIGH",
+                "description": "Local Privilege Escalation in Windows",
+                "links": [],
+                "cvss_score": 8.8,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2023-12-09",
+                "updated_at": "2023-12-19",
+                "CWE_ID": "CWE-379",
+                "CWE_DESCRIPTION": "Creation of Temporary File in Directory with Insecure Permissions"
+            }
+        ]
+    }
+}

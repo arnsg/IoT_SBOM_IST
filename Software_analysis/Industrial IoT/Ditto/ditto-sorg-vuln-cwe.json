@@ -1,0 +1,386 @@
+{
+    "classgraph:": {
+        "name": "classgraph",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-v2xm-76pq-phcf",
+                "severity": "MODERATE",
+                "description": "ClassGraph XML External Entity Reference",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+                "published_at": "2024-06-21",
+                "updated_at": "2024-06-21",
+                "CWE_ID": "CWE-611",
+                "CWE_DESCRIPTION": "Improper Restriction of XML External Entity Reference"
+            }
+        ]
+    },
+    "logback-classic:": {
+        "name": "logback-classic",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-06-07",
+                "updated_at": "2023-01-28",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-06-07",
+                "updated_at": "2023-01-28",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-06-07",
+                "updated_at": "2023-01-28",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-06-07",
+                "updated_at": "2023-01-28",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-06-07",
+                "updated_at": "2023-01-28",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-06-07",
+                "updated_at": "2023-01-28",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-06-07",
+                "updated_at": "2023-01-28",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-06-07",
+                "updated_at": "2023-01-28",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-06-07",
+                "updated_at": "2023-01-28",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-06-07",
+                "updated_at": "2023-01-28",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "published_at": "2023-11-29",
+                "updated_at": "2023-12-05",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "published_at": "2023-11-29",
+                "updated_at": "2023-12-05",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "published_at": "2023-11-29",
+                "updated_at": "2023-12-05",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "published_at": "2023-11-29",
+                "updated_at": "2023-12-05",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "published_at": "2023-11-29",
+                "updated_at": "2023-12-05",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "published_at": "2023-11-29",
+                "updated_at": "2023-12-05",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "published_at": "2023-11-29",
+                "updated_at": "2023-12-05",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "published_at": "2023-11-29",
+                "updated_at": "2023-12-05",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "published_at": "2023-11-29",
+                "updated_at": "2023-12-05",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "published_at": "2023-11-29",
+                "updated_at": "2023-12-05",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            }
+        ]
+    },
+    "netty-handler:": {
+        "name": "netty-handler",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-9959-6p3m-wxpc",
+                "severity": "MODERATE",
+                "description": "Denial of service in Netty",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2020-06-30",
+                "updated_at": "2023-01-09",
+                "CWE_ID": "CWE-119",
+                "CWE_DESCRIPTION": "Improper Restriction of Operations within the Bounds of a Memory Buffer"
+            },
+            {
+                "id": "GHSA-6mjq-h674-j845",
+                "severity": "MODERATE",
+                "description": "netty-handler SniHandler 16MB allocation",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2023-06-20",
+                "updated_at": "2024-06-24",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "qpid-jms-client:": {
+        "name": "qpid-jms-client",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-f38p-mq64-h784",
+                "severity": "HIGH",
+                "description": "Improper Input Validation in Apache Qpid AMQP 0-x JMS",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-05-14",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            }
+        ]
+    },
+    "rexml:3.2.5": {
+        "name": "rexml",
+        "version": "3.2.5",
+        "type": "gem",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-vg3r-rm7w-2xgh",
+                "severity": "MODERATE",
+                "description": "REXML contains a denial of service vulnerability",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2024-05-16",
+                "updated_at": "2024-07-16",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-r55c-59qm-vjw6",
+                "severity": "MODERATE",
+                "description": "REXML DoS vulnerability",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2024-08-01",
+                "updated_at": "2024-08-01",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-4xqq-m2hx-25v8",
+                "severity": "MODERATE",
+                "description": "REXML denial of service vulnerability",
+                "links": [],
+                "cvss_score": 4.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+                "published_at": "2024-07-16",
+                "updated_at": "2024-07-16",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "sshd-core:": {
+        "name": "sshd-core",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-fhw8-8j55-vwgq",
+                "severity": "CRITICAL",
+                "description": "Unsafe deserialization in Apache MINA SSHD",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-11-16",
+                "updated_at": "2023-08-18",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            }
+        ]
+    }
+}

@@ -1,0 +1,218 @@
+{
+    "resteasy-undertow:3.6.3.Final": {
+        "name": "resteasy-undertow",
+        "version": "3.6.3.Final",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-jrmh-v64j-mjm9",
+                "severity": "MODERATE",
+                "description": "Insecure Temporary File in RESTEasy",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2023-02-18",
+                "updated_at": "2023-04-27"
+            }
+        ]
+    },
+    "undertow-core:2.0.23.Final": {
+        "name": "undertow-core",
+        "version": "2.0.23.Final",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-pfcc-3g6r-8rg8",
+                "severity": "CRITICAL",
+                "description": "Undertow client not checking server identity presented by server certificate in https connections",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2023-02-23",
+                "updated_at": "2023-04-13"
+            },
+            {
+                "id": "GHSA-xpp6-8r3j-ww43",
+                "severity": "HIGH",
+                "description": "Undertow Denial of Service vulnerability",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-07-08",
+                "updated_at": "2024-07-25"
+            },
+            {
+                "id": "GHSA-vjxc-frw4-jmh5",
+                "severity": "HIGH",
+                "description": "Undertow vulnerable to Uncontrolled Resource Consumption",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-05-24",
+                "updated_at": "2023-01-28"
+            },
+            {
+                "id": "GHSA-rhcw-wjcm-9h6g",
+                "severity": "HIGH",
+                "description": "Denial of service in Undertow",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-02-09",
+                "updated_at": "2023-02-01"
+            },
+            {
+                "id": "GHSA-rf6q-vx79-mjxr",
+                "severity": "HIGH",
+                "description": "Undertow Uncontrolled Resource Consumption",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-05-25",
+                "updated_at": "2023-02-07"
+            },
+            {
+                "id": "GHSA-m4mm-pg93-fv78",
+                "severity": "HIGH",
+                "description": "Undertow denial of service vulnerability",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2023-09-14",
+                "updated_at": "2024-05-03"
+            },
+            {
+                "id": "GHSA-gv2w-88hx-8m9r",
+                "severity": "HIGH",
+                "description": "Improper Authorization in Undertoe",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:L",
+                "published_at": "2022-05-24",
+                "updated_at": "2023-01-27"
+            },
+            {
+                "id": "GHSA-g4cp-h53p-v3v8",
+                "severity": "HIGH",
+                "description": "Allocation of Resources Without Limits or Throttling in Undertow",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-04-30",
+                "updated_at": "2023-02-01"
+            },
+            {
+                "id": "GHSA-fj7c-vg2v-ccrm",
+                "severity": "HIGH",
+                "description": "Undertow vulnerable to memory exhaustion due to buffer leak",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-07-15",
+                "updated_at": "2023-07-07"
+            },
+            {
+                "id": "GHSA-95rf-557x-44g5",
+                "severity": "HIGH",
+                "description": "Undertow vulnerable to Dos via Large AJP request",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-08-06",
+                "updated_at": "2023-01-30"
+            },
+            {
+                "id": "GHSA-9442-gm4v-r222",
+                "severity": "HIGH",
+                "description": "Undertow's url-encoded request path information can be broken on ajp-listener",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-06-20",
+                "updated_at": "2024-07-25"
+            },
+            {
+                "id": "GHSA-339q-62wm-c39w",
+                "severity": "HIGH",
+                "description": "Undertow vulnerable to Denial of Service (DoS) attacks",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-07-15",
+                "updated_at": "2023-01-28"
+            },
+            {
+                "id": "GHSA-2w73-fqqj-c92p",
+                "severity": "HIGH",
+                "description": "Improper Input Validation in Undertow",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+                "published_at": "2022-05-24",
+                "updated_at": "2023-01-27"
+            },
+            {
+                "id": "GHSA-v76w-3ph8-vm66",
+                "severity": "MODERATE",
+                "description": "Undertow Path Traversal vulnerability",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+                "published_at": "2024-02-12",
+                "updated_at": "2024-05-15"
+            },
+            {
+                "id": "GHSA-qjwc-v72v-fq6r",
+                "severity": "MODERATE",
+                "description": "HTTP request smuggling in Undertow",
+                "links": [],
+                "cvss_score": 4.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+                "published_at": "2021-06-16",
+                "updated_at": "2023-02-01"
+            },
+            {
+                "id": "GHSA-p9w3-gwc2-cr49",
+                "severity": "MODERATE",
+                "description": "HTTP Request Smuggling in Undertow",
+                "links": [],
+                "cvss_score": 4.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+                "published_at": "2021-04-30",
+                "updated_at": "2023-02-01"
+            },
+            {
+                "id": "GHSA-mfhv-gwf8-4m88",
+                "severity": "MODERATE",
+                "description": "undertow Race Condition vulnerability",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-05-25",
+                "updated_at": "2023-01-31"
+            },
+            {
+                "id": "GHSA-ch7q-gpff-h9hp",
+                "severity": "MODERATE",
+                "description": "Undertow Missing Release of Memory after Effective Lifetime vulnerability",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2024-07-09",
+                "updated_at": "2024-07-09"
+            },
+            {
+                "id": "GHSA-cccf-7xw3-p2vr",
+                "severity": "MODERATE",
+                "description": "HTTP Request Smuggling in Undertow",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+                "published_at": "2021-04-30",
+                "updated_at": "2023-02-01"
+            }
+        ]
+    }
+}

@@ -1,0 +1,684 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:6e70b736-0545-48eb-8219-09691b3774c8",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-08-02T11:14:45+02:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.4.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "4dd325af4c37f3f9",
+      "type": "file",
+      "name": "/Users/massimocoppolaro/Desktop/Università/Tirocinio2.0/Software/fogflow"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:pypi/flask@1.0.2?package-id=89ba72920e864b1e",
+      "type": "library",
+      "name": "Flask",
+      "version": "1.0.2",
+      "cpe": "cpe:2.3:a:palletsprojects:flask:1.0.2:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/Flask@1.0.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "python-pip-requirements-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/application/operator/tpu/requirements.txt"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.hibernate/hibernate-entitymanager?package-id=69c0af548be02e4e",
+      "type": "library",
+      "group": "org.hibernate",
+      "name": "hibernate-entitymanager",
+      "cpe": "cpe:2.3:a:hibernate-entitymanager:hibernate-entitymanager:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.hibernate/hibernate-entitymanager",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hibernate-entitymanager:hibernate_entitymanager:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hibernate_entitymanager:hibernate-entitymanager:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hibernate_entitymanager:hibernate_entitymanager:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hibernate:hibernate-entitymanager:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hibernate:hibernate_entitymanager:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/application/template/NGSI/java/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "hibernate-entitymanager"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.hibernate"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/k8s.io/api@v0.21.0?package-id=a634e21576d02179",
+      "type": "library",
+      "name": "k8s.io/api",
+      "version": "v0.21.0",
+      "purl": "pkg:golang/k8s.io/api@v0.21.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:gu5iGF4V6tfVCQ/R+8Hc0h7H1JuEhzyEi9S4R5LM8+Y="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/k8s.io/apimachinery@v0.21.0?package-id=23f9fb5b249c73b7",
+      "type": "library",
+      "name": "k8s.io/apimachinery",
+      "version": "v0.21.0",
+      "purl": "pkg:golang/k8s.io/apimachinery@v0.21.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:3Fx+41if+IRavNcKOz09FwEXDBG6ORh6iMsTSelhkMA="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/anstream@0.6.15?package-id=fcf14479da6d1ec8",
+      "type": "library",
+      "name": "anstream",
+      "version": "0.6.15",
+      "cpe": "cpe:2.3:a:anstream:anstream:0.6.15:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/anstream@0.6.15",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/anstyle@1.0.8?package-id=01375d35124aa266",
+      "type": "library",
+      "name": "anstyle",
+      "version": "1.0.8",
+      "cpe": "cpe:2.3:a:anstyle:anstyle:1.0.8:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/anstyle@1.0.8",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/anstyle-parse@0.2.5?package-id=f75d007e6b32a489",
+      "type": "library",
+      "name": "anstyle-parse",
+      "version": "0.2.5",
+      "cpe": "cpe:2.3:a:anstyle-parse:anstyle-parse:0.2.5:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/anstyle-parse@0.2.5",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anstyle-parse:anstyle_parse:0.2.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anstyle_parse:anstyle-parse:0.2.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anstyle_parse:anstyle_parse:0.2.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anstyle:anstyle-parse:0.2.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anstyle:anstyle_parse:0.2.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/anstyle-query@1.1.1?package-id=12a12ec2f04d7dec",
+      "type": "library",
+      "name": "anstyle-query",
+      "version": "1.1.1",
+      "cpe": "cpe:2.3:a:anstyle-query:anstyle-query:1.1.1:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/anstyle-query@1.1.1",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anstyle-query:anstyle_query:1.1.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anstyle_query:anstyle-query:1.1.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anstyle_query:anstyle_query:1.1.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anstyle:anstyle-query:1.1.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:anstyle:anstyle_query:1.1.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/k8s.io/client-go@v0.21.0?package-id=742dae4bcb616a37",
+      "type": "library",
+      "name": "k8s.io/client-go",
+      "version": "v0.21.0",
+      "purl": "pkg:golang/k8s.io/client-go@v0.21.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "go-module-file-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/go.mod"
+        },
+        {
+          "name": "syft:metadata:h1Digest",
+          "value": "h1:n0zzzJsAQmJngpC0IhgFcApZyoGXPrDIAD601HD09ag="
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-starter-test?package-id=a8020b50dbc7f738",
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-starter-test",
+      "cpe": "cpe:2.3:a:spring-boot-starter-test:spring-boot-starter-test:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-test",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring-boot-starter-test:spring_boot_starter_test:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring_boot_starter_test:spring-boot-starter-test:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring_boot_starter_test:spring_boot_starter_test:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring-boot-starter:spring-boot-starter-test:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring-boot-starter:spring_boot_starter_test:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring_boot_starter:spring-boot-starter-test:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring_boot_starter:spring_boot_starter_test:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:springframework:spring-boot-starter-test:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:springframework:spring_boot_starter_test:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring-boot:spring-boot-starter-test:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring-boot:spring_boot_starter_test:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring_boot:spring-boot-starter-test:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring_boot:spring_boot_starter_test:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring:spring-boot-starter-test:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring:spring_boot_starter_test:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:boot:spring-boot-starter-test:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:boot:spring_boot_starter_test:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/application/template/NGSI/java/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "spring-boot-starter-test"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.springframework.boot"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-starter-web?package-id=38a01d3d60f1152a",
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-starter-web",
+      "cpe": "cpe:2.3:a:spring-boot-starter-web:spring-boot-starter-web:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-web",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring-boot-starter-web:spring_boot_starter_web:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring_boot_starter_web:spring-boot-starter-web:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring_boot_starter_web:spring_boot_starter_web:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring-boot-starter:spring-boot-starter-web:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring-boot-starter:spring_boot_starter_web:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring_boot_starter:spring-boot-starter-web:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring_boot_starter:spring_boot_starter_web:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:springframework:spring-boot-starter-web:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:springframework:spring_boot_starter_web:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring-boot:spring-boot-starter-web:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring-boot:spring_boot_starter_web:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring_boot:spring-boot-starter-web:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring_boot:spring_boot_starter_web:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring:spring-boot-starter-web:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring:spring_boot_starter_web:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:boot:spring-boot-starter-web:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:boot:spring_boot_starter_web:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/application/template/NGSI/java/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "spring-boot-starter-web"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.springframework.boot"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/stdlib@1.17.8?package-id=85d7ba728cb465e9",
+      "type": "library",
+      "name": "stdlib",
+      "version": "go1.17.8",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:golang:go:1.17.8:-:*:*:*:*:*:*",
+      "purl": "pkg:golang/stdlib@1.17.8",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/application/template/NGSI/go/go"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.17.8"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:golang/stdlib@1.17.8?package-id=adfa472b86819301",
+      "type": "library",
+      "name": "stdlib",
+      "version": "go1.17.8",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:golang:go:1.17.8:-:*:*:*:*:*:*",
+      "purl": "pkg:golang/stdlib@1.17.8",
+      "properties": [
+        {
+          "name": "syft:package:language",
+          "value": "go"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "go-module"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "go-module-buildinfo-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/test/https/srv/srv"
+        },
+        {
+          "name": "syft:metadata:goCompiledVersion",
+          "value": "go1.17.8"
+        }
+      ]
+    }
+  ]
+}

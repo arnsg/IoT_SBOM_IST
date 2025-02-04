@@ -1,0 +1,1168 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:3be638fa-ee57-4497-b890-65ccd4e2b167",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-07-13T16:21:02+02:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.4.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "488f9eca19925fa9",
+      "type": "file",
+      "name": "/Users/massimocoppolaro/Desktop/Università/Tirocinio/Software/openhim-legacy"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:maven/org.mule.tests/mule-tests-functional@3.4.0?package-id=ec64c318bd004f21",
+      "type": "library",
+      "group": "org.mule.tests",
+      "name": "mule-tests-functional",
+      "version": "3.4.0",
+      "cpe": "cpe:2.3:a:mule-tests-functional:mule-tests-functional:3.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.mule.tests/mule-tests-functional@3.4.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule-tests-functional:mule_tests_functional:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule_tests_functional:mule-tests-functional:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule_tests_functional:mule_tests_functional:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule-tests:mule-tests-functional:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule-tests:mule_tests_functional:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule_tests:mule-tests-functional:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule_tests:mule_tests_functional:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:tests:mule-tests-functional:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:tests:mule_tests_functional:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule:mule-tests-functional:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule:mule_tests_functional:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "mule-tests-functional"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.mule.tests"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mule.transports/mule-transport-file@3.4.0?package-id=b3e7bb5ffcc58e5b",
+      "type": "library",
+      "group": "org.mule.transports",
+      "name": "mule-transport-file",
+      "version": "3.4.0",
+      "cpe": "cpe:2.3:a:mule-transport-file:mule-transport-file:3.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.mule.transports/mule-transport-file@3.4.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule-transport-file:mule_transport_file:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule_transport_file:mule-transport-file:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule_transport_file:mule_transport_file:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule-transport:mule-transport-file:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule-transport:mule_transport_file:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule_transport:mule-transport-file:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule_transport:mule_transport_file:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:transports:mule-transport-file:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:transports:mule_transport_file:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule:mule-transport-file:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule:mule_transport_file:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "mule-transport-file"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.mule.transports"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mule.transports/mule-transport-http@3.4.0?package-id=116b424a73745cd4",
+      "type": "library",
+      "group": "org.mule.transports",
+      "name": "mule-transport-http",
+      "version": "3.4.0",
+      "cpe": "cpe:2.3:a:mule-transport-http:mule-transport-http:3.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.mule.transports/mule-transport-http@3.4.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule-transport-http:mule_transport_http:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule_transport_http:mule-transport-http:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule_transport_http:mule_transport_http:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule-transport:mule-transport-http:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule-transport:mule_transport_http:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule_transport:mule-transport-http:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule_transport:mule_transport_http:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:transports:mule-transport-http:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:transports:mule_transport_http:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule:mule-transport-http:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule:mule_transport_http:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "mule-transport-http"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.mule.transports"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mule.transports/mule-transport-jdbc@3.4.0?package-id=073de9501550dbaa",
+      "type": "library",
+      "group": "org.mule.transports",
+      "name": "mule-transport-jdbc",
+      "version": "3.4.0",
+      "cpe": "cpe:2.3:a:mule-transport-jdbc:mule-transport-jdbc:3.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.mule.transports/mule-transport-jdbc@3.4.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule-transport-jdbc:mule_transport_jdbc:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule_transport_jdbc:mule-transport-jdbc:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule_transport_jdbc:mule_transport_jdbc:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule-transport:mule-transport-jdbc:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule-transport:mule_transport_jdbc:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule_transport:mule-transport-jdbc:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule_transport:mule_transport_jdbc:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:transports:mule-transport-jdbc:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:transports:mule_transport_jdbc:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule:mule-transport-jdbc:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule:mule_transport_jdbc:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "mule-transport-jdbc"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.mule.transports"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mule.transports/mule-transport-jms@3.4.0?package-id=7eb501f2340d71f1",
+      "type": "library",
+      "group": "org.mule.transports",
+      "name": "mule-transport-jms",
+      "version": "3.4.0",
+      "cpe": "cpe:2.3:a:mule-transport-jms:mule-transport-jms:3.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.mule.transports/mule-transport-jms@3.4.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule-transport-jms:mule_transport_jms:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule_transport_jms:mule-transport-jms:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule_transport_jms:mule_transport_jms:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule-transport:mule-transport-jms:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule-transport:mule_transport_jms:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule_transport:mule-transport-jms:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule_transport:mule_transport_jms:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:transports:mule-transport-jms:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:transports:mule_transport_jms:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule:mule-transport-jms:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule:mule_transport_jms:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "mule-transport-jms"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.mule.transports"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mule.transports/mule-transport-vm@3.4.0?package-id=4d5307ea6296bc4e",
+      "type": "library",
+      "group": "org.mule.transports",
+      "name": "mule-transport-vm",
+      "version": "3.4.0",
+      "cpe": "cpe:2.3:a:mule-transport-vm:mule-transport-vm:3.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.mule.transports/mule-transport-vm@3.4.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule-transport-vm:mule_transport_vm:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule_transport_vm:mule-transport-vm:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule_transport_vm:mule_transport_vm:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule-transport:mule-transport-vm:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule-transport:mule_transport_vm:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule_transport:mule-transport-vm:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule_transport:mule_transport_vm:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:transports:mule-transport-vm:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:transports:mule_transport_vm:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule:mule-transport-vm:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mule:mule_transport_vm:3.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "mule-transport-vm"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.mule.transports"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/mysql/mysql-connector-java@5.1.25?package-id=c08b06c829c396b9",
+      "type": "library",
+      "group": "mysql",
+      "name": "mysql-connector-java",
+      "version": "5.1.25",
+      "cpe": "cpe:2.3:a:mysql-connector-java:mysql-connector-java:5.1.25:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/mysql/mysql-connector-java@5.1.25",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mysql-connector-java:mysql_connector_java:5.1.25:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mysql_connector_java:mysql-connector-java:5.1.25:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mysql_connector_java:mysql_connector_java:5.1.25:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mysql-connector:mysql-connector-java:5.1.25:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mysql-connector:mysql_connector_java:5.1.25:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mysql_connector:mysql-connector-java:5.1.25:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mysql_connector:mysql_connector_java:5.1.25:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mysql:mysql-connector-java:5.1.25:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mysql:mysql_connector_java:5.1.25:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "mysql-connector-java"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "mysql"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mortbay.jetty/servlet-api@2.5-20081211?package-id=30ed631ec97b2485",
+      "type": "library",
+      "group": "org.mortbay.jetty",
+      "name": "servlet-api",
+      "version": "2.5-20081211",
+      "cpe": "cpe:2.3:a:servlet-api:servlet-api:2.5-20081211:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.mortbay.jetty/servlet-api@2.5-20081211",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:servlet-api:servlet_api:2.5-20081211:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:servlet_api:servlet-api:2.5-20081211:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:servlet_api:servlet_api:2.5-20081211:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mortbay:servlet-api:2.5-20081211:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mortbay:servlet_api:2.5-20081211:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:servlet:servlet-api:2.5-20081211:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:servlet:servlet_api:2.5-20081211:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jetty:servlet-api:2.5-20081211:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jetty:servlet_api:2.5-20081211:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/src/test/resources/integration-tests/wiremock-1.33-standalone.jar"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "servlet-api"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.mortbay.jetty"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/src/test/resources/integration-tests/wiremock-1.33-standalone.jar:org.mortbay.jetty:servlet-api"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework.ldap/spring-ldap-core@1.3.1.RELEASE?package-id=3d803153b5b07902",
+      "type": "library",
+      "group": "org.springframework.ldap",
+      "name": "spring-ldap-core",
+      "version": "1.3.1.RELEASE",
+      "cpe": "cpe:2.3:a:spring-ldap-core:spring-ldap-core:1.3.1.RELEASE:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.springframework.ldap/spring-ldap-core@1.3.1.RELEASE",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring-ldap-core:spring_ldap_core:1.3.1.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring_ldap_core:spring-ldap-core:1.3.1.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring_ldap_core:spring_ldap_core:1.3.1.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:springframework:spring-ldap-core:1.3.1.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:springframework:spring_ldap_core:1.3.1.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring-ldap:spring-ldap-core:1.3.1.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring-ldap:spring_ldap_core:1.3.1.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring_ldap:spring-ldap-core:1.3.1.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring_ldap:spring_ldap_core:1.3.1.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring:spring-ldap-core:1.3.1.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring:spring_ldap_core:1.3.1.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ldap:spring-ldap-core:1.3.1.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ldap:spring_ldap_core:1.3.1.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "spring-ldap-core"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.springframework.ldap"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework.security/spring-security-core@3.1.4.RELEASE?package-id=6a0ca5fbd6dbe64c",
+      "type": "library",
+      "group": "org.springframework.security",
+      "name": "spring-security-core",
+      "version": "3.1.4.RELEASE",
+      "cpe": "cpe:2.3:a:spring-security-core:spring-security-core:3.1.4.RELEASE:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.springframework.security/spring-security-core@3.1.4.RELEASE",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring-security-core:spring_security_core:3.1.4.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring_security_core:spring-security-core:3.1.4.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring_security_core:spring_security_core:3.1.4.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring-security-core:spring_security:3.1.4.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring-security:spring-security-core:3.1.4.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring-security:spring_security_core:3.1.4.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring_security:spring-security-core:3.1.4.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring_security:spring_security_core:3.1.4.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring_security_core:spring_security:3.1.4.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:springframework:spring-security-core:3.1.4.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:springframework:spring_security_core:3.1.4.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring-security:spring_security:3.1.4.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring_security:spring_security:3.1.4.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:springframework:spring_security:3.1.4.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:security:spring-security-core:3.1.4.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:security:spring_security_core:3.1.4.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring:spring-security-core:3.1.4.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring:spring_security_core:3.1.4.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:vmware:spring-security-core:3.1.4.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:vmware:spring_security_core:3.1.4.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:security:spring_security:3.1.4.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring:spring_security:3.1.4.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:vmware:spring_security:3.1.4.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "spring-security-core"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.springframework.security"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.springframework.security/spring-security-ldap@3.1.4.RELEASE?package-id=7f25d056d297ecaf",
+      "type": "library",
+      "group": "org.springframework.security",
+      "name": "spring-security-ldap",
+      "version": "3.1.4.RELEASE",
+      "cpe": "cpe:2.3:a:spring-security-ldap:spring-security-ldap:3.1.4.RELEASE:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.springframework.security/spring-security-ldap@3.1.4.RELEASE",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring-security-ldap:spring_security_ldap:3.1.4.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring_security_ldap:spring-security-ldap:3.1.4.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring_security_ldap:spring_security_ldap:3.1.4.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring-security:spring-security-ldap:3.1.4.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring-security:spring_security_ldap:3.1.4.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring_security:spring-security-ldap:3.1.4.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring_security:spring_security_ldap:3.1.4.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:springframework:spring-security-ldap:3.1.4.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:springframework:spring_security_ldap:3.1.4.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:security:spring-security-ldap:3.1.4.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:security:spring_security_ldap:3.1.4.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring:spring-security-ldap:3.1.4.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:spring:spring_security_ldap:3.1.4.RELEASE:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "spring-security-ldap"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.springframework.security"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.github.tomakehurst/wiremock@1.30?package-id=a642968ce40a6fd4",
+      "type": "library",
+      "group": "com.github.tomakehurst",
+      "name": "wiremock",
+      "version": "1.30",
+      "cpe": "cpe:2.3:a:tomakehurst:wiremock:1.30:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.github.tomakehurst/wiremock@1.30",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:wiremock:wiremock:1.30:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github:wiremock:1.30:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "wiremock"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "com.github.tomakehurst"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.github.tomakehurst.wiremock.standalone.WireMockServerRunner/wiremock@1.33-standalone?package-id=bd19dd2ebbf52216",
+      "type": "library",
+      "name": "wiremock",
+      "version": "1.33-standalone",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:WireMockServerRunner:WireMockServerRunner:1.33-standalone:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.github.tomakehurst.wiremock.standalone.WireMockServerRunner/wiremock@1.33-standalone",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "d680d7ab8ebab1a1f21291bfee497e8005c37652"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:WireMockServerRunner:tomakehurst:1.33-standalone:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:tomakehurst:WireMockServerRunner:1.33-standalone:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:WireMockServerRunner:standalone:1.33-standalone:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:standalone:WireMockServerRunner:1.33-standalone:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:WireMockServerRunner:wiremock:1.33-standalone:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:wiremock:WireMockServerRunner:1.33-standalone:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github:WireMockServerRunner:1.33-standalone:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:tomakehurst:tomakehurst:1.33-standalone:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:standalone:tomakehurst:1.33-standalone:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:tomakehurst:standalone:1.33-standalone:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:standalone:standalone:1.33-standalone:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:tomakehurst:wiremock:1.33-standalone:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:wiremock:tomakehurst:1.33-standalone:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:standalone:wiremock:1.33-standalone:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:wiremock:standalone:1.33-standalone:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github:tomakehurst:1.33-standalone:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github:standalone:1.33-standalone:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:wiremock:wiremock:1.33-standalone:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github:wiremock:1.33-standalone:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/src/test/resources/integration-tests/wiremock-1.33-standalone.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/src/test/resources/integration-tests/wiremock-1.33-standalone.jar"
+        }
+      ]
+    }
+  ]
+}

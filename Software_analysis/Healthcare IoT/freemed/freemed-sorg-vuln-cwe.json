@@ -1,0 +1,54 @@
+{
+    "commons-beanutils:1.8.0": {
+        "name": "commons-beanutils",
+        "version": "1.8.0",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-p66x-2cv9-qq3v",
+                "severity": "HIGH",
+                "description": "Arbitrary code execution in Apache Commons BeanUtils",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2020-06-10",
+                "updated_at": "2024-06-05",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-6phf-73q6-gh87",
+                "severity": "HIGH",
+                "description": "Insecure Deserialization in Apache Commons Beanutils",
+                "links": [],
+                "cvss_score": 7.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+                "published_at": "2020-06-15",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "commons-httpclient:3.1": {
+        "name": "commons-httpclient",
+        "version": "3.1",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-3832-9276-x7gf",
+                "severity": "MODERATE",
+                "description": "Improper Certificate Validation in apache HttpClient",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-13",
+                "updated_at": "2024-03-14",
+                "CWE_ID": "CWE-295",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    }
+}

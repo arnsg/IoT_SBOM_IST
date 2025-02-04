@@ -1,0 +1,206 @@
+{
+    "certifi:2022.12.7": {
+        "name": "certifi",
+        "version": "2022.12.7",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-xqr8-7jwr-rhp7",
+                "severity": "HIGH",
+                "description": "Removal of e-Tugra root certificate",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2023-07-25",
+                "updated_at": "2023-11-09"
+            },
+            {
+                "id": "GHSA-248v-346w-9cwc",
+                "severity": "LOW",
+                "description": "Certifi removes GLOBALTRUST root certificate",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-07-05",
+                "updated_at": "2024-07-08"
+            }
+        ]
+    },
+    "idna:3.4": {
+        "name": "idna",
+        "version": "3.4",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-jjg7-2v4v-x38h",
+                "severity": "MODERATE",
+                "description": "Internationalized Domain Names in Applications (IDNA) vulnerable to denial of service from specially crafted inputs to idna.encode",
+                "links": [],
+                "cvss_score": 6.2,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-04-11",
+                "updated_at": "2024-07-11"
+            }
+        ]
+    },
+    "jinja2:3.1.2": {
+        "name": "jinja2",
+        "version": "3.1.2",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-h75v-3vvj-5mfj",
+                "severity": "MODERATE",
+                "description": "Jinja vulnerable to HTML attribute injection when passing user input as keys to xmlattr filter",
+                "links": [],
+                "cvss_score": 5.4,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+                "published_at": "2024-05-06",
+                "updated_at": "2024-06-10"
+            },
+            {
+                "id": "GHSA-h5c8-rqwp-cp95",
+                "severity": "MODERATE",
+                "description": "Jinja vulnerable to HTML attribute injection when passing user input as keys to xmlattr filter",
+                "links": [],
+                "cvss_score": 5.4,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+                "published_at": "2024-01-11",
+                "updated_at": "2024-01-27"
+            }
+        ]
+    },
+    "py:1.11.0": {
+        "name": "py",
+        "version": "1.11.0",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-w596-4wvx-j9j6",
+                "severity": "HIGH",
+                "description": "ReDoS in py library when used with subversion ",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-10-16",
+                "updated_at": "2023-08-17"
+            }
+        ]
+    },
+    "pygments:2.14.0": {
+        "name": "pygments",
+        "version": "2.14.0",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-mrwq-x4v8-fh7p",
+                "severity": "MODERATE",
+                "description": "Pygments vulnerable to ReDoS",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2023-07-19",
+                "updated_at": "2024-03-28"
+            }
+        ]
+    },
+    "requests:2.28.2": {
+        "name": "requests",
+        "version": "2.28.2",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-j8r2-6x86-q33q",
+                "severity": "MODERATE",
+                "description": "Unintended leak of Proxy-Authorization header in requests",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:N/A:N",
+                "published_at": "2023-05-22",
+                "updated_at": "2024-03-27"
+            },
+            {
+                "id": "GHSA-9wx4-h78v-vm56",
+                "severity": "MODERATE",
+                "description": "Requests `Session` object does not verify requests after making first request with verify=False",
+                "links": [],
+                "cvss_score": 5.6,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:U/C:H/I:H/A:N",
+                "published_at": "2024-05-20",
+                "updated_at": "2024-06-10"
+            }
+        ]
+    },
+    "urllib3:1.26.15": {
+        "name": "urllib3",
+        "version": "1.26.15",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-v845-jxx5-vc9f",
+                "severity": "MODERATE",
+                "description": "`Cookie` HTTP header isn't stripped on cross-origin redirects",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:N",
+                "published_at": "2023-10-02",
+                "updated_at": "2023-11-04"
+            },
+            {
+                "id": "GHSA-g4mx-q9vg-27p4",
+                "severity": "MODERATE",
+                "description": "urllib3's request body not stripped after redirect from 303 status changes request method to GET",
+                "links": [],
+                "cvss_score": 4.2,
+                "vector_attack": "CVSS:3.1/AV:A/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2023-10-17",
+                "updated_at": "2023-11-06"
+            },
+            {
+                "id": "GHSA-34jh-p97f-mpxf",
+                "severity": "MODERATE",
+                "description": "urllib3's Proxy-Authorization request header isn't stripped during cross-origin redirects ",
+                "links": [],
+                "cvss_score": 4.4,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2024-06-17",
+                "updated_at": "2024-06-17"
+            }
+        ]
+    },
+    "zipp:3.15.0": {
+        "name": "zipp",
+        "version": "3.15.0",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-jfmj-5v4g-7637",
+                "severity": "MODERATE",
+                "description": "zipp Denial of Service vulnerability",
+                "links": [],
+                "cvss_score": 6.2,
+                "vector_attack": "CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-07-09",
+                "updated_at": "2024-07-09"
+            },
+            {
+                "id": "GHSA-jfmj-5v4g-7637",
+                "severity": "MODERATE",
+                "description": "zipp Denial of Service vulnerability",
+                "links": [],
+                "cvss_score": 6.2,
+                "vector_attack": "CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-07-09",
+                "updated_at": "2024-07-09"
+            }
+        ]
+    }
+}

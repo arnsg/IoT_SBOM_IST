@@ -1,0 +1,4027 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:316e44d4-2396-4051-a47e-95e8159f9d95",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-07-10T16:49:55+02:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.4.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "178fc7f183a7776b",
+      "type": "file",
+      "name": "/Users/massimocoppolaro/Desktop/Università/Tirocinio/Software/konnected-security"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:github/actions/checkout@v2?package-id=be19ea402c8c3b52",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v2",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/build.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v2?package-id=a686c51fcd14ac51",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v2",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/release.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/setup-python@v2?package-id=ffe8931ee9e16099",
+      "type": "library",
+      "name": "actions/setup-python",
+      "version": "v2",
+      "cpe": "cpe:2.3:a:actions\\/setup-python:actions\\/setup-python:v2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/setup-python@v2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup-python:actions\\/setup_python:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_python:actions\\/setup-python:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_python:actions\\/setup_python:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup-python:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup_python:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/build.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/setup-python@v2?package-id=3a37b1bd6a94d445",
+      "type": "library",
+      "name": "actions/setup-python",
+      "version": "v2",
+      "cpe": "cpe:2.3:a:actions\\/setup-python:actions\\/setup-python:v2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/setup-python@v2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup-python:actions\\/setup_python:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_python:actions\\/setup-python:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_python:actions\\/setup_python:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup-python:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup_python:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/release.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/bgpat/release-asset-action@03b0c30db1c4031ce3474740b0e4275cd7e126a3?package-id=c2619b4779411521",
+      "type": "library",
+      "name": "bgpat/release-asset-action",
+      "version": "03b0c30db1c4031ce3474740b0e4275cd7e126a3",
+      "cpe": "cpe:2.3:a:bgpat\\/release-asset-action:bgpat\\/release-asset-action:03b0c30db1c4031ce3474740b0e4275cd7e126a3:*:*:*:*:*:*:*",
+      "purl": "pkg:github/bgpat/release-asset-action@03b0c30db1c4031ce3474740b0e4275cd7e126a3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:bgpat\\/release-asset-action:bgpat\\/release_asset_action:03b0c30db1c4031ce3474740b0e4275cd7e126a3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:bgpat\\/release_asset_action:bgpat\\/release-asset-action:03b0c30db1c4031ce3474740b0e4275cd7e126a3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:bgpat\\/release_asset_action:bgpat\\/release_asset_action:03b0c30db1c4031ce3474740b0e4275cd7e126a3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:bgpat\\/release-asset:bgpat\\/release-asset-action:03b0c30db1c4031ce3474740b0e4275cd7e126a3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:bgpat\\/release-asset:bgpat\\/release_asset_action:03b0c30db1c4031ce3474740b0e4275cd7e126a3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:bgpat\\/release_asset:bgpat\\/release-asset-action:03b0c30db1c4031ce3474740b0e4275cd7e126a3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:bgpat\\/release_asset:bgpat\\/release_asset_action:03b0c30db1c4031ce3474740b0e4275cd7e126a3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:bgpat\\/release:bgpat\\/release-asset-action:03b0c30db1c4031ce3474740b0e4275cd7e126a3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:bgpat\\/release:bgpat\\/release_asset_action:03b0c30db1c4031ce3474740b0e4275cd7e126a3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/release.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/bruceadams/get-release@v1.2.3?package-id=3712e0b9badbd66b",
+      "type": "library",
+      "name": "bruceadams/get-release",
+      "version": "v1.2.3",
+      "cpe": "cpe:2.3:a:bruceadams\\/get-release:bruceadams\\/get-release:v1.2.3:*:*:*:*:*:*:*",
+      "purl": "pkg:github/bruceadams/get-release@v1.2.3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:bruceadams\\/get-release:bruceadams\\/get_release:v1.2.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:bruceadams\\/get_release:bruceadams\\/get-release:v1.2.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:bruceadams\\/get_release:bruceadams\\/get_release:v1.2.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:bruceadams\\/get:bruceadams\\/get-release:v1.2.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:bruceadams\\/get:bruceadams\\/get_release:v1.2.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/release.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.groovy/groovy-xml?package-id=87c7ca7320503355",
+      "type": "library",
+      "group": "org.apache.groovy",
+      "name": "groovy-xml",
+      "cpe": "cpe:2.3:a:apache:groovy-xml:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.groovy/groovy-xml",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:groovy_xml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:groovy:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/utils/test-generator/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "groovy-xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.groovy"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.hamcrest/hamcrest?package-id=a94fece70006b3c3",
+      "type": "library",
+      "group": "org.hamcrest",
+      "name": "hamcrest",
+      "cpe": "cpe:2.3:a:hamcrest:hamcrest:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.hamcrest/hamcrest",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/mock/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "hamcrest"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.hamcrest"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.hamcrest/hamcrest?package-id=e219f22d41cf00c8",
+      "type": "library",
+      "group": "org.hamcrest",
+      "name": "hamcrest",
+      "cpe": "cpe:2.3:a:hamcrest:hamcrest:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.hamcrest/hamcrest",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "hamcrest"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.hamcrest"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.hamcrest/hamcrest-core?package-id=524b75c08fe388c6",
+      "type": "library",
+      "group": "org.hamcrest",
+      "name": "hamcrest-core",
+      "cpe": "cpe:2.3:a:hamcrest-core:hamcrest-core:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.hamcrest/hamcrest-core",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hamcrest-core:hamcrest_core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hamcrest_core:hamcrest-core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hamcrest_core:hamcrest_core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hamcrest:hamcrest-core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hamcrest:hamcrest_core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/mock/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "hamcrest-core"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.hamcrest"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.hamcrest/hamcrest-core?package-id=9a2d5a907515cf27",
+      "type": "library",
+      "group": "org.hamcrest",
+      "name": "hamcrest-core",
+      "cpe": "cpe:2.3:a:hamcrest-core:hamcrest-core:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.hamcrest/hamcrest-core",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hamcrest-core:hamcrest_core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hamcrest_core:hamcrest-core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hamcrest_core:hamcrest_core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hamcrest:hamcrest-core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hamcrest:hamcrest_core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "hamcrest-core"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.hamcrest"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.hamcrest/hamcrest-core?package-id=4db9979e20225a7a",
+      "type": "library",
+      "group": "org.hamcrest",
+      "name": "hamcrest-core",
+      "cpe": "cpe:2.3:a:hamcrest-core:hamcrest-core:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.hamcrest/hamcrest-core",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hamcrest-core:hamcrest_core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hamcrest_core:hamcrest-core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hamcrest_core:hamcrest_core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hamcrest:hamcrest-core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hamcrest:hamcrest_core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/transports/test/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "hamcrest-core"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.hamcrest"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.hamcrest/hamcrest-library?package-id=3c0656434ef1649b",
+      "type": "library",
+      "group": "org.hamcrest",
+      "name": "hamcrest-library",
+      "cpe": "cpe:2.3:a:hamcrest-library:hamcrest-library:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.hamcrest/hamcrest-library",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hamcrest-library:hamcrest_library:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hamcrest_library:hamcrest-library:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hamcrest_library:hamcrest_library:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hamcrest:hamcrest-library:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hamcrest:hamcrest_library:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/code-generation/protocol-base-mspec/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "hamcrest-library"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.hamcrest"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.hamcrest/hamcrest-library?package-id=1e49602b262ad3f3",
+      "type": "library",
+      "group": "org.hamcrest",
+      "name": "hamcrest-library",
+      "cpe": "cpe:2.3:a:hamcrest-library:hamcrest-library:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.hamcrest/hamcrest-library",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hamcrest-library:hamcrest_library:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hamcrest_library:hamcrest-library:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hamcrest_library:hamcrest_library:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hamcrest:hamcrest-library:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hamcrest:hamcrest_library:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/mock/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "hamcrest-library"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.hamcrest"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.hamcrest/hamcrest-library?package-id=283a1a1e1b61763e",
+      "type": "library",
+      "group": "org.hamcrest",
+      "name": "hamcrest-library",
+      "cpe": "cpe:2.3:a:hamcrest-library:hamcrest-library:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.hamcrest/hamcrest-library",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hamcrest-library:hamcrest_library:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hamcrest_library:hamcrest-library:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hamcrest_library:hamcrest_library:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hamcrest:hamcrest-library:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hamcrest:hamcrest_library:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "hamcrest-library"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.hamcrest"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.hamcrest/hamcrest-library?package-id=dc9f04e7888cb24a",
+      "type": "library",
+      "group": "org.hamcrest",
+      "name": "hamcrest-library",
+      "cpe": "cpe:2.3:a:hamcrest-library:hamcrest-library:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.hamcrest/hamcrest-library",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hamcrest-library:hamcrest_library:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hamcrest_library:hamcrest-library:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hamcrest_library:hamcrest_library:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hamcrest:hamcrest-library:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hamcrest:hamcrest_library:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/transports/test/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "hamcrest-library"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.hamcrest"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.httpcomponents/httpclient?package-id=152461e2b4604396",
+      "type": "library",
+      "group": "org.apache.httpcomponents",
+      "name": "httpclient",
+      "cpe": "cpe:2.3:a:apache:httpclient:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.httpcomponents/httpclient",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/ctrlx/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "httpclient"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.httpcomponents"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.httpcomponents/httpclient?package-id=3c396aed906f3c4b",
+      "type": "library",
+      "group": "org.apache.httpcomponents",
+      "name": "httpclient",
+      "cpe": "cpe:2.3:a:apache:httpclient:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.httpcomponents/httpclient",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/protocols/knxnetip/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "httpclient"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.httpcomponents"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.httpcomponents/httpcore?package-id=ca4fbae99fd11a20",
+      "type": "library",
+      "group": "org.apache.httpcomponents",
+      "name": "httpcore",
+      "cpe": "cpe:2.3:a:apache:httpcore:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.httpcomponents/httpcore",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/ctrlx/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "httpcore"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.httpcomponents"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.httpcomponents/httpmime@4.5.14?package-id=0c842b4a0a08724b",
+      "type": "library",
+      "group": "org.apache.httpcomponents",
+      "name": "httpmime",
+      "version": "4.5.14",
+      "cpe": "cpe:2.3:a:apache:httpmime:4.5.14:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.httpcomponents/httpmime@4.5.14",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/ctrlx/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "httpmime"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.httpcomponents"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/identify@2.5.36?package-id=50cc3b4528f6b11b",
+      "type": "library",
+      "name": "identify",
+      "version": "2.5.36",
+      "cpe": "cpe:2.3:a:python-identify:python-identify:2.5.36:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/identify@2.5.36",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "python-pip-requirements-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-identify:python_identify:2.5.36:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_identify:python-identify:2.5.36:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_identify:python_identify:2.5.36:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:identify:python-identify:2.5.36:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:identify:python_identify:2.5.36:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-identify:identify:2.5.36:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_identify:identify:2.5.36:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-identify:2.5.36:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_identify:2.5.36:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:identify:identify:2.5.36:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:identify:2.5.36:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4py/requirements.txt"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/iniconfig@2.0.0?package-id=807373fa502af711",
+      "type": "library",
+      "name": "iniconfig",
+      "version": "2.0.0",
+      "cpe": "cpe:2.3:a:python-iniconfig:python-iniconfig:2.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/iniconfig@2.0.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "python-pip-requirements-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-iniconfig:python_iniconfig:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_iniconfig:python-iniconfig:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_iniconfig:python_iniconfig:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:iniconfig:python-iniconfig:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:iniconfig:python_iniconfig:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-iniconfig:iniconfig:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_iniconfig:iniconfig:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-iniconfig:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_iniconfig:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:iniconfig:iniconfig:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:iniconfig:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4py/requirements.txt"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fazecast/jSerialComm?package-id=1b17a72bf2b75260",
+      "type": "library",
+      "group": "com.fazecast",
+      "name": "jSerialComm",
+      "cpe": "cpe:2.3:a:jSerialComm:jSerialComm:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.fazecast/jSerialComm",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fazecast:jSerialComm:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/transports/serial/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "jSerialComm"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "com.fazecast"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations?package-id=276f7f1f7c282b02",
+      "type": "library",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-annotations",
+      "cpe": "cpe:2.3:a:jackson-annotations:jackson-annotations:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson-annotations:jackson_annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_annotations:jackson-annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_annotations:jackson_annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson-annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson_annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson-annotations:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson-annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson_annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_annotations:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:jackson-annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:jackson_annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/ctrlx/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "jackson-annotations"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "com.fasterxml.jackson.core"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations?package-id=b4e8c3628d73185f",
+      "type": "library",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-annotations",
+      "cpe": "cpe:2.3:a:jackson-annotations:jackson-annotations:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson-annotations:jackson_annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_annotations:jackson-annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_annotations:jackson_annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson-annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson_annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson-annotations:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson-annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson_annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_annotations:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:jackson-annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:jackson_annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/profinet-ng/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "jackson-annotations"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "com.fasterxml.jackson.core"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations?package-id=99cda292e9467c3c",
+      "type": "library",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-annotations",
+      "cpe": "cpe:2.3:a:jackson-annotations:jackson-annotations:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson-annotations:jackson_annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_annotations:jackson-annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_annotations:jackson_annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson-annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson_annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson-annotations:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson-annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson_annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_annotations:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:jackson-annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:jackson_annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/profinet/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "jackson-annotations"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "com.fasterxml.jackson.core"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4j-driver-can@0.13.0-SNAPSHOT?package-id=da1eceaee6f0480c",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4j-driver-can",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4j-driver-can:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4j-driver-can@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4j_driver_can:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/all/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4j-driver-can"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4j-driver-can@0.13.0-SNAPSHOT?package-id=3150e10f9d9f0b4d",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4j-driver-can",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4j-driver-can:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4j-driver-can@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4j_driver_can:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/canopen/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4j-driver-can"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4j-driver-canopen@0.13.0-SNAPSHOT?package-id=3a11213a17289d27",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4j-driver-canopen",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4j-driver-canopen:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4j-driver-canopen@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4j_driver_canopen:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/all/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4j-driver-canopen"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4j-driver-eip@0.13.0-SNAPSHOT?package-id=ea18500b6188bbd6",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4j-driver-eip",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4j-driver-eip:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4j-driver-eip@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4j_driver_eip:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/all/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4j-driver-eip"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4j-driver-eip@0.13.0-SNAPSHOT?package-id=f5cc336c34bafafa",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4j-driver-eip",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4j-driver-eip:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4j-driver-eip@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4j_driver_eip:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/utils/test-generator/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4j-driver-eip"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4j-driver-firmata@0.13.0-SNAPSHOT?package-id=c50098847cf7fdcd",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4j-driver-firmata",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4j-driver-firmata:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4j-driver-firmata@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4j_driver_firmata:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/all/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4j-driver-firmata"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4j-driver-iec-60870@0.13.0-SNAPSHOT?package-id=084e56675727c329",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4j-driver-iec-60870",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4j-driver-iec-60870:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4j-driver-iec-60870@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4j_driver_iec_60870:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/all/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4j-driver-iec-60870"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4j-driver-iec-60870@0.13.0-SNAPSHOT?package-id=8e39db7d343cd935",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4j-driver-iec-60870",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4j-driver-iec-60870:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4j-driver-iec-60870@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4j_driver_iec_60870:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/utils/test-generator/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4j-driver-iec-60870"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4j-driver-knxnetip@0.13.0-SNAPSHOT?package-id=61981f84fb935400",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4j-driver-knxnetip",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4j-driver-knxnetip:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4j-driver-knxnetip@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4j_driver_knxnetip:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/all/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4j-driver-knxnetip"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4j-driver-mock@0.13.0-SNAPSHOT?package-id=8f6c15fd8d182fd7",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4j-driver-mock",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4j-driver-mock:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4j-driver-mock@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4j_driver_mock:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/tools/connection-cache/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4j-driver-mock"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4j-driver-mock@0.13.0-SNAPSHOT?package-id=4ade1cc24abe8a8f",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4j-driver-mock",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4j-driver-mock:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4j-driver-mock@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4j_driver_mock:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/tools/opm/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4j-driver-mock"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4j-driver-mock@0.13.0-SNAPSHOT?package-id=9290ea75f5b2db4a",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4j-driver-mock",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4j-driver-mock:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4j-driver-mock@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4j_driver_mock:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/tools/scraper-ng/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4j-driver-mock"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4j-driver-mock@0.13.0-SNAPSHOT?package-id=2358909669eb6483",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4j-driver-mock",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4j-driver-mock:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4j-driver-mock@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4j_driver_mock:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/tools/scraper/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4j-driver-mock"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4j-driver-modbus@0.13.0-SNAPSHOT?package-id=a2e2be6340195e35",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4j-driver-modbus",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4j-driver-modbus:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4j-driver-modbus@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4j_driver_modbus:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/all/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4j-driver-modbus"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4j-driver-opcua@0.13.0-SNAPSHOT?package-id=0c7f71a4d0a97488",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4j-driver-opcua",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4j-driver-opcua:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4j-driver-opcua@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4j_driver_opcua:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/all/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4j-driver-opcua"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4j-driver-open-protocol@0.13.0-SNAPSHOT?package-id=bef7603fca52f347",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4j-driver-open-protocol",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4j-driver-open-protocol:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4j-driver-open-protocol@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4j_driver_open_protocol:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/all/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4j-driver-open-protocol"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4j-driver-plc4x@0.13.0-SNAPSHOT?package-id=d3f9dc645e942bd1",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4j-driver-plc4x",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4j-driver-plc4x:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4j-driver-plc4x@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4j_driver_plc4x:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4x:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/all/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4j-driver-plc4x"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4j-driver-profinet-ng@0.13.0-SNAPSHOT?package-id=c7d27e37230cfaa1",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4j-driver-profinet-ng",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4j-driver-profinet-ng:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4j-driver-profinet-ng@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4j_driver_profinet_ng:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/all/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4j-driver-profinet-ng"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4j-driver-s7@0.13.0-SNAPSHOT?package-id=23576f04fb512cb9",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4j-driver-s7",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4j-driver-s7:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4j-driver-s7@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4j_driver_s7:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/all/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4j-driver-s7"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4j-driver-s7@0.13.0-SNAPSHOT?package-id=d498c09cbaf856c5",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4j-driver-s7",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4j-driver-s7:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4j-driver-s7@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4j_driver_s7:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/utils/plc-simulator/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4j-driver-s7"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4j-driver-s7@0.13.0-SNAPSHOT?package-id=bfaeef8930198e3c",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4j-driver-s7",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4j-driver-s7:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4j-driver-s7@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4j_driver_s7:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/utils/test-generator/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4j-driver-s7"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4j-driver-simulated@0.13.0-SNAPSHOT?package-id=430c919c2694f667",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4j-driver-simulated",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4j-driver-simulated:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4j-driver-simulated@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4j_driver_simulated:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/all/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4j-driver-simulated"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4j-spi@0.13.0-SNAPSHOT?package-id=6340c1fad1b0b342",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4j-spi",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4j-spi:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4j-spi@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4j_spi:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/code-generation/language-java/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4j-spi"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4j-spi@0.13.0-SNAPSHOT?package-id=7427103ff471db9a",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4j-spi",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4j-spi:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4j-spi@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4j_spi:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/ab-eth/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4j-spi"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4j-spi@0.13.0-SNAPSHOT?package-id=3fa117d6b5a452f7",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4j-spi",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4j-spi:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4j-spi@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4j_spi:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/ads/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4j-spi"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4j-spi@0.13.0-SNAPSHOT?package-id=3b22700830861dee",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4j-spi",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4j-spi:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4j-spi@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4j_spi:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/bacnet/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4j-spi"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4j-spi@0.13.0-SNAPSHOT?package-id=951d46d4114c9259",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4j-spi",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4j-spi:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4j-spi@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4j_spi:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/c-bus/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4j-spi"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4j-spi@0.13.0-SNAPSHOT?package-id=9f59d8ae5f2ba47c",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4j-spi",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4j-spi:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4j-spi@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4j_spi:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/can/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4j-spi"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4j-spi@0.13.0-SNAPSHOT?package-id=b37aa28beafdf446",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4j-spi",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4j-spi:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4j-spi@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4j_spi:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/canopen/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4j-spi"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4j-spi@0.13.0-SNAPSHOT?package-id=32203a4fd71a9afd",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4j-spi",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4j-spi:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4j-spi@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4j_spi:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/ctrlx/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4j-spi"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4j-spi@0.13.0-SNAPSHOT?package-id=8cc878866a9552c4",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4j-spi",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4j-spi:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4j-spi@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4j_spi:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/eip/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4j-spi"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4j-spi@0.13.0-SNAPSHOT?package-id=4f5ffada5058df2b",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4j-spi",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4j-spi:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4j-spi@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4j_spi:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/firmata/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4j-spi"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4j-spi@0.13.0-SNAPSHOT?package-id=0060f1558937d981",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4j-spi",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4j-spi:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4j-spi@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4j_spi:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/iec-60870/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4j-spi"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations?package-id=ec14d6b5a5670ff9",
+      "type": "library",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-annotations",
+      "cpe": "cpe:2.3:a:jackson-annotations:jackson-annotations:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson-annotations:jackson_annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_annotations:jackson-annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_annotations:jackson_annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson-annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson_annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson-annotations:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson-annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson_annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_annotations:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:jackson-annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:jackson_annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/s7/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "jackson-annotations"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "com.fasterxml.jackson.core"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations?package-id=c3baf8d8ddb8b887",
+      "type": "library",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-annotations",
+      "cpe": "cpe:2.3:a:jackson-annotations:jackson-annotations:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson-annotations:jackson_annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_annotations:jackson-annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_annotations:jackson_annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson-annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson_annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson-annotations:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson-annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson_annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_annotations:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:jackson-annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:jackson_annotations:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/tools/scraper/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "jackson-annotations"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "com.fasterxml.jackson.core"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core?package-id=527ab5bb86043d05",
+      "type": "library",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-core",
+      "cpe": "cpe:2.3:a:jackson-core:jackson-core:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson-core:jackson_core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_core:jackson-core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_core:jackson_core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson-core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson_core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson-core:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson-core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson_core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_core:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:jackson-core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:jackson_core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson-core:core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_core:core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/ctrlx/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "jackson-core"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "com.fasterxml.jackson.core"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core?package-id=11dcb9338fb54ff6",
+      "type": "library",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-core",
+      "cpe": "cpe:2.3:a:jackson-core:jackson-core:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson-core:jackson_core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_core:jackson-core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_core:jackson_core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson-core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson_core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson-core:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson-core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson_core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_core:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:jackson-core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:jackson_core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson-core:core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_core:core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/spi/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "jackson-core"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "com.fasterxml.jackson.core"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core?package-id=f4c7de55e67deda2",
+      "type": "library",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-core",
+      "cpe": "cpe:2.3:a:jackson-core:jackson-core:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson-core:jackson_core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_core:jackson-core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_core:jackson_core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson-core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson_core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson-core:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson-core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson_core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_core:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:jackson-core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:jackson_core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson-core:core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_core:core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:core:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/tools/scraper/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "jackson-core"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "com.fasterxml.jackson.core"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind?package-id=015d18872042f301",
+      "type": "library",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-databind",
+      "cpe": "cpe:2.3:a:jackson-databind:jackson-databind:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson-databind:jackson_databind:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_databind:jackson-databind:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_databind:jackson_databind:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson-databind:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson_databind:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson-databind:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson-databind:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson_databind:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_databind:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:jackson-databind:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:jackson_databind:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/ctrlx/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "jackson-databind"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "com.fasterxml.jackson.core"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind?package-id=571f435d4bc0c7ca",
+      "type": "library",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-databind",
+      "cpe": "cpe:2.3:a:jackson-databind:jackson-databind:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson-databind:jackson_databind:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_databind:jackson-databind:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_databind:jackson_databind:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson-databind:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson_databind:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson-databind:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson-databind:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson_databind:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_databind:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:jackson-databind:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:jackson_databind:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/spi/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "jackson-databind"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "com.fasterxml.jackson.core"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind?package-id=1267d2aa6f1f0fb5",
+      "type": "library",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-databind",
+      "cpe": "cpe:2.3:a:jackson-databind:jackson-databind:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson-databind:jackson_databind:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_databind:jackson-databind:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_databind:jackson_databind:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson-databind:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson_databind:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson-databind:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson-databind:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson_databind:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_databind:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:jackson-databind:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:jackson_databind:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:core:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/tools/scraper/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "jackson-databind"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "com.fasterxml.jackson.core"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-xml?package-id=220e034ce046cb1b",
+      "type": "library",
+      "group": "com.fasterxml.jackson.dataformat",
+      "name": "jackson-dataformat-xml",
+      "cpe": "cpe:2.3:a:jackson-dataformat-xml:jackson-dataformat-xml:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-xml",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson-dataformat-xml:jackson_dataformat_xml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_dataformat_xml:jackson-dataformat-xml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_dataformat_xml:jackson_dataformat_xml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson-dataformat:jackson-dataformat-xml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson-dataformat:jackson_dataformat_xml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_dataformat:jackson-dataformat-xml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_dataformat:jackson_dataformat_xml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dataformat:jackson-dataformat-xml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dataformat:jackson_dataformat_xml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson-dataformat-xml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson_dataformat_xml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson-dataformat-xml:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson-dataformat-xml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson_dataformat_xml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_dataformat_xml:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson-dataformat:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_dataformat:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dataformat:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/profinet-ng/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "jackson-dataformat-xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "com.fasterxml.jackson.dataformat"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-xml?package-id=3af6b89f28afc4c3",
+      "type": "library",
+      "group": "com.fasterxml.jackson.dataformat",
+      "name": "jackson-dataformat-xml",
+      "cpe": "cpe:2.3:a:jackson-dataformat-xml:jackson-dataformat-xml:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-xml",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson-dataformat-xml:jackson_dataformat_xml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_dataformat_xml:jackson-dataformat-xml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_dataformat_xml:jackson_dataformat_xml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson-dataformat:jackson-dataformat-xml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson-dataformat:jackson_dataformat_xml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_dataformat:jackson-dataformat-xml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_dataformat:jackson_dataformat_xml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dataformat:jackson-dataformat-xml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dataformat:jackson_dataformat_xml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson-dataformat-xml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson_dataformat_xml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson-dataformat-xml:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson-dataformat-xml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson_dataformat_xml:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_dataformat_xml:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson-dataformat:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson_dataformat:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dataformat:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fasterxml:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jackson:jackson:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/profinet/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "jackson-dataformat-xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "com.fasterxml.jackson.dataformat"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/keithweaver/aws-s3-github-action@v1.0.0?package-id=7750d979da9899bd",
+      "type": "library",
+      "name": "keithweaver/aws-s3-github-action",
+      "version": "v1.0.0",
+      "cpe": "cpe:2.3:a:keithweaver\\/aws-s3-github-action:keithweaver\\/aws-s3-github-action:v1.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/keithweaver/aws-s3-github-action@v1.0.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:keithweaver\\/aws-s3-github-action:keithweaver\\/aws_s3_github_action:v1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:keithweaver\\/aws_s3_github_action:keithweaver\\/aws-s3-github-action:v1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:keithweaver\\/aws_s3_github_action:keithweaver\\/aws_s3_github_action:v1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:keithweaver\\/aws-s3-github:keithweaver\\/aws-s3-github-action:v1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:keithweaver\\/aws-s3-github:keithweaver\\/aws_s3_github_action:v1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:keithweaver\\/aws_s3_github:keithweaver\\/aws-s3-github-action:v1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:keithweaver\\/aws_s3_github:keithweaver\\/aws_s3_github_action:v1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:keithweaver\\/aws-s3:keithweaver\\/aws-s3-github-action:v1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:keithweaver\\/aws-s3:keithweaver\\/aws_s3_github_action:v1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:keithweaver\\/aws_s3:keithweaver\\/aws-s3-github-action:v1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:keithweaver\\/aws_s3:keithweaver\\/aws_s3_github_action:v1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:keithweaver\\/aws:keithweaver\\/aws-s3-github-action:v1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:keithweaver\\/aws:keithweaver\\/aws_s3_github_action:v1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/build.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/keithweaver/aws-s3-github-action@v1.0.0?package-id=5823d129b3270a64",
+      "type": "library",
+      "name": "keithweaver/aws-s3-github-action",
+      "version": "v1.0.0",
+      "cpe": "cpe:2.3:a:keithweaver\\/aws-s3-github-action:keithweaver\\/aws-s3-github-action:v1.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/keithweaver/aws-s3-github-action@v1.0.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:keithweaver\\/aws-s3-github-action:keithweaver\\/aws_s3_github_action:v1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:keithweaver\\/aws_s3_github_action:keithweaver\\/aws-s3-github-action:v1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:keithweaver\\/aws_s3_github_action:keithweaver\\/aws_s3_github_action:v1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:keithweaver\\/aws-s3-github:keithweaver\\/aws-s3-github-action:v1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:keithweaver\\/aws-s3-github:keithweaver\\/aws_s3_github_action:v1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:keithweaver\\/aws_s3_github:keithweaver\\/aws-s3-github-action:v1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:keithweaver\\/aws_s3_github:keithweaver\\/aws_s3_github_action:v1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:keithweaver\\/aws-s3:keithweaver\\/aws-s3-github-action:v1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:keithweaver\\/aws-s3:keithweaver\\/aws_s3_github_action:v1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:keithweaver\\/aws_s3:keithweaver\\/aws-s3-github-action:v1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:keithweaver\\/aws_s3:keithweaver\\/aws_s3_github_action:v1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:keithweaver\\/aws:keithweaver\\/aws-s3-github-action:v1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:keithweaver\\/aws:keithweaver\\/aws_s3_github_action:v1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/release.yml"
+        }
+      ]
+    }
+  ]
+}

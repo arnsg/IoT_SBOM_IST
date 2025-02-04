@@ -1,0 +1,90 @@
+{
+    "request:2.88.2": {
+        "name": "request",
+        "version": "2.88.2",
+        "type": "npm",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-p8p7-x288-28g6",
+                "severity": "MODERATE",
+                "description": "Server-Side Request Forgery in Request",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2023-03-16",
+                "updated_at": "2024-03-21",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "semver:7.0.0": {
+        "name": "semver",
+        "version": "7.0.0",
+        "type": "npm",
+        "licenses": [
+            "ISC"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c2qf-rxjj-qqgw",
+                "severity": "MODERATE",
+                "description": "semver vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2023-06-21",
+                "updated_at": "2024-02-14",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "tough-cookie:2.5.0": {
+        "name": "tough-cookie",
+        "version": "2.5.0",
+        "type": "npm",
+        "licenses": [
+            "BSD-3-Clause"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-72xf-g2v4-qvf3",
+                "severity": "MODERATE",
+                "description": "tough-cookie Prototype Pollution vulnerability",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+                "published_at": "2023-07-01",
+                "updated_at": "2024-06-21",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "xml2js:0.4.23": {
+        "name": "xml2js",
+        "version": "0.4.23",
+        "type": "npm",
+        "licenses": [
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-776f-qx25-q3cc",
+                "severity": "MODERATE",
+                "description": "xml2js is vulnerable to prototype pollution",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2023-04-05",
+                "updated_at": "2024-03-14",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    }
+}

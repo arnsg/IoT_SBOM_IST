@@ -1,0 +1,94 @@
+{
+    "Microsoft.Identity.Client:4.49.1.0": {
+        "name": "Microsoft.Identity.Client",
+        "version": "4.49.1.0",
+        "type": "dotnet",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-m5vv-6r4h-3vj9",
+                "severity": "MODERATE",
+                "description": "Azure Identity Libraries and Microsoft Authentication Library Elevation of Privilege Vulnerability",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2024-06-11",
+                "updated_at": "2024-06-19",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-x674-v45j-fwxw",
+                "severity": "LOW",
+                "description": "MSAL.NET applications targeting Xamarin Android and .NET Android (MAUI) susceptible to local denial of service",
+                "links": [],
+                "cvss_score": 3.9,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:L/A:L",
+                "published_at": "2024-04-16",
+                "updated_at": "2024-04-23",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "Microsoft.IdentityModel.JsonWebTokens:6.23.1.30908211045.a502b0fc2d50ff7c9500062b098cfd056a81d283": {
+        "name": "Microsoft.IdentityModel.JsonWebTokens",
+        "version": "6.23.1.30908211045.a502b0fc2d50ff7c9500062b098cfd056a81d283",
+        "type": "dotnet",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-59j7-ghrg-fj52",
+                "severity": "MODERATE",
+                "description": "Microsoft ASP.NET Core project templates vulnerable to denial of service",
+                "links": [],
+                "cvss_score": 6.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:N/I:N/A:H",
+                "published_at": "2024-01-09",
+                "updated_at": "2024-04-11",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "Npgsql:4.0.11.0": {
+        "name": "Npgsql",
+        "version": "4.0.11.0",
+        "type": "dotnet",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-x9vc-6hfv-hg8c",
+                "severity": "HIGH",
+                "description": "Npgsql vulnerable to SQL Injection via Protocol Message Size Overflow",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2024-05-09",
+                "updated_at": "2024-05-10",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "RazorEngine:3.10.0": {
+        "name": "RazorEngine",
+        "version": "3.10.0",
+        "type": "dotnet",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-ph3v-2hq5-5qfq",
+                "severity": "MODERATE",
+                "description": "Code injection in RazorEngine",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-03-07",
+                "updated_at": "2023-02-03",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    }
+}

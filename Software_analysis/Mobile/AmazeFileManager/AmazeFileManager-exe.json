@@ -1,0 +1,449 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:782beec0-b9ce-466f-b152-b9a616ea4680",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-07-29T09:38:49+02:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.4.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "b2a5d3c5f8a811cc",
+      "type": "file",
+      "name": "/Users/massimocoppolaro/Desktop/Università/Tirocinio2.0/Software/AmazeFileManager"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:github/actions/cache@v4?package-id=8cdbb8d8e6b2ca26",
+      "type": "library",
+      "name": "actions/cache",
+      "version": "v4",
+      "cpe": "cpe:2.3:a:actions\\/cache:actions\\/cache:v4:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/cache@v4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/android-main.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/gradle/actions@v3?package-id=be72c7269033a569#setup-gradle",
+      "type": "library",
+      "name": "gradle/actions/setup-gradle",
+      "version": "v3",
+      "cpe": "cpe:2.3:a:gradle\\/actions\\/setup-gradle:gradle\\/actions\\/setup-gradle:v3:*:*:*:*:*:*:*",
+      "purl": "pkg:github/gradle/actions@v3#setup-gradle",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle\\/actions\\/setup-gradle:gradle\\/actions\\/setup_gradle:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle\\/actions\\/setup_gradle:gradle\\/actions\\/setup-gradle:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle\\/actions\\/setup_gradle:gradle\\/actions\\/setup_gradle:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle\\/actions\\/setup:gradle\\/actions\\/setup-gradle:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle\\/actions\\/setup:gradle\\/actions\\/setup_gradle:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/android-build.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/gradle/actions@v3?package-id=f418ed728bbb9757#setup-gradle",
+      "type": "library",
+      "name": "gradle/actions/setup-gradle",
+      "version": "v3",
+      "cpe": "cpe:2.3:a:gradle\\/actions\\/setup-gradle:gradle\\/actions\\/setup-gradle:v3:*:*:*:*:*:*:*",
+      "purl": "pkg:github/gradle/actions@v3#setup-gradle",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle\\/actions\\/setup-gradle:gradle\\/actions\\/setup_gradle:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle\\/actions\\/setup_gradle:gradle\\/actions\\/setup-gradle:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle\\/actions\\/setup_gradle:gradle\\/actions\\/setup_gradle:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle\\/actions\\/setup:gradle\\/actions\\/setup-gradle:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle\\/actions\\/setup:gradle\\/actions\\/setup_gradle:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/android-debug-artifact-ondemand.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/gradle/actions@v3?package-id=90c5076574b47fc5#setup-gradle",
+      "type": "library",
+      "name": "gradle/actions/setup-gradle",
+      "version": "v3",
+      "cpe": "cpe:2.3:a:gradle\\/actions\\/setup-gradle:gradle\\/actions\\/setup-gradle:v3:*:*:*:*:*:*:*",
+      "purl": "pkg:github/gradle/actions@v3#setup-gradle",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle\\/actions\\/setup-gradle:gradle\\/actions\\/setup_gradle:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle\\/actions\\/setup_gradle:gradle\\/actions\\/setup-gradle:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle\\/actions\\/setup_gradle:gradle\\/actions\\/setup_gradle:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle\\/actions\\/setup:gradle\\/actions\\/setup-gradle:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle\\/actions\\/setup:gradle\\/actions\\/setup_gradle:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/android-debug-artifact-release.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/gradle/actions@v3?package-id=67bebd42d10f7e09#setup-gradle",
+      "type": "library",
+      "name": "gradle/actions/setup-gradle",
+      "version": "v3",
+      "cpe": "cpe:2.3:a:gradle\\/actions\\/setup-gradle:gradle\\/actions\\/setup-gradle:v3:*:*:*:*:*:*:*",
+      "purl": "pkg:github/gradle/actions@v3#setup-gradle",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle\\/actions\\/setup-gradle:gradle\\/actions\\/setup_gradle:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle\\/actions\\/setup_gradle:gradle\\/actions\\/setup-gradle:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle\\/actions\\/setup_gradle:gradle\\/actions\\/setup_gradle:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle\\/actions\\/setup:gradle\\/actions\\/setup-gradle:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle\\/actions\\/setup:gradle\\/actions\\/setup_gradle:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/android-feature.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/gradle/actions@v3?package-id=f6b429d715bdb8b1#setup-gradle",
+      "type": "library",
+      "name": "gradle/actions/setup-gradle",
+      "version": "v3",
+      "cpe": "cpe:2.3:a:gradle\\/actions\\/setup-gradle:gradle\\/actions\\/setup-gradle:v3:*:*:*:*:*:*:*",
+      "purl": "pkg:github/gradle/actions@v3#setup-gradle",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle\\/actions\\/setup-gradle:gradle\\/actions\\/setup_gradle:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle\\/actions\\/setup_gradle:gradle\\/actions\\/setup-gradle:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle\\/actions\\/setup_gradle:gradle\\/actions\\/setup_gradle:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle\\/actions\\/setup:gradle\\/actions\\/setup-gradle:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle\\/actions\\/setup:gradle\\/actions\\/setup_gradle:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/android-main.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/octokit/request-action@v2.0.2?package-id=d71b3a8f16090bf8",
+      "type": "library",
+      "name": "octokit/request-action",
+      "version": "v2.0.2",
+      "cpe": "cpe:2.3:a:octokit\\/request-action:octokit\\/request-action:v2.0.2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/octokit/request-action@v2.0.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:octokit\\/request-action:octokit\\/request_action:v2.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:octokit\\/request_action:octokit\\/request-action:v2.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:octokit\\/request_action:octokit\\/request_action:v2.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:octokit\\/request:octokit\\/request-action:v2.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:octokit\\/request:octokit\\/request_action:v2.0.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/android-debug-artifact-ondemand.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/peter-evans/create-or-update-comment@v2?package-id=002a500c422b1ec6",
+      "type": "library",
+      "name": "peter-evans/create-or-update-comment",
+      "version": "v2",
+      "cpe": "cpe:2.3:a:peter-evans\\/create-or-update-comment:peter-evans\\/create-or-update-comment:v2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/peter-evans/create-or-update-comment@v2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter-evans\\/create-or-update-comment:peter_evans\\/create_or_update_comment:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter_evans\\/create_or_update_comment:peter-evans\\/create-or-update-comment:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter_evans\\/create_or_update_comment:peter_evans\\/create_or_update_comment:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter-evans\\/create-or-update:peter-evans\\/create-or-update-comment:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter-evans\\/create-or-update:peter_evans\\/create_or_update_comment:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter_evans\\/create_or_update:peter-evans\\/create-or-update-comment:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter_evans\\/create_or_update:peter_evans\\/create_or_update_comment:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter-evans\\/create-or:peter-evans\\/create-or-update-comment:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter-evans\\/create-or:peter_evans\\/create_or_update_comment:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter_evans\\/create_or:peter-evans\\/create-or-update-comment:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter_evans\\/create_or:peter_evans\\/create_or_update_comment:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter-evans\\/create:peter-evans\\/create-or-update-comment:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter-evans\\/create:peter_evans\\/create_or_update_comment:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter_evans\\/create:peter-evans\\/create-or-update-comment:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter_evans\\/create:peter_evans\\/create_or_update_comment:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter:peter-evans\\/create-or-update-comment:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter:peter_evans\\/create_or_update_comment:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/android-debug-artifact-ondemand.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/reactivecircus/android-emulator-runner@v2?package-id=760160dcf8734592",
+      "type": "library",
+      "name": "reactivecircus/android-emulator-runner",
+      "version": "v2",
+      "cpe": "cpe:2.3:a:reactivecircus\\/android-emulator-runner:reactivecircus\\/android-emulator-runner:v2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/reactivecircus/android-emulator-runner@v2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:reactivecircus\\/android-emulator-runner:reactivecircus\\/android_emulator_runner:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:reactivecircus\\/android_emulator_runner:reactivecircus\\/android-emulator-runner:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:reactivecircus\\/android_emulator_runner:reactivecircus\\/android_emulator_runner:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:reactivecircus\\/android-emulator:reactivecircus\\/android-emulator-runner:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:reactivecircus\\/android-emulator:reactivecircus\\/android_emulator_runner:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:reactivecircus\\/android_emulator:reactivecircus\\/android-emulator-runner:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:reactivecircus\\/android_emulator:reactivecircus\\/android_emulator_runner:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:reactivecircus\\/android:reactivecircus\\/android-emulator-runner:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:reactivecircus\\/android:reactivecircus\\/android_emulator_runner:v2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/android-main.yml"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+    "Flask:2.2.2": {
+        "name": "Flask",
+        "version": "2.2.2",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-m2qf-hxjv-5gpq",
+                "severity": "HIGH",
+                "description": "Flask vulnerable to possible disclosure of permanent session cookie due to missing Vary: Cookie header",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2023-05-01",
+                "updated_at": "2023-11-06",
+                "CWE_ID": "CWE-539",
+                "CWE_DESCRIPTION": "Use of Persistent Cookies Containing Sensitive Information"
+            }
+        ]
+    },
+    "idna:2.5": {
+        "name": "idna",
+        "version": "2.5",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-jjg7-2v4v-x38h",
+                "severity": "MODERATE",
+                "description": "Internationalized Domain Names in Applications (IDNA) vulnerable to denial of service from specially crafted inputs to idna.encode",
+                "links": [],
+                "cvss_score": 6.2,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-04-11",
+                "updated_at": "2024-07-31",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "pycryptodome:3.17": {
+        "name": "pycryptodome",
+        "version": "3.17",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-j225-cvw7-qrx7",
+                "severity": "MODERATE",
+                "description": "PyCryptodome and pycryptodomex side-channel leakage for OAEP decryption",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2024-01-05",
+                "updated_at": "2024-01-19",
+                "CWE_ID": "CWE-203",
+                "CWE_DESCRIPTION": "Observable Discrepancy"
+            }
+        ]
+    },
+    "pyinstaller:4.2": {
+        "name": "pyinstaller",
+        "version": "4.2",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-9w2p-rh8c-v9g5",
+                "severity": "HIGH",
+                "description": "Local Privilege Escalation in Windows",
+                "links": [],
+                "cvss_score": 8.8,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2023-12-09",
+                "updated_at": "2023-12-19",
+                "CWE_ID": "CWE-379",
+                "CWE_DESCRIPTION": "Creation of Temporary File in Directory with Insecure Permissions"
+            }
+        ]
+    },
+    "requests:2.28.2": {
+        "name": "requests",
+        "version": "2.28.2",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-j8r2-6x86-q33q",
+                "severity": "MODERATE",
+                "description": "Unintended leak of Proxy-Authorization header in requests",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:N/A:N",
+                "published_at": "2023-05-22",
+                "updated_at": "2024-03-27",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            },
+            {
+                "id": "GHSA-9wx4-h78v-vm56",
+                "severity": "MODERATE",
+                "description": "Requests `Session` object does not verify requests after making first request with verify=False",
+                "links": [],
+                "cvss_score": 5.6,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:U/C:H/I:H/A:N",
+                "published_at": "2024-05-20",
+                "updated_at": "2024-06-10",
+                "CWE_ID": "CWE-670",
+                "CWE_DESCRIPTION": "Always-Incorrect Control Flow Implementation"
+            }
+        ]
+    },
+    "setuptools:67.2.0": {
+        "name": "setuptools",
+        "version": "67.2.0",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-cx63-2mw6-8hw5",
+                "severity": "HIGH",
+                "description": "setuptools vulnerable to Command Injection via package URL",
+                "links": [],
+                "cvss_score": 8.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2024-07-15",
+                "updated_at": "2024-07-15",
+                "CWE_ID": "CWE-94",
+                "CWE_DESCRIPTION": "Improper Control of Generation of Code ('Code Injection')"
+            }
+        ]
+    },
+    "urllib3:1.26.14": {
+        "name": "urllib3",
+        "version": "1.26.14",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-v845-jxx5-vc9f",
+                "severity": "MODERATE",
+                "description": "`Cookie` HTTP header isn't stripped on cross-origin redirects",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:N",
+                "published_at": "2023-10-02",
+                "updated_at": "2023-11-04",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            },
+            {
+                "id": "GHSA-g4mx-q9vg-27p4",
+                "severity": "MODERATE",
+                "description": "urllib3's request body not stripped after redirect from 303 status changes request method to GET",
+                "links": [],
+                "cvss_score": 4.2,
+                "vector_attack": "CVSS:3.1/AV:A/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2023-10-17",
+                "updated_at": "2023-11-06",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            },
+            {
+                "id": "GHSA-34jh-p97f-mpxf",
+                "severity": "MODERATE",
+                "description": "urllib3's Proxy-Authorization request header isn't stripped during cross-origin redirects ",
+                "links": [],
+                "cvss_score": 4.4,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2024-06-17",
+                "updated_at": "2024-06-17",
+                "CWE_ID": "CWE-669",
+                "CWE_DESCRIPTION": "Incorrect Resource Transfer Between Spheres"
+            }
+        ]
+    }
+}

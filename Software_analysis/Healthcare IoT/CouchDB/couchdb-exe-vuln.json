@@ -1,0 +1,30 @@
+{
+    "requests:2.27.1": {
+        "name": "requests",
+        "version": "2.27.1",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-j8r2-6x86-q33q",
+                "severity": "MODERATE",
+                "description": "Unintended leak of Proxy-Authorization header in requests",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:N/A:N",
+                "published_at": "2023-05-22",
+                "updated_at": "2024-03-27"
+            },
+            {
+                "id": "GHSA-9wx4-h78v-vm56",
+                "severity": "MODERATE",
+                "description": "Requests `Session` object does not verify requests after making first request with verify=False",
+                "links": [],
+                "cvss_score": 5.6,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:U/C:H/I:H/A:N",
+                "published_at": "2024-05-20",
+                "updated_at": "2024-06-10"
+            }
+        ]
+    }
+}

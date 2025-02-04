@@ -1,0 +1,130 @@
+{
+    "golang.org/x/net:v0.8.0": {
+        "name": "golang.org/x/net",
+        "version": "v0.8.0",
+        "type": "go-module",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-4374-p667-p6c8",
+                "severity": "HIGH",
+                "description": "HTTP/2 rapid reset can cause excessive work in net/http",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2023-10-11",
+                "updated_at": "2024-04-28",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-qppj-fm5r-hxr3",
+                "severity": "MODERATE",
+                "description": "HTTP/2 Stream Cancellation Attack",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2023-10-10",
+                "updated_at": "2024-08-02",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-4v7x-pqxf-cx7m",
+                "severity": "MODERATE",
+                "description": "net/http, x/net/http2: close connections when receiving too many headers",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2024-04-04",
+                "updated_at": "2024-05-02",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-2wrh-6pvc-2jm9",
+                "severity": "MODERATE",
+                "description": "Improper rendering of text nodes in golang.org/x/net/html",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2023-08-02",
+                "updated_at": "2023-11-08",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            }
+        ]
+    },
+    "google.golang.org/grpc:v1.33.1": {
+        "name": "google.golang.org/grpc",
+        "version": "v1.33.1",
+        "type": "go-module",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-m425-mq94-257g",
+                "severity": "HIGH",
+                "description": "gRPC-Go HTTP/2 Rapid Reset vulnerability",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2023-10-25",
+                "updated_at": "2024-07-19",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-qppj-fm5r-hxr3",
+                "severity": "MODERATE",
+                "description": "HTTP/2 Stream Cancellation Attack",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2023-10-10",
+                "updated_at": "2024-08-02",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "google.golang.org/protobuf:v1.28.1": {
+        "name": "google.golang.org/protobuf",
+        "version": "v1.28.1",
+        "type": "go-module",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-8r3f-844c-mc37",
+                "severity": "MODERATE",
+                "description": "Golang protojson.Unmarshal function infinite loop when unmarshaling certain forms of invalid JSON",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-03-06",
+                "updated_at": "2024-06-10",
+                "CWE_ID": "CWE-835",
+                "CWE_DESCRIPTION": "Loop with Unreachable Exit Condition ('Infinite Loop')"
+            }
+        ]
+    },
+    "gopkg.in/yaml.v3:v3.0.0-20200313102051-9f266ea9e77c": {
+        "name": "gopkg.in/yaml.v3",
+        "version": "v3.0.0-20200313102051-9f266ea9e77c",
+        "type": "go-module",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-hp87-p4gw-j4gq",
+                "severity": "HIGH",
+                "description": "gopkg.in/yaml.v3 Denial of Service",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-05-20",
+                "updated_at": "2024-05-20",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            }
+        ]
+    }
+}

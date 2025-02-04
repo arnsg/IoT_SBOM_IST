@@ -1,0 +1,114 @@
+{
+    "curve25519-dalek:4.1.2": {
+        "name": "curve25519-dalek",
+        "version": "4.1.2",
+        "type": "rust-crate",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-x4gp-pqpj-f43q",
+                "severity": "MODERATE",
+                "description": "curve25519-dalek has timing variability in `curve25519-dalek`'s `Scalar29::sub`/`Scalar52::sub`",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-06-18",
+                "updated_at": "2024-06-18",
+                "CWE_ID": "CWE-203",
+                "CWE_DESCRIPTION": "Observable Discrepancy"
+            }
+        ]
+    },
+    "electron-updater:6.2.1": {
+        "name": "electron-updater",
+        "version": "6.2.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-9jxc-qjr9-vjxq",
+                "severity": "HIGH",
+                "description": "electron-updater Code Signing Bypass on Windows",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2024-07-09",
+                "updated_at": "2024-07-12",
+                "CWE_ID": "CWE-154",
+                "CWE_DESCRIPTION": "Improper Neutralization of Variable Name Delimiters"
+            }
+        ]
+    },
+    "express:4.18.2": {
+        "name": "express",
+        "version": "4.18.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-rv95-896h-c2vc",
+                "severity": "MODERATE",
+                "description": "Express.js Open Redirect in malformed URLs",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2024-03-25",
+                "updated_at": "2024-03-27",
+                "CWE_ID": "CWE-601",
+                "CWE_DESCRIPTION": "URL Redirection to Untrusted Site ('Open Redirect')"
+            }
+        ]
+    },
+    "rsa:0.9.6": {
+        "name": "rsa",
+        "version": "0.9.6",
+        "type": "rust-crate",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c38w-74pg-36hr",
+                "severity": "MODERATE",
+                "description": "Marvin Attack: potential key recovery through timing sidechannels",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2023-11-28",
+                "updated_at": "2023-12-15",
+                "CWE_ID": "CWE-203",
+                "CWE_DESCRIPTION": "Observable Discrepancy"
+            },
+            {
+                "id": "GHSA-4grx-2x9w-596c",
+                "severity": "MODERATE",
+                "description": "Marvin Attack: potential key recovery through timing sidechannels",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2023-11-28",
+                "updated_at": "2023-12-14",
+                "CWE_ID": "CWE-385",
+                "CWE_DESCRIPTION": "Covert Timing Channel"
+            }
+        ]
+    },
+    "undici:6.16.1": {
+        "name": "undici",
+        "version": "6.16.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-3g92-w8c5-73pq",
+                "severity": "LOW",
+                "description": "Undici vulnerable to data leak when using response.arrayBuffer()",
+                "links": [],
+                "cvss_score": 2.0,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:L/I:N/A:N",
+                "published_at": "2024-07-09",
+                "updated_at": "2024-07-09",
+                "CWE_ID": "CWE-201",
+                "CWE_DESCRIPTION": "Insertion of Sensitive Information Into Sent Data"
+            }
+        ]
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "bcpkix-jdk18on:1.77": {
+        "name": "bcpkix-jdk18on",
+        "version": "1.77",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-v435-xc8x-wvr9",
+                "severity": "MODERATE",
+                "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N"
+            },
+            {
+                "id": "GHSA-m44j-cfrm-g8qc",
+                "severity": "MODERATE",
+                "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+            },
+            {
+                "id": "GHSA-8xfc-gm6g-vgpv",
+                "severity": "MODERATE",
+                "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+            }
+        ]
+    },
+    "commons-net:": {
+        "name": "commons-net",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-cgp8-4m63-fhh5",
+                "severity": "MODERATE",
+                "description": "Apache Commons Net vulnerable to information leakage via malicious server",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N"
+            }
+        ]
+    }
+}

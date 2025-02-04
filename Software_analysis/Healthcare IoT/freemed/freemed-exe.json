@@ -1,0 +1,1992 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:79c527f0-f9c1-4ef0-952e-02f674a39aac",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-07-13T13:22:03+02:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.4.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "2b919e9198dce619",
+      "type": "file",
+      "name": "/Users/massimocoppolaro/Desktop/Università/Tirocinio/Software/freemed"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:maven/ColorPicker-GWT/ColorPicker-GWT@2.1?package-id=de9b39c2cd687a26",
+      "type": "library",
+      "name": "ColorPicker-GWT",
+      "version": "2.1",
+      "cpe": "cpe:2.3:a:ColorPicker-GWT:ColorPicker-GWT:2.1:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/ColorPicker-GWT/ColorPicker-GWT@2.1",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "73fb8346c6278080128ea8a188add3a8b6e61cec"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ColorPicker-GWT:ColorPicker_GWT:2.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ColorPicker_GWT:ColorPicker-GWT:2.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ColorPicker_GWT:ColorPicker_GWT:2.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ColorPicker:ColorPicker-GWT:2.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ColorPicker:ColorPicker_GWT:2.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/ui/gwt/lib/ColorPicker-GWT-2.1.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/ui/gwt/lib/ColorPicker-GWT-2.1.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/eu.future.earth.gwt/ftr-gwt-date-emulation@1.2.0?package-id=710ac81d26c2dd15",
+      "type": "library",
+      "group": "eu.future.earth.gwt",
+      "name": "ftr-gwt-date-emulation",
+      "version": "1.2.0",
+      "cpe": "cpe:2.3:a:ftr-gwt-date-emulation:ftr-gwt-date-emulation:1.2.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/eu.future.earth.gwt/ftr-gwt-date-emulation@1.2.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr-gwt-date-emulation:ftr_gwt_date_emulation:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr_gwt_date_emulation:ftr-gwt-date-emulation:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr_gwt_date_emulation:ftr_gwt_date_emulation:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr-gwt-date:ftr-gwt-date-emulation:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr-gwt-date:ftr_gwt_date_emulation:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr_gwt_date:ftr-gwt-date-emulation:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr_gwt_date:ftr_gwt_date_emulation:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr-gwt:ftr-gwt-date-emulation:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr-gwt:ftr_gwt_date_emulation:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr_gwt:ftr-gwt-date-emulation:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr_gwt:ftr_gwt_date_emulation:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr:ftr-gwt-date-emulation:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr:ftr_gwt_date_emulation:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/ui/gwt/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "ftr-gwt-date-emulation"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "eu.future.earth.gwt"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/eu.future.earth.gwt/ftr-gwt-library-date@1.2.0?package-id=b6952de201773d8e",
+      "type": "library",
+      "group": "eu.future.earth.gwt",
+      "name": "ftr-gwt-library-date",
+      "version": "1.2.0",
+      "cpe": "cpe:2.3:a:ftr-gwt-library-date:ftr-gwt-library-date:1.2.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/eu.future.earth.gwt/ftr-gwt-library-date@1.2.0",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "3bcdce1541e2bad7001d04d0a69504430787fb74"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr-gwt-library-date:ftr_gwt_library_date:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr_gwt_library_date:ftr-gwt-library-date:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr_gwt_library_date:ftr_gwt_library_date:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr-gwt-library:ftr-gwt-library-date:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr-gwt-library:ftr_gwt_library_date:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr_gwt_library:ftr-gwt-library-date:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr_gwt_library:ftr_gwt_library_date:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr-gwt:ftr-gwt-library-date:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr-gwt:ftr_gwt_library_date:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr_gwt:ftr-gwt-library-date:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr_gwt:ftr_gwt_library_date:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr:ftr-gwt-library-date:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr:ftr_gwt_library_date:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/ui/gwt/lib/ftr-gwt-library-date-1.2.0.jar"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "ftr-gwt-library-date"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "eu.future.earth.gwt"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/ui/gwt/lib/ftr-gwt-library-date-1.2.0.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/eu.future.earth.gwt/ftr-gwt-library-date@1.2.0?package-id=d2a4a491908483a1",
+      "type": "library",
+      "group": "eu.future.earth.gwt",
+      "name": "ftr-gwt-library-date",
+      "version": "1.2.0",
+      "cpe": "cpe:2.3:a:ftr-gwt-library-date:ftr-gwt-library-date:1.2.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/eu.future.earth.gwt/ftr-gwt-library-date@1.2.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr-gwt-library-date:ftr_gwt_library_date:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr_gwt_library_date:ftr-gwt-library-date:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr_gwt_library_date:ftr_gwt_library_date:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr-gwt-library:ftr-gwt-library-date:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr-gwt-library:ftr_gwt_library_date:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr_gwt_library:ftr-gwt-library-date:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr_gwt_library:ftr_gwt_library_date:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr-gwt:ftr-gwt-library-date:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr-gwt:ftr_gwt_library_date:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr_gwt:ftr-gwt-library-date:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr_gwt:ftr_gwt_library_date:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr:ftr-gwt-library-date:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr:ftr_gwt_library_date:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/ui/gwt/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "ftr-gwt-library-date"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "eu.future.earth.gwt"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/eu.future.earth.gwt/ftr-gwt-library-extras@0.9.9?package-id=0bc691737da4c6f1",
+      "type": "library",
+      "group": "eu.future.earth.gwt",
+      "name": "ftr-gwt-library-extras",
+      "version": "0.9.9",
+      "cpe": "cpe:2.3:a:ftr-gwt-library-extras:ftr-gwt-library-extras:0.9.9:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/eu.future.earth.gwt/ftr-gwt-library-extras@0.9.9",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "dccc9e8071c3e31c9f740afdc6331563073cafd5"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr-gwt-library-extras:ftr_gwt_library_extras:0.9.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr_gwt_library_extras:ftr-gwt-library-extras:0.9.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr_gwt_library_extras:ftr_gwt_library_extras:0.9.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr-gwt-library:ftr-gwt-library-extras:0.9.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr-gwt-library:ftr_gwt_library_extras:0.9.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr_gwt_library:ftr-gwt-library-extras:0.9.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr_gwt_library:ftr_gwt_library_extras:0.9.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr-gwt:ftr-gwt-library-extras:0.9.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr-gwt:ftr_gwt_library_extras:0.9.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr_gwt:ftr-gwt-library-extras:0.9.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr_gwt:ftr_gwt_library_extras:0.9.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr:ftr-gwt-library-extras:0.9.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr:ftr_gwt_library_extras:0.9.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/ui/gwt/lib/ftr-gwt-library-extras-0.9.9.jar"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "ftr-gwt-library-extras"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "eu.future.earth.gwt"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/ui/gwt/lib/ftr-gwt-library-extras-0.9.9.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/eu.future.earth.gwt/ftr-gwt-library-extras@0.9.9?package-id=d0bc088f2fbe61a7",
+      "type": "library",
+      "group": "eu.future.earth.gwt",
+      "name": "ftr-gwt-library-extras",
+      "version": "0.9.9",
+      "cpe": "cpe:2.3:a:ftr-gwt-library-extras:ftr-gwt-library-extras:0.9.9:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/eu.future.earth.gwt/ftr-gwt-library-extras@0.9.9",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr-gwt-library-extras:ftr_gwt_library_extras:0.9.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr_gwt_library_extras:ftr-gwt-library-extras:0.9.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr_gwt_library_extras:ftr_gwt_library_extras:0.9.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr-gwt-library:ftr-gwt-library-extras:0.9.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr-gwt-library:ftr_gwt_library_extras:0.9.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr_gwt_library:ftr-gwt-library-extras:0.9.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr_gwt_library:ftr_gwt_library_extras:0.9.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr-gwt:ftr-gwt-library-extras:0.9.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr-gwt:ftr_gwt_library_extras:0.9.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr_gwt:ftr-gwt-library-extras:0.9.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr_gwt:ftr_gwt_library_extras:0.9.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr:ftr-gwt-library-extras:0.9.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ftr:ftr_gwt_library_extras:0.9.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/ui/gwt/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "ftr-gwt-library-extras"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "eu.future.earth.gwt"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/gchart/gchart@2.7?package-id=7e6ff8548690f5f2",
+      "type": "library",
+      "name": "gchart",
+      "version": "2.7",
+      "cpe": "cpe:2.3:a:gchart:gchart:2.7:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/gchart/gchart@2.7",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "7f5b1d79ef3daa131263d8a90547d92878203bae"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/ui/gwt/lib/gchart-2.7.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/ui/gwt/lib/gchart-2.7.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.gwt/gchart@2.7?package-id=f544dd82b4a1310f",
+      "type": "library",
+      "group": "com.google.gwt",
+      "name": "gchart",
+      "version": "2.7",
+      "cpe": "cpe:2.3:a:gchart:gchart:2.7:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.google.gwt/gchart@2.7",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google:gchart:2.7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt:gchart:2.7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/ui/gwt/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "gchart"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "com.google.gwt"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4x-protocols-profinet@0.13.0-SNAPSHOT?package-id=8e55a9be0f202657",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4x-protocols-profinet",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4x-protocols-profinet:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4x-protocols-profinet@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4x_protocols_profinet:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4x:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/profinet-ng/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4x-protocols-profinet"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4x-protocols-profinet@0.13.0-SNAPSHOT?package-id=e41bbe1d1d654d0e",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4x-protocols-profinet",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4x-protocols-profinet:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4x-protocols-profinet@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4x_protocols_profinet:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4x:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/profinet/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4x-protocols-profinet"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4x-protocols-s7@0.13.0-SNAPSHOT?package-id=4985d46e98bef47c",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4x-protocols-s7",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4x-protocols-s7:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4x-protocols-s7@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4x_protocols_s7:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4x:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4go/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4x-protocols-s7"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4x-protocols-s7@0.13.0-SNAPSHOT?package-id=b4c47a94d5c0b62c",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4x-protocols-s7",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4x-protocols-s7:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4x-protocols-s7@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4x_protocols_s7:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4x:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/s7/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4x-protocols-s7"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.plc4x/plc4x-protocols-simulated@0.13.0-SNAPSHOT?package-id=7577e73d4995e59a",
+      "type": "library",
+      "group": "org.apache.plc4x",
+      "name": "plc4x-protocols-simulated",
+      "version": "0.13.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:apache:plc4x-protocols-simulated:0.13.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.plc4x/plc4x-protocols-simulated@0.13.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4x_protocols_simulated:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plc4x:0.13.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4go/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "plc4x-protocols-simulated"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.plc4x"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/gwt/gwt?package-id=9a2b72718b67cb38",
+      "type": "library",
+      "name": "gwt",
+      "cpe": "cpe:2.3:a:gwt:gwt:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/gwt/gwt",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "729f509bfc2395be82e204ab5c1657d0a0015575"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/ui/gwt/lib/com.bouwkamp.gwt.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/ui/gwt/lib/com.bouwkamp.gwt.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/gwt/gwt@1.3?package-id=7a482c4644310a35",
+      "type": "library",
+      "name": "gwt",
+      "version": "1.3",
+      "cpe": "cpe:2.3:a:gwt:gwt:1.3:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/gwt/gwt@1.3",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "e1c3880309a6fabcc50c147cd1d24bec415887ed"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/ui/gwt/lib/org.cobogw.gwt-1.3.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/ui/gwt/lib/org.cobogw.gwt-1.3.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.allen-sauer.gwt.dnd/gwt-dnd@3.3.4?package-id=f9c6204b9f8f6507",
+      "type": "library",
+      "group": "com.allen-sauer.gwt.dnd",
+      "name": "gwt-dnd",
+      "version": "3.3.4",
+      "cpe": "cpe:2.3:a:allen-sauer:gwt-dnd:3.3.4:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.allen-sauer.gwt.dnd/gwt-dnd@3.3.4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:allen-sauer:gwt_dnd:3.3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:allen_sauer:gwt-dnd:3.3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:allen_sauer:gwt_dnd:3.3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:allen-sauer:dnd:3.3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:allen-sauer:gwt:3.3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:allen_sauer:dnd:3.3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:allen_sauer:gwt:3.3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt-dnd:gwt-dnd:3.3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt-dnd:gwt_dnd:3.3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt_dnd:gwt-dnd:3.3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt_dnd:gwt_dnd:3.3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:allen:gwt-dnd:3.3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:allen:gwt_dnd:3.3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dnd:gwt-dnd:3.3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dnd:gwt_dnd:3.3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt-dnd:dnd:3.3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt-dnd:gwt:3.3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt:gwt-dnd:3.3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt:gwt_dnd:3.3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt_dnd:dnd:3.3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt_dnd:gwt:3.3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:allen:dnd:3.3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:allen:gwt:3.3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dnd:dnd:3.3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dnd:gwt:3.3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt:dnd:3.3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt:gwt:3.3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/ui/gwt/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "gwt-dnd"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "com.allen-sauer.gwt.dnd"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/gwt-incubator/gwt-incubator@20101117-r1766?package-id=63c32cd75d0c3faf",
+      "type": "library",
+      "name": "gwt-incubator",
+      "version": "20101117-r1766",
+      "cpe": "cpe:2.3:a:gwt-incubator:gwt-incubator:20101117-r1766:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/gwt-incubator/gwt-incubator@20101117-r1766",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "3aa16d4c7c00edad4719092669d820a34e10ef0a"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt-incubator:gwt_incubator:20101117-r1766:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt_incubator:gwt-incubator:20101117-r1766:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt_incubator:gwt_incubator:20101117-r1766:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt:gwt-incubator:20101117-r1766:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt:gwt_incubator:20101117-r1766:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/ui/gwt/lib/gwt-incubator-20101117-r1766.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/ui/gwt/lib/gwt-incubator-20101117-r1766.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.gwt/gwt-incubator@20101117-r1766?package-id=f22a5f64c2ae28fa",
+      "type": "library",
+      "group": "com.google.gwt",
+      "name": "gwt-incubator",
+      "version": "20101117-r1766",
+      "cpe": "cpe:2.3:a:gwt-incubator:gwt-incubator:20101117-r1766:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.google.gwt/gwt-incubator@20101117-r1766",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt-incubator:gwt_incubator:20101117-r1766:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt_incubator:gwt-incubator:20101117-r1766:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt_incubator:gwt_incubator:20101117-r1766:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google:gwt-incubator:20101117-r1766:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google:gwt_incubator:20101117-r1766:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt-incubator:gwt:20101117-r1766:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt:gwt-incubator:20101117-r1766:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt:gwt_incubator:20101117-r1766:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt_incubator:gwt:20101117-r1766:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google:gwt:20101117-r1766:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt:gwt:20101117-r1766:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/ui/gwt/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "gwt-incubator"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "com.google.gwt"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.allen-sauer.gwt.log/gwt-log@3.3.2?package-id=70120315fc2f1faa",
+      "type": "library",
+      "group": "com.allen-sauer.gwt.log",
+      "name": "gwt-log",
+      "version": "3.3.2",
+      "cpe": "cpe:2.3:a:allen-sauer:gwt-log:3.3.2:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.allen-sauer.gwt.log/gwt-log@3.3.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:allen-sauer:gwt_log:3.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:allen_sauer:gwt-log:3.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:allen_sauer:gwt_log:3.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:allen-sauer:gwt:3.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:allen-sauer:log:3.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:allen_sauer:gwt:3.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:allen_sauer:log:3.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt-log:gwt-log:3.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt-log:gwt_log:3.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt_log:gwt-log:3.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt_log:gwt_log:3.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:allen:gwt-log:3.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:allen:gwt_log:3.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt-log:gwt:3.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt-log:log:3.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt:gwt-log:3.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt:gwt_log:3.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt_log:gwt:3.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt_log:log:3.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:log:gwt-log:3.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:log:gwt_log:3.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:allen:gwt:3.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:allen:log:3.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt:gwt:3.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt:log:3.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:log:gwt:3.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:log:log:3.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/ui/gwt/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "gwt-log"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "com.allen-sauer.gwt.log"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.gwt/gwt-servlet@2.8.0?package-id=9478b2723487ce8e",
+      "type": "library",
+      "group": "com.google.gwt",
+      "name": "gwt-servlet",
+      "version": "2.8.0",
+      "cpe": "cpe:2.3:a:gwt-servlet:gwt-servlet:2.8.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.google.gwt/gwt-servlet@2.8.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt-servlet:gwt_servlet:2.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt_servlet:gwt-servlet:2.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt_servlet:gwt_servlet:2.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google:gwt-servlet:2.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google:gwt_servlet:2.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt-servlet:gwt:2.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt:gwt-servlet:2.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt:gwt_servlet:2.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt_servlet:gwt:2.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google:gwt:2.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt:gwt:2.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/ui/gwt/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "gwt-servlet"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "com.google.gwt"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.gwt/gwt-user@2.8.0?package-id=214bb77ea1ba3eac",
+      "type": "library",
+      "group": "com.google.gwt",
+      "name": "gwt-user",
+      "version": "2.8.0",
+      "cpe": "cpe:2.3:a:gwt-user:gwt-user:2.8.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.google.gwt/gwt-user@2.8.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt-user:gwt_user:2.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt_user:gwt-user:2.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt_user:gwt_user:2.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google:gwt-user:2.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google:gwt_user:2.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt-user:gwt:2.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt:gwt-user:2.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt:gwt_user:2.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt_user:gwt:2.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:google:gwt:2.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt:gwt:2.8.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/ui/gwt/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "gwt-user"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "com.google.gwt"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/net.sf.gwt-widget/gwt-widgets@0.2.0?package-id=3939eaa80de738ee",
+      "type": "library",
+      "group": "net.sf.gwt-widget",
+      "name": "gwt-widgets",
+      "version": "0.2.0",
+      "cpe": "cpe:2.3:a:gwt-widgets:gwt-widgets:0.2.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/net.sf.gwt-widget/gwt-widgets@0.2.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt-widgets:gwt_widgets:0.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt_widgets:gwt-widgets:0.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt_widgets:gwt_widgets:0.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt-widget:gwt-widgets:0.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt-widget:gwt_widgets:0.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt-widgets:gwt-widget:0.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt-widgets:gwt_widget:0.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt_widget:gwt-widgets:0.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt_widget:gwt_widgets:0.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt_widgets:gwt-widget:0.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt_widgets:gwt_widget:0.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt-widget:gwt-widget:0.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt-widget:gwt_widget:0.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt_widget:gwt-widget:0.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt_widget:gwt_widget:0.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt:gwt-widgets:0.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt:gwt_widgets:0.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt:gwt-widget:0.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt:gwt_widget:0.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sf:gwt-widgets:0.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sf:gwt_widgets:0.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sf:gwt-widget:0.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sf:gwt_widget:0.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/ui/gwt/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "gwt-widgets"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "net.sf.gwt-widget"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/pl.rmalinowski.gwt2swf/gwt2swf@0.6.0?package-id=e9e467cfca15d6be",
+      "type": "library",
+      "group": "pl.rmalinowski.gwt2swf",
+      "name": "gwt2swf",
+      "version": "0.6.0",
+      "cpe": "cpe:2.3:a:gwt2swf:gwt2swf:0.6.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/pl.rmalinowski.gwt2swf/gwt2swf@0.6.0",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "d11f2e978025b422b8eac450566fea36325d2e79"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/ui/gwt/lib/gwt2swf-0.6.0.jar"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "gwt2swf"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "pl.rmalinowski.gwt2swf"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/ui/gwt/lib/gwt2swf-0.6.0.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/pl.rmalinowski.gwt2swf/gwt2swf@0.6.0?package-id=47657f41421e07f9",
+      "type": "library",
+      "group": "pl.rmalinowski.gwt2swf",
+      "name": "gwt2swf",
+      "version": "0.6.0",
+      "cpe": "cpe:2.3:a:gwt2swf:gwt2swf:0.6.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/pl.rmalinowski.gwt2swf/gwt2swf@0.6.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/ui/gwt/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "gwt2swf"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "pl.rmalinowski.gwt2swf"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/net.sf.jasperreports/jasperreports@3.7.4?package-id=89d8d554aa5e0bd3",
+      "type": "library",
+      "group": "net.sf.jasperreports",
+      "name": "jasperreports",
+      "version": "3.7.4",
+      "licenses": [
+        {
+          "license": {
+            "name": "GNU Lesser General Public License",
+            "url": "http://jasperreports.sourceforge.net/license.html"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:jasperreports:jasperreports:3.7.4:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/net.sf.jasperreports/jasperreports@3.7.4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sf:jasperreports:3.7.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/scripts/jasper/JasperWrapper.jar"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "jasperreports"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "net.sf.jasperreports"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/scripts/jasper/JasperWrapper.jar:net.sf.jasperreports:jasperreports"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/jdtCompilerAdapter/jdtCompilerAdapter?package-id=6566cdc7f25871bc",
+      "type": "library",
+      "name": "jdtCompilerAdapter",
+      "cpe": "cpe:2.3:a:jdtCompilerAdapter:jdtCompilerAdapter:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/jdtCompilerAdapter/jdtCompilerAdapter",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "a9d9eb99b7920dd3ee24d601a26cd7e473b0bf6e"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/scripts/jasper/JasperWrapper.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/scripts/jasper/JasperWrapper.jar:jdtCompilerAdapter.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.cobogw.gwt/org.cobogw.gwt@1.3?package-id=781b0bc741552470",
+      "type": "library",
+      "group": "org.cobogw.gwt",
+      "name": "org.cobogw.gwt",
+      "version": "1.3",
+      "cpe": "cpe:2.3:a:org.cobogw.gwt:org.cobogw.gwt:1.3:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.cobogw.gwt/org.cobogw.gwt@1.3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:cobogw:org.cobogw.gwt:1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt:org.cobogw.gwt:1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.cobogw.gwt:gwt:1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:cobogw:gwt:1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gwt:gwt:1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/ui/gwt/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "org.cobogw.gwt"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.cobogw.gwt"
+        }
+      ]
+    }
+  ]
+}

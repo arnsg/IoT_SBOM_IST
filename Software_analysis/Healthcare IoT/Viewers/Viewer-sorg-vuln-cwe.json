@@ -1,0 +1,102 @@
+{
+    "axios:0.25.0": {
+        "name": "axios",
+        "version": "0.25.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-wf5p-g6vw-rhxx",
+                "severity": "MODERATE",
+                "description": "Axios Cross-Site Request Forgery Vulnerability",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+                "published_at": "2023-11-08",
+                "updated_at": "2024-06-21",
+                "CWE_ID": "CWE-352",
+                "CWE_DESCRIPTION": "Cross-Site Request Forgery (CSRF)"
+            }
+        ]
+    },
+    "axios:0.27.2": {
+        "name": "axios",
+        "version": "0.27.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-wf5p-g6vw-rhxx",
+                "severity": "MODERATE",
+                "description": "Axios Cross-Site Request Forgery Vulnerability",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+                "published_at": "2023-11-08",
+                "updated_at": "2024-06-21",
+                "CWE_ID": "CWE-352",
+                "CWE_DESCRIPTION": "Cross-Site Request Forgery (CSRF)"
+            }
+        ]
+    },
+    "ip:1.1.9": {
+        "name": "ip",
+        "version": "1.1.9",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-2p57-rm9w-gvfp",
+                "severity": "HIGH",
+                "description": "ip SSRF improper categorization in isPublic",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-06-02",
+                "updated_at": "2024-06-02",
+                "CWE_ID": "CWE-918",
+                "CWE_DESCRIPTION": "Server-Side Request Forgery (SSRF)"
+            }
+        ]
+    },
+    "ip:2.0.1": {
+        "name": "ip",
+        "version": "2.0.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-2p57-rm9w-gvfp",
+                "severity": "HIGH",
+                "description": "ip SSRF improper categorization in isPublic",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-06-02",
+                "updated_at": "2024-06-02",
+                "CWE_ID": "CWE-918",
+                "CWE_DESCRIPTION": "Server-Side Request Forgery (SSRF)"
+            }
+        ]
+    },
+    "tar:6.1.11": {
+        "name": "tar",
+        "version": "6.1.11",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-f5x3-32g6-xq36",
+                "severity": "MODERATE",
+                "description": "Denial of service while parsing a tar file due to lack of folders count validation",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2024-03-22",
+                "updated_at": "2024-06-10",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    }
+}

@@ -1,0 +1,846 @@
+{
+    "guava:13.0.1": {
+        "name": "guava",
+        "version": "13.0.1",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-mvr2-9pj6-7w5j",
+                "severity": "MODERATE",
+                "description": "Denial of Service in Google Guava",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2020-06-15",
+                "updated_at": "2023-11-09"
+            },
+            {
+                "id": "GHSA-7g45-4rm6-3mm3",
+                "severity": "MODERATE",
+                "description": "Guava vulnerable to insecure use of temporary directory",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2023-06-14",
+                "updated_at": "2024-02-13"
+            },
+            {
+                "id": "GHSA-5mg8-w23w-74h3",
+                "severity": "LOW",
+                "description": "Information Disclosure in Guava",
+                "links": [],
+                "cvss_score": 3.3,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+                "published_at": "2021-03-25",
+                "updated_at": "2023-11-09"
+            }
+        ]
+    },
+    "httpclient:4.2.3": {
+        "name": "httpclient",
+        "version": "4.2.3",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-fmj5-wv96-r2ch",
+                "severity": "MODERATE",
+                "description": "Denial of service vulnerability in org.apache.httpcomponents:httpclient",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2018-10-17",
+                "updated_at": "2023-02-13"
+            },
+            {
+                "id": "GHSA-cfh5-3ghh-wfjx",
+                "severity": "MODERATE",
+                "description": "Improper Verification of Cryptographic Signature in org.apache.httpcomponents:httpclient",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2018-10-17",
+                "updated_at": "2024-04-12"
+            },
+            {
+                "id": "GHSA-7r82-7xv7-xcpj",
+                "severity": "MODERATE",
+                "description": "Cross-site scripting in Apache HttpClient",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2021-06-03",
+                "updated_at": "2023-02-01"
+            }
+        ]
+    },
+    "jackson-databind:2.1.2": {
+        "name": "jackson-databind",
+        "version": "2.1.2",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-rfx6-vp9g-rh7v",
+                "severity": "CRITICAL",
+                "description": "jackson-databind vulnerable to remote code execution due to incorrect deserialization and blocklist bypass",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2018-10-18",
+                "updated_at": "2024-03-01"
+            },
+            {
+                "id": "GHSA-qxxx-2pp7-5hmx",
+                "severity": "CRITICAL",
+                "description": "jackson-databind is vulnerable to a deserialization flaw",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2018-10-16",
+                "updated_at": "2024-03-01"
+            },
+            {
+                "id": "GHSA-qr7j-h6gg-jmgc",
+                "severity": "CRITICAL",
+                "description": "Deserialization of Untrusted Data in jackson-databind",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2019-07-16",
+                "updated_at": "2024-03-01"
+            },
+            {
+                "id": "GHSA-q93h-jc49-78gg",
+                "severity": "CRITICAL",
+                "description": "jackson-databind mishandles the interaction between serialization gadgets and typing",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2020-05-15",
+                "updated_at": "2023-09-14"
+            },
+            {
+                "id": "GHSA-p43x-xfjf-5jhr",
+                "severity": "CRITICAL",
+                "description": "jackson-databind mishandles the interaction between serialization gadgets and typing",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2020-05-15",
+                "updated_at": "2024-03-15"
+            },
+            {
+                "id": "GHSA-mx7p-6679-8g3q",
+                "severity": "CRITICAL",
+                "description": "Polymorphic Typing in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2019-10-28",
+                "updated_at": "2024-03-15"
+            },
+            {
+                "id": "GHSA-h822-r4r5-v8jg",
+                "severity": "CRITICAL",
+                "description": "Polymorphic Typing issue in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2019-09-23",
+                "updated_at": "2024-03-15"
+            },
+            {
+                "id": "GHSA-h592-38cm-4ggp",
+                "severity": "CRITICAL",
+                "description": "jackson-databind vulnerable to deserialization flaw leading to unauthenticated remote code execution",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2018-10-18",
+                "updated_at": "2024-03-15"
+            },
+            {
+                "id": "GHSA-gww7-p5w4-wrfv",
+                "severity": "CRITICAL",
+                "description": "Deserialization of Untrusted Data in jackson-databind",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2020-03-04",
+                "updated_at": "2024-03-15"
+            },
+            {
+                "id": "GHSA-gjmw-vf9h-g25v",
+                "severity": "CRITICAL",
+                "description": "jackson-databind polymorphic typing issue",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2019-11-13",
+                "updated_at": "2023-09-14"
+            },
+            {
+                "id": "GHSA-fmmc-742q-jg75",
+                "severity": "CRITICAL",
+                "description": "jackson-databind polymorphic typing issue",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2019-11-13",
+                "updated_at": "2023-09-14"
+            },
+            {
+                "id": "GHSA-f3j5-rmmp-3fc5",
+                "severity": "CRITICAL",
+                "description": "Improper Input Validation in jackson-databind",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2020-06-15",
+                "updated_at": "2023-09-13"
+            },
+            {
+                "id": "GHSA-cggj-fvv3-cqwv",
+                "severity": "CRITICAL",
+                "description": "FasterXML jackson-databind allows unauthenticated remote code execution ",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2018-10-16",
+                "updated_at": "2024-03-15"
+            },
+            {
+                "id": "GHSA-c8hm-7hpq-7jhg",
+                "severity": "CRITICAL",
+                "description": "com.fasterxml.jackson.core:jackson-databind vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2019-01-04",
+                "updated_at": "2024-03-15"
+            },
+            {
+                "id": "GHSA-85cw-hj65-qqv9",
+                "severity": "CRITICAL",
+                "description": "Polymorphic Typing issue in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2019-09-23",
+                "updated_at": "2023-09-13"
+            },
+            {
+                "id": "GHSA-6fpp-rgj9-8rwc",
+                "severity": "CRITICAL",
+                "description": "Deserialization of untrusted data in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2019-08-01",
+                "updated_at": "2023-09-13"
+            },
+            {
+                "id": "GHSA-645p-88qh-w398",
+                "severity": "CRITICAL",
+                "description": "Arbitrary Code Execution in jackson-databind",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2019-01-04",
+                "updated_at": "2023-09-14"
+            },
+            {
+                "id": "GHSA-4w82-r329-3q67",
+                "severity": "CRITICAL",
+                "description": "Deserialization of Untrusted Data in jackson-databind",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2020-03-04",
+                "updated_at": "2023-06-08"
+            },
+            {
+                "id": "GHSA-4gq5-ch57-c2mg",
+                "severity": "CRITICAL",
+                "description": "Arbitrary Code Execution in jackson-databind",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2019-01-04",
+                "updated_at": "2023-09-13"
+            },
+            {
+                "id": "GHSA-wh8g-3j2c-rqj5",
+                "severity": "HIGH",
+                "description": "Serialization gadgets exploit in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-12-09",
+                "updated_at": "2024-03-15"
+            },
+            {
+                "id": "GHSA-w3f4-3q6j-rh82",
+                "severity": "HIGH",
+                "description": "Deserialization of Untrusted Data in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2020-06-30",
+                "updated_at": "2024-03-01"
+            },
+            {
+                "id": "GHSA-vfqx-33qm-g869",
+                "severity": "HIGH",
+                "description": "Unsafe Deserialization in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-12-09",
+                "updated_at": "2023-09-14"
+            },
+            {
+                "id": "GHSA-v585-23hc-c647",
+                "severity": "HIGH",
+                "description": "Unsafe Deserialization in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-11-19",
+                "updated_at": "2023-09-14"
+            },
+            {
+                "id": "GHSA-rpr3-cw39-3pxh",
+                "severity": "HIGH",
+                "description": "jackson-databind before 2.9.10.4 vulnerable to unsafe deserialization",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-07-15",
+                "updated_at": "2023-08-18"
+            },
+            {
+                "id": "GHSA-rgv9-q543-rqg4",
+                "severity": "HIGH",
+                "description": "Uncontrolled Resource Consumption in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-10-03",
+                "updated_at": "2024-03-24"
+            },
+            {
+                "id": "GHSA-r695-7vr9-jgc2",
+                "severity": "HIGH",
+                "description": "Unsafe Deserialization in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-12-09",
+                "updated_at": "2023-09-14"
+            },
+            {
+                "id": "GHSA-r3gr-cxrf-hg25",
+                "severity": "HIGH",
+                "description": "Serialization gadgets exploit in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-12-09",
+                "updated_at": "2024-06-25"
+            },
+            {
+                "id": "GHSA-qjw2-hr98-qgfh",
+                "severity": "HIGH",
+                "description": "Unsafe Deserialization in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-12-09",
+                "updated_at": "2023-09-14"
+            },
+            {
+                "id": "GHSA-m6x4-97wx-4q27",
+                "severity": "HIGH",
+                "description": "Unsafe Deserialization in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-12-09",
+                "updated_at": "2023-09-14"
+            },
+            {
+                "id": "GHSA-h3cw-g4mq-c5x2",
+                "severity": "HIGH",
+                "description": "Code Injection in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-12-09",
+                "updated_at": "2023-09-14"
+            },
+            {
+                "id": "GHSA-gwp4-hfv6-p7hw",
+                "severity": "HIGH",
+                "description": "Deserialization of untrusted data in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2019-08-01",
+                "updated_at": "2023-11-27"
+            },
+            {
+                "id": "GHSA-fqwf-pjwf-7vqv",
+                "severity": "HIGH",
+                "description": "jackson-databind mishandles the interaction between serialization gadgets and typing",
+                "links": [],
+                "cvss_score": 8.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2020-05-15",
+                "updated_at": "2024-07-03"
+            },
+            {
+                "id": "GHSA-f9xh-2qgp-cq57",
+                "severity": "HIGH",
+                "description": "Unsafe Deserialization in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-12-09",
+                "updated_at": "2023-09-14"
+            },
+            {
+                "id": "GHSA-cvm9-fjm9-3572",
+                "severity": "HIGH",
+                "description": "Unsafe Deserialization in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-12-09",
+                "updated_at": "2023-09-14"
+            },
+            {
+                "id": "GHSA-cjjf-94ff-43w7",
+                "severity": "HIGH",
+                "description": "jackson-databind Deserialization of Untrusted Data vulnerability",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2019-03-25",
+                "updated_at": "2024-03-01"
+            },
+            {
+                "id": "GHSA-cf6r-3wgc-h863",
+                "severity": "HIGH",
+                "description": "Polymorphic deserialization of malicious object in jackson-databind",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2020-05-15",
+                "updated_at": "2023-09-14"
+            },
+            {
+                "id": "GHSA-9m6f-7xcq-8vf8",
+                "severity": "HIGH",
+                "description": "Unsafe Deserialization in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-12-09",
+                "updated_at": "2023-09-14"
+            },
+            {
+                "id": "GHSA-9gph-22xh-8x98",
+                "severity": "HIGH",
+                "description": "Unsafe Deserialization in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-12-09",
+                "updated_at": "2023-09-14"
+            },
+            {
+                "id": "GHSA-8w26-6f25-cm9x",
+                "severity": "HIGH",
+                "description": "Unsafe Deserialization in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-12-09",
+                "updated_at": "2023-09-14"
+            },
+            {
+                "id": "GHSA-8c4j-34r4-xr8g",
+                "severity": "HIGH",
+                "description": "Unsafe Deserialization in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-12-09",
+                "updated_at": "2023-09-14"
+            },
+            {
+                "id": "GHSA-89qr-369f-5m5x",
+                "severity": "HIGH",
+                "description": "Unsafe Deserialization in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-12-09",
+                "updated_at": "2023-09-14"
+            },
+            {
+                "id": "GHSA-5ww9-j83m-q7qx",
+                "severity": "HIGH",
+                "description": "Information exposure in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2019-05-23",
+                "updated_at": "2024-03-15"
+            },
+            {
+                "id": "GHSA-5r5r-6hpj-8gg9",
+                "severity": "HIGH",
+                "description": "Serialization gadget exploit in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-12-09",
+                "updated_at": "2023-11-21"
+            },
+            {
+                "id": "GHSA-5949-rw7g-wx7w",
+                "severity": "HIGH",
+                "description": "Deserialization of untrusted data in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-01-20",
+                "updated_at": "2024-03-15"
+            },
+            {
+                "id": "GHSA-57j2-w4cx-62h2",
+                "severity": "HIGH",
+                "description": "Deeply nested json in jackson-databind",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-03-12",
+                "updated_at": "2024-03-15"
+            },
+            {
+                "id": "GHSA-mph4-vhrx-mv67",
+                "severity": "MODERATE",
+                "description": "Deserialization of Untrusted Data in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2019-07-05",
+                "updated_at": "2024-03-15"
+            },
+            {
+                "id": "GHSA-cmfg-87vq-g5g4",
+                "severity": "MODERATE",
+                "description": "Deserialization of untrusted data in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2019-07-17",
+                "updated_at": "2024-03-15"
+            }
+        ]
+    },
+    "json-smart:1.1.1": {
+        "name": "json-smart",
+        "version": "1.1.1",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-493p-pfq6-5258",
+                "severity": "HIGH",
+                "description": "json-smart Uncontrolled Recursion vulnerabilty",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2023-03-23",
+                "updated_at": "2024-06-24"
+            },
+            {
+                "id": "GHSA-v528-7hrm-frqp",
+                "severity": "MODERATE",
+                "description": "Improper Check for Unusual or Exceptional Conditions in json-smart",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-06-16",
+                "updated_at": "2023-02-15"
+            }
+        ]
+    },
+    "junit:4.9": {
+        "name": "junit",
+        "version": "4.9",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-269g-pwp5-87pp",
+                "severity": "MODERATE",
+                "description": "TemporaryFolder on unix-like systems does not limit access to created files",
+                "links": [],
+                "cvss_score": 4.4,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:N/A:N",
+                "published_at": "2020-10-12",
+                "updated_at": "2023-02-01"
+            }
+        ]
+    },
+    "log4j:1.2.16": {
+        "name": "log4j",
+        "version": "1.2.16",
+        "type": "java-archive",
+        "licenses": [
+            "The Apache Software License, Version 2.0"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-f7vh-qwp3-x37m",
+                "severity": "CRITICAL",
+                "description": "Deserialization of Untrusted Data in Apache Log4j",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-01-19",
+                "updated_at": "2023-10-31"
+            },
+            {
+                "id": "GHSA-65fg-84f6-3jq3",
+                "severity": "CRITICAL",
+                "description": "SQL Injection in Log4j 1.2.x",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-01-21",
+                "updated_at": "2023-10-31"
+            },
+            {
+                "id": "GHSA-2qrg-x229-3v8q",
+                "severity": "CRITICAL",
+                "description": "Deserialization of Untrusted Data in Log4j",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2020-01-06",
+                "updated_at": "2023-10-12"
+            },
+            {
+                "id": "GHSA-w9p3-5cr8-m3jj",
+                "severity": "HIGH",
+                "description": "Deserialization of Untrusted Data in Log4j 1.x",
+                "links": [],
+                "cvss_score": 8.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-01-21",
+                "updated_at": "2023-10-31"
+            },
+            {
+                "id": "GHSA-fp5r-v3w9-4333",
+                "severity": "HIGH",
+                "description": "JMSAppender in Log4j 1.2 is vulnerable to deserialization of untrusted data",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-12-14",
+                "updated_at": "2023-12-22"
+            }
+        ]
+    },
+    "mysql-connector-java:5.1.25": {
+        "name": "mysql-connector-java",
+        "version": "5.1.25",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-4vrv-ch96-6h42",
+                "severity": "HIGH",
+                "description": "Improper Privilege Management in MySQL Connectors Java",
+                "links": [],
+                "cvss_score": 8.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-05-13",
+                "updated_at": "2023-01-27"
+            },
+            {
+                "id": "GHSA-2xxh-f8r3-hvvr",
+                "severity": "HIGH",
+                "description": "Improper Access Control in MySQL Connectors Java",
+                "links": [],
+                "cvss_score": 8.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2022-05-13",
+                "updated_at": "2023-01-27"
+            },
+            {
+                "id": "GHSA-pwh7-92h3-mqr6",
+                "severity": "MODERATE",
+                "description": "Exposure of Sensitive Information to an Unauthorized Actor in Oracle MySQL Connectors Java",
+                "links": [],
+                "cvss_score": 6.4,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
+                "published_at": "2022-05-13",
+                "updated_at": "2023-01-27"
+            },
+            {
+                "id": "GHSA-jcq3-cprp-m333",
+                "severity": "MODERATE",
+                "description": "Privilege escalation in mysql-connector-jav",
+                "links": [],
+                "cvss_score": 6.3,
+                "vector_attack": "CVSS:3.0/AV:L/AC:H/PR:H/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2020-07-01",
+                "updated_at": "2023-01-09"
+            },
+            {
+                "id": "GHSA-gc43-g62c-99g2",
+                "severity": "MODERATE",
+                "description": "Improper Access Control in MySQL Connectors Java",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-17",
+                "updated_at": "2023-01-27"
+            },
+            {
+                "id": "GHSA-g76j-4cxx-23h9",
+                "severity": "MODERATE",
+                "description": "Improper Handling of Insufficient Permissions or Privileges in MySQL Connectors Java",
+                "links": [],
+                "cvss_score": 6.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-01-20",
+                "updated_at": "2023-01-27"
+            },
+            {
+                "id": "GHSA-cjcf-wm2p-59h5",
+                "severity": "LOW",
+                "description": "Exposure of Sensitive Information to an Unauthorized Actor in Oracle MySQL Connectors Java",
+                "links": [],
+                "cvss_score": 3.3,
+                "vector_attack": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2022-05-13",
+                "updated_at": "2023-01-27"
+            }
+        ]
+    },
+    "spring-ldap-core:1.3.1.RELEASE": {
+        "name": "spring-ldap-core",
+        "version": "1.3.1.RELEASE",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-pjqh-2jcc-5j84",
+                "severity": "HIGH",
+                "description": "Improper Authentication in Pivotal Spring-LDAP",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-05-13",
+                "updated_at": "2024-04-05"
+            }
+        ]
+    },
+    "spring-security-core:3.1.4.RELEASE": {
+        "name": "spring-security-core",
+        "version": "3.1.4.RELEASE",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-wmv4-5w76-vp9g",
+                "severity": "CRITICAL",
+                "description": "Authorization Bypass in Spring Security",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2020-09-15",
+                "updated_at": "2024-04-16"
+            },
+            {
+                "id": "GHSA-hh32-7344-cg2f",
+                "severity": "CRITICAL",
+                "description": "Authorization bypass in Spring Security",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-05-20",
+                "updated_at": "2024-07-05"
+            },
+            {
+                "id": "GHSA-v35c-49j6-q8hq",
+                "severity": "HIGH",
+                "description": "Security Constraint Bypass in Spring Security",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2020-09-15",
+                "updated_at": "2024-05-15"
+            },
+            {
+                "id": "GHSA-v33x-prhc-gph5",
+                "severity": "HIGH",
+                "description": "Insufficiently Protected Credentials and Improper Authentication in Spring Security",
+                "links": [],
+                "cvss_score": 7.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+                "published_at": "2019-06-27",
+                "updated_at": "2023-01-28"
+            },
+            {
+                "id": "GHSA-gv9v-c375-hvmg",
+                "severity": "HIGH",
+                "description": "Improper Authentication in Spring Security",
+                "links": [],
+                "cvss_score": 7.3,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+                "published_at": "2022-05-13",
+                "updated_at": "2023-01-27"
+            },
+            {
+                "id": "GHSA-f3jh-qvm4-mg39",
+                "severity": "HIGH",
+                "description": "Erroneous authentication pass in Spring Security",
+                "links": [],
+                "cvss_score": 8.2,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+                "published_at": "2024-03-18",
+                "updated_at": "2024-04-19"
+            },
+            {
+                "id": "GHSA-8crv-49fr-2h6j",
+                "severity": "HIGH",
+                "description": "Spring Security and Spring Framework may not recognize certain paths that should be protected",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2018-10-17",
+                "updated_at": "2024-03-05"
+            },
+            {
+                "id": "GHSA-2ppp-9496-p23q",
+                "severity": "MODERATE",
+                "description": "Insufficient Entropy in Spring Security",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2020-06-15",
+                "updated_at": "2023-02-01"
+            }
+        ]
+    }
+}

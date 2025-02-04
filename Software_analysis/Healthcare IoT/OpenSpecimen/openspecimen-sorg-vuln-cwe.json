@@ -1,0 +1,315 @@
+{
+    "dom4j:1.6.1": {
+        "name": "dom4j",
+        "version": "1.6.1",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-hwj3-m3p6-hj38",
+                "severity": "CRITICAL",
+                "description": "dom4j allows External Entities by default which might enable XXE attacks",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2020-06-05",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-611",
+                "CWE_DESCRIPTION": "Improper Restriction of XML External Entity Reference"
+            },
+            {
+                "id": "GHSA-6pcc-3rfx-4gpm",
+                "severity": "HIGH",
+                "description": "Dom4j contains a XML Injection vulnerability",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2018-10-16",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-91",
+                "CWE_DESCRIPTION": "XML Injection (aka Blind XPath Injection)"
+            }
+        ]
+    },
+    "guava:r08": {
+        "name": "guava",
+        "version": "r08",
+        "type": "java-archive",
+        "licenses": [
+            "The Apache Software License, Version 2.0"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-5mg8-w23w-74h3",
+                "severity": "LOW",
+                "description": "Information Disclosure in Guava",
+                "links": [],
+                "cvss_score": 3.3,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+                "published_at": "2021-03-25",
+                "updated_at": "2023-11-09",
+                "CWE_ID": "CWE-173",
+                "CWE_DESCRIPTION": "Improper Handling of Alternate Encoding"
+            }
+        ]
+    },
+    "hibernate-core:4.0.1.Final": {
+        "name": "hibernate-core",
+        "version": "4.0.1.Final",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-j8jw-g6fq-mp7h",
+                "severity": "HIGH",
+                "description": "SQL injection in hibernate-core",
+                "links": [],
+                "cvss_score": 7.4,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+                "published_at": "2022-02-09",
+                "updated_at": "2024-06-27",
+                "CWE_ID": "CWE-89",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')"
+            },
+            {
+                "id": "GHSA-8grg-q944-cch5",
+                "severity": "MODERATE",
+                "description": "SQL Injection in Hibernate ORM",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2022-02-10",
+                "updated_at": "2024-06-27",
+                "CWE_ID": "CWE-89",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')"
+            }
+        ]
+    },
+    "hibernate-validator:4.2.0.Final": {
+        "name": "hibernate-validator",
+        "version": "4.2.0.Final",
+        "type": "java-archive",
+        "licenses": [
+            "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-845h-985r-jrqh",
+                "severity": "MODERATE",
+                "description": "Improper Authentication in Hibernate Validator",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-14",
+                "updated_at": "2024-04-16",
+                "CWE_ID": "CWE-287",
+                "CWE_DESCRIPTION": "Improper Authentication"
+            }
+        ]
+    },
+    "jdom:1.1.1": {
+        "name": "jdom",
+        "version": "1.1.1",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-2363-cqg2-863c",
+                "severity": "HIGH",
+                "description": "XML External Entity (XXE) Injection in JDOM",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-07-27",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-611",
+                "CWE_DESCRIPTION": "Improper Restriction of XML External Entity Reference"
+            }
+        ]
+    },
+    "junit:4.11": {
+        "name": "junit",
+        "version": "4.11",
+        "type": "java-archive",
+        "licenses": [
+            "BSD-3-Clause"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-269g-pwp5-87pp",
+                "severity": "MODERATE",
+                "description": "TemporaryFolder on unix-like systems does not limit access to created files",
+                "links": [],
+                "cvss_score": 4.4,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:N/A:N",
+                "published_at": "2020-10-12",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            }
+        ]
+    },
+    "log4j:1.2.16": {
+        "name": "log4j",
+        "version": "1.2.16",
+        "type": "java-archive",
+        "licenses": [
+            "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-f7vh-qwp3-x37m",
+                "severity": "CRITICAL",
+                "description": "Deserialization of Untrusted Data in Apache Log4j",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-01-19",
+                "updated_at": "2023-10-31",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-65fg-84f6-3jq3",
+                "severity": "CRITICAL",
+                "description": "SQL Injection in Log4j 1.2.x",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-01-21",
+                "updated_at": "2023-10-31",
+                "CWE_ID": "CWE-89",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')"
+            },
+            {
+                "id": "GHSA-2qrg-x229-3v8q",
+                "severity": "CRITICAL",
+                "description": "Deserialization of Untrusted Data in Log4j",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2020-01-06",
+                "updated_at": "2023-10-12",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-w9p3-5cr8-m3jj",
+                "severity": "HIGH",
+                "description": "Deserialization of Untrusted Data in Log4j 1.x",
+                "links": [],
+                "cvss_score": 8.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-01-21",
+                "updated_at": "2023-10-31",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-fp5r-v3w9-4333",
+                "severity": "HIGH",
+                "description": "JMSAppender in Log4j 1.2 is vulnerable to deserialization of untrusted data",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-12-14",
+                "updated_at": "2023-12-22",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            }
+        ]
+    },
+    "spring-data-jpa:1.2.0.RELEASE": {
+        "name": "spring-data-jpa",
+        "version": "1.2.0.RELEASE",
+        "type": "java-archive",
+        "licenses": [
+            "Apache License, Version 2.0"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-xr4v-28rm-pvgw",
+                "severity": "MODERATE",
+                "description": "Improper Neutralization of Special Elements used in an SQL Command  Pivotal Spring Data JPA",
+                "links": [],
+                "cvss_score": 5.6,
+                "vector_attack": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+                "published_at": "2022-05-17",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-89",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')"
+            },
+            {
+                "id": "GHSA-xggx-fx6w-v7ch",
+                "severity": "MODERATE",
+                "description": "Improper Neutralization of Wildcards or Matching Symbols",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+                "published_at": "2019-06-04",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-155",
+                "CWE_DESCRIPTION": "Improper Neutralization of Wildcards or Matching Symbols"
+            },
+            {
+                "id": "GHSA-jgmr-wrwx-mgfj",
+                "severity": "MODERATE",
+                "description": "Exposure of Sensitive Information to an Unauthorized Actor and SQL Injection in Spring Data JPA",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+                "published_at": "2019-05-14",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-89",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')"
+            }
+        ]
+    },
+    "spring-expression:3.1.2.RELEASE": {
+        "name": "spring-expression",
+        "version": "3.1.2.RELEASE",
+        "type": "java-archive",
+        "licenses": [
+            "Apache-2.0",
+            "BSD-3-Clause"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-wxqc-pxw9-g2p8",
+                "severity": "HIGH",
+                "description": "Spring Framework vulnerable to denial of service",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2023-04-13",
+                "updated_at": "2024-06-10",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-564r-hj7v-mcr5",
+                "severity": "MODERATE",
+                "description": "Spring Framework vulnerable to denial of service via specially crafted SpEL expression",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2023-03-23",
+                "updated_at": "2024-03-24",
+                "CWE_ID": "CWE-917",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection')"
+            },
+            {
+                "id": "GHSA-558x-2xjg-6232",
+                "severity": "MODERATE",
+                "description": "Allocation of Resources Without Limits or Throttling in Spring Framework",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-04-03",
+                "updated_at": "2023-03-28",
+                "CWE_ID": "CWE-770",
+                "CWE_DESCRIPTION": "Allocation of Resources Without Limits or Throttling"
+            }
+        ]
+    }
+}

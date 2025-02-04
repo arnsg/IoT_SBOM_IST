@@ -1,0 +1,150 @@
+{
+    "github.com/blevesearch/bleve:v1.0.14": {
+        "name": "github.com/blevesearch/bleve",
+        "version": "v1.0.14",
+        "type": "go-module",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-9w9f-6mg8-jp7w",
+                "severity": "MODERATE",
+                "description": "Missing Role Based Access Control for the REST handlers in bleve/http package",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2022-06-03",
+                "updated_at": "2023-02-14"
+            },
+            {
+                "id": "GHSA-9w9f-6mg8-jp7w",
+                "severity": "MODERATE",
+                "description": "Missing Role Based Access Control for the REST handlers in bleve/http package",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2022-06-03",
+                "updated_at": "2023-02-14"
+            }
+        ]
+    },
+    "github.com/disintegration/imaging:v1.6.2": {
+        "name": "github.com/disintegration/imaging",
+        "version": "v1.6.2",
+        "type": "go-module",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-q7pp-wcgr-pffx",
+                "severity": "LOW",
+                "description": "Crash when processing crafted TIFF files",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2023-09-05",
+                "updated_at": "2024-03-21"
+            },
+            {
+                "id": "GHSA-q7pp-wcgr-pffx",
+                "severity": "LOW",
+                "description": "Crash when processing crafted TIFF files",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2023-09-05",
+                "updated_at": "2024-03-21"
+            }
+        ]
+    },
+    "golang.org/x/image:v0.14.0": {
+        "name": "golang.org/x/image",
+        "version": "v0.14.0",
+        "type": "go-module",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-9phm-fm57-rhg8",
+                "severity": "MODERATE",
+                "description": "Panic when parsing invalid palette-color images in golang.org/x/image",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-06-26",
+                "updated_at": "2024-06-27"
+            },
+            {
+                "id": "GHSA-9phm-fm57-rhg8",
+                "severity": "MODERATE",
+                "description": "Panic when parsing invalid palette-color images in golang.org/x/image",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-06-26",
+                "updated_at": "2024-06-27"
+            }
+        ]
+    },
+    "gopkg.in/square/go-jose.v2:v2.6.0": {
+        "name": "gopkg.in/square/go-jose.v2",
+        "version": "v2.6.0",
+        "type": "go-module",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c5q2-7r4c-mv6g",
+                "severity": "MODERATE",
+                "description": "Go JOSE vulnerable to Improper Handling of Highly Compressed Data (Data Amplification)",
+                "links": [],
+                "cvss_score": 4.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2024-03-07",
+                "updated_at": "2024-06-12"
+            },
+            {
+                "id": "GHSA-c5q2-7r4c-mv6g",
+                "severity": "MODERATE",
+                "description": "Go JOSE vulnerable to Improper Handling of Highly Compressed Data (Data Amplification)",
+                "links": [],
+                "cvss_score": 4.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2024-03-07",
+                "updated_at": "2024-06-12"
+            }
+        ]
+    },
+    "html-minifier:4.0.0": {
+        "name": "html-minifier",
+        "version": "4.0.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-pfq8-rq6v-vf5m",
+                "severity": "HIGH",
+                "description": "kangax html-minifier REDoS vulnerability",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-10-31",
+                "updated_at": "2024-04-22"
+            }
+        ]
+    },
+    "ip:2.0.1": {
+        "name": "ip",
+        "version": "2.0.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-2p57-rm9w-gvfp",
+                "severity": "HIGH",
+                "description": "ip SSRF improper categorization in isPublic",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-06-02",
+                "updated_at": "2024-06-02"
+            }
+        ]
+    }
+}

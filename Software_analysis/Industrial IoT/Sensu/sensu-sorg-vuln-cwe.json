@@ -1,0 +1,194 @@
+{
+    "github.com/jackc/pgx/v5:v5.1.1": {
+        "name": "github.com/jackc/pgx/v5",
+        "version": "v5.1.1",
+        "type": "go-module",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-mrww-27vc-gghv",
+                "severity": "MODERATE",
+                "description": "pgx SQL Injection via Protocol Message Size Overflow",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-03-04",
+                "updated_at": "2024-03-14",
+                "CWE_ID": "CWE-89",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')"
+            },
+            {
+                "id": "GHSA-fqpg-rq76-99pq",
+                "severity": "MODERATE",
+                "description": "Panic in Pipeline when PgConn is busy or closed in github.com/jackc/pgx",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-07-05",
+                "updated_at": "2024-07-05",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-7jwh-3vrq-q3m8",
+                "severity": "MODERATE",
+                "description": "pgproto3 SQL Injection via Protocol Message Size Overflow",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-03-04",
+                "updated_at": "2024-03-14",
+                "CWE_ID": "CWE-89",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')"
+            }
+        ]
+    },
+    "github.com/mholt/archiver/v3:v3.3.1-0.20191129193105-44285f7ed244": {
+        "name": "github.com/mholt/archiver/v3",
+        "version": "v3.3.1-0.20191129193105-44285f7ed244",
+        "type": "go-module",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-rhh4-rh7c-7r5v",
+                "severity": "MODERATE",
+                "description": "Archiver Path Traversal vulnerability",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:H/A:N",
+                "published_at": "2024-04-06",
+                "updated_at": "2024-07-02",
+                "CWE_ID": "CWE-22",
+                "CWE_DESCRIPTION": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            }
+        ]
+    },
+    "golang.org/x/crypto:v0.3.0": {
+        "name": "golang.org/x/crypto",
+        "version": "v0.3.0",
+        "type": "go-module",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-45x7-px36-x8w8",
+                "severity": "MODERATE",
+                "description": "Prefix Truncation Attack against ChaCha20-Poly1305 and Encrypt-then-MAC aka Terrapin",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2023-12-18",
+                "updated_at": "2024-05-02",
+                "CWE_ID": "CWE-345",
+                "CWE_DESCRIPTION": "Insufficient Verification of Data Authenticity"
+            }
+        ]
+    },
+    "golang.org/x/net:v0.7.0": {
+        "name": "golang.org/x/net",
+        "version": "v0.7.0",
+        "type": "go-module",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-4374-p667-p6c8",
+                "severity": "HIGH",
+                "description": "HTTP/2 rapid reset can cause excessive work in net/http",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2023-10-11",
+                "updated_at": "2024-04-28",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-qppj-fm5r-hxr3",
+                "severity": "MODERATE",
+                "description": "HTTP/2 Stream Cancellation Attack",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2023-10-10",
+                "updated_at": "2024-06-21",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-4v7x-pqxf-cx7m",
+                "severity": "MODERATE",
+                "description": "net/http, x/net/http2: close connections when receiving too many headers",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2024-04-04",
+                "updated_at": "2024-05-02",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-2wrh-6pvc-2jm9",
+                "severity": "MODERATE",
+                "description": "Improper rendering of text nodes in golang.org/x/net/html",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2023-08-02",
+                "updated_at": "2023-11-08",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            }
+        ]
+    },
+    "google.golang.org/grpc:v1.41.0": {
+        "name": "google.golang.org/grpc",
+        "version": "v1.41.0",
+        "type": "go-module",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-m425-mq94-257g",
+                "severity": "HIGH",
+                "description": "gRPC-Go HTTP/2 Rapid Reset vulnerability",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2023-10-25",
+                "updated_at": "2024-07-19",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-qppj-fm5r-hxr3",
+                "severity": "MODERATE",
+                "description": "HTTP/2 Stream Cancellation Attack",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2023-10-10",
+                "updated_at": "2024-06-21",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "google.golang.org/protobuf:v1.27.1": {
+        "name": "google.golang.org/protobuf",
+        "version": "v1.27.1",
+        "type": "go-module",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-8r3f-844c-mc37",
+                "severity": "MODERATE",
+                "description": "Golang protojson.Unmarshal function infinite loop when unmarshaling certain forms of invalid JSON",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-03-06",
+                "updated_at": "2024-06-10",
+                "CWE_ID": "CWE-835",
+                "CWE_DESCRIPTION": "Loop with Unreachable Exit Condition ('Infinite Loop')"
+            }
+        ]
+    }
+}

@@ -1,0 +1,124 @@
+{
+    "logback-classic:": {
+        "name": "logback-classic",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-06-07",
+                "updated_at": "2023-01-28"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "published_at": "2023-11-29",
+                "updated_at": "2023-12-05"
+            }
+        ]
+    },
+    "logback-core:": {
+        "name": "logback-core",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-06-07",
+                "updated_at": "2023-01-28"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "published_at": "2023-11-29",
+                "updated_at": "2023-12-05"
+            },
+            {
+                "id": "GHSA-668q-qrv7-99fm",
+                "severity": "MODERATE",
+                "description": "Deserialization of Untrusted Data in logback",
+                "links": [],
+                "cvss_score": 6.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-12-17",
+                "updated_at": "2023-01-30"
+            }
+        ]
+    },
+    "sdk-client:": {
+        "name": "sdk-client",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-pq4w-qm9g-qx68",
+                "severity": "HIGH",
+                "description": "Insufficient Nonce Validation in Eclipse Milo Client",
+                "links": [],
+                "cvss_score": 7.4,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+                "published_at": "2020-03-16",
+                "updated_at": "2023-02-01"
+            }
+        ]
+    },
+    "zip4j:": {
+        "name": "zip4j",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-q62h-jw38-24vh",
+                "severity": "MODERATE",
+                "description": "Uncaught Exception in zip4j",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2022-02-25",
+                "updated_at": "2023-02-03"
+            },
+            {
+                "id": "GHSA-2rpm-4x8c-pvqg",
+                "severity": "MODERATE",
+                "description": "Improper Limitation of a Pathname to a Restricted Directory in Zip4j",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+                "published_at": "2022-05-13",
+                "updated_at": "2023-01-27"
+            },
+            {
+                "id": "GHSA-2pj2-gchf-wmw7",
+                "severity": "MODERATE",
+                "description": "Zip4j Origin Validation Error",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2023-01-10",
+                "updated_at": "2023-01-27"
+            }
+        ]
+    }
+}

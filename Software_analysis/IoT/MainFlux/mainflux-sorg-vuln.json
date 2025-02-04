@@ -1,0 +1,278 @@
+{
+    "github.com/docker/docker:v24.0.6+incompatible": {
+        "name": "github.com/docker/docker",
+        "version": "v24.0.6+incompatible",
+        "type": "go-module",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-xw73-rw38-6vjc",
+                "severity": "MODERATE",
+                "description": "Classic builder cache poisoning",
+                "links": [],
+                "cvss_score": 6.9,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:L/I:H/A:L",
+                "published_at": "2024-02-01",
+                "updated_at": "2024-07-05"
+            },
+            {
+                "id": "GHSA-jq35-85cj-fj4p",
+                "severity": "MODERATE",
+                "description": "/sys/devices/virtual/powercap accessible by default to containers",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2023-10-30",
+                "updated_at": "2023-12-27"
+            }
+        ]
+    },
+    "github.com/go-jose/go-jose/v3:v3.0.0": {
+        "name": "github.com/go-jose/go-jose/v3",
+        "version": "v3.0.0",
+        "type": "go-module",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c5q2-7r4c-mv6g",
+                "severity": "MODERATE",
+                "description": "Go JOSE vulnerable to Improper Handling of Highly Compressed Data (Data Amplification)",
+                "links": [],
+                "cvss_score": 4.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2024-03-07",
+                "updated_at": "2024-06-12"
+            },
+            {
+                "id": "GHSA-2c7c-3mj9-8fqh",
+                "severity": "MODERATE",
+                "description": "Decryption of malicious PBES2 JWE objects can consume unbounded system resources",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2023-11-21",
+                "updated_at": "2024-02-27"
+            }
+        ]
+    },
+    "github.com/hashicorp/go-retryablehttp:v0.7.4": {
+        "name": "github.com/hashicorp/go-retryablehttp",
+        "version": "v0.7.4",
+        "type": "go-module",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-v6v8-xj6m-xwqh",
+                "severity": "MODERATE",
+                "description": "go-retryablehttp can leak basic auth credentials to log files",
+                "links": [],
+                "cvss_score": 6.0,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N",
+                "published_at": "2024-06-24",
+                "updated_at": "2024-06-26"
+            }
+        ]
+    },
+    "github.com/jackc/pgx/v5:v5.4.3": {
+        "name": "github.com/jackc/pgx/v5",
+        "version": "v5.4.3",
+        "type": "go-module",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-mrww-27vc-gghv",
+                "severity": "MODERATE",
+                "description": "pgx SQL Injection via Protocol Message Size Overflow",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-03-04",
+                "updated_at": "2024-03-14"
+            },
+            {
+                "id": "GHSA-fqpg-rq76-99pq",
+                "severity": "MODERATE",
+                "description": "Panic in Pipeline when PgConn is busy or closed in github.com/jackc/pgx",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-07-05",
+                "updated_at": "2024-07-05"
+            },
+            {
+                "id": "GHSA-7jwh-3vrq-q3m8",
+                "severity": "MODERATE",
+                "description": "pgproto3 SQL Injection via Protocol Message Size Overflow",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-03-04",
+                "updated_at": "2024-03-14"
+            }
+        ]
+    },
+    "github.com/lestrrat-go/jwx/v2:v2.0.13": {
+        "name": "github.com/lestrrat-go/jwx/v2",
+        "version": "v2.0.13",
+        "type": "go-module",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-pvcr-v8j8-j5q3",
+                "severity": "MODERATE",
+                "description": "Parsing JSON serialized payload without protected field can lead to segfault",
+                "links": [],
+                "cvss_score": 4.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+                "published_at": "2024-01-09",
+                "updated_at": "2024-01-24"
+            },
+            {
+                "id": "GHSA-hj3v-m684-v259",
+                "severity": "MODERATE",
+                "description": "JWX vulnerable to a denial of service attack using compressed JWE message",
+                "links": [],
+                "cvss_score": 6.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:N/I:N/A:H",
+                "published_at": "2024-03-08",
+                "updated_at": "2024-03-11"
+            },
+            {
+                "id": "GHSA-7f9x-gw85-8grf",
+                "severity": "MODERATE",
+                "description": "lestrrat-go/jwx's malicious parameters in JWE can cause a DOS",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2023-12-05",
+                "updated_at": "2024-01-23"
+            }
+        ]
+    },
+    "github.com/nats-io/nkeys:v0.4.5": {
+        "name": "github.com/nats-io/nkeys",
+        "version": "v0.4.5",
+        "type": "go-module",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-mr45-rx8q-wcm9",
+                "severity": "HIGH",
+                "description": "xkeys seal encryption used fixed key for all encryption",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2023-10-31",
+                "updated_at": "2023-12-07"
+            }
+        ]
+    },
+    "github.com/opencontainers/runc:v1.1.9": {
+        "name": "github.com/opencontainers/runc",
+        "version": "v1.1.9",
+        "type": "go-module",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-xr7r-f8xq-vfvv",
+                "severity": "HIGH",
+                "description": "runc vulnerable to container breakout through process.cwd trickery and leaked fds",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+                "published_at": "2024-01-31",
+                "updated_at": "2024-02-20"
+            }
+        ]
+    },
+    "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc:v0.45.0": {
+        "name": "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc",
+        "version": "v0.45.0",
+        "type": "go-module",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-8pgv-569h-w5rw",
+                "severity": "HIGH",
+                "description": "otelgrpc DoS vulnerability due to unbound cardinality metrics ",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2023-11-12",
+                "updated_at": "2023-11-12"
+            }
+        ]
+    },
+    "golang.org/x/crypto:v0.14.0": {
+        "name": "golang.org/x/crypto",
+        "version": "v0.14.0",
+        "type": "go-module",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-45x7-px36-x8w8",
+                "severity": "MODERATE",
+                "description": "Prefix Truncation Attack against ChaCha20-Poly1305 and Encrypt-then-MAC aka Terrapin",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2023-12-18",
+                "updated_at": "2024-05-02"
+            }
+        ]
+    },
+    "golang.org/x/net:v0.17.0": {
+        "name": "golang.org/x/net",
+        "version": "v0.17.0",
+        "type": "go-module",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-4v7x-pqxf-cx7m",
+                "severity": "MODERATE",
+                "description": "net/http, x/net/http2: close connections when receiving too many headers",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2024-04-04",
+                "updated_at": "2024-05-02"
+            }
+        ]
+    },
+    "google.golang.org/protobuf:v1.31.0": {
+        "name": "google.golang.org/protobuf",
+        "version": "v1.31.0",
+        "type": "go-module",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-8r3f-844c-mc37",
+                "severity": "MODERATE",
+                "description": "Golang protojson.Unmarshal function infinite loop when unmarshaling certain forms of invalid JSON",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-03-06",
+                "updated_at": "2024-06-10"
+            }
+        ]
+    },
+    "semver:5.7.1": {
+        "name": "semver",
+        "version": "5.7.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c2qf-rxjj-qqgw",
+                "severity": "MODERATE",
+                "description": "semver vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2023-06-21",
+                "updated_at": "2024-02-14"
+            }
+        ]
+    }
+}

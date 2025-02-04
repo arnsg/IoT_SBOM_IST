@@ -1,0 +1,876 @@
+{
+    "@babel/traverse:7.22.20": {
+        "name": "@babel/traverse",
+        "version": "7.22.20",
+        "type": "npm",
+        "licenses": [
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-67hx-6x53-jw92",
+                "severity": "CRITICAL",
+                "description": "Babel vulnerable to arbitrary code execution when compiling specifically crafted malicious code",
+                "links": [],
+                "cvss_score": 9.4,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2023-10-16",
+                "updated_at": "2024-04-04"
+            }
+        ]
+    },
+    "angular:1.8.3": {
+        "name": "angular",
+        "version": "1.8.3",
+        "type": "npm",
+        "licenses": [
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-4w4v-5hc9-xrr2",
+                "severity": "HIGH",
+                "description": "angular vulnerable to super-linear runtime due to backtracking",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-02-10",
+                "updated_at": "2024-05-14"
+            },
+            {
+                "id": "GHSA-qwqh-hm9m-p5hr",
+                "severity": "MODERATE",
+                "description": "angular vulnerable to regular expression denial of service via the <input type=\"url\"> element",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2023-03-30",
+                "updated_at": "2023-11-03"
+            },
+            {
+                "id": "GHSA-prc3-vjfx-vhm9",
+                "severity": "MODERATE",
+                "description": "Angular (deprecated package) Cross-site Scripting",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2022-07-16",
+                "updated_at": "2023-09-08"
+            },
+            {
+                "id": "GHSA-m2h2-264f-f486",
+                "severity": "MODERATE",
+                "description": "angular vulnerable to regular expression denial of service (ReDoS)",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2022-05-03",
+                "updated_at": "2023-01-30"
+            },
+            {
+                "id": "GHSA-2vrf-hf26-jrp5",
+                "severity": "MODERATE",
+                "description": "angular vulnerable to regular expression denial of service via the angular.copy() utility",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2023-03-30",
+                "updated_at": "2023-11-03"
+            },
+            {
+                "id": "GHSA-2qqx-w9hr-q5gx",
+                "severity": "MODERATE",
+                "description": "angular vulnerable to regular expression denial of service via the $resource service",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2023-03-30",
+                "updated_at": "2023-11-03"
+            }
+        ]
+    },
+    "braces:1.8.5": {
+        "name": "braces",
+        "version": "1.8.5",
+        "type": "npm",
+        "licenses": [
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-grv7-fg5c-xmjg",
+                "severity": "HIGH",
+                "description": "Uncontrolled resource consumption in braces",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-05-14",
+                "updated_at": "2024-07-05"
+            },
+            {
+                "id": "GHSA-g95f-p29q-9xw4",
+                "severity": "LOW",
+                "description": "Regular Expression Denial of Service in braces",
+                "links": [],
+                "cvss_score": 3.7,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2019-06-06",
+                "updated_at": "2023-01-09"
+            },
+            {
+                "id": "GHSA-cwfw-4gq5-mrqx",
+                "severity": "LOW",
+                "description": "Regular Expression Denial of Service (ReDoS) in braces",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-01-06",
+                "updated_at": "2023-02-01"
+            }
+        ]
+    },
+    "braces:2.3.2": {
+        "name": "braces",
+        "version": "2.3.2",
+        "type": "npm",
+        "licenses": [
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-grv7-fg5c-xmjg",
+                "severity": "HIGH",
+                "description": "Uncontrolled resource consumption in braces",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-05-14",
+                "updated_at": "2024-07-05"
+            }
+        ]
+    },
+    "braces:3.0.2": {
+        "name": "braces",
+        "version": "3.0.2",
+        "type": "npm",
+        "licenses": [
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-grv7-fg5c-xmjg",
+                "severity": "HIGH",
+                "description": "Uncontrolled resource consumption in braces",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-05-14",
+                "updated_at": "2024-07-05"
+            }
+        ]
+    },
+    "ckeditor4:4.22.1": {
+        "name": "ckeditor4",
+        "version": "4.22.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-wh5w-82f3-wrxh",
+                "severity": "MODERATE",
+                "description": "CKEditor cross-site scripting vulnerability in AJAX sample",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2024-02-07",
+                "updated_at": "2024-02-07"
+            },
+            {
+                "id": "GHSA-mw2c-vx6j-mg76",
+                "severity": "MODERATE",
+                "description": "CKEditor4 Cross-site Scripting vulnerability in samples with enabled the preview feature",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2024-02-07",
+                "updated_at": "2024-03-01"
+            },
+            {
+                "id": "GHSA-fq6h-4g8v-qqvm",
+                "severity": "MODERATE",
+                "description": "CKEditor4 Cross-site Scripting vulnerability caused by incorrect CDATA detection",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2024-02-07",
+                "updated_at": "2024-03-06"
+            }
+        ]
+    },
+    "dompdf/dompdf:v2.0.3": {
+        "name": "dompdf/dompdf",
+        "version": "v2.0.3",
+        "type": "php-composer",
+        "licenses": [
+            "LGPL-2.1-only"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-3qx2-6f78-w2j2",
+                "severity": "MODERATE",
+                "description": "Denial of service caused by infinite recursion when parsing SVG images",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2023-12-13",
+                "updated_at": "2023-12-18"
+            }
+        ]
+    },
+    "es5-ext:0.10.62": {
+        "name": "es5-ext",
+        "version": "0.10.62",
+        "type": "npm",
+        "licenses": [
+            "ISC"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-4gmj-3p3h-gm8h",
+                "severity": "LOW",
+                "description": "es5-ext vulnerable to Regular Expression Denial of Service in `function#copy` and `function#toStringTokens`",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-02-26",
+                "updated_at": "2024-02-26"
+            }
+        ]
+    },
+    "express:4.16.3": {
+        "name": "express",
+        "version": "4.16.3",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-rv95-896h-c2vc",
+                "severity": "MODERATE",
+                "description": "Express.js Open Redirect in malformed URLs",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2024-03-25",
+                "updated_at": "2024-03-27"
+            }
+        ]
+    },
+    "express:4.18.1": {
+        "name": "express",
+        "version": "4.18.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-rv95-896h-c2vc",
+                "severity": "MODERATE",
+                "description": "Express.js Open Redirect in malformed URLs",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2024-03-25",
+                "updated_at": "2024-03-27"
+            }
+        ]
+    },
+    "got:7.1.0": {
+        "name": "got",
+        "version": "7.1.0",
+        "type": "npm",
+        "licenses": [
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-pfrx-2q88-qq97",
+                "severity": "MODERATE",
+                "description": "Got allows a redirect to a UNIX socket",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2022-06-19",
+                "updated_at": "2023-01-27"
+            }
+        ]
+    },
+    "json:20230227": {
+        "name": "json",
+        "version": "20230227",
+        "type": "java-archive",
+        "licenses": [
+            "https://github.com/stleary/JSON-java/blob/master/LICENSE"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-4jq9-2xhw-jpx7",
+                "severity": "HIGH",
+                "description": "Java: DoS Vulnerability in JSON-JAVA",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2023-11-14",
+                "updated_at": "2023-11-15"
+            }
+        ]
+    },
+    "jszip:3.2.2": {
+        "name": "jszip",
+        "version": "3.2.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-36fh-84j7-cv5h",
+                "severity": "HIGH",
+                "description": "JSZip contains Path Traversal via loadAsync",
+                "links": [],
+                "cvss_score": 7.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+                "published_at": "2023-01-29",
+                "updated_at": "2024-06-21"
+            },
+            {
+                "id": "GHSA-jg8v-48h5-wgxg",
+                "severity": "MODERATE",
+                "description": "jszip Vulnerable to Prototype Pollution",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2021-08-10",
+                "updated_at": "2023-09-21"
+            }
+        ]
+    },
+    "libxmljs2:0.33.0": {
+        "name": "libxmljs2",
+        "version": "0.33.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-mjr4-7xg5-pfvh",
+                "severity": "HIGH",
+                "description": "libxmljs2 type confusion vulnerability when parsing specially crafted XML",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2024-05-02",
+                "updated_at": "2024-05-03"
+            },
+            {
+                "id": "GHSA-78h3-pg4x-j8cv",
+                "severity": "HIGH",
+                "description": "libxmljs vulnerable to type confusion when parsing specially crafted XML",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2024-05-02",
+                "updated_at": "2024-05-03"
+            }
+        ]
+    },
+    "logback-classic:1.2.10": {
+        "name": "logback-classic",
+        "version": "1.2.10",
+        "type": "java-archive",
+        "licenses": [
+            "http://www.eclipse.org/legal/epl-v10.html, http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "published_at": "2023-11-29",
+                "updated_at": "2023-12-05"
+            }
+        ]
+    },
+    "logback-core:1.2.10": {
+        "name": "logback-core",
+        "version": "1.2.10",
+        "type": "java-archive",
+        "licenses": [
+            "http://www.eclipse.org/legal/epl-v10.html, http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "published_at": "2023-11-29",
+                "updated_at": "2023-12-05"
+            }
+        ]
+    },
+    "phenx/php-svg-lib:0.5.0": {
+        "name": "phenx/php-svg-lib",
+        "version": "0.5.0",
+        "type": "php-composer",
+        "licenses": [
+            "LGPL-3.0-only"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-97m3-52wr-xvv2",
+                "severity": "CRITICAL",
+                "description": "Dompdf's usage of vulnerable version of phenx/php-svg-lib leads to restriction bypass and potential RCE",
+                "links": [],
+                "cvss_score": 10.0,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2024-02-22",
+                "updated_at": "2024-03-03"
+            },
+            {
+                "id": "GHSA-ff5x-7qg5-vwf2",
+                "severity": "MODERATE",
+                "description": "Denial of service caused by infinite recursion when parsing SVG document",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2023-12-13",
+                "updated_at": "2023-12-13"
+            },
+            {
+                "id": "GHSA-f3qr-qr4x-j273",
+                "severity": "MODERATE",
+                "description": "php-svg-lib lacks path validation on font through SVG inline styles ",
+                "links": [],
+                "cvss_score": 6.8,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L",
+                "published_at": "2024-02-21",
+                "updated_at": "2024-02-21"
+            }
+        ]
+    },
+    "postcss:7.0.39": {
+        "name": "postcss",
+        "version": "7.0.39",
+        "type": "npm",
+        "licenses": [
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-7fh5-64p2-3v2j",
+                "severity": "MODERATE",
+                "description": "PostCSS line return parsing error",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2023-09-30",
+                "updated_at": "2023-11-05"
+            }
+        ]
+    },
+    "postcss:8.4.30": {
+        "name": "postcss",
+        "version": "8.4.30",
+        "type": "npm",
+        "licenses": [
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-7fh5-64p2-3v2j",
+                "severity": "MODERATE",
+                "description": "PostCSS line return parsing error",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2023-09-30",
+                "updated_at": "2023-11-05"
+            }
+        ]
+    },
+    "qs:6.5.1": {
+        "name": "qs",
+        "version": "6.5.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-hrpp-h998-j3pp",
+                "severity": "HIGH",
+                "description": "qs vulnerable to Prototype Pollution",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-11-27",
+                "updated_at": "2024-02-13"
+            }
+        ]
+    },
+    "smarty/smarty:v4.3.4": {
+        "name": "smarty/smarty",
+        "version": "v4.3.4",
+        "type": "php-composer",
+        "licenses": [
+            "LGPL-3.0-only"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-4rmg-292m-wg3w",
+                "severity": "HIGH",
+                "description": "Smarty vulnerable to PHP Code Injection by malicious attribute in extends-tag",
+                "links": [],
+                "cvss_score": 7.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N",
+                "published_at": "2024-05-29",
+                "updated_at": "2024-05-29"
+            }
+        ]
+    },
+    "snakeyaml:1.25": {
+        "name": "snakeyaml",
+        "version": "1.25",
+        "type": "java-archive",
+        "licenses": [
+            "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-rvwf-54qp-4r6v",
+                "severity": "HIGH",
+                "description": "SnakeYAML Entity Expansion during load operation",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-06-04",
+                "updated_at": "2023-05-22"
+            },
+            {
+                "id": "GHSA-mjmj-j48q-9wg2",
+                "severity": "HIGH",
+                "description": "SnakeYaml Constructor Deserialization Remote Code Execution",
+                "links": [],
+                "cvss_score": 8.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L",
+                "published_at": "2022-12-12",
+                "updated_at": "2024-06-24"
+            },
+            {
+                "id": "GHSA-3mc7-4q67-w48m",
+                "severity": "HIGH",
+                "description": "Uncontrolled Resource Consumption in snakeyaml",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-08-31",
+                "updated_at": "2024-03-15"
+            },
+            {
+                "id": "GHSA-w37g-rhq8-7m4j",
+                "severity": "MODERATE",
+                "description": "Snakeyaml vulnerable to Stack overflow leading to denial of service",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2022-11-11",
+                "updated_at": "2024-06-21"
+            },
+            {
+                "id": "GHSA-hhhw-99gj-p3c3",
+                "severity": "MODERATE",
+                "description": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2022-09-06",
+                "updated_at": "2024-03-15"
+            },
+            {
+                "id": "GHSA-c4r9-r8fh-9vj2",
+                "severity": "MODERATE",
+                "description": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-09-06",
+                "updated_at": "2024-03-15"
+            },
+            {
+                "id": "GHSA-9w3m-gqgf-c4p9",
+                "severity": "MODERATE",
+                "description": "snakeYAML before 1.32 vulnerable to Denial of Service due to Out-of-bounds Write",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-09-06",
+                "updated_at": "2024-03-15"
+            },
+            {
+                "id": "GHSA-98wm-3w3q-mw94",
+                "severity": "MODERATE",
+                "description": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-09-06",
+                "updated_at": "2024-03-15"
+            }
+        ]
+    },
+    "spring-beans:5.2.10.RELEASE": {
+        "name": "spring-beans",
+        "version": "5.2.10.RELEASE",
+        "type": "java-archive",
+        "licenses": [
+            "Apache-2.0",
+            "BSD-3-Clause"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-36p3-wjmg-h94x",
+                "severity": "CRITICAL",
+                "description": "Remote Code Execution in Spring Framework",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-03-31",
+                "updated_at": "2023-01-31"
+            },
+            {
+                "id": "GHSA-hh26-6xwr-ggv7",
+                "severity": "HIGH",
+                "description": "Denial of service in Spring Framework",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-05-13",
+                "updated_at": "2024-03-14"
+            }
+        ]
+    },
+    "spring-boot-autoconfigure:2.2.11.RELEASE": {
+        "name": "spring-boot-autoconfigure",
+        "version": "2.2.11.RELEASE",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-xf96-w227-r7c4",
+                "severity": "HIGH",
+                "description": "Spring Boot Welcome Page Denial of Service",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2023-05-26",
+                "updated_at": "2023-11-07"
+            }
+        ]
+    },
+    "spring-context:5.2.10.RELEASE": {
+        "name": "spring-context",
+        "version": "5.2.10.RELEASE",
+        "type": "java-archive",
+        "licenses": [
+            "Apache-2.0",
+            "BSD-3-Clause"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-g5mm-vmx4-3rg7",
+                "severity": "HIGH",
+                "description": "Improper handling of case sensitivity in Spring Framework",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2022-04-15",
+                "updated_at": "2024-05-15"
+            }
+        ]
+    },
+    "spring-core:5.2.10.RELEASE": {
+        "name": "spring-core",
+        "version": "5.2.10.RELEASE",
+        "type": "java-archive",
+        "licenses": [
+            "Apache-2.0",
+            "BSD-3-Clause"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-rfmp-97jj-h8m6",
+                "severity": "MODERATE",
+                "description": "Improper Output Neutralization for Logs in Spring Framework",
+                "links": [],
+                "cvss_score": 4.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2022-05-24",
+                "updated_at": "2023-01-27"
+            },
+            {
+                "id": "GHSA-6gf2-pvqw-37ph",
+                "severity": "MODERATE",
+                "description": "Log entry injection in Spring Framework",
+                "links": [],
+                "cvss_score": 4.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2022-01-12",
+                "updated_at": "2023-02-03"
+            }
+        ]
+    },
+    "spring-expression:5.2.10.RELEASE": {
+        "name": "spring-expression",
+        "version": "5.2.10.RELEASE",
+        "type": "java-archive",
+        "licenses": [
+            "Apache-2.0",
+            "BSD-3-Clause"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-wxqc-pxw9-g2p8",
+                "severity": "HIGH",
+                "description": "Spring Framework vulnerable to denial of service",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2023-04-13",
+                "updated_at": "2024-06-10"
+            },
+            {
+                "id": "GHSA-564r-hj7v-mcr5",
+                "severity": "MODERATE",
+                "description": "Spring Framework vulnerable to denial of service via specially crafted SpEL expression",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2023-03-23",
+                "updated_at": "2024-03-24"
+            },
+            {
+                "id": "GHSA-558x-2xjg-6232",
+                "severity": "MODERATE",
+                "description": "Allocation of Resources Without Limits or Throttling in Spring Framework",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-04-03",
+                "updated_at": "2023-03-28"
+            }
+        ]
+    },
+    "tar:2.2.2": {
+        "name": "tar",
+        "version": "2.2.2",
+        "type": "npm",
+        "licenses": [
+            "ISC"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-5955-9wpr-37jh",
+                "severity": "HIGH",
+                "description": "Arbitrary File Creation/Overwrite on Windows via insufficient relative path sanitization",
+                "links": [],
+                "cvss_score": 8.2,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N",
+                "published_at": "2021-08-31",
+                "updated_at": "2023-11-29"
+            },
+            {
+                "id": "GHSA-3jfq-g458-7qm9",
+                "severity": "HIGH",
+                "description": "Arbitrary File Creation/Overwrite due to insufficient absolute path sanitization",
+                "links": [],
+                "cvss_score": 8.2,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N",
+                "published_at": "2021-08-03",
+                "updated_at": "2023-02-01"
+            },
+            {
+                "id": "GHSA-f5x3-32g6-xq36",
+                "severity": "MODERATE",
+                "description": "Denial of service while parsing a tar file due to lack of folders count validation",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2024-03-22",
+                "updated_at": "2024-06-10"
+            }
+        ]
+    },
+    "xalan:2.7.2": {
+        "name": "xalan",
+        "version": "2.7.2",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-9339-86wc-4qgf",
+                "severity": "HIGH",
+                "description": "Apache Xalan Java XSLT library integer truncation issue when processing malicious XSLT stylesheets",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2022-07-20",
+                "updated_at": "2024-06-24"
+            }
+        ]
+    },
+    "xml2js:0.2.8": {
+        "name": "xml2js",
+        "version": "0.2.8",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-776f-qx25-q3cc",
+                "severity": "MODERATE",
+                "description": "xml2js is vulnerable to prototype pollution",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2023-04-05",
+                "updated_at": "2024-03-14"
+            }
+        ]
+    },
+    "xmldom:0.5.0": {
+        "name": "xmldom",
+        "version": "0.5.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-crh6-fp67-6883",
+                "severity": "CRITICAL",
+                "description": "xmldom allows multiple root nodes in a DOM",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-11-01",
+                "updated_at": "2023-03-31"
+            },
+            {
+                "id": "GHSA-5fg8-2547-mr8q",
+                "severity": "MODERATE",
+                "description": "Misinterpretation of malicious XML input",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+                "published_at": "2021-08-03",
+                "updated_at": "2024-02-22"
+            }
+        ]
+    }
+}

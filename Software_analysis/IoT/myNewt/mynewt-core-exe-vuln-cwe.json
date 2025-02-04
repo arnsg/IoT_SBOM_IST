@@ -1,0 +1,54 @@
+{
+    "netty-codec:": {
+        "name": "netty-codec",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-grg4-wf29-r9vv",
+                "severity": "HIGH",
+                "description": "Bzip2Decoder doesn't allow setting size restrictions for decompressed data",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-09-09",
+                "updated_at": "2023-08-16",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "netty-handler:": {
+        "name": "netty-handler",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-9959-6p3m-wxpc",
+                "severity": "MODERATE",
+                "description": "Denial of service in Netty",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2020-06-30",
+                "updated_at": "2023-01-09",
+                "CWE_ID": "CWE-119",
+                "CWE_DESCRIPTION": "Improper Restriction of Operations within the Bounds of a Memory Buffer"
+            },
+            {
+                "id": "GHSA-6mjq-h674-j845",
+                "severity": "MODERATE",
+                "description": "netty-handler SniHandler 16MB allocation",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2023-06-20",
+                "updated_at": "2024-06-24",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    }
+}

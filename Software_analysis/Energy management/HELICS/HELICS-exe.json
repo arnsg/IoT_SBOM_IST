@@ -1,0 +1,1593 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:46ece5ee-3a40-45bc-b582-fa001f828370",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-07-30T12:03:39+02:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.4.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "78d53e4327817e61",
+      "type": "file",
+      "name": "/Users/massimocoppolaro/Desktop/Università/Tirocinio2.0/Software/HELICS"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:github/pre-commit/action@v3.0.1?package-id=293949ff5979c2dd",
+      "type": "library",
+      "name": "pre-commit/action",
+      "version": "v3.0.1",
+      "cpe": "cpe:2.3:a:pre-commit\\/action:pre-commit\\/action:v3.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/pre-commit/action@v3.0.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pre-commit\\/action:pre_commit\\/action:v3.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pre_commit\\/action:pre-commit\\/action:v3.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pre_commit\\/action:pre_commit\\/action:v3.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pre:pre-commit\\/action:v3.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pre:pre_commit\\/action:v3.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/swig-interface-gen.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/requests@2.32.0?package-id=aed83c16c7ccaeaa",
+      "type": "library",
+      "name": "requests",
+      "version": "2.32.0",
+      "cpe": "cpe:2.3:a:python:requests:2.32.0:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/requests@2.32.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "python-pip-requirements-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/docs/requirements.txt"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/sphinx@7.2.6?package-id=0ea13481120092bd",
+      "type": "library",
+      "name": "sphinx",
+      "version": "7.2.6",
+      "cpe": "cpe:2.3:a:python-sphinx:python-sphinx:7.2.6:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/sphinx@7.2.6",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "python-pip-requirements-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinx:python_sphinx:7.2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_sphinx:python-sphinx:7.2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_sphinx:python_sphinx:7.2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinx:sphinx:7.2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-sphinx:7.2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_sphinx:7.2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_sphinx:sphinx:7.2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinx:python-sphinx:7.2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinx:python_sphinx:7.2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:sphinx:7.2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinx:sphinx:7.2.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/docs/requirements.txt"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/sphinx-rtd-theme@2.0.0?package-id=bc4368693de38d2d",
+      "type": "library",
+      "name": "sphinx_rtd_theme",
+      "version": "2.0.0",
+      "cpe": "cpe:2.3:a:python-sphinx-rtd-theme:python-sphinx-rtd-theme:2.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/sphinx_rtd_theme@2.0.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "python-pip-requirements-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinx-rtd-theme:python-sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinx-rtd-theme:python_sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinx_rtd_theme:python-sphinx-rtd-theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinx_rtd_theme:python-sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinx_rtd_theme:python_sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_sphinx_rtd_theme:python-sphinx-rtd-theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_sphinx_rtd_theme:python-sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_sphinx_rtd_theme:python_sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinx-rtd:python-sphinx-rtd-theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinx-rtd:python-sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinx-rtd:python_sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinx_rtd:python-sphinx-rtd-theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinx_rtd:python-sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinx_rtd:python_sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_sphinx_rtd:python-sphinx-rtd-theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_sphinx_rtd:python-sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_sphinx_rtd:python_sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinx-rtd-theme:sphinx-rtd-theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinx-rtd-theme:sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinx_rtd_theme:sphinx-rtd-theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinx_rtd_theme:sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_sphinx_rtd_theme:sphinx-rtd-theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_sphinx_rtd_theme:sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinx-rtd-theme:python-sphinx-rtd-theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinx-rtd-theme:python-sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinx-rtd-theme:python_sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinx_rtd_theme:python-sphinx-rtd-theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinx_rtd_theme:python-sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinx_rtd_theme:python_sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinx:python-sphinx-rtd-theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinx:python-sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinx:python_sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_sphinx:python-sphinx-rtd-theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_sphinx:python-sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_sphinx:python_sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinx-rtd:sphinx-rtd-theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinx-rtd:sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinx_rtd:sphinx-rtd-theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinx_rtd:sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_sphinx_rtd:sphinx-rtd-theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_sphinx_rtd:sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinx-rtd:python-sphinx-rtd-theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinx-rtd:python-sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinx-rtd:python_sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinx_rtd:python-sphinx-rtd-theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinx_rtd:python-sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinx_rtd:python_sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinx-rtd-theme:sphinx-rtd-theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinx-rtd-theme:sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinx_rtd_theme:sphinx-rtd-theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinx_rtd_theme:sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinx:sphinx-rtd-theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinx:sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-sphinx-rtd-theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_sphinx:sphinx-rtd-theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_sphinx:sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinx:python-sphinx-rtd-theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinx:python-sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinx:python_sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinx-rtd:sphinx-rtd-theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinx-rtd:sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinx_rtd:sphinx-rtd-theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinx_rtd:sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:sphinx-rtd-theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinx:sphinx-rtd-theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinx:sphinx_rtd_theme:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/docs/requirements.txt"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/sphinxcontrib-mermaid@0.9.2?package-id=ad6d10c019a23e23",
+      "type": "library",
+      "name": "sphinxcontrib-mermaid",
+      "version": "0.9.2",
+      "cpe": "cpe:2.3:a:python-sphinxcontrib-mermaid:python-sphinxcontrib-mermaid:0.9.2:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/sphinxcontrib-mermaid@0.9.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "python-pip-requirements-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinxcontrib-mermaid:python_sphinxcontrib_mermaid:0.9.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_sphinxcontrib_mermaid:python-sphinxcontrib-mermaid:0.9.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_sphinxcontrib_mermaid:python_sphinxcontrib_mermaid:0.9.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinxcontrib-mermaid:sphinxcontrib-mermaid:0.9.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinxcontrib-mermaid:sphinxcontrib_mermaid:0.9.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_sphinxcontrib_mermaid:sphinxcontrib-mermaid:0.9.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_sphinxcontrib_mermaid:sphinxcontrib_mermaid:0.9.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinxcontrib-mermaid:python-sphinxcontrib-mermaid:0.9.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinxcontrib-mermaid:python_sphinxcontrib_mermaid:0.9.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinxcontrib_mermaid:python-sphinxcontrib-mermaid:0.9.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinxcontrib_mermaid:python_sphinxcontrib_mermaid:0.9.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinxcontrib:python-sphinxcontrib-mermaid:0.9.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinxcontrib:python_sphinxcontrib_mermaid:0.9.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_sphinxcontrib:python-sphinxcontrib-mermaid:0.9.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_sphinxcontrib:python_sphinxcontrib_mermaid:0.9.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinxcontrib-mermaid:sphinxcontrib-mermaid:0.9.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinxcontrib-mermaid:sphinxcontrib_mermaid:0.9.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinxcontrib_mermaid:sphinxcontrib-mermaid:0.9.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinxcontrib_mermaid:sphinxcontrib_mermaid:0.9.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinxcontrib:sphinxcontrib-mermaid:0.9.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinxcontrib:sphinxcontrib_mermaid:0.9.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_sphinxcontrib:sphinxcontrib-mermaid:0.9.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_sphinxcontrib:sphinxcontrib_mermaid:0.9.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinxcontrib:python-sphinxcontrib-mermaid:0.9.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinxcontrib:python_sphinxcontrib_mermaid:0.9.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-sphinxcontrib-mermaid:0.9.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_sphinxcontrib_mermaid:0.9.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinxcontrib:sphinxcontrib-mermaid:0.9.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinxcontrib:sphinxcontrib_mermaid:0.9.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:sphinxcontrib-mermaid:0.9.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:sphinxcontrib_mermaid:0.9.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/docs/requirements.txt"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mortbay.jasper.apache-el/apache-el@8.5.70?package-id=a942b831084c6c65",
+      "type": "library",
+      "name": "apache-el",
+      "version": "8.5.70",
+      "licenses": [
+        {
+          "license": {
+            "name": "http://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:apache-el:8.5.70:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.mortbay.jasper.apache-el/apache-el@8.5.70",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "e280d60a1b02f85babcc20ed53d603def113f853"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:apache_el:8.5.70:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:jasper:8.5.70:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/server/lib/jetty/jsp/org.mortbay.jasper.apache-el-8.5.70.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/server/lib/jetty/jsp/org.mortbay.jasper.apache-el-8.5.70.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mortbay.jasper/apache-jsp@8.5.70?package-id=1e52ce9dc7e9000f",
+      "type": "library",
+      "group": "org.mortbay.jasper",
+      "name": "apache-jsp",
+      "version": "8.5.70",
+      "licenses": [
+        {
+          "license": {
+            "name": "http://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:apache-jsp:8.5.70:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.mortbay.jasper/apache-jsp@8.5.70",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "67515d2ae96e9cb442659668b6a58423f112b5ed"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:apache_jsp:8.5.70:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/server/lib/jetty/jsp/org.mortbay.jasper.apache-jsp-8.5.70.jar"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "apache-jsp"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.mortbay.jasper"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/server/lib/jetty/jsp/org.mortbay.jasper.apache-jsp-8.5.70.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty/apache-jsp@9.4.53.v20231009?package-id=13f8a45c8e04d2df",
+      "type": "library",
+      "group": "org.eclipse.jetty",
+      "name": "apache-jsp",
+      "version": "9.4.53.v20231009",
+      "licenses": [
+        {
+          "license": {
+            "name": "http://www.apache.org/licenses/LICENSE-2.0, https://www.eclipse.org/org/documents/epl-v10.php"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:apache-jsp:9.4.53.v20231009:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.eclipse.jetty/apache-jsp@9.4.53.v20231009",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "91cdac2b128e5bc6c425219ddca998ca1bc0839f"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:apache_jsp:9.4.53.v20231009:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/server/lib/jetty/jsp/apache-jsp-9.4.53.v20231009.jar"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "apache-jsp"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.eclipse.jetty"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/server/lib/jetty/jsp/apache-jsp-9.4.53.v20231009.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.objectweb.asm/asm@9.6?package-id=5df66b5495a4b05d",
+      "type": "library",
+      "name": "asm",
+      "version": "9.6",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause;link=https://asm.ow2.io/LICENSE.txt"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:objectweb:asm:9.6:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.objectweb.asm/asm@9.6",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "aa205cf0a06dbd8e04ece91c0b37c3f5d567546a"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm:asm:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/server/lib/jersey/ext/asm-9.6.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/server/lib/jersey/ext/asm-9.6.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.objectweb.asm.tree.analysis/asm-analysis@9.6?package-id=5a4b2e0bed243401",
+      "type": "library",
+      "name": "asm-analysis",
+      "version": "9.6",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause;link=https://asm.ow2.io/LICENSE.txt"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:asm-analysis:asm-analysis:9.6:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.objectweb.asm.tree.analysis/asm-analysis@9.6",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "9ce6c7b174bd997fc2552dff47964546bd7a5ec3"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm-analysis:asm_analysis:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm_analysis:asm-analysis:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm_analysis:asm_analysis:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:objectweb:asm-analysis:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:objectweb:asm_analysis:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:analysis:asm-analysis:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:analysis:asm_analysis:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm-analysis:analysis:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm_analysis:analysis:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:objectweb:analysis:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:analysis:analysis:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm-analysis:tree:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm_analysis:tree:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:tree:asm-analysis:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:tree:asm_analysis:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm-analysis:asm:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm:asm-analysis:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm:asm_analysis:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm_analysis:asm:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:objectweb:tree:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:analysis:tree:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:objectweb:asm:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:tree:analysis:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:analysis:asm:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm:analysis:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:tree:tree:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm:tree:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:tree:asm:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm:asm:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/server/lib/jersey/ext/asm-analysis-9.6.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/server/lib/jersey/ext/asm-analysis-9.6.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.objectweb.asm.commons/asm-commons@9.6?package-id=cc5068d656c4bb49",
+      "type": "library",
+      "name": "asm-commons",
+      "version": "9.6",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause;link=https://asm.ow2.io/LICENSE.txt"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:asm-commons:asm-commons:9.6:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.objectweb.asm.commons/asm-commons@9.6",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "f1a9e5508eff490744144565c47326c8648be309"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm-commons:asm_commons:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm_commons:asm-commons:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm_commons:asm_commons:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:objectweb:asm-commons:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:objectweb:asm_commons:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm-commons:commons:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm_commons:commons:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons:asm-commons:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons:asm_commons:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:objectweb:commons:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm-commons:asm:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm:asm-commons:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm:asm_commons:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm_commons:asm:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons:commons:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:objectweb:asm:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm:commons:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons:asm:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm:asm:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/server/lib/jersey/ext/asm-commons-9.6.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/server/lib/jersey/ext/asm-commons-9.6.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.objectweb.asm.tree/asm-tree@9.6?package-id=ab551a43b48efe32",
+      "type": "library",
+      "name": "asm-tree",
+      "version": "9.6",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause;link=https://asm.ow2.io/LICENSE.txt"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:objectweb:asm-tree:9.6:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.objectweb.asm.tree/asm-tree@9.6",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "c0cdda9d211e965d2a4448aa3fd86110f2f8c2de"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:objectweb:asm_tree:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm-tree:asm-tree:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm-tree:asm_tree:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm_tree:asm-tree:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm_tree:asm_tree:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:objectweb:tree:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm-tree:tree:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm_tree:tree:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:objectweb:asm:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:tree:asm-tree:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:tree:asm_tree:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm-tree:asm:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm:asm-tree:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm:asm_tree:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm_tree:asm:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:tree:tree:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm:tree:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:tree:asm:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm:asm:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/server/lib/jersey/ext/asm-tree-9.6.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/server/lib/jersey/ext/asm-tree-9.6.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.objectweb.asm.util/asm-util@9.6?package-id=6e539402c927cb07",
+      "type": "library",
+      "name": "asm-util",
+      "version": "9.6",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause;link=https://asm.ow2.io/LICENSE.txt"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:objectweb:asm-util:9.6:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.objectweb.asm.util/asm-util@9.6",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "f77caf84eb93786a749b2baa40865b9613e3eaee"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:objectweb:asm_util:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm-util:asm-util:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm-util:asm_util:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm_util:asm-util:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm_util:asm_util:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:objectweb:util:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm-util:util:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm_util:util:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:objectweb:asm:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:util:asm-util:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:util:asm_util:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm-util:asm:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm:asm-util:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm:asm_util:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm_util:asm:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:util:util:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm:util:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:util:asm:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm:asm:9.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/server/lib/jersey/ext/asm-util-9.6.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/server/lib/jersey/ext/asm-util-9.6.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/sphinxcontrib-svg2pdfconverter@1.2.2?package-id=77cd2a8217003c9a",
+      "type": "library",
+      "name": "sphinxcontrib-svg2pdfconverter",
+      "version": "1.2.2",
+      "cpe": "cpe:2.3:a:python-sphinxcontrib-svg2pdfconverter:python-sphinxcontrib-svg2pdfconverter:1.2.2:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/sphinxcontrib-svg2pdfconverter@1.2.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "python-pip-requirements-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinxcontrib-svg2pdfconverter:python_sphinxcontrib_svg2pdfconverter:1.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_sphinxcontrib_svg2pdfconverter:python-sphinxcontrib-svg2pdfconverter:1.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_sphinxcontrib_svg2pdfconverter:python_sphinxcontrib_svg2pdfconverter:1.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinxcontrib-svg2pdfconverter:sphinxcontrib-svg2pdfconverter:1.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinxcontrib-svg2pdfconverter:sphinxcontrib_svg2pdfconverter:1.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_sphinxcontrib_svg2pdfconverter:sphinxcontrib-svg2pdfconverter:1.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_sphinxcontrib_svg2pdfconverter:sphinxcontrib_svg2pdfconverter:1.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinxcontrib-svg2pdfconverter:python-sphinxcontrib-svg2pdfconverter:1.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinxcontrib-svg2pdfconverter:python_sphinxcontrib_svg2pdfconverter:1.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinxcontrib_svg2pdfconverter:python-sphinxcontrib-svg2pdfconverter:1.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinxcontrib_svg2pdfconverter:python_sphinxcontrib_svg2pdfconverter:1.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinxcontrib-svg2pdfconverter:sphinxcontrib-svg2pdfconverter:1.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinxcontrib-svg2pdfconverter:sphinxcontrib_svg2pdfconverter:1.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinxcontrib_svg2pdfconverter:sphinxcontrib-svg2pdfconverter:1.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinxcontrib_svg2pdfconverter:sphinxcontrib_svg2pdfconverter:1.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinxcontrib:python-sphinxcontrib-svg2pdfconverter:1.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinxcontrib:python_sphinxcontrib_svg2pdfconverter:1.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_sphinxcontrib:python-sphinxcontrib-svg2pdfconverter:1.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_sphinxcontrib:python_sphinxcontrib_svg2pdfconverter:1.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinxcontrib:sphinxcontrib-svg2pdfconverter:1.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-sphinxcontrib:sphinxcontrib_svg2pdfconverter:1.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_sphinxcontrib:sphinxcontrib-svg2pdfconverter:1.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_sphinxcontrib:sphinxcontrib_svg2pdfconverter:1.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinxcontrib:python-sphinxcontrib-svg2pdfconverter:1.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinxcontrib:python_sphinxcontrib_svg2pdfconverter:1.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-sphinxcontrib-svg2pdfconverter:1.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_sphinxcontrib_svg2pdfconverter:1.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinxcontrib:sphinxcontrib-svg2pdfconverter:1.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sphinxcontrib:sphinxcontrib_svg2pdfconverter:1.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:sphinxcontrib-svg2pdfconverter:1.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:sphinxcontrib_svg2pdfconverter:1.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/docs/requirements.txt"
+        }
+      ]
+    }
+  ]
+}

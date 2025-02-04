@@ -1,0 +1,22 @@
+{
+    "golang.org/x/net:v0.19.0": {
+        "name": "golang.org/x/net",
+        "version": "v0.19.0",
+        "type": "go-module",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-4v7x-pqxf-cx7m",
+                "severity": "MODERATE",
+                "description": "net/http, x/net/http2: close connections when receiving too many headers",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2024-04-04",
+                "updated_at": "2024-05-02",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    }
+}

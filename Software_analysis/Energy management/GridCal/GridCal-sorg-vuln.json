@@ -1,0 +1,30 @@
+{
+    "py:1.10.0": {
+        "name": "py",
+        "version": "1.10.0",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-w596-4wvx-j9j6",
+                "severity": "HIGH",
+                "description": "ReDoS in py library when used with subversion ",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-10-16",
+                "updated_at": "2023-08-17"
+            },
+            {
+                "id": "GHSA-w596-4wvx-j9j6",
+                "severity": "HIGH",
+                "description": "ReDoS in py library when used with subversion ",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-10-16",
+                "updated_at": "2023-08-17"
+            }
+        ]
+    }
+}

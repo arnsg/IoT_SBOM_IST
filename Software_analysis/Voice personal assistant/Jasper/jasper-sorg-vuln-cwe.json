@@ -1,0 +1,102 @@
+{
+    "PyYAML:3.11": {
+        "name": "PyYAML",
+        "version": "3.11",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-rprw-h62v-c2w7",
+                "severity": "CRITICAL",
+                "description": "PyYAML insecurely deserializes YAML strings leading to arbitrary code execution",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2019-01-04",
+                "updated_at": "2023-09-05",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-8q59-q68h-6hv4",
+                "severity": "CRITICAL",
+                "description": "Improper Input Validation in PyYAML",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-03-25",
+                "updated_at": "2023-08-23",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            },
+            {
+                "id": "GHSA-6757-jp84-gxfx",
+                "severity": "CRITICAL",
+                "description": "Improper Input Validation in PyYAML",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-04-20",
+                "updated_at": "2023-08-25",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            }
+        ]
+    },
+    "requests:2.5.0": {
+        "name": "requests",
+        "version": "2.5.0",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-x84v-xcm2-53pg",
+                "severity": "HIGH",
+                "description": "Insufficiently Protected Credentials in Requests",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2018-10-29",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-522",
+                "CWE_DESCRIPTION": "Insufficiently Protected Credentials"
+            },
+            {
+                "id": "GHSA-pg2w-x9wp-vw92",
+                "severity": "MODERATE",
+                "description": "Python Requests Session Fixation",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-13",
+                "updated_at": "2023-12-07",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-j8r2-6x86-q33q",
+                "severity": "MODERATE",
+                "description": "Unintended leak of Proxy-Authorization header in requests",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:N/A:N",
+                "published_at": "2023-05-22",
+                "updated_at": "2024-03-27",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            },
+            {
+                "id": "GHSA-9wx4-h78v-vm56",
+                "severity": "MODERATE",
+                "description": "Requests `Session` object does not verify requests after making first request with verify=False",
+                "links": [],
+                "cvss_score": 5.6,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:U/C:H/I:H/A:N",
+                "published_at": "2024-05-20",
+                "updated_at": "2024-06-10",
+                "CWE_ID": "CWE-670",
+                "CWE_DESCRIPTION": "Always-Incorrect Control Flow Implementation"
+            }
+        ]
+    }
+}

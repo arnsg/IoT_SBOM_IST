@@ -1,0 +1,924 @@
+{
+    "aws-java-sdk-s3:1.11.364": {
+        "name": "aws-java-sdk-s3",
+        "version": "1.11.364",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c28r-hw5m-5gv3",
+                "severity": "HIGH",
+                "description": "Partial Path Traversal in com.amazonaws:aws-java-sdk-s3 ",
+                "links": [],
+                "cvss_score": 7.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:L",
+                "published_at": "2022-07-15",
+                "updated_at": "2023-01-27"
+            }
+        ]
+    },
+    "commons-fileupload:1.3.3": {
+        "name": "commons-fileupload",
+        "version": "1.3.3",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-hfrx-6qgj-fp6c",
+                "severity": "HIGH",
+                "description": "Apache Commons FileUpload denial of service vulnerability",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2023-02-20",
+                "updated_at": "2024-04-18"
+            }
+        ]
+    },
+    "commons-io:2.4": {
+        "name": "commons-io",
+        "version": "2.4",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-gwrp-pvrq-jmwv",
+                "severity": "MODERATE",
+                "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+                "links": [],
+                "cvss_score": 4.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+                "published_at": "2021-04-26",
+                "updated_at": "2024-02-14"
+            }
+        ]
+    },
+    "guava:30.0-jre": {
+        "name": "guava",
+        "version": "30.0-jre",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-7g45-4rm6-3mm3",
+                "severity": "MODERATE",
+                "description": "Guava vulnerable to insecure use of temporary directory",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2023-06-14",
+                "updated_at": "2024-02-13"
+            },
+            {
+                "id": "GHSA-5mg8-w23w-74h3",
+                "severity": "LOW",
+                "description": "Information Disclosure in Guava",
+                "links": [],
+                "cvss_score": 3.3,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+                "published_at": "2021-03-25",
+                "updated_at": "2023-11-09"
+            }
+        ]
+    },
+    "hibernate-validator:": {
+        "name": "hibernate-validator",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-rmrm-75hp-phr2",
+                "severity": "MODERATE",
+                "description": "Improper Input Validation in Hibernate Validator",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2021-06-04",
+                "updated_at": "2023-02-01"
+            }
+        ]
+    },
+    "httpclient:": {
+        "name": "httpclient",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-2x83-r56g-cv47",
+                "severity": "HIGH",
+                "description": "Improper certificate validation in org.apache.httpcomponents:httpclient",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2018-10-17",
+                "updated_at": "2024-03-05"
+            },
+            {
+                "id": "GHSA-2x83-r56g-cv47",
+                "severity": "HIGH",
+                "description": "Improper certificate validation in org.apache.httpcomponents:httpclient",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2018-10-17",
+                "updated_at": "2024-03-05"
+            },
+            {
+                "id": "GHSA-fmj5-wv96-r2ch",
+                "severity": "MODERATE",
+                "description": "Denial of service vulnerability in org.apache.httpcomponents:httpclient",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2018-10-17",
+                "updated_at": "2023-02-13"
+            },
+            {
+                "id": "GHSA-fmj5-wv96-r2ch",
+                "severity": "MODERATE",
+                "description": "Denial of service vulnerability in org.apache.httpcomponents:httpclient",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2018-10-17",
+                "updated_at": "2023-02-13"
+            },
+            {
+                "id": "GHSA-cfh5-3ghh-wfjx",
+                "severity": "MODERATE",
+                "description": "Improper Verification of Cryptographic Signature in org.apache.httpcomponents:httpclient",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2018-10-17",
+                "updated_at": "2024-04-12"
+            },
+            {
+                "id": "GHSA-cfh5-3ghh-wfjx",
+                "severity": "MODERATE",
+                "description": "Improper Verification of Cryptographic Signature in org.apache.httpcomponents:httpclient",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2018-10-17",
+                "updated_at": "2024-04-12"
+            },
+            {
+                "id": "GHSA-7r82-7xv7-xcpj",
+                "severity": "MODERATE",
+                "description": "Cross-site scripting in Apache HttpClient",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2021-06-03",
+                "updated_at": "2023-02-01"
+            },
+            {
+                "id": "GHSA-7r82-7xv7-xcpj",
+                "severity": "MODERATE",
+                "description": "Cross-site scripting in Apache HttpClient",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2021-06-03",
+                "updated_at": "2023-02-01"
+            }
+        ]
+    },
+    "jackson-databind:": {
+        "name": "jackson-databind",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-rfx6-vp9g-rh7v",
+                "severity": "CRITICAL",
+                "description": "jackson-databind vulnerable to remote code execution due to incorrect deserialization and blocklist bypass",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2018-10-18",
+                "updated_at": "2024-03-01"
+            },
+            {
+                "id": "GHSA-qxxx-2pp7-5hmx",
+                "severity": "CRITICAL",
+                "description": "jackson-databind is vulnerable to a deserialization flaw",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2018-10-16",
+                "updated_at": "2024-03-01"
+            },
+            {
+                "id": "GHSA-h822-r4r5-v8jg",
+                "severity": "CRITICAL",
+                "description": "Polymorphic Typing issue in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2019-09-23",
+                "updated_at": "2024-03-15"
+            },
+            {
+                "id": "GHSA-gjmw-vf9h-g25v",
+                "severity": "CRITICAL",
+                "description": "jackson-databind polymorphic typing issue",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2019-11-13",
+                "updated_at": "2023-09-14"
+            },
+            {
+                "id": "GHSA-fmmc-742q-jg75",
+                "severity": "CRITICAL",
+                "description": "jackson-databind polymorphic typing issue",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2019-11-13",
+                "updated_at": "2023-09-14"
+            },
+            {
+                "id": "GHSA-f3j5-rmmp-3fc5",
+                "severity": "CRITICAL",
+                "description": "Improper Input Validation in jackson-databind",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2020-06-15",
+                "updated_at": "2023-09-13"
+            },
+            {
+                "id": "GHSA-cggj-fvv3-cqwv",
+                "severity": "CRITICAL",
+                "description": "FasterXML jackson-databind allows unauthenticated remote code execution ",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2018-10-16",
+                "updated_at": "2024-03-15"
+            },
+            {
+                "id": "GHSA-85cw-hj65-qqv9",
+                "severity": "CRITICAL",
+                "description": "Polymorphic Typing issue in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2019-09-23",
+                "updated_at": "2023-09-13"
+            },
+            {
+                "id": "GHSA-6fpp-rgj9-8rwc",
+                "severity": "CRITICAL",
+                "description": "Deserialization of untrusted data in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2019-08-01",
+                "updated_at": "2023-09-13"
+            },
+            {
+                "id": "GHSA-w3f4-3q6j-rh82",
+                "severity": "HIGH",
+                "description": "Deserialization of Untrusted Data in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2020-06-30",
+                "updated_at": "2024-03-01"
+            },
+            {
+                "id": "GHSA-vfqx-33qm-g869",
+                "severity": "HIGH",
+                "description": "Unsafe Deserialization in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-12-09",
+                "updated_at": "2023-09-14"
+            },
+            {
+                "id": "GHSA-rpr3-cw39-3pxh",
+                "severity": "HIGH",
+                "description": "jackson-databind before 2.9.10.4 vulnerable to unsafe deserialization",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-07-15",
+                "updated_at": "2023-08-18"
+            },
+            {
+                "id": "GHSA-rgv9-q543-rqg4",
+                "severity": "HIGH",
+                "description": "Uncontrolled Resource Consumption in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-10-03",
+                "updated_at": "2024-03-24"
+            },
+            {
+                "id": "GHSA-gwp4-hfv6-p7hw",
+                "severity": "HIGH",
+                "description": "Deserialization of untrusted data in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2019-08-01",
+                "updated_at": "2023-11-27"
+            },
+            {
+                "id": "GHSA-cjjf-94ff-43w7",
+                "severity": "HIGH",
+                "description": "jackson-databind Deserialization of Untrusted Data vulnerability",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2019-03-25",
+                "updated_at": "2024-03-01"
+            },
+            {
+                "id": "GHSA-cf6r-3wgc-h863",
+                "severity": "HIGH",
+                "description": "Polymorphic deserialization of malicious object in jackson-databind",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2020-05-15",
+                "updated_at": "2023-09-14"
+            },
+            {
+                "id": "GHSA-5949-rw7g-wx7w",
+                "severity": "HIGH",
+                "description": "Deserialization of untrusted data in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-01-20",
+                "updated_at": "2024-03-15"
+            },
+            {
+                "id": "GHSA-57j2-w4cx-62h2",
+                "severity": "HIGH",
+                "description": "Deeply nested json in jackson-databind",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-03-12",
+                "updated_at": "2024-03-15"
+            }
+        ]
+    },
+    "junit:4.13": {
+        "name": "junit",
+        "version": "4.13",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-269g-pwp5-87pp",
+                "severity": "MODERATE",
+                "description": "TemporaryFolder on unix-like systems does not limit access to created files",
+                "links": [],
+                "cvss_score": 4.4,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:N/A:N",
+                "published_at": "2020-10-12",
+                "updated_at": "2023-02-01"
+            }
+        ]
+    },
+    "logback-classic:1.2.3": {
+        "name": "logback-classic",
+        "version": "1.2.3",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "published_at": "2023-11-29",
+                "updated_at": "2023-12-05"
+            }
+        ]
+    },
+    "logback-core:1.2.3": {
+        "name": "logback-core",
+        "version": "1.2.3",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "published_at": "2023-11-29",
+                "updated_at": "2023-12-05"
+            },
+            {
+                "id": "GHSA-668q-qrv7-99fm",
+                "severity": "MODERATE",
+                "description": "Deserialization of Untrusted Data in logback",
+                "links": [],
+                "cvss_score": 6.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-12-17",
+                "updated_at": "2023-01-30"
+            }
+        ]
+    },
+    "mysql-connector-java:5.1.15": {
+        "name": "mysql-connector-java",
+        "version": "5.1.15",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-4vrv-ch96-6h42",
+                "severity": "HIGH",
+                "description": "Improper Privilege Management in MySQL Connectors Java",
+                "links": [],
+                "cvss_score": 8.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-05-13",
+                "updated_at": "2023-01-27"
+            },
+            {
+                "id": "GHSA-2xxh-f8r3-hvvr",
+                "severity": "HIGH",
+                "description": "Improper Access Control in MySQL Connectors Java",
+                "links": [],
+                "cvss_score": 8.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2022-05-13",
+                "updated_at": "2023-01-27"
+            },
+            {
+                "id": "GHSA-pwh7-92h3-mqr6",
+                "severity": "MODERATE",
+                "description": "Exposure of Sensitive Information to an Unauthorized Actor in Oracle MySQL Connectors Java",
+                "links": [],
+                "cvss_score": 6.4,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
+                "published_at": "2022-05-13",
+                "updated_at": "2023-01-27"
+            },
+            {
+                "id": "GHSA-jcq3-cprp-m333",
+                "severity": "MODERATE",
+                "description": "Privilege escalation in mysql-connector-jav",
+                "links": [],
+                "cvss_score": 6.3,
+                "vector_attack": "CVSS:3.0/AV:L/AC:H/PR:H/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2020-07-01",
+                "updated_at": "2023-01-09"
+            },
+            {
+                "id": "GHSA-gc43-g62c-99g2",
+                "severity": "MODERATE",
+                "description": "Improper Access Control in MySQL Connectors Java",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-17",
+                "updated_at": "2023-01-27"
+            },
+            {
+                "id": "GHSA-g76j-4cxx-23h9",
+                "severity": "MODERATE",
+                "description": "Improper Handling of Insufficient Permissions or Privileges in MySQL Connectors Java",
+                "links": [],
+                "cvss_score": 6.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-01-20",
+                "updated_at": "2023-01-27"
+            },
+            {
+                "id": "GHSA-cjcf-wm2p-59h5",
+                "severity": "LOW",
+                "description": "Exposure of Sensitive Information to an Unauthorized Actor in Oracle MySQL Connectors Java",
+                "links": [],
+                "cvss_score": 3.3,
+                "vector_attack": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2022-05-13",
+                "updated_at": "2023-01-27"
+            }
+        ]
+    },
+    "spring-boot-starter-web:": {
+        "name": "spring-boot-starter-web",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-36p3-wjmg-h94x",
+                "severity": "CRITICAL",
+                "description": "Remote Code Execution in Spring Framework",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-03-31",
+                "updated_at": "2023-01-31"
+            }
+        ]
+    },
+    "spring-context:": {
+        "name": "spring-context",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-g5mm-vmx4-3rg7",
+                "severity": "HIGH",
+                "description": "Improper handling of case sensitivity in Spring Framework",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2022-04-15",
+                "updated_at": "2024-05-15"
+            },
+            {
+                "id": "GHSA-g5mm-vmx4-3rg7",
+                "severity": "HIGH",
+                "description": "Improper handling of case sensitivity in Spring Framework",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2022-04-15",
+                "updated_at": "2024-05-15"
+            },
+            {
+                "id": "GHSA-g5mm-vmx4-3rg7",
+                "severity": "HIGH",
+                "description": "Improper handling of case sensitivity in Spring Framework",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2022-04-15",
+                "updated_at": "2024-05-15"
+            },
+            {
+                "id": "GHSA-g5mm-vmx4-3rg7",
+                "severity": "HIGH",
+                "description": "Improper handling of case sensitivity in Spring Framework",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2022-04-15",
+                "updated_at": "2024-05-15"
+            }
+        ]
+    },
+    "spring-core:": {
+        "name": "spring-core",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-p5hg-3xm3-gcjg",
+                "severity": "CRITICAL",
+                "description": "Spring Framework allows applications to expose STOMP over WebSocket endpoints",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2018-10-17",
+                "updated_at": "2023-02-01"
+            },
+            {
+                "id": "GHSA-3rmv-2pg5-xvqj",
+                "severity": "CRITICAL",
+                "description": "Improperly Implemented Security Check for Standard in org.springframework:spring-core",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2018-10-17",
+                "updated_at": "2024-03-06"
+            },
+            {
+                "id": "GHSA-wv88-pf73-x22p",
+                "severity": "HIGH",
+                "description": "Improper Neutralization of Directives in Dynamically Evaluated Code in Spring Framework",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-17",
+                "updated_at": "2024-02-27"
+            },
+            {
+                "id": "GHSA-pgf9-h69p-pcgf",
+                "severity": "HIGH",
+                "description": "Files or Directories Accessible to External Parties in org.springframework:spring-core",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+                "published_at": "2018-10-17",
+                "updated_at": "2024-03-15"
+            },
+            {
+                "id": "GHSA-8crv-49fr-2h6j",
+                "severity": "HIGH",
+                "description": "Spring Security and Spring Framework may not recognize certain paths that should be protected",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2018-10-17",
+                "updated_at": "2024-03-05"
+            },
+            {
+                "id": "GHSA-4487-x383-qpph",
+                "severity": "HIGH",
+                "description": "Possible privilege escalation in org.springframework:spring-core",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2018-10-17",
+                "updated_at": "2024-03-08"
+            },
+            {
+                "id": "GHSA-rcpf-vj53-7h2m",
+                "severity": "MODERATE",
+                "description": "Denial of Service in org.springframework:spring-core",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2018-10-17",
+                "updated_at": "2024-03-16"
+            },
+            {
+                "id": "GHSA-g8hw-794c-4j9g",
+                "severity": "MODERATE",
+                "description": "Path Traversal in org.springframework:spring-core",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2018-10-17",
+                "updated_at": "2024-03-07"
+            }
+        ]
+    },
+    "spring-data-mongodb:": {
+        "name": "spring-data-mongodb",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-w24x-87mr-4r23",
+                "severity": "CRITICAL",
+                "description": "SpEL Injection in Spring Data MongoDB",
+                "links": [],
+                "cvss_score": 9.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2022-06-24",
+                "updated_at": "2023-01-27"
+            },
+            {
+                "id": "GHSA-w24x-87mr-4r23",
+                "severity": "CRITICAL",
+                "description": "SpEL Injection in Spring Data MongoDB",
+                "links": [],
+                "cvss_score": 9.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2022-06-24",
+                "updated_at": "2023-01-27"
+            },
+            {
+                "id": "GHSA-w24x-87mr-4r23",
+                "severity": "CRITICAL",
+                "description": "SpEL Injection in Spring Data MongoDB",
+                "links": [],
+                "cvss_score": 9.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2022-06-24",
+                "updated_at": "2023-01-27"
+            },
+            {
+                "id": "GHSA-w24x-87mr-4r23",
+                "severity": "CRITICAL",
+                "description": "SpEL Injection in Spring Data MongoDB",
+                "links": [],
+                "cvss_score": 9.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2022-06-24",
+                "updated_at": "2023-01-27"
+            }
+        ]
+    },
+    "spring-expression:": {
+        "name": "spring-expression",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-wxqc-pxw9-g2p8",
+                "severity": "HIGH",
+                "description": "Spring Framework vulnerable to denial of service",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2023-04-13",
+                "updated_at": "2024-06-10"
+            },
+            {
+                "id": "GHSA-564r-hj7v-mcr5",
+                "severity": "MODERATE",
+                "description": "Spring Framework vulnerable to denial of service via specially crafted SpEL expression",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2023-03-23",
+                "updated_at": "2024-03-24"
+            },
+            {
+                "id": "GHSA-558x-2xjg-6232",
+                "severity": "MODERATE",
+                "description": "Allocation of Resources Without Limits or Throttling in Spring Framework",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-04-03",
+                "updated_at": "2023-03-28"
+            }
+        ]
+    },
+    "spring-security-core:": {
+        "name": "spring-security-core",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-wmv4-5w76-vp9g",
+                "severity": "CRITICAL",
+                "description": "Authorization Bypass in Spring Security",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2020-09-15",
+                "updated_at": "2024-04-16"
+            },
+            {
+                "id": "GHSA-hh32-7344-cg2f",
+                "severity": "CRITICAL",
+                "description": "Authorization bypass in Spring Security",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-05-20",
+                "updated_at": "2024-07-05"
+            },
+            {
+                "id": "GHSA-v35c-49j6-q8hq",
+                "severity": "HIGH",
+                "description": "Security Constraint Bypass in Spring Security",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2020-09-15",
+                "updated_at": "2024-05-15"
+            },
+            {
+                "id": "GHSA-v33x-prhc-gph5",
+                "severity": "HIGH",
+                "description": "Insufficiently Protected Credentials and Improper Authentication in Spring Security",
+                "links": [],
+                "cvss_score": 7.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+                "published_at": "2019-06-27",
+                "updated_at": "2023-01-28"
+            },
+            {
+                "id": "GHSA-f3jh-qvm4-mg39",
+                "severity": "HIGH",
+                "description": "Erroneous authentication pass in Spring Security",
+                "links": [],
+                "cvss_score": 8.2,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+                "published_at": "2024-03-18",
+                "updated_at": "2024-04-19"
+            },
+            {
+                "id": "GHSA-8crv-49fr-2h6j",
+                "severity": "HIGH",
+                "description": "Spring Security and Spring Framework may not recognize certain paths that should be protected",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2018-10-17",
+                "updated_at": "2024-03-05"
+            },
+            {
+                "id": "GHSA-5xm9-rf63-wj7h",
+                "severity": "MODERATE",
+                "description": "Improper Control of Generation of Code in Spring Security",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-17",
+                "updated_at": "2023-01-27"
+            },
+            {
+                "id": "GHSA-4644-hg35-55m9",
+                "severity": "MODERATE",
+                "description": "Concurrent Execution using Shared Resource with Improper Synchronization in Spring Security",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-17",
+                "updated_at": "2023-01-27"
+            },
+            {
+                "id": "GHSA-3533-rvpc-6x56",
+                "severity": "MODERATE",
+                "description": "Exposure of Sensitive Information to an Unauthorized Actor in Spring Security",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-17",
+                "updated_at": "2023-01-27"
+            },
+            {
+                "id": "GHSA-2ppp-9496-p23q",
+                "severity": "MODERATE",
+                "description": "Insufficient Entropy in Spring Security",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2020-06-15",
+                "updated_at": "2023-02-01"
+            }
+        ]
+    },
+    "spring-security-web:": {
+        "name": "spring-security-web",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-gq28-h5vg-8prx",
+                "severity": "HIGH",
+                "description": "Privilege escalation in spring security",
+                "links": [],
+                "cvss_score": 8.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-05-10",
+                "updated_at": "2023-02-01"
+            }
+        ]
+    },
+    "spring-webmvc:": {
+        "name": "spring-webmvc",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-36p3-wjmg-h94x",
+                "severity": "CRITICAL",
+                "description": "Remote Code Execution in Spring Framework",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-03-31",
+                "updated_at": "2023-01-31"
+            },
+            {
+                "id": "GHSA-2m8h-fgr8-2q9w",
+                "severity": "HIGH",
+                "description": "Pivotal Spring Framework Paths provided to the ResourceServlet were not properly sanitized",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2018-10-04",
+                "updated_at": "2024-03-05"
+            },
+            {
+                "id": "GHSA-8cmm-qj8g-fcp6",
+                "severity": "MODERATE",
+                "description": "Cross-Site Request Forgery in Spring Framework",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-13",
+                "updated_at": "2024-02-27"
+            }
+        ]
+    }
+}

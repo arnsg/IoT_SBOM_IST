@@ -1,0 +1,38 @@
+{
+    "pydash:4.7.6": {
+        "name": "pydash",
+        "version": "4.7.6",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-8mjr-6c96-39w8",
+                "severity": "HIGH",
+                "description": "pydash Command Injection vulnerability",
+                "links": [],
+                "cvss_score": 7.4,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+                "published_at": "2023-09-28",
+                "updated_at": "2023-11-07"
+            }
+        ]
+    },
+    "pyinstaller:3.6": {
+        "name": "pyinstaller",
+        "version": "3.6",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-9w2p-rh8c-v9g5",
+                "severity": "HIGH",
+                "description": "Local Privilege Escalation in Windows",
+                "links": [],
+                "cvss_score": 8.8,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2023-12-09",
+                "updated_at": "2023-12-19"
+            }
+        ]
+    }
+}

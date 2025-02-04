@@ -1,0 +1,811 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:0583a401-5ada-4f88-89b5-ab9ffcf9d0b7",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-07-10T15:44:23+02:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.4.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "553f6cda7968af06",
+      "type": "file",
+      "name": "/Users/massimocoppolaro/Desktop/Università/Tirocinio/Software/gz-sim"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:github/actions/add-to-project@v0.5.0?package-id=827c150a44543331",
+      "type": "library",
+      "name": "actions/add-to-project",
+      "version": "v0.5.0",
+      "cpe": "cpe:2.3:a:actions\\/add-to-project:actions\\/add-to-project:v0.5.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/add-to-project@v0.5.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/add-to-project:actions\\/add_to_project:v0.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/add_to_project:actions\\/add-to-project:v0.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/add_to_project:actions\\/add_to_project:v0.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/add-to:actions\\/add-to-project:v0.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/add-to:actions\\/add_to_project:v0.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/add_to:actions\\/add-to-project:v0.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/add_to:actions\\/add_to_project:v0.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/add:actions\\/add-to-project:v0.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/add:actions\\/add_to_project:v0.5.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/triage.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v4?package-id=c17d5ce71f795bed",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v4",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/ci.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/setup-python@v3?package-id=1dcdc5c27ca077fa",
+      "type": "library",
+      "name": "actions/setup-python",
+      "version": "v3",
+      "cpe": "cpe:2.3:a:actions\\/setup-python:actions\\/setup-python:v3:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/setup-python@v3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup-python:actions\\/setup_python:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_python:actions\\/setup-python:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_python:actions\\/setup_python:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup-python:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup_python:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/ci.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/gazebo-tooling/action-gz-ci@jammy?package-id=34b982a9cf7c6851",
+      "type": "library",
+      "name": "gazebo-tooling/action-gz-ci",
+      "version": "jammy",
+      "cpe": "cpe:2.3:a:gazebo-tooling\\/action-gz-ci:gazebo-tooling\\/action-gz-ci:jammy:*:*:*:*:*:*:*",
+      "purl": "pkg:github/gazebo-tooling/action-gz-ci@jammy",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo-tooling\\/action-gz-ci:gazebo_tooling\\/action_gz_ci:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo_tooling\\/action_gz_ci:gazebo-tooling\\/action-gz-ci:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo_tooling\\/action_gz_ci:gazebo_tooling\\/action_gz_ci:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo-tooling\\/action-gz:gazebo-tooling\\/action-gz-ci:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo-tooling\\/action-gz:gazebo_tooling\\/action_gz_ci:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo_tooling\\/action_gz:gazebo-tooling\\/action-gz-ci:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo_tooling\\/action_gz:gazebo_tooling\\/action_gz_ci:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo-tooling\\/action:gazebo-tooling\\/action-gz-ci:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo-tooling\\/action:gazebo_tooling\\/action_gz_ci:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo_tooling\\/action:gazebo-tooling\\/action-gz-ci:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo_tooling\\/action:gazebo_tooling\\/action_gz_ci:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo:gazebo-tooling\\/action-gz-ci:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo:gazebo_tooling\\/action_gz_ci:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/ci.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/gazebo-tooling/action-gz-ci@jammy?package-id=d44baa040dfd75ad#validate_package_xml",
+      "type": "library",
+      "name": "gazebo-tooling/action-gz-ci/validate_package_xml",
+      "version": "jammy",
+      "cpe": "cpe:2.3:a:gazebo-tooling\\/action-gz-ci\\/validate-package-xml:gazebo-tooling\\/action-gz-ci\\/validate-package-xml:jammy:*:*:*:*:*:*:*",
+      "purl": "pkg:github/gazebo-tooling/action-gz-ci@jammy#validate_package_xml",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo-tooling\\/action-gz-ci\\/validate-package-xml:gazebo-tooling\\/action-gz-ci\\/validate_package_xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo-tooling\\/action-gz-ci\\/validate-package-xml:gazebo_tooling\\/action_gz_ci\\/validate_package_xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo-tooling\\/action-gz-ci\\/validate_package_xml:gazebo-tooling\\/action-gz-ci\\/validate-package-xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo-tooling\\/action-gz-ci\\/validate_package_xml:gazebo-tooling\\/action-gz-ci\\/validate_package_xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo-tooling\\/action-gz-ci\\/validate_package_xml:gazebo_tooling\\/action_gz_ci\\/validate_package_xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo_tooling\\/action_gz_ci\\/validate_package_xml:gazebo-tooling\\/action-gz-ci\\/validate-package-xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo_tooling\\/action_gz_ci\\/validate_package_xml:gazebo-tooling\\/action-gz-ci\\/validate_package_xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo_tooling\\/action_gz_ci\\/validate_package_xml:gazebo_tooling\\/action_gz_ci\\/validate_package_xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo-tooling\\/action-gz-ci\\/validate-package:gazebo-tooling\\/action-gz-ci\\/validate-package-xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo-tooling\\/action-gz-ci\\/validate-package:gazebo-tooling\\/action-gz-ci\\/validate_package_xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo-tooling\\/action-gz-ci\\/validate-package:gazebo_tooling\\/action_gz_ci\\/validate_package_xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo-tooling\\/action-gz-ci\\/validate_package:gazebo-tooling\\/action-gz-ci\\/validate-package-xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo-tooling\\/action-gz-ci\\/validate_package:gazebo-tooling\\/action-gz-ci\\/validate_package_xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo-tooling\\/action-gz-ci\\/validate_package:gazebo_tooling\\/action_gz_ci\\/validate_package_xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo_tooling\\/action_gz_ci\\/validate_package:gazebo-tooling\\/action-gz-ci\\/validate-package-xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo_tooling\\/action_gz_ci\\/validate_package:gazebo-tooling\\/action-gz-ci\\/validate_package_xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo_tooling\\/action_gz_ci\\/validate_package:gazebo_tooling\\/action_gz_ci\\/validate_package_xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo-tooling\\/action-gz-ci\\/validate:gazebo-tooling\\/action-gz-ci\\/validate-package-xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo-tooling\\/action-gz-ci\\/validate:gazebo-tooling\\/action-gz-ci\\/validate_package_xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo-tooling\\/action-gz-ci\\/validate:gazebo_tooling\\/action_gz_ci\\/validate_package_xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo_tooling\\/action_gz_ci\\/validate:gazebo-tooling\\/action-gz-ci\\/validate-package-xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo_tooling\\/action_gz_ci\\/validate:gazebo-tooling\\/action-gz-ci\\/validate_package_xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo_tooling\\/action_gz_ci\\/validate:gazebo_tooling\\/action_gz_ci\\/validate_package_xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo-tooling\\/action-gz:gazebo-tooling\\/action-gz-ci\\/validate-package-xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo-tooling\\/action-gz:gazebo-tooling\\/action-gz-ci\\/validate_package_xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo-tooling\\/action-gz:gazebo_tooling\\/action_gz_ci\\/validate_package_xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo_tooling\\/action_gz:gazebo-tooling\\/action-gz-ci\\/validate-package-xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo_tooling\\/action_gz:gazebo-tooling\\/action-gz-ci\\/validate_package_xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo_tooling\\/action_gz:gazebo_tooling\\/action_gz_ci\\/validate_package_xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo-tooling\\/action:gazebo-tooling\\/action-gz-ci\\/validate-package-xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo-tooling\\/action:gazebo-tooling\\/action-gz-ci\\/validate_package_xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo-tooling\\/action:gazebo_tooling\\/action_gz_ci\\/validate_package_xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo_tooling\\/action:gazebo-tooling\\/action-gz-ci\\/validate-package-xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo_tooling\\/action:gazebo-tooling\\/action-gz-ci\\/validate_package_xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo_tooling\\/action:gazebo_tooling\\/action_gz_ci\\/validate_package_xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo:gazebo-tooling\\/action-gz-ci\\/validate-package-xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo:gazebo-tooling\\/action-gz-ci\\/validate_package_xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo:gazebo_tooling\\/action_gz_ci\\/validate_package_xml:jammy:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/package_xml.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/gazebo-tooling/pr-collection-labeler@v1?package-id=0e3956328348a618",
+      "type": "library",
+      "name": "gazebo-tooling/pr-collection-labeler",
+      "version": "v1",
+      "cpe": "cpe:2.3:a:gazebo-tooling\\/pr-collection-labeler:gazebo-tooling\\/pr-collection-labeler:v1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/gazebo-tooling/pr-collection-labeler@v1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo-tooling\\/pr-collection-labeler:gazebo_tooling\\/pr_collection_labeler:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo_tooling\\/pr_collection_labeler:gazebo-tooling\\/pr-collection-labeler:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo_tooling\\/pr_collection_labeler:gazebo_tooling\\/pr_collection_labeler:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo-tooling\\/pr-collection:gazebo-tooling\\/pr-collection-labeler:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo-tooling\\/pr-collection:gazebo_tooling\\/pr_collection_labeler:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo_tooling\\/pr_collection:gazebo-tooling\\/pr-collection-labeler:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo_tooling\\/pr_collection:gazebo_tooling\\/pr_collection_labeler:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo-tooling\\/pr:gazebo-tooling\\/pr-collection-labeler:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo-tooling\\/pr:gazebo_tooling\\/pr_collection_labeler:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo_tooling\\/pr:gazebo-tooling\\/pr-collection-labeler:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo_tooling\\/pr:gazebo_tooling\\/pr_collection_labeler:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo:gazebo-tooling\\/pr-collection-labeler:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gazebo:gazebo_tooling\\/pr_collection_labeler:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/pr-collection-labeler.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/cache@v4?package-id=de9bf7f9ce95021f",
+      "type": "library",
+      "name": "actions/cache",
+      "version": "v4",
+      "cpe": "cpe:2.3:a:actions\\/cache:actions\\/cache:v4:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/cache@v4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/build.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v4?package-id=13f4c1fb5e3ea441",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v4",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/build.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v4?package-id=ffece65caa72c162",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v4",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/codeql.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/setup-java@v4?package-id=de817f4ac69ee800",
+      "type": "library",
+      "name": "actions/setup-java",
+      "version": "v4",
+      "cpe": "cpe:2.3:a:actions\\/setup-java:actions\\/setup-java:v4:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/setup-java@v4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup-java:actions\\/setup_java:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_java:actions\\/setup-java:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_java:actions\\/setup_java:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup-java:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup_java:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/build.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/upload-artifact@v4?package-id=9e22a2d69aaf5802",
+      "type": "library",
+      "name": "actions/upload-artifact",
+      "version": "v4",
+      "cpe": "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload-artifact:v4:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/upload-artifact@v4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload_artifact:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload-artifact:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload_artifact:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload:actions\\/upload-artifact:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/upload:actions\\/upload_artifact:v4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/codeql.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/advanced-security/filter-sarif@v1?package-id=9aa1652d4c08c71d",
+      "type": "library",
+      "name": "advanced-security/filter-sarif",
+      "version": "v1",
+      "cpe": "cpe:2.3:a:advanced-security\\/filter-sarif:advanced-security\\/filter-sarif:v1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/advanced-security/filter-sarif@v1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:advanced-security\\/filter-sarif:advanced_security\\/filter_sarif:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:advanced_security\\/filter_sarif:advanced-security\\/filter-sarif:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:advanced_security\\/filter_sarif:advanced_security\\/filter_sarif:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:advanced-security\\/filter:advanced-security\\/filter-sarif:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:advanced-security\\/filter:advanced_security\\/filter_sarif:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:advanced_security\\/filter:advanced-security\\/filter-sarif:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:advanced_security\\/filter:advanced_security\\/filter_sarif:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:advanced:advanced-security\\/filter-sarif:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:advanced:advanced_security\\/filter_sarif:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/codeql.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/carlosperate/arm-none-eabi-gcc-action@v1.8.2?package-id=4001c51bd92a1118",
+      "type": "library",
+      "name": "carlosperate/arm-none-eabi-gcc-action",
+      "version": "v1.8.2",
+      "cpe": "cpe:2.3:a:carlosperate\\/arm-none-eabi-gcc-action:carlosperate\\/arm-none-eabi-gcc-action:v1.8.2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/carlosperate/arm-none-eabi-gcc-action@v1.8.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none-eabi-gcc-action:carlosperate\\/arm_none_eabi_gcc_action:v1.8.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none_eabi_gcc_action:carlosperate\\/arm-none-eabi-gcc-action:v1.8.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none_eabi_gcc_action:carlosperate\\/arm_none_eabi_gcc_action:v1.8.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none-eabi-gcc:carlosperate\\/arm-none-eabi-gcc-action:v1.8.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none-eabi-gcc:carlosperate\\/arm_none_eabi_gcc_action:v1.8.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none_eabi_gcc:carlosperate\\/arm-none-eabi-gcc-action:v1.8.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none_eabi_gcc:carlosperate\\/arm_none_eabi_gcc_action:v1.8.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none-eabi:carlosperate\\/arm-none-eabi-gcc-action:v1.8.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none-eabi:carlosperate\\/arm_none_eabi_gcc_action:v1.8.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none_eabi:carlosperate\\/arm-none-eabi-gcc-action:v1.8.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none_eabi:carlosperate\\/arm_none_eabi_gcc_action:v1.8.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none:carlosperate\\/arm-none-eabi-gcc-action:v1.8.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none:carlosperate\\/arm_none_eabi_gcc_action:v1.8.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none:carlosperate\\/arm-none-eabi-gcc-action:v1.8.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none:carlosperate\\/arm_none_eabi_gcc_action:v1.8.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm:carlosperate\\/arm-none-eabi-gcc-action:v1.8.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm:carlosperate\\/arm_none_eabi_gcc_action:v1.8.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/codeql.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/pre-commit/action@v3.0.0?package-id=96c400b58cbc8063",
+      "type": "library",
+      "name": "pre-commit/action",
+      "version": "v3.0.0",
+      "cpe": "cpe:2.3:a:pre-commit\\/action:pre-commit\\/action:v3.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/pre-commit/action@v3.0.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pre-commit\\/action:pre_commit\\/action:v3.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pre_commit\\/action:pre-commit\\/action:v3.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pre_commit\\/action:pre_commit\\/action:v3.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pre:pre-commit\\/action:v3.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pre:pre_commit\\/action:v3.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/ci.yml"
+        }
+      ]
+    }
+  ]
+}

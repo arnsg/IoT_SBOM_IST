@@ -1,0 +1,146 @@
+{
+    "GitPython:2.1.9": {
+        "name": "GitPython",
+        "version": "2.1.9",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-pr76-5cm5-w9cj",
+                "severity": "CRITICAL",
+                "description": "GitPython vulnerable to remote code execution due to insufficient sanitization of input arguments",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2023-08-11",
+                "updated_at": "2023-11-10",
+                "CWE_ID": "CWE-78",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+            },
+            {
+                "id": "GHSA-wfm5-v35h-vwf4",
+                "severity": "HIGH",
+                "description": "GitPython untrusted search path on Windows systems leading to arbitrary code execution",
+                "links": [],
+                "cvss_score": 7.8,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2023-08-29",
+                "updated_at": "2023-11-05",
+                "CWE_ID": "CWE-426",
+                "CWE_DESCRIPTION": "Untrusted Search Path"
+            },
+            {
+                "id": "GHSA-hcpj-qp55-gfph",
+                "severity": "HIGH",
+                "description": "GitPython vulnerable to Remote Code Execution due to improper user input validation",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-12-06",
+                "updated_at": "2024-01-17",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            },
+            {
+                "id": "GHSA-2mqj-m65w-jghx",
+                "severity": "HIGH",
+                "description": "Untrusted search path under some conditions on Windows allows arbitrary code execution",
+                "links": [],
+                "cvss_score": 7.8,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2024-01-10",
+                "updated_at": "2024-01-19",
+                "CWE_ID": "CWE-426",
+                "CWE_DESCRIPTION": "Untrusted Search Path"
+            },
+            {
+                "id": "GHSA-cwvm-v4w8-q58c",
+                "severity": "MODERATE",
+                "description": "Blind local file inclusion",
+                "links": [],
+                "cvss_score": 4.0,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2023-08-30",
+                "updated_at": "2023-11-05",
+                "CWE_ID": "CWE-22",
+                "CWE_DESCRIPTION": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            }
+        ]
+    },
+    "heapless:0.5.6": {
+        "name": "heapless",
+        "version": "0.5.6",
+        "type": "rust-crate",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-qgwf-r2jj-2ccv",
+                "severity": "HIGH",
+                "description": "Use after free in heapless",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-08-25",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-416",
+                "CWE_DESCRIPTION": "Use After Free"
+            }
+        ]
+    },
+    "shlex:0.1.1": {
+        "name": "shlex",
+        "version": "0.1.1",
+        "type": "rust-crate",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-r7qv-8r2h-pg27",
+                "severity": "HIGH",
+                "description": "Multiple issues involving quote API in shlex",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-01-22",
+                "updated_at": "2024-01-22",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-r7qv-8r2h-pg27",
+                "severity": "HIGH",
+                "description": "Multiple issues involving quote API in shlex",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-01-22",
+                "updated_at": "2024-01-22",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-r7qv-8r2h-pg27",
+                "severity": "HIGH",
+                "description": "Multiple issues involving quote API in shlex",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-01-22",
+                "updated_at": "2024-01-22",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-r7qv-8r2h-pg27",
+                "severity": "HIGH",
+                "description": "Multiple issues involving quote API in shlex",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-01-22",
+                "updated_at": "2024-01-22",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    }
+}

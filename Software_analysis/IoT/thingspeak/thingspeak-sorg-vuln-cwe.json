@@ -1,0 +1,1642 @@
+{
+    "actionpack:4.0.5": {
+        "name": "actionpack",
+        "version": "4.0.5",
+        "type": "gem",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-xrr4-p6fq-hjg7",
+                "severity": "HIGH",
+                "description": "Directory traversal vulnerability in Action View in Ruby on Rails",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2017-10-24",
+                "updated_at": "2023-11-08",
+                "CWE_ID": "CWE-22",
+                "CWE_DESCRIPTION": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            },
+            {
+                "id": "GHSA-hjg4-8q5f-x6fm",
+                "severity": "HIGH",
+                "description": "Action Pack contains Information Disclosure / Unintended Method Execution vulnerability",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2021-05-05",
+                "updated_at": "2023-07-05",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            },
+            {
+                "id": "GHSA-ffpv-c4hm-3x6v",
+                "severity": "HIGH",
+                "description": "actionpack is vulnerable to denial of service via a crafted HTTP Accept header",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2017-10-24",
+                "updated_at": "2023-07-31",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-9h6g-gp95-x3q5",
+                "severity": "HIGH",
+                "description": "actionpack is vulnerable to denial of service because of a wildcard controller route",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2017-10-24",
+                "updated_at": "2023-11-10",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-7wjx-3g7j-8584",
+                "severity": "HIGH",
+                "description": "Possible DoS Vulnerability in Action Controller Token Authentication",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-05-05",
+                "updated_at": "2023-08-17",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-78rc-8c29-p45g",
+                "severity": "HIGH",
+                "description": "actionpack allows remote code execution via application's unrestricted use of render method",
+                "links": [],
+                "cvss_score": 7.3,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+                "published_at": "2017-10-24",
+                "updated_at": "2023-07-03",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            },
+            {
+                "id": "GHSA-vx9j-46rh-fqr8",
+                "severity": "MODERATE",
+                "description": "actionview contains Path Traversal vulnerability",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+                "published_at": "2017-10-24",
+                "updated_at": "2023-11-08",
+                "CWE_ID": "CWE-22",
+                "CWE_DESCRIPTION": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            },
+            {
+                "id": "GHSA-h56m-vwxc-3qpw",
+                "severity": "MODERATE",
+                "description": "Directory traversal vulnerability in actionpack",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2017-10-24",
+                "updated_at": "2023-08-25",
+                "CWE_ID": "CWE-22",
+                "CWE_DESCRIPTION": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            },
+            {
+                "id": "GHSA-4g8v-vg43-wpgf",
+                "severity": "MODERATE",
+                "description": "Actionpack has possible cross-site scripting vulnerability via User Supplied Values to redirect_to",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2023-06-29",
+                "updated_at": "2023-06-29",
+                "CWE_ID": "CWE-116",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-29gr-w57f-rpfw",
+                "severity": "MODERATE",
+                "description": "actionpack vulnerable to Path Traversal",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2017-10-24",
+                "updated_at": "2023-08-25",
+                "CWE_ID": "CWE-22",
+                "CWE_DESCRIPTION": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            },
+            {
+                "id": "GHSA-p84v-45xj-wwqj",
+                "severity": "LOW",
+                "description": "ReDoS based DoS vulnerability in Action Dispatch",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2023-01-18",
+                "updated_at": "2024-02-02",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-p692-7mm3-3fxg",
+                "severity": "LOW",
+                "description": "actionpack is vulnerable to remote bypass authentication",
+                "links": [],
+                "cvss_score": 3.7,
+                "vector_attack": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+                "published_at": "2017-10-24",
+                "updated_at": "2023-11-10",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-8xww-x3g3-6jcv",
+                "severity": "LOW",
+                "description": "ReDoS based DoS vulnerability in Action Dispatch",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2023-01-18",
+                "updated_at": "2023-05-16",
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "activerecord:4.0.5": {
+        "name": "activerecord",
+        "version": "4.0.5",
+        "type": "gem",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-3hhc-qp5v-9p2j",
+                "severity": "CRITICAL",
+                "description": "Active Record RCE bug with Serialized Columns",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-07-12",
+                "updated_at": "2023-02-02",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-r8fh-hq2p-7qhq",
+                "severity": "HIGH",
+                "description": "Active Record contains SQL Injection via improper range quoting",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2017-10-24",
+                "updated_at": "2023-11-10",
+                "CWE_ID": "CWE-89",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')"
+            },
+            {
+                "id": "GHSA-9rf5-jm6f-2fmm",
+                "severity": "HIGH",
+                "description": "Active Record subject to strong parameters protection bypass",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2017-10-24",
+                "updated_at": "2023-11-10",
+                "CWE_ID": "CWE-284",
+                "CWE_DESCRIPTION": "Improper Access Control"
+            },
+            {
+                "id": "GHSA-579w-22j4-4749",
+                "severity": "HIGH",
+                "description": "Denial of Service Vulnerability in ActiveRecord's PostgreSQL adapter",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2023-01-18",
+                "updated_at": "2023-08-18",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-xrr6-3pc4-m447",
+                "severity": "MODERATE",
+                "description": "Active Record Improper Access Control",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2017-10-24",
+                "updated_at": "2023-08-25",
+                "CWE_ID": "CWE-284",
+                "CWE_DESCRIPTION": "Improper Access Control"
+            }
+        ]
+    },
+    "activesupport:4.0.5": {
+        "name": "activesupport",
+        "version": "4.0.5",
+        "type": "gem",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-pj73-v5mw-pm9j",
+                "severity": "MODERATE",
+                "description": "Possible XSS Security Vulnerability in SafeBuffer#bytesplice",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2023-03-15",
+                "updated_at": "2023-03-15",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            },
+            {
+                "id": "GHSA-j96r-xvjq-r9pg",
+                "severity": "MODERATE",
+                "description": "activesupport vulnerable to Denial of Service via large XML document depth",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2017-10-24",
+                "updated_at": "2023-01-23",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-j6gc-792m-qgm2",
+                "severity": "LOW",
+                "description": "ReDoS based DoS vulnerability in Active Support's underscore",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2023-01-18",
+                "updated_at": "2023-08-18",
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "addressable:2.3.6": {
+        "name": "addressable",
+        "version": "2.3.6",
+        "type": "gem",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-jxhc-q857-3j6g",
+                "severity": "HIGH",
+                "description": "Regular Expression Denial of Service in Addressable templates",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-07-12",
+                "updated_at": "2023-05-04",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "dalli:2.7.2": {
+        "name": "dalli",
+        "version": "2.7.2",
+        "type": "gem",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-3xg8-cc8f-9wv2",
+                "severity": "LOW",
+                "description": "Unsanitized input leading to code injection in Dalli",
+                "links": [],
+                "cvss_score": 3.7,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2022-11-19",
+                "updated_at": "2023-01-29",
+                "CWE_ID": "CWE-74",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')"
+            }
+        ]
+    },
+    "devise:3.4.0": {
+        "name": "devise",
+        "version": "3.4.0",
+        "type": "gem",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-746g-3gfp-hfhw",
+                "severity": "HIGH",
+                "description": "Devise Gem for Ruby Unauthorized Access Using \"Remember Me\" Cookie",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2023-01-26",
+                "updated_at": "2023-12-14",
+                "CWE_ID": "CWE-288",
+                "CWE_DESCRIPTION": "Authentication Bypass Using an Alternate Path or Channel"
+            },
+            {
+                "id": "GHSA-fcjw-8rhj-gwwc",
+                "severity": "MODERATE",
+                "description": "Authentication Bypass in Devise",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+                "published_at": "2019-09-11",
+                "updated_at": "2023-11-10",
+                "CWE_ID": "CWE-284",
+                "CWE_DESCRIPTION": "Improper Access Control"
+            },
+            {
+                "id": "GHSA-73rf-6mrf-759q",
+                "severity": "MODERATE",
+                "description": "devise Time-of-check Time-of-use Race Condition vulnerability",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2019-03-19",
+                "updated_at": "2023-01-23",
+                "CWE_ID": "CWE-367",
+                "CWE_DESCRIPTION": "Time-of-check Time-of-use (TOCTOU) Race Condition"
+            }
+        ]
+    },
+    "em-http-request:1.1.2": {
+        "name": "em-http-request",
+        "version": "1.1.2",
+        "type": "gem",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-q27f-v3r6-9v77",
+                "severity": "HIGH",
+                "description": "Improper Certificate Validation in EM-HTTP-Request",
+                "links": [],
+                "cvss_score": 7.4,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+                "published_at": "2021-05-24",
+                "updated_at": "2023-08-17",
+                "CWE_ID": "CWE-295",
+                "CWE_DESCRIPTION": "Improper Certificate Validation"
+            }
+        ]
+    },
+    "geokit-rails:2.0.1": {
+        "name": "geokit-rails",
+        "version": "2.0.1",
+        "type": "gem",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-7xvc-v44j-46fh",
+                "severity": "CRITICAL",
+                "description": "geokit-rails Command Injection vulnerability",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2023-10-06",
+                "updated_at": "2023-11-08",
+                "CWE_ID": "CWE-77",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements used in a Command ('Command Injection')"
+            }
+        ]
+    },
+    "http:0.6.2": {
+        "name": "http",
+        "version": "0.6.2",
+        "type": "gem",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-6wpv-cj6x-v3jw",
+                "severity": "MODERATE",
+                "description": "http vulnerable to Exposure of Sensitive Information to an Unauthorized Actor",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2018-03-13",
+                "updated_at": "2023-08-29",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            }
+        ]
+    },
+    "i18n:0.6.11": {
+        "name": "i18n",
+        "version": "0.6.11",
+        "type": "gem",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-34hf-g744-jw64",
+                "severity": "HIGH",
+                "description": "i18n Vulnerable to Denial of Service Attack",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-05-14",
+                "updated_at": "2023-07-03",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            }
+        ]
+    },
+    "jquery-rails:3.0.4": {
+        "name": "jquery-rails",
+        "version": "3.0.4",
+        "type": "gem",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-rmxg-73gg-4p98",
+                "severity": "MODERATE",
+                "description": "Cross-Site Scripting (XSS) in jquery",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2018-01-22",
+                "updated_at": "2023-09-25",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            },
+            {
+                "id": "GHSA-jpcq-cgw6-v4j6",
+                "severity": "MODERATE",
+                "description": "Potential XSS vulnerability in jQuery",
+                "links": [],
+                "cvss_score": 6.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:L/A:N",
+                "published_at": "2020-04-29",
+                "updated_at": "2024-05-15",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            },
+            {
+                "id": "GHSA-gxr4-xjj5-5px2",
+                "severity": "MODERATE",
+                "description": "Potential XSS vulnerability in jQuery",
+                "links": [],
+                "cvss_score": 6.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:L/A:N",
+                "published_at": "2020-04-29",
+                "updated_at": "2023-09-27",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            },
+            {
+                "id": "GHSA-6c3j-c64m-qhgq",
+                "severity": "MODERATE",
+                "description": "XSS in jQuery as used in Drupal, Backdrop CMS, and other products",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2019-04-26",
+                "updated_at": "2024-04-22",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            },
+            {
+                "id": "GHSA-4whc-pp4x-9pf3",
+                "severity": "MODERATE",
+                "description": "jquery-rails and jquery-ujs subject to Exposure of Sensitive Information",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2017-10-24",
+                "updated_at": "2023-08-25",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            }
+        ]
+    },
+    "jquery-ui-rails:5.0.0": {
+        "name": "jquery-ui-rails",
+        "version": "5.0.0",
+        "type": "gem",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-j7qv-pgf6-hvh4",
+                "severity": "MODERATE",
+                "description": "XSS in `*Text` options of the Datepicker widget in jquery-ui",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+                "published_at": "2021-10-26",
+                "updated_at": "2023-09-26",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            },
+            {
+                "id": "GHSA-hpcf-8vf9-q4gj",
+                "severity": "MODERATE",
+                "description": "jQuery-UI vulnerable to Cross-site Scripting in dialog closeText",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2017-10-24",
+                "updated_at": "2023-09-26",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            },
+            {
+                "id": "GHSA-h6gj-6jjq-h8g9",
+                "severity": "MODERATE",
+                "description": "jQuery UI vulnerable to XSS when refreshing a checkboxradio with an HTML-like initial text label",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2022-07-18",
+                "updated_at": "2023-09-26",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            },
+            {
+                "id": "GHSA-gpqq-952q-5327",
+                "severity": "MODERATE",
+                "description": "XSS in the `of` option of the `.position()` util in jquery-ui",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+                "published_at": "2021-10-26",
+                "updated_at": "2023-10-05",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            },
+            {
+                "id": "GHSA-9gj3-hwp5-pmwc",
+                "severity": "MODERATE",
+                "description": "XSS in the `altField` option of the Datepicker widget in jquery-ui",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+                "published_at": "2021-10-26",
+                "updated_at": "2023-09-26",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            }
+        ]
+    },
+    "json:1.8.1": {
+        "name": "json",
+        "version": "1.8.1",
+        "type": "gem",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-jphg-qwrw-7w9g",
+                "severity": "HIGH",
+                "description": "Unsafe object creation in json RubyGem",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2020-07-27",
+                "updated_at": "2023-08-29",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            }
+        ]
+    },
+    "kaminari:0.16.1": {
+        "name": "kaminari",
+        "version": "0.16.1",
+        "type": "gem",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-r5jw-62xg-j433",
+                "severity": "MODERATE",
+                "description": "Cross-Site Scripting in Kaminari",
+                "links": [],
+                "cvss_score": 6.4,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:L/A:L",
+                "published_at": "2020-05-28",
+                "updated_at": "2023-05-04",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            },
+            {
+                "id": "GHSA-7r3j-qmr4-jfpj",
+                "severity": "MODERATE",
+                "description": "Kaminari Insecure File Permissions Vulnerability",
+                "links": [],
+                "cvss_score": 6.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2024-05-28",
+                "updated_at": "2024-05-31",
+                "CWE_ID": "CWE-276",
+                "CWE_DESCRIPTION": "Incorrect Default Permissions"
+            }
+        ]
+    },
+    "mail:2.5.4": {
+        "name": "mail",
+        "version": "2.5.4",
+        "type": "gem",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-q86f-fmqf-qrf6",
+                "severity": "MODERATE",
+                "description": "Mail Gem CRLF Injection vulnerability",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2017-10-24",
+                "updated_at": "2023-09-05",
+                "CWE_ID": "CWE-93",
+                "CWE_DESCRIPTION": "Improper Neutralization of CRLF Sequences ('CRLF Injection')"
+            }
+        ]
+    },
+    "nokogiri:1.6.3.1": {
+        "name": "nokogiri",
+        "version": "1.6.3.1",
+        "type": "gem",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-qxcg-xjjg-66mj",
+                "severity": "CRITICAL",
+                "description": "Nokogiri vulnerable to libxslt protection mechanism bypass",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-05-13",
+                "updated_at": "2023-03-14",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-fr52-4hqw-p27f",
+                "severity": "CRITICAL",
+                "description": "Nokogiri does not forbid namespace nodes in XPointer ranges",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2018-08-21",
+                "updated_at": "2023-11-06",
+                "CWE_ID": "CWE-119",
+                "CWE_DESCRIPTION": "Improper Restriction of Operations within the Bounds of a Memory Buffer"
+            },
+            {
+                "id": "GHSA-cr5j-953j-xw5p",
+                "severity": "CRITICAL",
+                "description": "Nokogiri Command Injection Vulnerability",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2019-08-19",
+                "updated_at": "2023-08-28",
+                "CWE_ID": "CWE-78",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+            },
+            {
+                "id": "GHSA-xjqg-9jvg-fgx2",
+                "severity": "HIGH",
+                "description": "Nokogiri subject to DoS via libxml2 vulnerability",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2018-08-21",
+                "updated_at": "2023-08-25",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-xh29-r2w5-wx8m",
+                "severity": "HIGH",
+                "description": "Nokogiri Improperly Handles Unexpected Data Type",
+                "links": [],
+                "cvss_score": 8.2,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H",
+                "published_at": "2022-05-23",
+                "updated_at": "2023-05-04",
+                "CWE_ID": "CWE-241",
+                "CWE_DESCRIPTION": "Improper Handling of Unexpected Data Type"
+            },
+            {
+                "id": "GHSA-x2fm-93ww-ggvx",
+                "severity": "HIGH",
+                "description": "Nokogiri gem, via libxml, is affected by DoS vulnerabilities",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-05-13",
+                "updated_at": "2023-06-09",
+                "CWE_ID": "CWE-835",
+                "CWE_DESCRIPTION": "Loop with Unreachable Exit Condition ('Infinite Loop')"
+            },
+            {
+                "id": "GHSA-vmfx-gcfq-wvm2",
+                "severity": "HIGH",
+                "description": "Nokogiri implementation of libxslt vulnerable to heap corruption",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-05-24",
+                "updated_at": "2023-07-10",
+                "CWE_ID": "CWE-787",
+                "CWE_DESCRIPTION": "Out-of-bounds Write"
+            },
+            {
+                "id": "GHSA-v6gp-9mmm-c6p5",
+                "severity": "HIGH",
+                "description": "Out-of-bounds Write in zlib affects Nokogiri",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-04-11",
+                "updated_at": "2023-01-11",
+                "CWE_ID": "CWE-787",
+                "CWE_DESCRIPTION": "Out-of-bounds Write"
+            },
+            {
+                "id": "GHSA-v4f8-2847-rwm7",
+                "severity": "HIGH",
+                "description": "Nokogiri Implements libxml2 version vulnerable to use-after-free",
+                "links": [],
+                "cvss_score": 8.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2022-05-24",
+                "updated_at": "2023-07-19",
+                "CWE_ID": "CWE-416",
+                "CWE_DESCRIPTION": "Use After Free"
+            },
+            {
+                "id": "GHSA-r58r-74gx-6wx3",
+                "severity": "HIGH",
+                "description": "Nokogiri gem, via libxml, is affected by DoS vulnerabilities",
+                "links": [],
+                "cvss_score": 8.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2022-05-14",
+                "updated_at": "2023-08-27",
+                "CWE_ID": "CWE-416",
+                "CWE_DESCRIPTION": "Use After Free"
+            },
+            {
+                "id": "GHSA-pf6m-fxpq-fg8v",
+                "severity": "HIGH",
+                "description": "Nokogiri implementation of libxslt lacks integer overflow checks",
+                "links": [],
+                "cvss_score": 8.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2018-07-31",
+                "updated_at": "2023-07-03",
+                "CWE_ID": "CWE-787",
+                "CWE_DESCRIPTION": "Out-of-bounds Write"
+            },
+            {
+                "id": "GHSA-jw9f-hh49-cvp9",
+                "severity": "HIGH",
+                "description": "Nokogiri contains libxml Out-of-bounds Write vulnerability",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H",
+                "published_at": "2022-05-24",
+                "updated_at": "2023-08-28",
+                "CWE_ID": "CWE-787",
+                "CWE_DESCRIPTION": "Out-of-bounds Write"
+            },
+            {
+                "id": "GHSA-jc36-42cf-vqwj",
+                "severity": "HIGH",
+                "description": "Nokogiri affected by zlib's Out-of-bounds Write vulnerability",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-03-26",
+                "updated_at": "2023-06-27",
+                "CWE_ID": "CWE-787",
+                "CWE_DESCRIPTION": "Out-of-bounds Write"
+            },
+            {
+                "id": "GHSA-gx8x-g87m-h5q6",
+                "severity": "HIGH",
+                "description": "Denial of Service (DoS) in Nokogiri on JRuby",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-04-11",
+                "updated_at": "2023-01-11",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-fq42-c5rg-92c2",
+                "severity": "HIGH",
+                "description": "Vulnerable dependencies in Nokogiri",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-02-25",
+                "updated_at": "2023-01-11",
+                "CWE_ID": "CWE-416",
+                "CWE_DESCRIPTION": "Use After Free"
+            },
+            {
+                "id": "GHSA-crjr-9rc5-ghw8",
+                "severity": "HIGH",
+                "description": "Nokogiri Inefficient Regular Expression Complexity",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-04-11",
+                "updated_at": "2023-07-06",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-cgx6-hpwq-fhv5",
+                "severity": "HIGH",
+                "description": "Integer Overflow or Wraparound in libxml2 affects Nokogiri",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H",
+                "published_at": "2022-05-18",
+                "updated_at": "2023-01-11",
+                "CWE_ID": "CWE-190",
+                "CWE_DESCRIPTION": "Integer Overflow or Wraparound"
+            },
+            {
+                "id": "GHSA-cf46-6xxh-pc75",
+                "severity": "HIGH",
+                "description": "libxslt Type Confusion vulnerability that affects Nokogiri",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2022-05-24",
+                "updated_at": "2023-03-08",
+                "CWE_ID": "CWE-843",
+                "CWE_DESCRIPTION": "Access of Resource Using Incompatible Type ('Type Confusion')"
+            },
+            {
+                "id": "GHSA-8c56-cpmw-89x7",
+                "severity": "HIGH",
+                "description": "Out-of-bounds read in nokogiri",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2017-12-13",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-125",
+                "CWE_DESCRIPTION": "Out-of-bounds Read"
+            },
+            {
+                "id": "GHSA-7hp2-xwpj-95jq",
+                "severity": "HIGH",
+                "description": "Denial of service or RCE from libxml2 and libxslt",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2018-09-17",
+                "updated_at": "2023-06-30",
+                "CWE_ID": "CWE-125",
+                "CWE_DESCRIPTION": "Out-of-bounds Read"
+            },
+            {
+                "id": "GHSA-7553-jr98-vx47",
+                "severity": "HIGH",
+                "description": "libxml as used in Nokogiri has an infinite loop in a certain end-of-file situation",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2020-02-24",
+                "updated_at": "2023-06-09",
+                "CWE_ID": "CWE-835",
+                "CWE_DESCRIPTION": "Loop with Unreachable Exit Condition ('Infinite Loop')"
+            },
+            {
+                "id": "GHSA-6qvp-r6r3-9p7h",
+                "severity": "HIGH",
+                "description": "Nokogiri NULL Pointer Dereference",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2019-01-17",
+                "updated_at": "2023-08-26",
+                "CWE_ID": "CWE-476",
+                "CWE_DESCRIPTION": "NULL Pointer Dereference"
+            },
+            {
+                "id": "GHSA-59gp-qqm7-cw4j",
+                "severity": "HIGH",
+                "description": "Nokogiri has vulnerable dependencies on libxml2 and libxslt",
+                "links": [],
+                "cvss_score": 8.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2022-05-24",
+                "updated_at": "2023-11-01",
+                "CWE_ID": "CWE-416",
+                "CWE_DESCRIPTION": "Use After Free"
+            },
+            {
+                "id": "GHSA-4hm9-844j-jmxp",
+                "severity": "HIGH",
+                "description": "Uninitialized read in Nokogiri gem",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-24",
+                "updated_at": "2023-06-09",
+                "CWE_ID": "CWE-908",
+                "CWE_DESCRIPTION": "Use of Uninitialized Resource"
+            },
+            {
+                "id": "GHSA-2rr5-8q37-2w7h",
+                "severity": "HIGH",
+                "description": "Improper Restriction of XML External Entity Reference (XXE) in Nokogiri on JRuby",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2021-09-27",
+                "updated_at": "2023-05-04",
+                "CWE_ID": "CWE-611",
+                "CWE_DESCRIPTION": "Improper Restriction of XML External Entity Reference"
+            },
+            {
+                "id": "GHSA-242x-7cm6-4w8j",
+                "severity": "HIGH",
+                "description": "Nokogiri affected by libxslt Use of Uninitialized Resource/Use After Free vulnerability",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2022-05-24",
+                "updated_at": "2023-07-10",
+                "CWE_ID": "CWE-416",
+                "CWE_DESCRIPTION": "Use After Free"
+            },
+            {
+                "id": "GHSA-xxx9-3xcr-gjj3",
+                "severity": "MODERATE",
+                "description": "XML Injection in Xerces Java affects Nokogiri",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2022-04-11",
+                "updated_at": "2023-01-11",
+                "CWE_ID": "CWE-91",
+                "CWE_DESCRIPTION": "XML Injection (aka Blind XPath Injection)"
+            },
+            {
+                "id": "GHSA-xc9x-jj77-9p9j",
+                "severity": "MODERATE",
+                "description": "Nokogiri update packaged libxml2 to v2.12.5 to resolve CVE-2024-25062",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-02-05",
+                "updated_at": "2024-03-19",
+                "CWE_ID": "CWE-416",
+                "CWE_DESCRIPTION": "Use After Free"
+            },
+            {
+                "id": "GHSA-x7rv-cr6v-4vm4",
+                "severity": "MODERATE",
+                "description": "Cross-site Scripting in loofah",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2018-03-21",
+                "updated_at": "2023-07-05",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            },
+            {
+                "id": "GHSA-vr8q-g5c7-m54m",
+                "severity": "MODERATE",
+                "description": "Nokogiri::XML::Schema trusts input by default, exposing risk of XXE vulnerability",
+                "links": [],
+                "cvss_score": 4.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+                "published_at": "2020-12-30",
+                "updated_at": "2023-05-04",
+                "CWE_ID": "CWE-611",
+                "CWE_DESCRIPTION": "Improper Restriction of XML External Entity Reference"
+            },
+            {
+                "id": "GHSA-vcc3-rw6f-jv97",
+                "severity": "MODERATE",
+                "description": "Use-after-free in libxml2 via Nokogiri::XML::Reader",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-03-18",
+                "updated_at": "2024-03-18",
+                "CWE_ID": "CWE-416",
+                "CWE_DESCRIPTION": "Use After Free"
+            },
+            {
+                "id": "GHSA-pxvg-2qj5-37jq",
+                "severity": "MODERATE",
+                "description": "Nokogiri updates packaged libxml2 to v2.10.4 to resolve multiple CVEs",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2023-04-11",
+                "updated_at": "2023-04-11",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-jxjr-5h69-qw3w",
+                "severity": "MODERATE",
+                "description": "Heap-based buffer overflow in nokogiri",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2018-09-17",
+                "updated_at": "2023-07-05",
+                "CWE_ID": "CWE-119",
+                "CWE_DESCRIPTION": "Improper Restriction of Operations within the Bounds of a Memory Buffer"
+            },
+            {
+                "id": "GHSA-882p-jqgm-f45g",
+                "severity": "MODERATE",
+                "description": "Uncontrolled resource consumption in nokogiri",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2018-04-13",
+                "updated_at": "2023-05-04",
+                "CWE_ID": "CWE-770",
+                "CWE_DESCRIPTION": "Allocation of Resources Without Limits or Throttling"
+            },
+            {
+                "id": "GHSA-7rrm-v45f-jp64",
+                "severity": "MODERATE",
+                "description": "Nokogiri updates packaged dependency on libxml2 from 2.9.10 to 2.9.12",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2021-05-17",
+                "updated_at": "2023-07-07",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-2qc6-mcvw-92cw",
+                "severity": "MODERATE",
+                "description": "Update bundled libxml2 to v2.10.3 to resolve multiple CVEs",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-10-18",
+                "updated_at": "2023-01-07",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-286v-pcf5-25rc",
+                "severity": "MODERATE",
+                "description": "Nokogiri Implements libxml2 version vulnerable to null pointer dereferencing",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-05-24",
+                "updated_at": "2023-07-10",
+                "CWE_ID": "CWE-476",
+                "CWE_DESCRIPTION": "NULL Pointer Dereference"
+            },
+            {
+                "id": "GHSA-r95h-9x8f-r3f7",
+                "severity": "LOW",
+                "description": "Nokogiri updates packaged libxml2 to v2.12.7 to resolve CVE-2024-34459",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-05-13",
+                "updated_at": "2024-05-16",
+                "CWE_ID": "CWE-120",
+                "CWE_DESCRIPTION": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')"
+            }
+        ]
+    },
+    "oauth:0.4.7": {
+        "name": "oauth",
+        "version": "0.4.7",
+        "type": "gem",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-7359-3c6r-hfc2",
+                "severity": "HIGH",
+                "description": "Improper Certificate Validation in oauth ruby gem",
+                "links": [],
+                "cvss_score": 7.4,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+                "published_at": "2021-04-22",
+                "updated_at": "2023-01-24",
+                "CWE_ID": "CWE-295",
+                "CWE_DESCRIPTION": "Improper Certificate Validation"
+            }
+        ]
+    },
+    "puma:2.9.1": {
+        "name": "puma",
+        "version": "2.9.1",
+        "type": "gem",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-h99w-9q5r-gjq9",
+                "severity": "CRITICAL",
+                "description": "Puma vulnerable to HTTP Request Smuggling",
+                "links": [],
+                "cvss_score": 9.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+                "published_at": "2022-03-30",
+                "updated_at": "2023-05-04",
+                "CWE_ID": "CWE-444",
+                "CWE_DESCRIPTION": "Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling')"
+            },
+            {
+                "id": "GHSA-68xg-gqqm-vgj8",
+                "severity": "CRITICAL",
+                "description": "Puma HTTP Request/Response Smuggling vulnerability",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2023-08-18",
+                "updated_at": "2023-11-09",
+                "CWE_ID": "CWE-444",
+                "CWE_DESCRIPTION": "Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling')"
+            },
+            {
+                "id": "GHSA-x7jg-6pwg-fx5h",
+                "severity": "HIGH",
+                "description": "HTTP Smuggling via Transfer-Encoding Header in Puma",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2020-05-22",
+                "updated_at": "2023-05-16",
+                "CWE_ID": "CWE-444",
+                "CWE_DESCRIPTION": "Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling')"
+            },
+            {
+                "id": "GHSA-rmj8-8hhh-gv5h",
+                "severity": "HIGH",
+                "description": "Puma used with Rails may lead to Information Exposure",
+                "links": [],
+                "cvss_score": 8.0,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:N",
+                "published_at": "2022-02-11",
+                "updated_at": "2023-07-13",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            },
+            {
+                "id": "GHSA-q28m-8xjw-8vr5",
+                "severity": "HIGH",
+                "description": "Puma's Keepalive Connections Causing Denial Of Service",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-05-18",
+                "updated_at": "2023-05-16",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-w64w-qqph-5gxm",
+                "severity": "MODERATE",
+                "description": "HTTP Smuggling via Transfer-Encoding Header in Puma",
+                "links": [],
+                "cvss_score": 6.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:N",
+                "published_at": "2020-05-22",
+                "updated_at": "2023-05-16",
+                "CWE_ID": "CWE-444",
+                "CWE_DESCRIPTION": "Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling')"
+            },
+            {
+                "id": "GHSA-c2f4-cvqm-65w2",
+                "severity": "MODERATE",
+                "description": "Puma HTTP Request/Response Smuggling vulnerability",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-01-08",
+                "updated_at": "2024-01-09",
+                "CWE_ID": "CWE-444",
+                "CWE_DESCRIPTION": "Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling')"
+            },
+            {
+                "id": "GHSA-84j7-475p-hp8v",
+                "severity": "MODERATE",
+                "description": "HTTP Response Splitting in Puma",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L",
+                "published_at": "2020-02-28",
+                "updated_at": "2023-05-16",
+                "CWE_ID": "CWE-113",
+                "CWE_DESCRIPTION": "Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting')"
+            },
+            {
+                "id": "GHSA-7xx3-m584-x994",
+                "severity": "MODERATE",
+                "description": "A poorly-behaved client could use keepalive requests to monopolize Puma's reactor and create a denial of service attack",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2019-12-05",
+                "updated_at": "2023-05-04",
+                "CWE_ID": "CWE-770",
+                "CWE_DESCRIPTION": "Allocation of Resources Without Limits or Throttling"
+            },
+            {
+                "id": "GHSA-33vf-4xgg-9r58",
+                "severity": "MODERATE",
+                "description": "HTTP Response Splitting (Early Hints) in Puma",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L",
+                "published_at": "2020-03-03",
+                "updated_at": "2023-11-09",
+                "CWE_ID": "CWE-74",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')"
+            },
+            {
+                "id": "GHSA-48w2-rm65-62xx",
+                "severity": "LOW",
+                "description": "Puma with proxy which forwards LF characters as line endings could allow HTTP request smuggling",
+                "links": [],
+                "cvss_score": 3.7,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:N",
+                "published_at": "2021-10-12",
+                "updated_at": "2023-05-04",
+                "CWE_ID": "CWE-444",
+                "CWE_DESCRIPTION": "Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling')"
+            }
+        ]
+    },
+    "rack:1.5.2": {
+        "name": "rack",
+        "version": "1.5.2",
+        "type": "gem",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-wq4h-7r42-5hrr",
+                "severity": "CRITICAL",
+                "description": "Possible shell escape sequence injection vulnerability in Rack",
+                "links": [],
+                "cvss_score": 10.0,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2022-05-27",
+                "updated_at": "2023-12-17",
+                "CWE_ID": "CWE-150",
+                "CWE_DESCRIPTION": "Improper Neutralization of Escape, Meta, or Control Sequences"
+            },
+            {
+                "id": "GHSA-j6w9-fv6q-3q52",
+                "severity": "HIGH",
+                "description": "Rack allows Percent-encoded cookies to overwrite existing prefixed cookie names",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2020-06-24",
+                "updated_at": "2023-08-28",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            },
+            {
+                "id": "GHSA-hxqx-xwvh-44m2",
+                "severity": "HIGH",
+                "description": "Denial of Service Vulnerability in Rack Multipart Parsing",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-05-27",
+                "updated_at": "2023-12-09",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-65f5-mfpf-vfhj",
+                "severity": "HIGH",
+                "description": "Denial of service via header parsing in Rack",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2023-01-18",
+                "updated_at": "2023-12-17",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-5f9h-9pjv-v6j7",
+                "severity": "HIGH",
+                "description": "Directory traversal in Rack::Directory app bundled with Rack",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N",
+                "published_at": "2020-07-06",
+                "updated_at": "2023-08-28",
+                "CWE_ID": "CWE-22",
+                "CWE_DESCRIPTION": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            },
+            {
+                "id": "GHSA-3h57-hmj3-gj3p",
+                "severity": "HIGH",
+                "description": "Rack has possible DoS Vulnerability in Multipart MIME parsing",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2023-03-08",
+                "updated_at": "2023-12-17",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-rgr4-9jh5-j4j6",
+                "severity": "MODERATE",
+                "description": "Rack vulnerable to Denial of Service via large parameter depth request",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2017-10-24",
+                "updated_at": "2023-08-28",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-hrqr-hxpp-chr3",
+                "severity": "MODERATE",
+                "description": "Possible Information Leak / Session Hijack Vulnerability in Rack",
+                "links": [],
+                "cvss_score": 6.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:N",
+                "published_at": "2019-12-18",
+                "updated_at": "2023-05-04",
+                "CWE_ID": "CWE-203",
+                "CWE_DESCRIPTION": "Observable Discrepancy"
+            },
+            {
+                "id": "GHSA-5r2p-j47h-mhpg",
+                "severity": "MODERATE",
+                "description": "Rack vulnerable to Cross-site Scripting",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2018-11-15",
+                "updated_at": "2023-11-04",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            },
+            {
+                "id": "GHSA-22f2-v57c-j9cx",
+                "severity": "MODERATE",
+                "description": "Rack vulnerable to ReDoS in content type parsing (2nd degree polynomial)",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2024-02-28",
+                "updated_at": "2024-06-10",
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            },
+            {
+                "id": "GHSA-xj5v-6v4g-jfw6",
+                "severity": "LOW",
+                "description": "Rack has possible DoS Vulnerability with Range Header",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-02-28",
+                "updated_at": "2024-02-29",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-54rr-7fvw-6x8f",
+                "severity": "LOW",
+                "description": "Rack Header Parsing leads to Possible Denial of Service Vulnerability",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-02-28",
+                "updated_at": "2024-02-29",
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "rack-protection:1.5.3": {
+        "name": "rack-protection",
+        "version": "1.5.3",
+        "type": "gem",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-688c-3x49-6rqj",
+                "severity": "MODERATE",
+                "description": "rack-protection gem timing attack vulnerability when validating CSRF token",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2018-03-07",
+                "updated_at": "2023-08-29",
+                "CWE_ID": "CWE-203",
+                "CWE_DESCRIPTION": "Observable Discrepancy"
+            }
+        ]
+    },
+    "rake:10.3.2": {
+        "name": "rake",
+        "version": "10.3.2",
+        "type": "gem",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-jppv-gw3r-w3q8",
+                "severity": "MODERATE",
+                "description": "OS Command Injection in Rake",
+                "links": [],
+                "cvss_score": 6.4,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2020-02-28",
+                "updated_at": "2023-08-29",
+                "CWE_ID": "CWE-78",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+            }
+        ]
+    },
+    "resque:1.25.2": {
+        "name": "resque",
+        "version": "1.25.2",
+        "type": "gem",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-r9mq-m72x-257g",
+                "severity": "MODERATE",
+                "description": "Resque vulnerable to reflected XSS in Queue Endpoint",
+                "links": [],
+                "cvss_score": 6.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:H/A:N",
+                "published_at": "2023-12-18",
+                "updated_at": "2023-12-22",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            },
+            {
+                "id": "GHSA-r8xx-8vm8-x6wj",
+                "severity": "MODERATE",
+                "description": "Resque vulnerable to Reflected Cross Site Scripting through pathnames",
+                "links": [],
+                "cvss_score": 6.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:H/A:N",
+                "published_at": "2023-12-18",
+                "updated_at": "2024-01-19",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            },
+            {
+                "id": "GHSA-gc3j-vvwf-4rp8",
+                "severity": "MODERATE",
+                "description": "Resque vulnerable to reflected XSS in resque-web failed and queues lists",
+                "links": [],
+                "cvss_score": 6.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:H/A:N",
+                "published_at": "2023-12-18",
+                "updated_at": "2024-01-17",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            }
+        ]
+    },
+    "resque-scheduler:2.3.1": {
+        "name": "resque-scheduler",
+        "version": "2.3.1",
+        "type": "gem",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-9hmq-fm33-x4xx",
+                "severity": "MODERATE",
+                "description": "Resque Scheduler Reflected XSS In Delayed Jobs View",
+                "links": [],
+                "cvss_score": 6.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:H/A:N",
+                "published_at": "2023-12-18",
+                "updated_at": "2024-01-03",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            }
+        ]
+    },
+    "sinatra:1.4.5": {
+        "name": "sinatra",
+        "version": "1.4.5",
+        "type": "gem",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-qp49-3pvw-x4m5",
+                "severity": "HIGH",
+                "description": "sinatra does not validate expanded path matches",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2022-05-03",
+                "updated_at": "2023-05-04",
+                "CWE_ID": "CWE-22",
+                "CWE_DESCRIPTION": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            }
+        ]
+    },
+    "sprockets:2.11.0": {
+        "name": "sprockets",
+        "version": "2.11.0",
+        "type": "gem",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-pr3h-jjhj-573x",
+                "severity": "HIGH",
+                "description": "Sprockets path traversal leads to information leak",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2018-06-20",
+                "updated_at": "2023-09-05",
+                "CWE_ID": "CWE-22",
+                "CWE_DESCRIPTION": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            },
+            {
+                "id": "GHSA-33pp-3763-mrfp",
+                "severity": "MODERATE",
+                "description": "sprockets vulnerable to Path Traversal",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2017-10-24",
+                "updated_at": "2023-03-01",
+                "CWE_ID": "CWE-22",
+                "CWE_DESCRIPTION": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            }
+        ]
+    },
+    "tweetstream:2.6.1": {
+        "name": "tweetstream",
+        "version": "2.6.1",
+        "type": "gem",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-6hrm-jqp3-64cv",
+                "severity": "MODERATE",
+                "description": "Improper Certificate Validation in TweetStream",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2021-04-13",
+                "updated_at": "2023-01-26",
+                "CWE_ID": "CWE-295",
+                "CWE_DESCRIPTION": "Improper Certificate Validation"
+            }
+        ]
+    },
+    "tzinfo:0.3.41": {
+        "name": "tzinfo",
+        "version": "0.3.41",
+        "type": "gem",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-5cm2-9h8c-rvfx",
+                "severity": "HIGH",
+                "description": "TZInfo relative path traversal vulnerability allows loading of arbitrary files",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2022-07-21",
+                "updated_at": "2023-01-31",
+                "CWE_ID": "CWE-22",
+                "CWE_DESCRIPTION": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            }
+        ]
+    },
+    "uglifier:2.5.3": {
+        "name": "uglifier",
+        "version": "2.5.3",
+        "type": "gem",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-34r7-q49f-h37c",
+                "severity": "CRITICAL",
+                "description": "Incorrect Handling of Non-Boolean Comparisons During Minification in uglify-js",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2017-10-24",
+                "updated_at": "2023-04-12",
+                "CWE_ID": "CWE-670",
+                "CWE_DESCRIPTION": "Always-Incorrect Control Flow Implementation"
+            }
+        ]
+    }
+}

@@ -1,0 +1,639 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:46374a40-c091-4d8e-9fed-e09be00ec605",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-07-31T15:13:15+02:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.4.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "c76174aad3bc015d",
+      "type": "file",
+      "name": "/Users/massimocoppolaro/Desktop/Università/Tirocinio2.0/Software/mumble"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:github/fkirc/skip-duplicate-actions@v5?package-id=d110bb610527e083",
+      "type": "library",
+      "name": "fkirc/skip-duplicate-actions",
+      "version": "v5",
+      "cpe": "cpe:2.3:a:fkirc\\/skip-duplicate-actions:fkirc\\/skip-duplicate-actions:v5:*:*:*:*:*:*:*",
+      "purl": "pkg:github/fkirc/skip-duplicate-actions@v5",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fkirc\\/skip-duplicate-actions:fkirc\\/skip_duplicate_actions:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fkirc\\/skip_duplicate_actions:fkirc\\/skip-duplicate-actions:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fkirc\\/skip_duplicate_actions:fkirc\\/skip_duplicate_actions:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fkirc\\/skip-duplicate:fkirc\\/skip-duplicate-actions:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fkirc\\/skip-duplicate:fkirc\\/skip_duplicate_actions:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fkirc\\/skip_duplicate:fkirc\\/skip-duplicate-actions:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fkirc\\/skip_duplicate:fkirc\\/skip_duplicate_actions:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fkirc\\/skip:fkirc\\/skip-duplicate-actions:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fkirc\\/skip:fkirc\\/skip_duplicate_actions:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/build.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/fkirc/skip-duplicate-actions@v5?package-id=b04453d567df699e",
+      "type": "library",
+      "name": "fkirc/skip-duplicate-actions",
+      "version": "v5",
+      "cpe": "cpe:2.3:a:fkirc\\/skip-duplicate-actions:fkirc\\/skip-duplicate-actions:v5:*:*:*:*:*:*:*",
+      "purl": "pkg:github/fkirc/skip-duplicate-actions@v5",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fkirc\\/skip-duplicate-actions:fkirc\\/skip_duplicate_actions:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fkirc\\/skip_duplicate_actions:fkirc\\/skip-duplicate-actions:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fkirc\\/skip_duplicate_actions:fkirc\\/skip_duplicate_actions:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fkirc\\/skip-duplicate:fkirc\\/skip-duplicate-actions:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fkirc\\/skip-duplicate:fkirc\\/skip_duplicate_actions:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fkirc\\/skip_duplicate:fkirc\\/skip-duplicate-actions:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fkirc\\/skip_duplicate:fkirc\\/skip_duplicate_actions:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fkirc\\/skip:fkirc\\/skip-duplicate-actions:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fkirc\\/skip:fkirc\\/skip_duplicate_actions:v5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/code-ql.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/github/codeql-action@v3?package-id=9ec16f37105710eb#analyze",
+      "type": "library",
+      "name": "github/codeql-action/analyze",
+      "version": "v3",
+      "cpe": "cpe:2.3:a:github\\/codeql-action\\/analyze:github\\/codeql-action\\/analyze:v3:*:*:*:*:*:*:*",
+      "purl": "pkg:github/github/codeql-action@v3#analyze",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql-action\\/analyze:github\\/codeql_action\\/analyze:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql_action\\/analyze:github\\/codeql-action\\/analyze:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql_action\\/analyze:github\\/codeql_action\\/analyze:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql:github\\/codeql-action\\/analyze:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql:github\\/codeql_action\\/analyze:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/code-ql.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/github/codeql-action@v3?package-id=2e778fb1618959c2#init",
+      "type": "library",
+      "name": "github/codeql-action/init",
+      "version": "v3",
+      "cpe": "cpe:2.3:a:github\\/codeql-action\\/init:github\\/codeql-action\\/init:v3:*:*:*:*:*:*:*",
+      "purl": "pkg:github/github/codeql-action@v3#init",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql-action\\/init:github\\/codeql_action\\/init:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql_action\\/init:github\\/codeql-action\\/init:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql_action\\/init:github\\/codeql_action\\/init:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql:github\\/codeql-action\\/init:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github\\/codeql:github\\/codeql_action\\/init:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/code-ql.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/jidicula/clang-format-action@v4.13.0?package-id=21e003ae11aaf59e",
+      "type": "library",
+      "name": "jidicula/clang-format-action",
+      "version": "v4.13.0",
+      "cpe": "cpe:2.3:a:jidicula\\/clang-format-action:jidicula\\/clang-format-action:v4.13.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/jidicula/clang-format-action@v4.13.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jidicula\\/clang-format-action:jidicula\\/clang_format_action:v4.13.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jidicula\\/clang_format_action:jidicula\\/clang-format-action:v4.13.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jidicula\\/clang_format_action:jidicula\\/clang_format_action:v4.13.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jidicula\\/clang-format:jidicula\\/clang-format-action:v4.13.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jidicula\\/clang-format:jidicula\\/clang_format_action:v4.13.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jidicula\\/clang_format:jidicula\\/clang-format-action:v4.13.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jidicula\\/clang_format:jidicula\\/clang_format_action:v4.13.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jidicula\\/clang:jidicula\\/clang-format-action:v4.13.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jidicula\\/clang:jidicula\\/clang_format_action:v4.13.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/pr-checks.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/peter-evans/repository-dispatch@v3?package-id=03b26f05fd0ad89f",
+      "type": "library",
+      "name": "peter-evans/repository-dispatch",
+      "version": "v3",
+      "cpe": "cpe:2.3:a:peter-evans\\/repository-dispatch:peter-evans\\/repository-dispatch:v3:*:*:*:*:*:*:*",
+      "purl": "pkg:github/peter-evans/repository-dispatch@v3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter-evans\\/repository-dispatch:peter_evans\\/repository_dispatch:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter_evans\\/repository_dispatch:peter-evans\\/repository-dispatch:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter_evans\\/repository_dispatch:peter_evans\\/repository_dispatch:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter-evans\\/repository:peter-evans\\/repository-dispatch:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter-evans\\/repository:peter_evans\\/repository_dispatch:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter_evans\\/repository:peter-evans\\/repository-dispatch:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter_evans\\/repository:peter_evans\\/repository_dispatch:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter:peter-evans\\/repository-dispatch:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:peter:peter_evans\\/repository_dispatch:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/release_dispatch.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/software.amazon.awssdk/auth@2.15.28?package-id=2e6c9a3df78a13bb",
+      "type": "library",
+      "group": "software.amazon.awssdk",
+      "name": "auth",
+      "version": "2.15.28",
+      "cpe": "cpe:2.3:a:auth:auth:2.15.28:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/software.amazon.awssdk/auth@2.15.28",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "91bc27cb508650f8be16146e682acc1844bbb26e"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/core-server-plugins/lib/aws/auth-2.15.28.jar"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "auth"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "software.amazon.awssdk"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/core-server-plugins/lib/aws/auth-2.15.28.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.fife.ui/autocomplete@2.5.4?package-id=333a43aec929f5a9",
+      "type": "library",
+      "name": "autocomplete",
+      "version": "2.5.4",
+      "cpe": "cpe:2.3:a:autocomplete:autocomplete:2.5.4:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.fife.ui/autocomplete@2.5.4",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "88714fa47e7fcbec8240e37f2508b13614a16fef"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fife:autocomplete:2.5.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:autocomplete:ui:2.5.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ui:autocomplete:2.5.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:fife:ui:2.5.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ui:ui:2.5.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/client/lib/autocomplete-2.5.4.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/client/lib/autocomplete-2.5.4.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/software.amazon.awssdk/aws-core@2.15.28?package-id=67c81e2706659ab3",
+      "type": "library",
+      "group": "software.amazon.awssdk",
+      "name": "aws-core",
+      "version": "2.15.28",
+      "cpe": "cpe:2.3:a:aws-core:aws-core:2.15.28:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/software.amazon.awssdk/aws-core@2.15.28",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "13a66816b914fa05978d7934b9d65fbe3ddf2561"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:aws-core:aws_core:2.15.28:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:aws_core:aws-core:2.15.28:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:aws_core:aws_core:2.15.28:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:aws:aws-core:2.15.28:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:aws:aws_core:2.15.28:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/core-server-plugins/lib/aws/aws-core-2.15.28.jar"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "aws-core"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "software.amazon.awssdk"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/core-server-plugins/lib/aws/aws-core-2.15.28.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/sorenlouv/backport-github-action@v9.5.1?package-id=633c8cef81c69e0d",
+      "type": "library",
+      "name": "sorenlouv/backport-github-action",
+      "version": "v9.5.1",
+      "cpe": "cpe:2.3:a:sorenlouv\\/backport-github-action:sorenlouv\\/backport-github-action:v9.5.1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/sorenlouv/backport-github-action@v9.5.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sorenlouv\\/backport-github-action:sorenlouv\\/backport_github_action:v9.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sorenlouv\\/backport_github_action:sorenlouv\\/backport-github-action:v9.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sorenlouv\\/backport_github_action:sorenlouv\\/backport_github_action:v9.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sorenlouv\\/backport-github:sorenlouv\\/backport-github-action:v9.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sorenlouv\\/backport-github:sorenlouv\\/backport_github_action:v9.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sorenlouv\\/backport_github:sorenlouv\\/backport-github-action:v9.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sorenlouv\\/backport_github:sorenlouv\\/backport_github_action:v9.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sorenlouv\\/backport:sorenlouv\\/backport-github-action:v9.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sorenlouv\\/backport:sorenlouv\\/backport_github_action:v9.5.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/backport.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/vedantmgoyal9/winget-releaser@main?package-id=1e4ac574b15139b6",
+      "type": "library",
+      "name": "vedantmgoyal9/winget-releaser",
+      "version": "main",
+      "cpe": "cpe:2.3:a:vedantmgoyal9\\/winget-releaser:vedantmgoyal9\\/winget-releaser:main:*:*:*:*:*:*:*",
+      "purl": "pkg:github/vedantmgoyal9/winget-releaser@main",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:vedantmgoyal9\\/winget-releaser:vedantmgoyal9\\/winget_releaser:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:vedantmgoyal9\\/winget_releaser:vedantmgoyal9\\/winget-releaser:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:vedantmgoyal9\\/winget_releaser:vedantmgoyal9\\/winget_releaser:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:vedantmgoyal9\\/winget:vedantmgoyal9\\/winget-releaser:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:vedantmgoyal9\\/winget:vedantmgoyal9\\/winget_releaser:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/winget.yml"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+    "org.eclipse.xtext:": {
+        "name": "org.eclipse.xtext",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-rfj2-4g26-7jw5",
+                "severity": "HIGH",
+                "description": "Potentially compromised builds ",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-319",
+                "CWE_DESCRIPTION": "Cleartext Transmission of Sensitive Information"
+            },
+            {
+                "id": "GHSA-rfj2-4g26-7jw5",
+                "severity": "HIGH",
+                "description": "Potentially compromised builds ",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-319",
+                "CWE_DESCRIPTION": "Cleartext Transmission of Sensitive Information"
+            }
+        ]
+    }
+}

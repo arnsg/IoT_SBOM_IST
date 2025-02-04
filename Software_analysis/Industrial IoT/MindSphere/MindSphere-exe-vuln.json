@@ -1,0 +1,38 @@
+{
+    "braces:3.0.2": {
+        "name": "braces",
+        "version": "3.0.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-grv7-fg5c-xmjg",
+                "severity": "HIGH",
+                "description": "Uncontrolled resource consumption in braces",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-05-14",
+                "updated_at": "2024-07-05"
+            }
+        ]
+    },
+    "pkg:5.8.1": {
+        "name": "pkg",
+        "version": "5.8.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-22r3-9w55-cj54",
+                "severity": "MODERATE",
+                "description": "Pkg Local Privilege Escalation",
+                "links": [],
+                "cvss_score": 6.6,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N",
+                "published_at": "2024-02-09",
+                "updated_at": "2024-02-12"
+            }
+        ]
+    }
+}

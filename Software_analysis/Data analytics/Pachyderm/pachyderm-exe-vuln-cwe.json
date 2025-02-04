@@ -1,0 +1,952 @@
+{
+    "@cypress/request:2.88.12": {
+        "name": "@cypress/request",
+        "version": "2.88.12",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-p8p7-x288-28g6",
+                "severity": "MODERATE",
+                "description": "Server-Side Request Forgery in Request",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2023-03-16",
+                "updated_at": "2024-03-21",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "@sideway/formula:3.0.0": {
+        "name": "@sideway/formula",
+        "version": "3.0.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c2jc-4fpr-4vhg",
+                "severity": "MODERATE",
+                "description": "@sideway/formula contains Regular Expression Denial of Service (ReDoS) Vulnerability",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2023-02-08",
+                "updated_at": "2023-02-08",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "axios:0.21.4": {
+        "name": "axios",
+        "version": "0.21.4",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-wf5p-g6vw-rhxx",
+                "severity": "MODERATE",
+                "description": "Axios Cross-Site Request Forgery Vulnerability",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+                "published_at": "2023-11-08",
+                "updated_at": "2024-06-21",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "braces:3.0.2": {
+        "name": "braces",
+        "version": "3.0.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-grv7-fg5c-xmjg",
+                "severity": "HIGH",
+                "description": "Uncontrolled resource consumption in braces",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-05-14",
+                "updated_at": "2024-07-05",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "certifi:2024.2.2": {
+        "name": "certifi",
+        "version": "2024.2.2",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-248v-346w-9cwc",
+                "severity": "LOW",
+                "description": "Certifi removes GLOBALTRUST root certificate",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-07-05",
+                "updated_at": "2024-07-08",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-248v-346w-9cwc",
+                "severity": "LOW",
+                "description": "Certifi removes GLOBALTRUST root certificate",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-07-05",
+                "updated_at": "2024-07-08",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "es5-ext:0.10.61": {
+        "name": "es5-ext",
+        "version": "0.10.61",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-4gmj-3p3h-gm8h",
+                "severity": "LOW",
+                "description": "es5-ext vulnerable to Regular Expression Denial of Service in `function#copy` and `function#toStringTokens`",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-02-26",
+                "updated_at": "2024-02-26",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "express:4.17.3": {
+        "name": "express",
+        "version": "4.17.3",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-rv95-896h-c2vc",
+                "severity": "MODERATE",
+                "description": "Express.js Open Redirect in malformed URLs",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2024-03-25",
+                "updated_at": "2024-03-27",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "express:4.18.1": {
+        "name": "express",
+        "version": "4.18.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-rv95-896h-c2vc",
+                "severity": "MODERATE",
+                "description": "Express.js Open Redirect in malformed URLs",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2024-03-25",
+                "updated_at": "2024-03-27",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "github.com/Azure/azure-sdk-for-go/sdk/azidentity:v1.1.0": {
+        "name": "github.com/Azure/azure-sdk-for-go/sdk/azidentity",
+        "version": "v1.1.0",
+        "type": "go-module",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-m5vv-6r4h-3vj9",
+                "severity": "MODERATE",
+                "description": "Azure Identity Libraries and Microsoft Authentication Library Elevation of Privilege Vulnerability",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2024-06-11",
+                "updated_at": "2024-06-19",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "github.com/docker/docker:v20.10.27+incompatible": {
+        "name": "github.com/docker/docker",
+        "version": "v20.10.27+incompatible",
+        "type": "go-module",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-v23v-6jw2-98fq",
+                "severity": "CRITICAL",
+                "description": "Authz zero length regression",
+                "links": [],
+                "cvss_score": 10.0,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2024-07-30",
+                "updated_at": "2024-07-30",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-xw73-rw38-6vjc",
+                "severity": "MODERATE",
+                "description": "Classic builder cache poisoning",
+                "links": [],
+                "cvss_score": 6.9,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:L/I:H/A:L",
+                "published_at": "2024-02-01",
+                "updated_at": "2024-07-05",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-mq39-4gv4-mvpx",
+                "severity": "MODERATE",
+                "description": "Moby's external DNS requests from 'internal' networks could lead to data exfiltration",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2024-03-20",
+                "updated_at": "2024-03-20",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "golang.org/x/image:v0.0.0-20210216034530-4410531fe030": {
+        "name": "golang.org/x/image",
+        "version": "v0.0.0-20210216034530-4410531fe030",
+        "type": "go-module",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-x92r-3vfx-4cv3",
+                "severity": "MODERATE",
+                "description": "Golang TIFF decoder does not place a limit on the size of compressed tile data",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2023-08-02",
+                "updated_at": "2024-05-20",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-qgc7-mgm3-q253",
+                "severity": "MODERATE",
+                "description": "Uncontrolled Resource Consumption in golang.org/x/image",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2023-02-17",
+                "updated_at": "2024-05-20",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-j3p8-6mrq-6g7h",
+                "severity": "MODERATE",
+                "description": "Golang TIFF decoder vulnerable to excessive CPU consumption",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2023-08-02",
+                "updated_at": "2024-05-20",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-9phm-fm57-rhg8",
+                "severity": "MODERATE",
+                "description": "Panic when parsing invalid palette-color images in golang.org/x/image",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-06-26",
+                "updated_at": "2024-06-27",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "google.golang.org/grpc:v1.64.0": {
+        "name": "google.golang.org/grpc",
+        "version": "v1.64.0",
+        "type": "go-module",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-xr7q-jx4m-x55m",
+                "severity": "LOW",
+                "description": "Private tokens could appear in logs if context containing gRPC metadata is logged in github.com/grpc/grpc-go",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-07-05",
+                "updated_at": "2024-07-09",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "gopkg.in/square/go-jose.v2:v2.6.0": {
+        "name": "gopkg.in/square/go-jose.v2",
+        "version": "v2.6.0",
+        "type": "go-module",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c5q2-7r4c-mv6g",
+                "severity": "MODERATE",
+                "description": "Go JOSE vulnerable to Improper Handling of Highly Compressed Data (Data Amplification)",
+                "links": [],
+                "cvss_score": 4.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2024-03-07",
+                "updated_at": "2024-06-12",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "http-cache-semantics:4.1.0": {
+        "name": "http-cache-semantics",
+        "version": "4.1.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-rc47-6667-2j5j",
+                "severity": "HIGH",
+                "description": "http-cache-semantics vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2023-01-31",
+                "updated_at": "2023-06-22",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "jsonwebtoken:8.5.1": {
+        "name": "jsonwebtoken",
+        "version": "8.5.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-8cf7-32gw-wr33",
+                "severity": "HIGH",
+                "description": "jsonwebtoken unrestricted key type could lead to legacy keys usage ",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+                "published_at": "2022-12-22",
+                "updated_at": "2024-06-24",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-qwph-4952-7xr6",
+                "severity": "MODERATE",
+                "description": "jsonwebtoken vulnerable to signature validation bypass due to insecure default algorithm in jwt.verify()",
+                "links": [],
+                "cvss_score": 6.4,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:H/A:L",
+                "published_at": "2022-12-22",
+                "updated_at": "2024-06-21",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-hjrf-2m68-5959",
+                "severity": "MODERATE",
+                "description": "jsonwebtoken's insecure implementation of key retrieval function could lead to Forgeable Public/Private Tokens from RSA to HMAC",
+                "links": [],
+                "cvss_score": 5.0,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L",
+                "published_at": "2022-12-22",
+                "updated_at": "2024-06-24",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "jupyter-server:2.11.2": {
+        "name": "jupyter-server",
+        "version": "2.11.2",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-hrw6-wg82-cm62",
+                "severity": "HIGH",
+                "description": "Jupyter server on Windows discloses Windows user password hash",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2024-06-06",
+                "updated_at": "2024-06-06",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-hrw6-wg82-cm62",
+                "severity": "HIGH",
+                "description": "Jupyter server on Windows discloses Windows user password hash",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2024-06-06",
+                "updated_at": "2024-06-06",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "marked:2.1.3": {
+        "name": "marked",
+        "version": "2.1.3",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-rrrm-qjm4-v8hf",
+                "severity": "HIGH",
+                "description": "Inefficient Regular Expression Complexity in marked",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-01-14",
+                "updated_at": "2023-11-29",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-5v2h-r2cx-5xgj",
+                "severity": "HIGH",
+                "description": "Inefficient Regular Expression Complexity in marked",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-01-14",
+                "updated_at": "2023-11-29",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "minimatch:3.0.4": {
+        "name": "minimatch",
+        "version": "3.0.4",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-f8q6-p94x-37v3",
+                "severity": "HIGH",
+                "description": "minimatch ReDoS vulnerability",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-10-18",
+                "updated_at": "2024-02-14",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "nanoid:3.1.30": {
+        "name": "nanoid",
+        "version": "3.1.30",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-qrpm-p2h7-hrv2",
+                "severity": "MODERATE",
+                "description": "Exposure of Sensitive Information to an Unauthorized Actor in nanoid",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2022-01-21",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "postcss:8.3.11": {
+        "name": "postcss",
+        "version": "8.3.11",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-7fh5-64p2-3v2j",
+                "severity": "MODERATE",
+                "description": "PostCSS line return parsing error",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2023-09-30",
+                "updated_at": "2023-11-05",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "proto:1.0.0": {
+        "name": "proto",
+        "version": "1.0.0",
+        "type": "npm",
+        "licenses": [
+            "ISC"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-58g2-9fqr-36q2",
+                "severity": "HIGH",
+                "description": "Prototype Pollution in Proto",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2021-09-02",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "request:2.88.0": {
+        "name": "request",
+        "version": "2.88.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-p8p7-x288-28g6",
+                "severity": "MODERATE",
+                "description": "Server-Side Request Forgery in Request",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2023-03-16",
+                "updated_at": "2024-03-21",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "sanitize-html:2.3.3": {
+        "name": "sanitize-html",
+        "version": "2.3.3",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-cgfm-xwp7-2cvr",
+                "severity": "HIGH",
+                "description": "Sanitize-html Vulnerable To REDoS Attacks",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-08-31",
+                "updated_at": "2024-04-22",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-rm97-x556-q36h",
+                "severity": "MODERATE",
+                "description": "sanitize-html Information Exposure vulnerability",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+                "published_at": "2024-02-24",
+                "updated_at": "2024-06-10",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "semver:5.7.1": {
+        "name": "semver",
+        "version": "5.7.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c2qf-rxjj-qqgw",
+                "severity": "MODERATE",
+                "description": "semver vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2023-06-21",
+                "updated_at": "2024-02-14",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "semver:6.3.0": {
+        "name": "semver",
+        "version": "6.3.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c2qf-rxjj-qqgw",
+                "severity": "MODERATE",
+                "description": "semver vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2023-06-21",
+                "updated_at": "2024-02-14",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "semver:7.0.0": {
+        "name": "semver",
+        "version": "7.0.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c2qf-rxjj-qqgw",
+                "severity": "MODERATE",
+                "description": "semver vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2023-06-21",
+                "updated_at": "2024-02-14",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "semver:7.3.5": {
+        "name": "semver",
+        "version": "7.3.5",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c2qf-rxjj-qqgw",
+                "severity": "MODERATE",
+                "description": "semver vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2023-06-21",
+                "updated_at": "2024-02-14",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "semver:7.3.7": {
+        "name": "semver",
+        "version": "7.3.7",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c2qf-rxjj-qqgw",
+                "severity": "MODERATE",
+                "description": "semver vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2023-06-21",
+                "updated_at": "2024-02-14",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "setuptools:69.2.0": {
+        "name": "setuptools",
+        "version": "69.2.0",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-cx63-2mw6-8hw5",
+                "severity": "HIGH",
+                "description": "setuptools vulnerable to Command Injection via package URL",
+                "links": [],
+                "cvss_score": 8.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2024-07-15",
+                "updated_at": "2024-07-15",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "tar:6.1.11": {
+        "name": "tar",
+        "version": "6.1.11",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-f5x3-32g6-xq36",
+                "severity": "MODERATE",
+                "description": "Denial of service while parsing a tar file due to lack of folders count validation",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2024-03-22",
+                "updated_at": "2024-06-10",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "tornado:6.4": {
+        "name": "tornado",
+        "version": "6.4",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-w235-7p84-xx57",
+                "severity": "MODERATE",
+                "description": "Tornado has a CRLF injection in CurlAsyncHTTPClient headers",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+                "published_at": "2024-06-06",
+                "updated_at": "2024-06-07",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-w235-7p84-xx57",
+                "severity": "MODERATE",
+                "description": "Tornado has a CRLF injection in CurlAsyncHTTPClient headers",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+                "published_at": "2024-06-06",
+                "updated_at": "2024-06-07",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-753j-mpmx-qq6g",
+                "severity": "MODERATE",
+                "description": "Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling') in tornado",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2024-06-06",
+                "updated_at": "2024-07-11",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-753j-mpmx-qq6g",
+                "severity": "MODERATE",
+                "description": "Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling') in tornado",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2024-06-06",
+                "updated_at": "2024-07-11",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "tough-cookie:2.4.3": {
+        "name": "tough-cookie",
+        "version": "2.4.3",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-72xf-g2v4-qvf3",
+                "severity": "MODERATE",
+                "description": "tough-cookie Prototype Pollution vulnerability",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+                "published_at": "2023-07-01",
+                "updated_at": "2024-06-21",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "tough-cookie:2.5.0": {
+        "name": "tough-cookie",
+        "version": "2.5.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-72xf-g2v4-qvf3",
+                "severity": "MODERATE",
+                "description": "tough-cookie Prototype Pollution vulnerability",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+                "published_at": "2023-07-01",
+                "updated_at": "2024-06-21",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "tough-cookie:3.0.1": {
+        "name": "tough-cookie",
+        "version": "3.0.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-72xf-g2v4-qvf3",
+                "severity": "MODERATE",
+                "description": "tough-cookie Prototype Pollution vulnerability",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+                "published_at": "2023-07-01",
+                "updated_at": "2024-06-21",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "tough-cookie:4.0.0": {
+        "name": "tough-cookie",
+        "version": "4.0.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-72xf-g2v4-qvf3",
+                "severity": "MODERATE",
+                "description": "tough-cookie Prototype Pollution vulnerability",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+                "published_at": "2023-07-01",
+                "updated_at": "2024-06-21",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "urllib3:2.2.1": {
+        "name": "urllib3",
+        "version": "2.2.1",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-34jh-p97f-mpxf",
+                "severity": "MODERATE",
+                "description": "urllib3's Proxy-Authorization request header isn't stripped during cross-origin redirects ",
+                "links": [],
+                "cvss_score": 4.4,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2024-06-17",
+                "updated_at": "2024-06-17",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "word-wrap:1.2.3": {
+        "name": "word-wrap",
+        "version": "1.2.3",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-j8xg-fqg3-53r7",
+                "severity": "MODERATE",
+                "description": "word-wrap vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2023-06-22",
+                "updated_at": "2024-06-21",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "ws:6.2.2": {
+        "name": "ws",
+        "version": "6.2.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-3h5v-q93c-6h6q",
+                "severity": "HIGH",
+                "description": "ws affected by a DoS when handling a request with many HTTP headers",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-06-17",
+                "updated_at": "2024-06-17",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "ws:7.5.5": {
+        "name": "ws",
+        "version": "7.5.5",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-3h5v-q93c-6h6q",
+                "severity": "HIGH",
+                "description": "ws affected by a DoS when handling a request with many HTTP headers",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-06-17",
+                "updated_at": "2024-06-17",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    }
+}

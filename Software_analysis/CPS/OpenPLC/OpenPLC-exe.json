@@ -1,0 +1,1820 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:ebbdf78c-8ecc-40a7-ba5d-9456d9e23d00",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-07-04T13:13:36+02:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.4.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "b05141e15c804f68",
+      "type": "file",
+      "name": "/Users/massimocoppolaro/Desktop/Università/Tirocinio/Software/OpenPLC_v3"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:pypi/flask@1.0.2?package-id=810b0b03b3ada7d3",
+      "type": "library",
+      "name": "Flask",
+      "version": "1.0.2",
+      "cpe": "cpe:2.3:a:palletsprojects:flask:1.0.2:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/Flask@1.0.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "python-pip-requirements-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/requirements.txt"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/flask-login@0.4.1?package-id=5c5d3ee2686a1aa2",
+      "type": "library",
+      "name": "Flask-Login",
+      "version": "0.4.1",
+      "cpe": "cpe:2.3:a:python-Flask-Login:python-Flask-Login:0.4.1:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/Flask-Login@0.4.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "python-pip-requirements-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-Flask-Login:python_Flask_Login:0.4.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_Flask_Login:python-Flask-Login:0.4.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_Flask_Login:python_Flask_Login:0.4.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-Flask:python-Flask-Login:0.4.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-Flask:python_Flask_Login:0.4.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_Flask:python-Flask-Login:0.4.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_Flask:python_Flask_Login:0.4.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Flask-Login:python-Flask-Login:0.4.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Flask-Login:python_Flask_Login:0.4.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Flask_Login:python-Flask-Login:0.4.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Flask_Login:python_Flask_Login:0.4.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-Flask-Login:Flask-Login:0.4.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-Flask-Login:Flask_Login:0.4.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_Flask_Login:Flask-Login:0.4.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_Flask_Login:Flask_Login:0.4.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-Flask-Login:0.4.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_Flask_Login:0.4.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Flask:python-Flask-Login:0.4.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Flask:python_Flask_Login:0.4.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-Flask:Flask-Login:0.4.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-Flask:Flask_Login:0.4.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_Flask:Flask-Login:0.4.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_Flask:Flask_Login:0.4.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Flask-Login:Flask-Login:0.4.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Flask-Login:Flask_Login:0.4.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Flask_Login:Flask-Login:0.4.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Flask_Login:Flask_Login:0.4.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:Flask-Login:0.4.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:Flask_Login:0.4.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Flask:Flask-Login:0.4.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Flask:Flask_Login:0.4.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/requirements.txt"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/junit/junit@4.10?package-id=557343362a2bd4fe",
+      "type": "library",
+      "group": "junit",
+      "name": "junit",
+      "version": "4.10",
+      "cpe": "cpe:2.3:a:junit:junit:4.10:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/junit/junit@4.10",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/utils/dnp3_src/generation/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "junit"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "junit"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/junit/junit@4.9?package-id=6f7749f800a020b2",
+      "type": "library",
+      "group": "junit",
+      "name": "junit",
+      "version": "4.9",
+      "cpe": "cpe:2.3:a:junit:junit:4.9:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/junit/junit@4.9",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/utils/dnp3_src/java/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "junit"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "junit"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.automatak.dnp3/opendnp3-bindings?package-id=f727d64076033920",
+      "type": "library",
+      "group": "com.automatak.dnp3",
+      "name": "opendnp3-bindings",
+      "cpe": "cpe:2.3:a:opendnp3-bindings:opendnp3-bindings:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.automatak.dnp3/opendnp3-bindings",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opendnp3-bindings:opendnp3_bindings:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opendnp3_bindings:opendnp3-bindings:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opendnp3_bindings:opendnp3_bindings:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:automatak:opendnp3-bindings:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:automatak:opendnp3_bindings:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opendnp3:opendnp3-bindings:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opendnp3:opendnp3_bindings:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dnp3:opendnp3-bindings:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dnp3:opendnp3_bindings:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/utils/dnp3_src/java/codegen/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "opendnp3-bindings"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "com.automatak.dnp3"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.automatak.dnp3/opendnp3-bindings?package-id=534b9e26b67bf213",
+      "type": "library",
+      "group": "com.automatak.dnp3",
+      "name": "opendnp3-bindings",
+      "cpe": "cpe:2.3:a:opendnp3-bindings:opendnp3-bindings:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.automatak.dnp3/opendnp3-bindings",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opendnp3-bindings:opendnp3_bindings:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opendnp3_bindings:opendnp3-bindings:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opendnp3_bindings:opendnp3_bindings:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:automatak:opendnp3-bindings:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:automatak:opendnp3_bindings:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opendnp3:opendnp3-bindings:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opendnp3:opendnp3_bindings:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dnp3:opendnp3-bindings:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:dnp3:opendnp3_bindings:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/utils/dnp3_src/java/example/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "opendnp3-bindings"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "com.automatak.dnp3"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.automatak.render/opendnp3-generation-render@1.0.0?package-id=19760bbda9dee806",
+      "type": "library",
+      "group": "com.automatak.render",
+      "name": "opendnp3-generation-render",
+      "version": "1.0.0",
+      "cpe": "cpe:2.3:a:opendnp3-generation-render:opendnp3-generation-render:1.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.automatak.render/opendnp3-generation-render@1.0.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opendnp3-generation-render:opendnp3_generation_render:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opendnp3_generation_render:opendnp3-generation-render:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opendnp3_generation_render:opendnp3_generation_render:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opendnp3-generation:opendnp3-generation-render:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opendnp3-generation:opendnp3_generation_render:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opendnp3_generation:opendnp3-generation-render:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opendnp3_generation:opendnp3_generation_render:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:automatak:opendnp3-generation-render:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:automatak:opendnp3_generation_render:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opendnp3:opendnp3-generation-render:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opendnp3:opendnp3_generation_render:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opendnp3-generation-render:render:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opendnp3_generation_render:render:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:render:opendnp3-generation-render:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:render:opendnp3_generation_render:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opendnp3-generation:render:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opendnp3_generation:render:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:automatak:render:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:opendnp3:render:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:render:render:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/utils/dnp3_src/generation/dnp3/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "opendnp3-generation-render"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "com.automatak.render"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jetty.orbit/org.objectweb.asm@3.3.1.v201105211655?package-id=4ba25a81b1563557",
+      "type": "library",
+      "group": "org.eclipse.jetty.orbit",
+      "name": "org.objectweb.asm",
+      "version": "3.3.1.v201105211655",
+      "cpe": "cpe:2.3:a:org.objectweb.asm:org.objectweb.asm:3.3.1.v201105211655:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.eclipse.jetty.orbit/org.objectweb.asm@3.3.1.v201105211655",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:objectweb:org.objectweb.asm:3.3.1.v201105211655:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:eclipse:org.objectweb.asm:3.3.1.v201105211655:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jetty:org.objectweb.asm:3.3.1.v201105211655:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:orbit:org.objectweb.asm:3.3.1.v201105211655:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.objectweb.asm:jetty:3.3.1.v201105211655:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.objectweb.asm:orbit:3.3.1.v201105211655:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm:org.objectweb.asm:3.3.1.v201105211655:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.objectweb.asm:asm:3.3.1.v201105211655:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:objectweb:jetty:3.3.1.v201105211655:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:objectweb:orbit:3.3.1.v201105211655:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:eclipse:jetty:3.3.1.v201105211655:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:eclipse:orbit:3.3.1.v201105211655:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:objectweb:asm:3.3.1.v201105211655:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:eclipse:asm:3.3.1.v201105211655:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jetty:jetty:3.3.1.v201105211655:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jetty:orbit:3.3.1.v201105211655:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:orbit:jetty:3.3.1.v201105211655:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:orbit:orbit:3.3.1.v201105211655:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm:jetty:3.3.1.v201105211655:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm:orbit:3.3.1.v201105211655:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jetty:asm:3.3.1.v201105211655:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:orbit:asm:3.3.1.v201105211655:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:asm:asm:3.3.1.v201105211655:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/utils/dnp3_src/java/codegen/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "org.objectweb.asm"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.eclipse.jetty.orbit"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/twitterapi@2.7.12?package-id=08554431b5484f36",
+      "type": "library",
+      "name": "TwitterAPI",
+      "version": "2.7.12",
+      "cpe": "cpe:2.3:a:python-TwitterAPI:python-TwitterAPI:2.7.12:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/TwitterAPI@2.7.12",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "python-pip-requirements-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-TwitterAPI:python_TwitterAPI:2.7.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_TwitterAPI:python-TwitterAPI:2.7.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_TwitterAPI:python_TwitterAPI:2.7.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:TwitterAPI:python-TwitterAPI:2.7.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:TwitterAPI:python_TwitterAPI:2.7.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-TwitterAPI:TwitterAPI:2.7.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_TwitterAPI:TwitterAPI:2.7.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-TwitterAPI:2.7.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_TwitterAPI:2.7.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:TwitterAPI:TwitterAPI:2.7.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:TwitterAPI:2.7.12:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/requirements_all.txt"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/wsdiscovery@2.0.0?package-id=7114de3d851cdb38",
+      "type": "library",
+      "name": "WSDiscovery",
+      "version": "2.0.0",
+      "cpe": "cpe:2.3:a:python-WSDiscovery:python-WSDiscovery:2.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/WSDiscovery@2.0.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "python-pip-requirements-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-WSDiscovery:python_WSDiscovery:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_WSDiscovery:python-WSDiscovery:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_WSDiscovery:python_WSDiscovery:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:WSDiscovery:python-WSDiscovery:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:WSDiscovery:python_WSDiscovery:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-WSDiscovery:WSDiscovery:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_WSDiscovery:WSDiscovery:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-WSDiscovery:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_WSDiscovery:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:WSDiscovery:WSDiscovery:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:WSDiscovery:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/requirements_all.txt"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/wsdiscovery@2.0.0?package-id=f454417503a35447",
+      "type": "library",
+      "name": "WSDiscovery",
+      "version": "2.0.0",
+      "cpe": "cpe:2.3:a:python-WSDiscovery:python-WSDiscovery:2.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/WSDiscovery@2.0.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "python-pip-requirements-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-WSDiscovery:python_WSDiscovery:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_WSDiscovery:python-WSDiscovery:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_WSDiscovery:python_WSDiscovery:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:WSDiscovery:python-WSDiscovery:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:WSDiscovery:python_WSDiscovery:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-WSDiscovery:WSDiscovery:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_WSDiscovery:WSDiscovery:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-WSDiscovery:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_WSDiscovery:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:WSDiscovery:WSDiscovery:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:WSDiscovery:2.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/requirements_test_all.txt"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/accuweather@3.0.0?package-id=d0772026a3756c25",
+      "type": "library",
+      "name": "accuweather",
+      "version": "3.0.0",
+      "cpe": "cpe:2.3:a:python-accuweather:python-accuweather:3.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/accuweather@3.0.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "python-pip-requirements-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-accuweather:python_accuweather:3.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_accuweather:python-accuweather:3.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_accuweather:python_accuweather:3.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:accuweather:python-accuweather:3.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:accuweather:python_accuweather:3.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-accuweather:accuweather:3.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_accuweather:accuweather:3.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-accuweather:3.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_accuweather:3.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:accuweather:accuweather:3.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:accuweather:3.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/requirements_all.txt"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/accuweather@3.0.0?package-id=0bb4169437506b6e",
+      "type": "library",
+      "name": "accuweather",
+      "version": "3.0.0",
+      "cpe": "cpe:2.3:a:python-accuweather:python-accuweather:3.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/accuweather@3.0.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "python-pip-requirements-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-accuweather:python_accuweather:3.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_accuweather:python-accuweather:3.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_accuweather:python_accuweather:3.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:accuweather:python-accuweather:3.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:accuweather:python_accuweather:3.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-accuweather:accuweather:3.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_accuweather:accuweather:3.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-accuweather:3.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_accuweather:3.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:accuweather:accuweather:3.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:accuweather:3.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/requirements_test_all.txt"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/cache@v4.0.2?package-id=69b21b8ac7cea1e3",
+      "type": "library",
+      "name": "actions/cache",
+      "version": "v4.0.2",
+      "cpe": "cpe:2.3:a:actions\\/cache:actions\\/cache:v4.0.2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/cache@v4.0.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/ci.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/cache@v4.0.2?package-id=1f2e5f22eba9f8ae#restore",
+      "type": "library",
+      "name": "actions/cache/restore",
+      "version": "v4.0.2",
+      "cpe": "cpe:2.3:a:actions\\/cache\\/restore:actions\\/cache\\/restore:v4.0.2:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/cache@v4.0.2#restore",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/ci.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v4.1.7?package-id=7f8cb4c66c22920a",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v4.1.7",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4.1.7:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v4.1.7",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/builder.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v4.1.7?package-id=5293cd3b2d104885",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v4.1.7",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4.1.7:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v4.1.7",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/ci.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v4.1.7?package-id=aa8cc837da2d775c",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v4.1.7",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4.1.7:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v4.1.7",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/codeql.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v4.1.7?package-id=5b1853e867496498",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v4.1.7",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4.1.7:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v4.1.7",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/translations.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v4.1.7?package-id=3d974551af5a547f",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v4.1.7",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4.1.7:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v4.1.7",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/wheels.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/download-artifact@v4.1.7?package-id=259eb5a8bc513cb4",
+      "type": "library",
+      "name": "actions/download-artifact",
+      "version": "v4.1.7",
+      "cpe": "cpe:2.3:a:actions\\/download-artifact:actions\\/download-artifact:v4.1.7:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/download-artifact@v4.1.7",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/download-artifact:actions\\/download_artifact:v4.1.7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/download_artifact:actions\\/download-artifact:v4.1.7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/download_artifact:actions\\/download_artifact:v4.1.7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/download:actions\\/download-artifact:v4.1.7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/download:actions\\/download_artifact:v4.1.7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/builder.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/download-artifact@v4.1.7?package-id=263c0678408b584f",
+      "type": "library",
+      "name": "actions/download-artifact",
+      "version": "v4.1.7",
+      "cpe": "cpe:2.3:a:actions\\/download-artifact:actions\\/download-artifact:v4.1.7:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/download-artifact@v4.1.7",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/download-artifact:actions\\/download_artifact:v4.1.7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/download_artifact:actions\\/download-artifact:v4.1.7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/download_artifact:actions\\/download_artifact:v4.1.7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/download:actions\\/download-artifact:v4.1.7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/download:actions\\/download_artifact:v4.1.7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/ci.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/download-artifact@v4.1.7?package-id=e6eb9993431fa6ed",
+      "type": "library",
+      "name": "actions/download-artifact",
+      "version": "v4.1.7",
+      "cpe": "cpe:2.3:a:actions\\/download-artifact:actions\\/download-artifact:v4.1.7:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/download-artifact@v4.1.7",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/download-artifact:actions\\/download_artifact:v4.1.7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/download_artifact:actions\\/download-artifact:v4.1.7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/download_artifact:actions\\/download_artifact:v4.1.7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/download:actions\\/download-artifact:v4.1.7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/download:actions\\/download_artifact:v4.1.7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/wheels.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/setup-python@v5.1.0?package-id=9cee45d99f23e707",
+      "type": "library",
+      "name": "actions/setup-python",
+      "version": "v5.1.0",
+      "cpe": "cpe:2.3:a:actions\\/setup-python:actions\\/setup-python:v5.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/setup-python@v5.1.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup-python:actions\\/setup_python:v5.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_python:actions\\/setup-python:v5.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_python:actions\\/setup_python:v5.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup-python:v5.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup_python:v5.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/builder.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/setup-python@v5.1.0?package-id=5daf6f0a80cff6c1",
+      "type": "library",
+      "name": "actions/setup-python",
+      "version": "v5.1.0",
+      "cpe": "cpe:2.3:a:actions\\/setup-python:actions\\/setup-python:v5.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/setup-python@v5.1.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup-python:actions\\/setup_python:v5.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_python:actions\\/setup-python:v5.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_python:actions\\/setup_python:v5.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup-python:v5.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup_python:v5.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/ci.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/setup-python@v5.1.0?package-id=f4f7418440884de4",
+      "type": "library",
+      "name": "actions/setup-python",
+      "version": "v5.1.0",
+      "cpe": "cpe:2.3:a:actions\\/setup-python:actions\\/setup-python:v5.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/setup-python@v5.1.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup-python:actions\\/setup_python:v5.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_python:actions\\/setup-python:v5.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_python:actions\\/setup_python:v5.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup-python:v5.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup_python:v5.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/translations.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pymodbus@2.2.0?package-id=f680a17287c7b268",
+      "type": "library",
+      "name": "pymodbus",
+      "version": "2.2.0",
+      "cpe": "cpe:2.3:a:python-pymodbus:python-pymodbus:2.2.0:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/pymodbus@2.2.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "python-pip-requirements-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-pymodbus:python_pymodbus:2.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_pymodbus:python-pymodbus:2.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_pymodbus:python_pymodbus:2.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pymodbus:python-pymodbus:2.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pymodbus:python_pymodbus:2.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-pymodbus:pymodbus:2.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_pymodbus:pymodbus:2.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-pymodbus:2.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_pymodbus:2.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pymodbus:pymodbus:2.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:pymodbus:2.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/requirements.txt"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:pypi/pyserial@3.4?package-id=6156238c9cc62933",
+      "type": "library",
+      "name": "pyserial",
+      "version": "3.4",
+      "cpe": "cpe:2.3:a:python-pyserial:python-pyserial:3.4:*:*:*:*:*:*:*",
+      "purl": "pkg:pypi/pyserial@3.4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "python-pip-requirements-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-pyserial:python_pyserial:3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_pyserial:python-pyserial:3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_pyserial:python_pyserial:3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pyserial:python-pyserial:3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pyserial:python_pyserial:3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-pyserial:pyserial:3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_pyserial:pyserial:3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-pyserial:3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_pyserial:3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pyserial:pyserial:3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:pyserial:3.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/requirements.txt"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.scala-lang/scala-library@2.11.8?package-id=7cbfcc14438f9b64",
+      "type": "library",
+      "group": "org.scala-lang",
+      "name": "scala-library",
+      "version": "2.11.8",
+      "cpe": "cpe:2.3:a:scala-library:scala-library:2.11.8:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.scala-lang/scala-library@2.11.8",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala-library:scala_library:2.11.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala_library:scala-library:2.11.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala_library:scala_library:2.11.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala-lang:scala-library:2.11.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala-lang:scala_library:2.11.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala_lang:scala-library:2.11.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala_lang:scala_library:2.11.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala:scala-library:2.11.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala:scala_library:2.11.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/utils/dnp3_src/generation/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "scala-library"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.scala-lang"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.scala-lang/scala-library@2.11.8?package-id=e7e9ef89f9bf1048",
+      "type": "library",
+      "group": "org.scala-lang",
+      "name": "scala-library",
+      "version": "2.11.8",
+      "cpe": "cpe:2.3:a:scala-library:scala-library:2.11.8:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.scala-lang/scala-library@2.11.8",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala-library:scala_library:2.11.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala_library:scala-library:2.11.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala_library:scala_library:2.11.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala-lang:scala-library:2.11.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala-lang:scala_library:2.11.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala_lang:scala-library:2.11.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala_lang:scala_library:2.11.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala:scala-library:2.11.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala:scala_library:2.11.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/utils/dnp3_src/java/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "scala-library"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.scala-lang"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.scalatest/scalatest_2.11@2.2.2?package-id=275358aa84cbab66",
+      "type": "library",
+      "group": "org.scalatest",
+      "name": "scalatest_2.11",
+      "version": "2.2.2",
+      "cpe": "cpe:2.3:a:scalatest-2.11:scalatest-2.11:2.2.2:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.scalatest/scalatest_2.11@2.2.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scalatest-2.11:scalatest_2.11:2.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scalatest_2.11:scalatest-2.11:2.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scalatest_2.11:scalatest_2.11:2.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scalatest:scalatest-2.11:2.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scalatest:scalatest_2.11:2.2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/utils/dnp3_src/generation/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "scalatest_2.11"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.scalatest"
+        }
+      ]
+    }
+  ]
+}

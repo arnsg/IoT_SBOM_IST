@@ -1,0 +1,82 @@
+{
+    "mysql-connector-java:5.1.36": {
+        "name": "mysql-connector-java",
+        "version": "5.1.36",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-4vrv-ch96-6h42",
+                "severity": "HIGH",
+                "description": "Improper Privilege Management in MySQL Connectors Java",
+                "links": [],
+                "cvss_score": 8.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-05-13",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-2xxh-f8r3-hvvr",
+                "severity": "HIGH",
+                "description": "Improper Access Control in MySQL Connectors Java",
+                "links": [],
+                "cvss_score": 8.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2022-05-13",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-pwh7-92h3-mqr6",
+                "severity": "MODERATE",
+                "description": "Exposure of Sensitive Information to an Unauthorized Actor in Oracle MySQL Connectors Java",
+                "links": [],
+                "cvss_score": 6.4,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
+                "published_at": "2022-05-13",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-jcq3-cprp-m333",
+                "severity": "MODERATE",
+                "description": "Privilege escalation in mysql-connector-jav",
+                "links": [],
+                "cvss_score": 6.3,
+                "vector_attack": "CVSS:3.0/AV:L/AC:H/PR:H/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2020-07-01",
+                "updated_at": "2023-01-09",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-g76j-4cxx-23h9",
+                "severity": "MODERATE",
+                "description": "Improper Handling of Insufficient Permissions or Privileges in MySQL Connectors Java",
+                "links": [],
+                "cvss_score": 6.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-01-20",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-cjcf-wm2p-59h5",
+                "severity": "LOW",
+                "description": "Exposure of Sensitive Information to an Unauthorized Actor in Oracle MySQL Connectors Java",
+                "links": [],
+                "cvss_score": 3.3,
+                "vector_attack": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2022-05-13",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    }
+}

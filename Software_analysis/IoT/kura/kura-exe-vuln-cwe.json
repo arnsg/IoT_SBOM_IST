@@ -1,0 +1,42 @@
+{
+    "scikit-learn:1.0.2": {
+        "name": "scikit-learn",
+        "version": "1.0.2",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-jw8x-6495-233v",
+                "severity": "MODERATE",
+                "description": "scikit-learn sensitive data leakage vulnerability",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2024-06-06",
+                "updated_at": "2024-06-17",
+                "CWE_ID": "CWE-921",
+                "CWE_DESCRIPTION": "Storage of Sensitive Data in a Mechanism without Access Control"
+            }
+        ]
+    },
+    "sdk-server:0.6.4": {
+        "name": "sdk-server",
+        "version": "0.6.4",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-fph9-f5r6-vhqf",
+                "severity": "HIGH",
+                "description": "Eclipse Milo vulnerable to Resource Exhaustion (Denial of Service)",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-09-15",
+                "updated_at": "2023-02-02",
+                "CWE_ID": "CWE-770",
+                "CWE_DESCRIPTION": "Allocation of Resources Without Limits or Throttling"
+            }
+        ]
+    }
+}

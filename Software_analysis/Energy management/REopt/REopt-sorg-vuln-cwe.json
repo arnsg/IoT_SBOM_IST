@@ -1,0 +1,502 @@
+{
+    "Django:4.0.7": {
+        "name": "Django",
+        "version": "4.0.7",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-r3xc-prgr-mg9p",
+                "severity": "CRITICAL",
+                "description": "Django bypasses validation when using one form field to upload multiple files",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2023-05-07",
+                "updated_at": "2024-04-03",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-qrw5-5h28-6cmg",
+                "severity": "HIGH",
+                "description": "Django denial-of-service vulnerability in internationalized URLs",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-10-16",
+                "updated_at": "2024-04-02",
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-q2jf-h9jm-m7p4",
+                "severity": "HIGH",
+                "description": "Django contains Uncontrolled Resource Consumption via cached header",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2023-02-01",
+                "updated_at": "2024-05-18",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-jh3w-4vvf-mjgr",
+                "severity": "HIGH",
+                "description": "Django has regular expression denial of service vulnerability in EmailValidator/URLValidator",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2023-07-03",
+                "updated_at": "2023-12-08",
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-2hrw-hx67-34x6",
+                "severity": "HIGH",
+                "description": "Resource exhaustion in Django",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2023-02-15",
+                "updated_at": "2024-04-03",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "Fiona:1.8.20": {
+        "name": "Fiona",
+        "version": "1.8.20",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-q5fm-55c2-v6j9",
+                "severity": "CRITICAL",
+                "description": "Fiona affected by CVE-2023-45853 related to MiniZip madler-zlib",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2024-07-16",
+                "updated_at": "2024-07-16",
+                "CWE_ID": "CWE-190",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-g4m4-9q4c-mfw6",
+                "severity": "HIGH",
+                "description": "Fiona affected by CVE-2020-14152 related to madler-zlib",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H",
+                "published_at": "2024-07-16",
+                "updated_at": "2024-07-16",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "GitPython:3.1.30": {
+        "name": "GitPython",
+        "version": "3.1.30",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-pr76-5cm5-w9cj",
+                "severity": "CRITICAL",
+                "description": "GitPython vulnerable to remote code execution due to insufficient sanitization of input arguments",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2023-08-11",
+                "updated_at": "2023-11-10",
+                "CWE_ID": "CWE-78",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-wfm5-v35h-vwf4",
+                "severity": "HIGH",
+                "description": "GitPython untrusted search path on Windows systems leading to arbitrary code execution",
+                "links": [],
+                "cvss_score": 7.8,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2023-08-29",
+                "updated_at": "2023-11-05",
+                "CWE_ID": "CWE-426",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-2mqj-m65w-jghx",
+                "severity": "HIGH",
+                "description": "Untrusted search path under some conditions on Windows allows arbitrary code execution",
+                "links": [],
+                "cvss_score": 7.8,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2024-01-10",
+                "updated_at": "2024-01-19",
+                "CWE_ID": "CWE-426",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-cwvm-v4w8-q58c",
+                "severity": "MODERATE",
+                "description": "Blind local file inclusion",
+                "links": [],
+                "cvss_score": 4.0,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2023-08-30",
+                "updated_at": "2023-11-05",
+                "CWE_ID": "CWE-22",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "Pygments:2.11.2": {
+        "name": "Pygments",
+        "version": "2.11.2",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-mrwq-x4v8-fh7p",
+                "severity": "MODERATE",
+                "description": "Pygments vulnerable to ReDoS",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2023-07-19",
+                "updated_at": "2024-03-28",
+                "CWE_ID": "CWE-434",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "certifi:2022.12.7": {
+        "name": "certifi",
+        "version": "2022.12.7",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-xqr8-7jwr-rhp7",
+                "severity": "HIGH",
+                "description": "Removal of e-Tugra root certificate",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2023-07-25",
+                "updated_at": "2023-11-09",
+                "CWE_ID": "CWE-345",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-248v-346w-9cwc",
+                "severity": "LOW",
+                "description": "Certifi removes GLOBALTRUST root certificate",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-07-05",
+                "updated_at": "2024-07-08",
+                "CWE_ID": "CWE-345",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "cryptography:36.0.1": {
+        "name": "cryptography",
+        "version": "36.0.1",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-x4qr-2fvf-3mr5",
+                "severity": "HIGH",
+                "description": "Vulnerable OpenSSL included in cryptography wheels",
+                "links": [],
+                "cvss_score": 7.4,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:H",
+                "published_at": "2023-02-08",
+                "updated_at": "2024-02-05",
+                "CWE_ID": "CWE-843",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-3ww4-gg4f-jr7f",
+                "severity": "HIGH",
+                "description": "Python Cryptography package vulnerable to Bleichenbacher timing oracle attack",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2024-02-05",
+                "updated_at": "2024-07-29",
+                "CWE_ID": "CWE-203",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-w7pp-m8wf-vj6r",
+                "severity": "MODERATE",
+                "description": "Cipher.update_into can corrupt memory if passed an immutable python object as the outbuf",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
+                "published_at": "2023-02-07",
+                "updated_at": "2023-08-21",
+                "CWE_ID": "CWE-754",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-jfhm-5ghh-2f97",
+                "severity": "MODERATE",
+                "description": "cryptography vulnerable to NULL-dereference when loading PKCS7 certificates",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2023-11-28",
+                "updated_at": "2024-02-20",
+                "CWE_ID": "CWE-476",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-9v9h-cgj8-h64p",
+                "severity": "MODERATE",
+                "description": "Null pointer dereference in PKCS12 parsing",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2024-01-26",
+                "updated_at": "2024-05-12",
+                "CWE_ID": "CWE-476",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-v8gr-m533-ghj9",
+                "severity": "LOW",
+                "description": "Vulnerable OpenSSL included in cryptography wheels",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2023-09-21",
+                "updated_at": "2023-09-21",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-jm77-qphf-c4w8",
+                "severity": "LOW",
+                "description": "pyca/cryptography's wheels include vulnerable OpenSSL",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2023-08-01",
+                "updated_at": "2023-08-01",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-5cpq-8wj7-hf2v",
+                "severity": "LOW",
+                "description": "Vulnerable OpenSSL included in cryptography wheels",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2023-06-02",
+                "updated_at": "2023-06-02",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "gunicorn:20.1.0": {
+        "name": "gunicorn",
+        "version": "20.1.0",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-w3h3-4rj7-4ph4",
+                "severity": "HIGH",
+                "description": "Request smuggling leading to endpoint restriction bypass in Gunicorn",
+                "links": [],
+                "cvss_score": 8.2,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:N",
+                "published_at": "2024-04-16",
+                "updated_at": "2024-07-01",
+                "CWE_ID": "CWE-444",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "idna:3.3": {
+        "name": "idna",
+        "version": "3.3",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-jjg7-2v4v-x38h",
+                "severity": "MODERATE",
+                "description": "Internationalized Domain Names in Applications (IDNA) vulnerable to denial of service from specially crafted inputs to idna.encode",
+                "links": [],
+                "cvss_score": 6.2,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-04-11",
+                "updated_at": "2024-07-11",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "pipreqs:0.4.11": {
+        "name": "pipreqs",
+        "version": "0.4.11",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-v4f4-23wc-99mh",
+                "severity": "CRITICAL",
+                "description": "pipreqs vulnerable to Dependency Confusion",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2023-06-30",
+                "updated_at": "2023-11-06",
+                "CWE_ID": "CWE-427",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "requests:2.27.1": {
+        "name": "requests",
+        "version": "2.27.1",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-j8r2-6x86-q33q",
+                "severity": "MODERATE",
+                "description": "Unintended leak of Proxy-Authorization header in requests",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:N/A:N",
+                "published_at": "2023-05-22",
+                "updated_at": "2024-03-27",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-9wx4-h78v-vm56",
+                "severity": "MODERATE",
+                "description": "Requests `Session` object does not verify requests after making first request with verify=False",
+                "links": [],
+                "cvss_score": 5.6,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:U/C:H/I:H/A:N",
+                "published_at": "2024-05-20",
+                "updated_at": "2024-06-10",
+                "CWE_ID": "CWE-670",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "sqlparse:0.4.2": {
+        "name": "sqlparse",
+        "version": "0.4.2",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-2m57-hf25-phgg",
+                "severity": "HIGH",
+                "description": "sqlparse parsing heavily nested list leads to Denial of Service",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-04-15",
+                "updated_at": "2024-05-01",
+                "CWE_ID": "CWE-674",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-rrm6-wvj7-cwh2",
+                "severity": "MODERATE",
+                "description": "sqlparse contains a regular expression that is vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2023-04-21",
+                "updated_at": "2023-11-11",
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "urllib3:1.26.8": {
+        "name": "urllib3",
+        "version": "1.26.8",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-v845-jxx5-vc9f",
+                "severity": "MODERATE",
+                "description": "`Cookie` HTTP header isn't stripped on cross-origin redirects",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:N",
+                "published_at": "2023-10-02",
+                "updated_at": "2023-11-04",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-g4mx-q9vg-27p4",
+                "severity": "MODERATE",
+                "description": "urllib3's request body not stripped after redirect from 303 status changes request method to GET",
+                "links": [],
+                "cvss_score": 4.2,
+                "vector_attack": "CVSS:3.1/AV:A/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2023-10-17",
+                "updated_at": "2023-11-06",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-34jh-p97f-mpxf",
+                "severity": "MODERATE",
+                "description": "urllib3's Proxy-Authorization request header isn't stripped during cross-origin redirects ",
+                "links": [],
+                "cvss_score": 4.4,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2024-06-17",
+                "updated_at": "2024-06-17",
+                "CWE_ID": "CWE-669",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "zipp:3.7.0": {
+        "name": "zipp",
+        "version": "3.7.0",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-jfmj-5v4g-7637",
+                "severity": "MODERATE",
+                "description": "zipp Denial of Service vulnerability",
+                "links": [],
+                "cvss_score": 6.2,
+                "vector_attack": "CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-07-09",
+                "updated_at": "2024-07-09",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    }
+}

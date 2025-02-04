@@ -1,0 +1,34 @@
+{
+    "rsa:0.9.6": {
+        "name": "rsa",
+        "version": "0.9.6",
+        "type": "rust-crate",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c38w-74pg-36hr",
+                "severity": "MODERATE",
+                "description": "Marvin Attack: potential key recovery through timing sidechannels",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2023-11-28",
+                "updated_at": "2023-12-15",
+                "CWE_ID": "CWE-203",
+                "CWE_DESCRIPTION": "Observable Discrepancy"
+            },
+            {
+                "id": "GHSA-4grx-2x9w-596c",
+                "severity": "MODERATE",
+                "description": "Marvin Attack: potential key recovery through timing sidechannels",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2023-11-28",
+                "updated_at": "2023-12-14",
+                "CWE_ID": "CWE-385",
+                "CWE_DESCRIPTION": "Covert Timing Channel"
+            }
+        ]
+    }
+}

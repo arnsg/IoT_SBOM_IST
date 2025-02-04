@@ -1,0 +1,38 @@
+{
+    "github.com/rs/cors:v1.9.0": {
+        "name": "github.com/rs/cors",
+        "version": "v1.9.0",
+        "type": "go-module",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-mh55-gqvf-xfwm",
+                "severity": "MODERATE",
+                "description": "Denial of service via malicious preflight requests in github.com/rs/cors",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-07-05",
+                "updated_at": "2024-07-05"
+            }
+        ]
+    },
+    "golang.org/x/image:v0.13.0": {
+        "name": "golang.org/x/image",
+        "version": "v0.13.0",
+        "type": "go-module",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-9phm-fm57-rhg8",
+                "severity": "MODERATE",
+                "description": "Panic when parsing invalid palette-color images in golang.org/x/image",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-06-26",
+                "updated_at": "2024-06-27"
+            }
+        ]
+    }
+}

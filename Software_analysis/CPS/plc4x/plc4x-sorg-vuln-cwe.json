@@ -1,0 +1,2114 @@
+{
+    "bcpkix-jdk18on:": {
+        "name": "bcpkix-jdk18on",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-wjxj-5m7g-mg7q",
+                "severity": "MODERATE",
+                "description": "Bouncy Castle Denial of Service (DoS)",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-v435-xc8x-wvr9",
+                "severity": "MODERATE",
+                "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "CWE_ID": "CWE-203",
+                "CWE_DESCRIPTION": "Observable Discrepancy"
+            },
+            {
+                "id": "GHSA-m44j-cfrm-g8qc",
+                "severity": "MODERATE",
+                "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "CWE_ID": "CWE-835",
+                "CWE_DESCRIPTION": "Loop with Unreachable Exit Condition ('Infinite Loop')"
+            },
+            {
+                "id": "GHSA-8xfc-gm6g-vgpv",
+                "severity": "MODERATE",
+                "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "CWE_ID": "CWE-125",
+                "CWE_DESCRIPTION": "Out-of-bounds Read"
+            }
+        ]
+    },
+    "bcprov-jdk18on:": {
+        "name": "bcprov-jdk18on",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-wjxj-5m7g-mg7q",
+                "severity": "MODERATE",
+                "description": "Bouncy Castle Denial of Service (DoS)",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-wjxj-5m7g-mg7q",
+                "severity": "MODERATE",
+                "description": "Bouncy Castle Denial of Service (DoS)",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-v435-xc8x-wvr9",
+                "severity": "MODERATE",
+                "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "CWE_ID": "CWE-203",
+                "CWE_DESCRIPTION": "Observable Discrepancy"
+            },
+            {
+                "id": "GHSA-v435-xc8x-wvr9",
+                "severity": "MODERATE",
+                "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "CWE_ID": "CWE-203",
+                "CWE_DESCRIPTION": "Observable Discrepancy"
+            },
+            {
+                "id": "GHSA-m44j-cfrm-g8qc",
+                "severity": "MODERATE",
+                "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "CWE_ID": "CWE-835",
+                "CWE_DESCRIPTION": "Loop with Unreachable Exit Condition ('Infinite Loop')"
+            },
+            {
+                "id": "GHSA-m44j-cfrm-g8qc",
+                "severity": "MODERATE",
+                "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "CWE_ID": "CWE-835",
+                "CWE_DESCRIPTION": "Loop with Unreachable Exit Condition ('Infinite Loop')"
+            },
+            {
+                "id": "GHSA-hr8g-6v94-x4m9",
+                "severity": "MODERATE",
+                "description": "Bouncy Castle For Java LDAP injection vulnerability",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+                "CWE_ID": "CWE-295",
+                "CWE_DESCRIPTION": "Improper Certificate Validation"
+            },
+            {
+                "id": "GHSA-hr8g-6v94-x4m9",
+                "severity": "MODERATE",
+                "description": "Bouncy Castle For Java LDAP injection vulnerability",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+                "CWE_ID": "CWE-295",
+                "CWE_DESCRIPTION": "Improper Certificate Validation"
+            },
+            {
+                "id": "GHSA-8xfc-gm6g-vgpv",
+                "severity": "MODERATE",
+                "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "CWE_ID": "CWE-125",
+                "CWE_DESCRIPTION": "Out-of-bounds Read"
+            },
+            {
+                "id": "GHSA-8xfc-gm6g-vgpv",
+                "severity": "MODERATE",
+                "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "CWE_ID": "CWE-125",
+                "CWE_DESCRIPTION": "Out-of-bounds Read"
+            }
+        ]
+    },
+    "commons-collections4:": {
+        "name": "commons-collections4",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-fjq5-5j5f-mvxh",
+                "severity": "CRITICAL",
+                "description": "Deserialization of Untrusted Data in Apache commons collections",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-fjq5-5j5f-mvxh",
+                "severity": "CRITICAL",
+                "description": "Deserialization of Untrusted Data in Apache commons collections",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-6hgm-866r-3cjv",
+                "severity": "HIGH",
+                "description": "Insecure Deserialization in Apache Commons Collection",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-6hgm-866r-3cjv",
+                "severity": "HIGH",
+                "description": "Insecure Deserialization in Apache Commons Collection",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            }
+        ]
+    },
+    "commons-compress:": {
+        "name": "commons-compress",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-xqfj-vm6h-2x34",
+                "severity": "HIGH",
+                "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "CWE_ID": "CWE-130",
+                "CWE_DESCRIPTION": "Improper Handling of Length Parameter Inconsistency"
+            },
+            {
+                "id": "GHSA-mc84-pj99-q6hh",
+                "severity": "HIGH",
+                "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "CWE_ID": "CWE-130",
+                "CWE_DESCRIPTION": "Improper Handling of Length Parameter Inconsistency"
+            },
+            {
+                "id": "GHSA-crv7-7245-f45f",
+                "severity": "HIGH",
+                "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "CWE_ID": "CWE-130",
+                "CWE_DESCRIPTION": "Improper Handling of Length Parameter Inconsistency"
+            },
+            {
+                "id": "GHSA-7hfm-57qf-j43q",
+                "severity": "HIGH",
+                "description": "Excessive Iteration in Compress",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "CWE_ID": "CWE-834",
+                "CWE_DESCRIPTION": "Excessive Iteration"
+            },
+            {
+                "id": "GHSA-6fxm-66hq-fc96",
+                "severity": "MODERATE",
+                "description": "Uncontrolled Resource Consumption in Apache Commons Compress",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "commons-io:": {
+        "name": "commons-io",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-gwrp-pvrq-jmwv",
+                "severity": "MODERATE",
+                "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+                "links": [],
+                "cvss_score": 4.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            },
+            {
+                "id": "GHSA-gwrp-pvrq-jmwv",
+                "severity": "MODERATE",
+                "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+                "links": [],
+                "cvss_score": 4.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            },
+            {
+                "id": "GHSA-gwrp-pvrq-jmwv",
+                "severity": "MODERATE",
+                "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+                "links": [],
+                "cvss_score": 4.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            },
+            {
+                "id": "GHSA-gwrp-pvrq-jmwv",
+                "severity": "MODERATE",
+                "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+                "links": [],
+                "cvss_score": 4.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            },
+            {
+                "id": "GHSA-gwrp-pvrq-jmwv",
+                "severity": "MODERATE",
+                "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+                "links": [],
+                "cvss_score": 4.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            }
+        ]
+    },
+    "commons-net:": {
+        "name": "commons-net",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-cgp8-4m63-fhh5",
+                "severity": "MODERATE",
+                "description": "Apache Commons Net vulnerable to information leakage via malicious server",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            },
+            {
+                "id": "GHSA-cgp8-4m63-fhh5",
+                "severity": "MODERATE",
+                "description": "Apache Commons Net vulnerable to information leakage via malicious server",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            }
+        ]
+    },
+    "dom4j:": {
+        "name": "dom4j",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-hwj3-m3p6-hj38",
+                "severity": "CRITICAL",
+                "description": "dom4j allows External Entities by default which might enable XXE attacks",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-611",
+                "CWE_DESCRIPTION": "Improper Restriction of XML External Entity Reference"
+            },
+            {
+                "id": "GHSA-6pcc-3rfx-4gpm",
+                "severity": "HIGH",
+                "description": "Dom4j contains a XML Injection vulnerability",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "CWE_ID": "CWE-91",
+                "CWE_DESCRIPTION": "XML Injection (aka Blind XPath Injection)"
+            }
+        ]
+    },
+    "httpclient:": {
+        "name": "httpclient",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-2x83-r56g-cv47",
+                "severity": "HIGH",
+                "description": "Improper certificate validation in org.apache.httpcomponents:httpclient",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            },
+            {
+                "id": "GHSA-2x83-r56g-cv47",
+                "severity": "HIGH",
+                "description": "Improper certificate validation in org.apache.httpcomponents:httpclient",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            },
+            {
+                "id": "GHSA-fmj5-wv96-r2ch",
+                "severity": "MODERATE",
+                "description": "Denial of service vulnerability in org.apache.httpcomponents:httpclient",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-fmj5-wv96-r2ch",
+                "severity": "MODERATE",
+                "description": "Denial of service vulnerability in org.apache.httpcomponents:httpclient",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-cfh5-3ghh-wfjx",
+                "severity": "MODERATE",
+                "description": "Improper Verification of Cryptographic Signature in org.apache.httpcomponents:httpclient",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "CWE_ID": "CWE-347",
+                "CWE_DESCRIPTION": "Improper Verification of Cryptographic Signature"
+            },
+            {
+                "id": "GHSA-cfh5-3ghh-wfjx",
+                "severity": "MODERATE",
+                "description": "Improper Verification of Cryptographic Signature in org.apache.httpcomponents:httpclient",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "CWE_ID": "CWE-347",
+                "CWE_DESCRIPTION": "Improper Verification of Cryptographic Signature"
+            },
+            {
+                "id": "GHSA-7r82-7xv7-xcpj",
+                "severity": "MODERATE",
+                "description": "Cross-site scripting in Apache HttpClient",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            },
+            {
+                "id": "GHSA-7r82-7xv7-xcpj",
+                "severity": "MODERATE",
+                "description": "Cross-site scripting in Apache HttpClient",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            }
+        ]
+    },
+    "jackson-databind:": {
+        "name": "jackson-databind",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-rfx6-vp9g-rh7v",
+                "severity": "CRITICAL",
+                "description": "jackson-databind vulnerable to remote code execution due to incorrect deserialization and blocklist bypass",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-rfx6-vp9g-rh7v",
+                "severity": "CRITICAL",
+                "description": "jackson-databind vulnerable to remote code execution due to incorrect deserialization and blocklist bypass",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-rfx6-vp9g-rh7v",
+                "severity": "CRITICAL",
+                "description": "jackson-databind vulnerable to remote code execution due to incorrect deserialization and blocklist bypass",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-qxxx-2pp7-5hmx",
+                "severity": "CRITICAL",
+                "description": "jackson-databind is vulnerable to a deserialization flaw",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-184",
+                "CWE_DESCRIPTION": "Incomplete List of Disallowed Inputs"
+            },
+            {
+                "id": "GHSA-qxxx-2pp7-5hmx",
+                "severity": "CRITICAL",
+                "description": "jackson-databind is vulnerable to a deserialization flaw",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-184",
+                "CWE_DESCRIPTION": "Incomplete List of Disallowed Inputs"
+            },
+            {
+                "id": "GHSA-qxxx-2pp7-5hmx",
+                "severity": "CRITICAL",
+                "description": "jackson-databind is vulnerable to a deserialization flaw",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-184",
+                "CWE_DESCRIPTION": "Incomplete List of Disallowed Inputs"
+            },
+            {
+                "id": "GHSA-h822-r4r5-v8jg",
+                "severity": "CRITICAL",
+                "description": "Polymorphic Typing issue in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-h822-r4r5-v8jg",
+                "severity": "CRITICAL",
+                "description": "Polymorphic Typing issue in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-h822-r4r5-v8jg",
+                "severity": "CRITICAL",
+                "description": "Polymorphic Typing issue in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-gjmw-vf9h-g25v",
+                "severity": "CRITICAL",
+                "description": "jackson-databind polymorphic typing issue",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-gjmw-vf9h-g25v",
+                "severity": "CRITICAL",
+                "description": "jackson-databind polymorphic typing issue",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-gjmw-vf9h-g25v",
+                "severity": "CRITICAL",
+                "description": "jackson-databind polymorphic typing issue",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-fmmc-742q-jg75",
+                "severity": "CRITICAL",
+                "description": "jackson-databind polymorphic typing issue",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-fmmc-742q-jg75",
+                "severity": "CRITICAL",
+                "description": "jackson-databind polymorphic typing issue",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-fmmc-742q-jg75",
+                "severity": "CRITICAL",
+                "description": "jackson-databind polymorphic typing issue",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-f3j5-rmmp-3fc5",
+                "severity": "CRITICAL",
+                "description": "Improper Input Validation in jackson-databind",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-f3j5-rmmp-3fc5",
+                "severity": "CRITICAL",
+                "description": "Improper Input Validation in jackson-databind",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-f3j5-rmmp-3fc5",
+                "severity": "CRITICAL",
+                "description": "Improper Input Validation in jackson-databind",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-cggj-fvv3-cqwv",
+                "severity": "CRITICAL",
+                "description": "FasterXML jackson-databind allows unauthenticated remote code execution ",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-184",
+                "CWE_DESCRIPTION": "Incomplete List of Disallowed Inputs"
+            },
+            {
+                "id": "GHSA-cggj-fvv3-cqwv",
+                "severity": "CRITICAL",
+                "description": "FasterXML jackson-databind allows unauthenticated remote code execution ",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-184",
+                "CWE_DESCRIPTION": "Incomplete List of Disallowed Inputs"
+            },
+            {
+                "id": "GHSA-cggj-fvv3-cqwv",
+                "severity": "CRITICAL",
+                "description": "FasterXML jackson-databind allows unauthenticated remote code execution ",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-184",
+                "CWE_DESCRIPTION": "Incomplete List of Disallowed Inputs"
+            },
+            {
+                "id": "GHSA-85cw-hj65-qqv9",
+                "severity": "CRITICAL",
+                "description": "Polymorphic Typing issue in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-85cw-hj65-qqv9",
+                "severity": "CRITICAL",
+                "description": "Polymorphic Typing issue in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-85cw-hj65-qqv9",
+                "severity": "CRITICAL",
+                "description": "Polymorphic Typing issue in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-6fpp-rgj9-8rwc",
+                "severity": "CRITICAL",
+                "description": "Deserialization of untrusted data in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-915",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Dynamically-Determined Object Attributes"
+            },
+            {
+                "id": "GHSA-6fpp-rgj9-8rwc",
+                "severity": "CRITICAL",
+                "description": "Deserialization of untrusted data in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-915",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Dynamically-Determined Object Attributes"
+            },
+            {
+                "id": "GHSA-6fpp-rgj9-8rwc",
+                "severity": "CRITICAL",
+                "description": "Deserialization of untrusted data in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-915",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Dynamically-Determined Object Attributes"
+            },
+            {
+                "id": "GHSA-w3f4-3q6j-rh82",
+                "severity": "HIGH",
+                "description": "Deserialization of Untrusted Data in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-184",
+                "CWE_DESCRIPTION": "Incomplete List of Disallowed Inputs"
+            },
+            {
+                "id": "GHSA-w3f4-3q6j-rh82",
+                "severity": "HIGH",
+                "description": "Deserialization of Untrusted Data in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-184",
+                "CWE_DESCRIPTION": "Incomplete List of Disallowed Inputs"
+            },
+            {
+                "id": "GHSA-w3f4-3q6j-rh82",
+                "severity": "HIGH",
+                "description": "Deserialization of Untrusted Data in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-184",
+                "CWE_DESCRIPTION": "Incomplete List of Disallowed Inputs"
+            },
+            {
+                "id": "GHSA-vfqx-33qm-g869",
+                "severity": "HIGH",
+                "description": "Unsafe Deserialization in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vfqx-33qm-g869",
+                "severity": "HIGH",
+                "description": "Unsafe Deserialization in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vfqx-33qm-g869",
+                "severity": "HIGH",
+                "description": "Unsafe Deserialization in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-rpr3-cw39-3pxh",
+                "severity": "HIGH",
+                "description": "jackson-databind before 2.9.10.4 vulnerable to unsafe deserialization",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-rpr3-cw39-3pxh",
+                "severity": "HIGH",
+                "description": "jackson-databind before 2.9.10.4 vulnerable to unsafe deserialization",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-rpr3-cw39-3pxh",
+                "severity": "HIGH",
+                "description": "jackson-databind before 2.9.10.4 vulnerable to unsafe deserialization",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-rgv9-q543-rqg4",
+                "severity": "HIGH",
+                "description": "Uncontrolled Resource Consumption in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-rgv9-q543-rqg4",
+                "severity": "HIGH",
+                "description": "Uncontrolled Resource Consumption in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-rgv9-q543-rqg4",
+                "severity": "HIGH",
+                "description": "Uncontrolled Resource Consumption in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-gwp4-hfv6-p7hw",
+                "severity": "HIGH",
+                "description": "Deserialization of untrusted data in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-gwp4-hfv6-p7hw",
+                "severity": "HIGH",
+                "description": "Deserialization of untrusted data in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-gwp4-hfv6-p7hw",
+                "severity": "HIGH",
+                "description": "Deserialization of untrusted data in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-cjjf-94ff-43w7",
+                "severity": "HIGH",
+                "description": "jackson-databind Deserialization of Untrusted Data vulnerability",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-cjjf-94ff-43w7",
+                "severity": "HIGH",
+                "description": "jackson-databind Deserialization of Untrusted Data vulnerability",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-cjjf-94ff-43w7",
+                "severity": "HIGH",
+                "description": "jackson-databind Deserialization of Untrusted Data vulnerability",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-cf6r-3wgc-h863",
+                "severity": "HIGH",
+                "description": "Polymorphic deserialization of malicious object in jackson-databind",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            },
+            {
+                "id": "GHSA-cf6r-3wgc-h863",
+                "severity": "HIGH",
+                "description": "Polymorphic deserialization of malicious object in jackson-databind",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            },
+            {
+                "id": "GHSA-cf6r-3wgc-h863",
+                "severity": "HIGH",
+                "description": "Polymorphic deserialization of malicious object in jackson-databind",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            },
+            {
+                "id": "GHSA-5949-rw7g-wx7w",
+                "severity": "HIGH",
+                "description": "Deserialization of untrusted data in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-5949-rw7g-wx7w",
+                "severity": "HIGH",
+                "description": "Deserialization of untrusted data in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-5949-rw7g-wx7w",
+                "severity": "HIGH",
+                "description": "Deserialization of untrusted data in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-57j2-w4cx-62h2",
+                "severity": "HIGH",
+                "description": "Deeply nested json in jackson-databind",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "CWE_ID": "CWE-787",
+                "CWE_DESCRIPTION": "Out-of-bounds Write"
+            },
+            {
+                "id": "GHSA-57j2-w4cx-62h2",
+                "severity": "HIGH",
+                "description": "Deeply nested json in jackson-databind",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "CWE_ID": "CWE-787",
+                "CWE_DESCRIPTION": "Out-of-bounds Write"
+            },
+            {
+                "id": "GHSA-57j2-w4cx-62h2",
+                "severity": "HIGH",
+                "description": "Deeply nested json in jackson-databind",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "CWE_ID": "CWE-787",
+                "CWE_DESCRIPTION": "Out-of-bounds Write"
+            }
+        ]
+    },
+    "jackson-dataformat-xml:": {
+        "name": "jackson-dataformat-xml",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-hmq6-frv3-4727",
+                "severity": "CRITICAL",
+                "description": "jackson-dataformat-xml vulnerable to XML external entity (XXE)",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-611",
+                "CWE_DESCRIPTION": "Improper Restriction of XML External Entity Reference"
+            },
+            {
+                "id": "GHSA-hmq6-frv3-4727",
+                "severity": "CRITICAL",
+                "description": "jackson-dataformat-xml vulnerable to XML external entity (XXE)",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-611",
+                "CWE_DESCRIPTION": "Improper Restriction of XML External Entity Reference"
+            },
+            {
+                "id": "GHSA-7c2r-3jqf-c9rw",
+                "severity": "HIGH",
+                "description": "jackson-dataformat-xml vulnerable to server side request forgery (SSRF)",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N",
+                "CWE_ID": "CWE-611",
+                "CWE_DESCRIPTION": "Improper Restriction of XML External Entity Reference"
+            },
+            {
+                "id": "GHSA-7c2r-3jqf-c9rw",
+                "severity": "HIGH",
+                "description": "jackson-dataformat-xml vulnerable to server side request forgery (SSRF)",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N",
+                "CWE_ID": "CWE-611",
+                "CWE_DESCRIPTION": "Improper Restriction of XML External Entity Reference"
+            }
+        ]
+    },
+    "json:": {
+        "name": "json",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-4jq9-2xhw-jpx7",
+                "severity": "HIGH",
+                "description": "Java: DoS Vulnerability in JSON-JAVA",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "CWE_ID": "CWE-358",
+                "CWE_DESCRIPTION": "Improperly Implemented Security Check for Standard"
+            },
+            {
+                "id": "GHSA-4jq9-2xhw-jpx7",
+                "severity": "HIGH",
+                "description": "Java: DoS Vulnerability in JSON-JAVA",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "CWE_ID": "CWE-358",
+                "CWE_DESCRIPTION": "Improperly Implemented Security Check for Standard"
+            },
+            {
+                "id": "GHSA-3vqj-43w4-2q58",
+                "severity": "HIGH",
+                "description": "json stack overflow vulnerability",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "CWE_ID": "CWE-787",
+                "CWE_DESCRIPTION": "Out-of-bounds Write"
+            },
+            {
+                "id": "GHSA-3vqj-43w4-2q58",
+                "severity": "HIGH",
+                "description": "json stack overflow vulnerability",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "CWE_ID": "CWE-787",
+                "CWE_DESCRIPTION": "Out-of-bounds Write"
+            }
+        ]
+    },
+    "logback-classic:": {
+        "name": "logback-classic",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            }
+        ]
+    },
+    "logback-core:": {
+        "name": "logback-core",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-668q-qrv7-99fm",
+                "severity": "MODERATE",
+                "description": "Deserialization of Untrusted Data in logback",
+                "links": [],
+                "cvss_score": 6.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            }
+        ]
+    },
+    "netty-codec:": {
+        "name": "netty-codec",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-grg4-wf29-r9vv",
+                "severity": "HIGH",
+                "description": "Bzip2Decoder doesn't allow setting size restrictions for decompressed data",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-grg4-wf29-r9vv",
+                "severity": "HIGH",
+                "description": "Bzip2Decoder doesn't allow setting size restrictions for decompressed data",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-grg4-wf29-r9vv",
+                "severity": "HIGH",
+                "description": "Bzip2Decoder doesn't allow setting size restrictions for decompressed data",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-grg4-wf29-r9vv",
+                "severity": "HIGH",
+                "description": "Bzip2Decoder doesn't allow setting size restrictions for decompressed data",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-grg4-wf29-r9vv",
+                "severity": "HIGH",
+                "description": "Bzip2Decoder doesn't allow setting size restrictions for decompressed data",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "netty-handler:": {
+        "name": "netty-handler",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-9959-6p3m-wxpc",
+                "severity": "MODERATE",
+                "description": "Denial of service in Netty",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "CWE_ID": "CWE-119",
+                "CWE_DESCRIPTION": "Improper Restriction of Operations within the Bounds of a Memory Buffer"
+            },
+            {
+                "id": "GHSA-6mjq-h674-j845",
+                "severity": "MODERATE",
+                "description": "netty-handler SniHandler 16MB allocation",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "sdk-client:": {
+        "name": "sdk-client",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-pq4w-qm9g-qx68",
+                "severity": "HIGH",
+                "description": "Insufficient Nonce Validation in Eclipse Milo Client",
+                "links": [],
+                "cvss_score": 7.4,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+                "CWE_ID": "CWE-330",
+                "CWE_DESCRIPTION": "Use of Insufficiently Random Values"
+            }
+        ]
+    },
+    "woodstox-core:": {
+        "name": "woodstox-core",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-3f7h-mf4q-vrm4",
+                "severity": "MODERATE",
+                "description": "Denial of Service due to parser crash",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "xmlunit-core:": {
+        "name": "xmlunit-core",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-chfm-68vv-pvw5",
+                "severity": "LOW",
+                "description": "XMLUnit for Java has Insecure Defaults when Processing XSLT Stylesheets",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "zip4j:": {
+        "name": "zip4j",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-q62h-jw38-24vh",
+                "severity": "MODERATE",
+                "description": "Uncaught Exception in zip4j",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "CWE_ID": "CWE-248",
+                "CWE_DESCRIPTION": "Uncaught Exception"
+            },
+            {
+                "id": "GHSA-2rpm-4x8c-pvqg",
+                "severity": "MODERATE",
+                "description": "Improper Limitation of a Pathname to a Restricted Directory in Zip4j",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+                "CWE_ID": "CWE-22",
+                "CWE_DESCRIPTION": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            },
+            {
+                "id": "GHSA-2pj2-gchf-wmw7",
+                "severity": "MODERATE",
+                "description": "Zip4j Origin Validation Error",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "CWE_ID": "CWE-346",
+                "CWE_DESCRIPTION": "Origin Validation Error"
+            }
+        ]
+    }
+}

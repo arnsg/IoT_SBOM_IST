@@ -1,0 +1,776 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:518f25ef-7e88-4a0f-a1e2-946cb642049d",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-07-29T10:35:27+02:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.4.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "8a9ff17e1ed6de6d",
+      "type": "file",
+      "name": "/Users/massimocoppolaro/Desktop/Università/Tirocinio2.0/Software/OsmAnd"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:maven/QtAndroid/QtAndroid?package-id=f1bb698caf7c13db",
+      "type": "library",
+      "name": "QtAndroid",
+      "cpe": "cpe:2.3:a:QtAndroid:QtAndroid:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/QtAndroid/QtAndroid",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "fc044474a018763a77c78ccb73a2be16d89536ca"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/OsmAnd/libs/QtAndroid.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/OsmAnd/libs/QtAndroid.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/QtAndroidBearer/QtAndroidBearer?package-id=1144a06c675d06bc",
+      "type": "library",
+      "name": "QtAndroidBearer",
+      "cpe": "cpe:2.3:a:QtAndroidBearer:QtAndroidBearer:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/QtAndroidBearer/QtAndroidBearer",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "70c2a7a908fac00733cf098ab94fcf0ec9984738"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/OsmAnd/libs/QtAndroidBearer.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/OsmAnd/libs/QtAndroidBearer.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/net.bytebuddy/byte-buddy-dep@1.8.8?package-id=93eca3e3f709df94",
+      "type": "library",
+      "group": "net.bytebuddy",
+      "name": "byte-buddy-dep",
+      "version": "1.8.8",
+      "cpe": "cpe:2.3:a:byte-buddy-dep:byte-buddy-dep:1.8.8:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/net.bytebuddy/byte-buddy-dep@1.8.8",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:byte-buddy-dep:byte_buddy_dep:1.8.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:byte_buddy_dep:byte-buddy-dep:1.8.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:byte_buddy_dep:byte_buddy_dep:1.8.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:byte-buddy:byte-buddy-dep:1.8.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:byte-buddy:byte_buddy_dep:1.8.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:byte_buddy:byte-buddy-dep:1.8.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:byte_buddy:byte_buddy_dep:1.8.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:bytebuddy:byte-buddy-dep:1.8.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:bytebuddy:byte_buddy_dep:1.8.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:byte:byte-buddy-dep:1.8.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:byte:byte_buddy_dep:1.8.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/server/testlib/byte-buddy-1.8.8.jar"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "byte-buddy-dep"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "net.bytebuddy"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/server/testlib/byte-buddy-1.8.8.jar:net.bytebuddy:byte-buddy-dep"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/cglib/cglib@3.2.0?package-id=ca7402096106b4b7",
+      "type": "library",
+      "group": "cglib",
+      "name": "cglib",
+      "version": "3.2.0",
+      "cpe": "cpe:2.3:a:cglib:cglib:3.2.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/cglib/cglib@3.2.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/core-server-plugins/lib/guice-4.1.0.jar"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "cglib"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "cglib"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/core-server-plugins/lib/guice-4.1.0.jar:cglib:cglib"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.checkerframework.checker.qual/checker-qual@2.10.0?package-id=85c2942189be8381",
+      "type": "library",
+      "name": "checker-qual",
+      "version": "2.10.0",
+      "cpe": "cpe:2.3:a:checkerframework:checker-qual:2.10.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.checkerframework.checker.qual/checker-qual@2.10.0",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "5786699a0cb71f9dc32e6cca1d665eef07a0882f"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:checkerframework:checker_qual:2.10.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:checker-qual:checker-qual:2.10.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:checker-qual:checker_qual:2.10.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:checker_qual:checker-qual:2.10.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:checker_qual:checker_qual:2.10.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:checkerframework:checker:2.10.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:checkerframework:qual:2.10.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:checker-qual:checker:2.10.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:checker:checker-qual:2.10.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:checker:checker_qual:2.10.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:checker_qual:checker:2.10.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:checker-qual:qual:2.10.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:checker_qual:qual:2.10.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:qual:checker-qual:2.10.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:qual:checker_qual:2.10.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:checker:checker:2.10.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:checker:qual:2.10.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:qual:checker:2.10.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:qual:qual:2.10.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/donkey/lib/guava/checker-qual-2.10.0.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/donkey/lib/guava/checker-qual-2.10.0.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v4?package-id=193d6e818981659b",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v4",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v4:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/build-debug-apk.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/gradle-wrapper/gradle-wrapper?package-id=76e69a315f600f8c",
+      "type": "library",
+      "name": "gradle-wrapper",
+      "cpe": "cpe:2.3:a:gradle-wrapper:gradle-wrapper:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/gradle-wrapper/gradle-wrapper",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "2685e1a923d4c79dd549889406c6ffa9e8661744"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle-wrapper:gradle_wrapper:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle_wrapper:gradle-wrapper:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle_wrapper:gradle_wrapper:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle:gradle-wrapper:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle:gradle_wrapper:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/ui-test-app/gradle/wrapper/gradle-wrapper.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/ui-test-app/gradle/wrapper/gradle-wrapper.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/gradle-wrapper/gradle-wrapper@4.6?package-id=937b143e36cd1cc5",
+      "type": "library",
+      "name": "gradle-wrapper",
+      "version": "4.6",
+      "cpe": "cpe:2.3:a:gradle-wrapper:gradle-wrapper:4.6:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/gradle-wrapper/gradle-wrapper@4.6",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "636cf935a0fd1451657a4112974b3500cce3ab84"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle-wrapper:gradle_wrapper:4.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle_wrapper:gradle-wrapper:4.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle_wrapper:gradle_wrapper:4.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle:gradle-wrapper:4.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle:gradle_wrapper:4.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/gradle/wrapper/gradle-wrapper.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/gradle/wrapper/gradle-wrapper.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/gradle/wrapper-validation-action@v3?package-id=40cd7a715d7618d9",
+      "type": "library",
+      "name": "gradle/wrapper-validation-action",
+      "version": "v3",
+      "cpe": "cpe:2.3:a:gradle\\/wrapper-validation-action:gradle\\/wrapper-validation-action:v3:*:*:*:*:*:*:*",
+      "purl": "pkg:github/gradle/wrapper-validation-action@v3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle\\/wrapper-validation-action:gradle\\/wrapper_validation_action:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle\\/wrapper_validation_action:gradle\\/wrapper-validation-action:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle\\/wrapper_validation_action:gradle\\/wrapper_validation_action:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle\\/wrapper-validation:gradle\\/wrapper-validation-action:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle\\/wrapper-validation:gradle\\/wrapper_validation_action:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle\\/wrapper_validation:gradle\\/wrapper-validation-action:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle\\/wrapper_validation:gradle\\/wrapper_validation_action:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle\\/wrapper:gradle\\/wrapper-validation-action:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:gradle\\/wrapper:gradle\\/wrapper_validation_action:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/gradle-wrapper-validation.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.ibm/icu4j@49_1_patched?package-id=7d8d7edd62ca3215",
+      "type": "library",
+      "name": "icu4j",
+      "version": "49_1_patched",
+      "cpe": "cpe:2.3:a:ibm-corporation:icu4j:49_1_patched:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.ibm/icu4j@49_1_patched",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "a822828ee47c100c27b6edf0f81b3f44e6d68a36"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ibm_corporation:icu4j:49_1_patched:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:icu-project-org:icu4j:49_1_patched:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:icu_project_org:icu4j:49_1_patched:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ibm-corporation:icu:49_1_patched:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ibm_corporation:icu:49_1_patched:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:icu-project-org:icu:49_1_patched:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:icu_project_org:icu:49_1_patched:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:icu4j:icu4j:49_1_patched:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ibm:icu4j:49_1_patched:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:icu4j:icu:49_1_patched:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:icu:icu4j:49_1_patched:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ibm:icu:49_1_patched:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:icu:icu:49_1_patched:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/OsmAnd-java/libs/icu4j-49_1_patched.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/OsmAnd-java/libs/icu4j-49_1_patched.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.ibm/icu4j@49_1_patched?package-id=6ee40454a0601678",
+      "type": "library",
+      "name": "icu4j",
+      "version": "49_1_patched",
+      "cpe": "cpe:2.3:a:ibm-corporation:icu4j:49_1_patched:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.ibm/icu4j@49_1_patched",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "a822828ee47c100c27b6edf0f81b3f44e6d68a36"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ibm_corporation:icu4j:49_1_patched:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:icu-project-org:icu4j:49_1_patched:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:icu_project_org:icu4j:49_1_patched:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ibm-corporation:icu:49_1_patched:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ibm_corporation:icu:49_1_patched:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:icu-project-org:icu:49_1_patched:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:icu_project_org:icu:49_1_patched:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:icu4j:icu4j:49_1_patched:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ibm:icu4j:49_1_patched:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:icu4j:icu:49_1_patched:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:icu:icu4j:49_1_patched:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ibm:icu:49_1_patched:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:icu:icu:49_1_patched:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/OsmAnd/libs/icu4j-49_1_patched.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/OsmAnd/libs/icu4j-49_1_patched.jar"
+        }
+      ]
+    }
+  ]
+}

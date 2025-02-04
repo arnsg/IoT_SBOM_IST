@@ -1,0 +1,256 @@
+{
+    "cryptography:37.0.4": {
+        "name": "cryptography",
+        "version": "37.0.4",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-x4qr-2fvf-3mr5",
+                "severity": "HIGH",
+                "description": "Vulnerable OpenSSL included in cryptography wheels",
+                "links": [],
+                "cvss_score": 7.4,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:H",
+                "published_at": "2023-02-08",
+                "updated_at": "2024-02-05"
+            },
+            {
+                "id": "GHSA-3ww4-gg4f-jr7f",
+                "severity": "HIGH",
+                "description": "Python Cryptography package vulnerable to Bleichenbacher timing oracle attack",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2024-02-05",
+                "updated_at": "2024-07-29"
+            },
+            {
+                "id": "GHSA-w7pp-m8wf-vj6r",
+                "severity": "MODERATE",
+                "description": "Cipher.update_into can corrupt memory if passed an immutable python object as the outbuf",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
+                "published_at": "2023-02-07",
+                "updated_at": "2023-08-21"
+            },
+            {
+                "id": "GHSA-jfhm-5ghh-2f97",
+                "severity": "MODERATE",
+                "description": "cryptography vulnerable to NULL-dereference when loading PKCS7 certificates",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2023-11-28",
+                "updated_at": "2024-02-20"
+            },
+            {
+                "id": "GHSA-9v9h-cgj8-h64p",
+                "severity": "MODERATE",
+                "description": "Null pointer dereference in PKCS12 parsing",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2024-01-26",
+                "updated_at": "2024-05-12"
+            },
+            {
+                "id": "GHSA-39hc-v87j-747x",
+                "severity": "MODERATE",
+                "description": "Vulnerable OpenSSL included in cryptography wheels",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-11-02",
+                "updated_at": "2023-01-08"
+            },
+            {
+                "id": "GHSA-v8gr-m533-ghj9",
+                "severity": "LOW",
+                "description": "Vulnerable OpenSSL included in cryptography wheels",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2023-09-21",
+                "updated_at": "2023-09-21"
+            },
+            {
+                "id": "GHSA-jm77-qphf-c4w8",
+                "severity": "LOW",
+                "description": "pyca/cryptography's wheels include vulnerable OpenSSL",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2023-08-01",
+                "updated_at": "2023-08-01"
+            },
+            {
+                "id": "GHSA-5cpq-8wj7-hf2v",
+                "severity": "LOW",
+                "description": "Vulnerable OpenSSL included in cryptography wheels",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2023-06-02",
+                "updated_at": "2023-06-02"
+            }
+        ]
+    },
+    "gevent:20.6.1": {
+        "name": "gevent",
+        "version": "20.6.1",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-x7m3-jprg-wc5g",
+                "severity": "CRITICAL",
+                "description": "Gevent allows remote attacker to escalate privileges",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2023-09-25",
+                "updated_at": "2023-11-04"
+            }
+        ]
+    },
+    "numpy:1.21.0": {
+        "name": "numpy",
+        "version": "1.21.0",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-fpfv-jqm9-f5jm",
+                "severity": "MODERATE",
+                "description": "Incorrect Comparison in NumPy",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2021-12-18",
+                "updated_at": "2023-01-27"
+            }
+        ]
+    },
+    "pymongo:3.7.2": {
+        "name": "pymongo",
+        "version": "3.7.2",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-m87m-mmvp-v9qm",
+                "severity": "MODERATE",
+                "description": "PyMongo Out-of-bounds Read in the bson module ",
+                "links": [],
+                "cvss_score": 4.7,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:N/A:L",
+                "published_at": "2024-06-05",
+                "updated_at": "2024-06-18"
+            },
+            {
+                "id": "GHSA-m87m-mmvp-v9qm",
+                "severity": "MODERATE",
+                "description": "PyMongo Out-of-bounds Read in the bson module ",
+                "links": [],
+                "cvss_score": 4.7,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:N/A:L",
+                "published_at": "2024-06-05",
+                "updated_at": "2024-06-18"
+            }
+        ]
+    },
+    "pymongo:4.5.0": {
+        "name": "pymongo",
+        "version": "4.5.0",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-m87m-mmvp-v9qm",
+                "severity": "MODERATE",
+                "description": "PyMongo Out-of-bounds Read in the bson module ",
+                "links": [],
+                "cvss_score": 4.7,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:N/A:L",
+                "published_at": "2024-06-05",
+                "updated_at": "2024-06-18"
+            }
+        ]
+    },
+    "requests:2.23.0": {
+        "name": "requests",
+        "version": "2.23.0",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-j8r2-6x86-q33q",
+                "severity": "MODERATE",
+                "description": "Unintended leak of Proxy-Authorization header in requests",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:N/A:N",
+                "published_at": "2023-05-22",
+                "updated_at": "2024-03-27"
+            },
+            {
+                "id": "GHSA-9wx4-h78v-vm56",
+                "severity": "MODERATE",
+                "description": "Requests `Session` object does not verify requests after making first request with verify=False",
+                "links": [],
+                "cvss_score": 5.6,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:U/C:H/I:H/A:N",
+                "published_at": "2024-05-20",
+                "updated_at": "2024-06-10"
+            }
+        ]
+    },
+    "setuptools:39.0.1": {
+        "name": "setuptools",
+        "version": "39.0.1",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-r9hx-vwmv-q579",
+                "severity": "HIGH",
+                "description": "pypa/setuptools vulnerable to Regular Expression Denial of Service (ReDoS)",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-12-23",
+                "updated_at": "2024-06-24"
+            },
+            {
+                "id": "GHSA-cx63-2mw6-8hw5",
+                "severity": "HIGH",
+                "description": "setuptools vulnerable to Command Injection via package URL",
+                "links": [],
+                "cvss_score": 8.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2024-07-15",
+                "updated_at": "2024-07-15"
+            }
+        ]
+    },
+    "wheel:0.30": {
+        "name": "wheel",
+        "version": "0.30",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-qwmp-2cf2-g9g6",
+                "severity": "HIGH",
+                "description": "pypa/wheel vulnerable to Regular Expression denial of service (ReDoS)",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-12-23",
+                "updated_at": "2023-01-27"
+            }
+        ]
+    }
+}

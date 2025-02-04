@@ -1,0 +1,442 @@
+{
+    "Pillow:8.3.2": {
+        "name": "Pillow",
+        "version": "8.3.2",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-9j59-75qj-795w",
+                "severity": "CRITICAL",
+                "description": "Path traversal in Pillow",
+                "links": [],
+                "cvss_score": 9.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H",
+                "published_at": "2022-03-11",
+                "updated_at": "2024-04-03",
+                "CWE_ID": "CWE-22",
+                "CWE_DESCRIPTION": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            },
+            {
+                "id": "GHSA-9j59-75qj-795w",
+                "severity": "CRITICAL",
+                "description": "Path traversal in Pillow",
+                "links": [],
+                "cvss_score": 9.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H",
+                "published_at": "2022-03-11",
+                "updated_at": "2024-04-03",
+                "CWE_ID": "CWE-22",
+                "CWE_DESCRIPTION": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            },
+            {
+                "id": "GHSA-8vj2-vxx3-667w",
+                "severity": "CRITICAL",
+                "description": "Arbitrary expression injection in Pillow",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-01-12",
+                "updated_at": "2024-04-22",
+                "CWE_ID": "CWE-74",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')"
+            },
+            {
+                "id": "GHSA-8vj2-vxx3-667w",
+                "severity": "CRITICAL",
+                "description": "Arbitrary expression injection in Pillow",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-01-12",
+                "updated_at": "2024-04-22",
+                "CWE_ID": "CWE-74",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')"
+            },
+            {
+                "id": "GHSA-m2vv-5vj5-2hm7",
+                "severity": "HIGH",
+                "description": "Pillow vulnerable to Data Amplification attack.",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-11-14",
+                "updated_at": "2023-09-05",
+                "CWE_ID": "CWE-409",
+                "CWE_DESCRIPTION": "Improper Handling of Highly Compressed Data (Data Amplification)"
+            },
+            {
+                "id": "GHSA-m2vv-5vj5-2hm7",
+                "severity": "HIGH",
+                "description": "Pillow vulnerable to Data Amplification attack.",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-11-14",
+                "updated_at": "2023-09-05",
+                "CWE_ID": "CWE-409",
+                "CWE_DESCRIPTION": "Improper Handling of Highly Compressed Data (Data Amplification)"
+            },
+            {
+                "id": "GHSA-j7hp-h8jx-5ppr",
+                "severity": "HIGH",
+                "description": "libwebp: OOB write in BuildHuffmanTable",
+                "links": [],
+                "cvss_score": 8.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2023-09-12",
+                "updated_at": "2024-01-08",
+                "CWE_ID": "CWE-787",
+                "CWE_DESCRIPTION": "Out-of-bounds Write"
+            },
+            {
+                "id": "GHSA-j7hp-h8jx-5ppr",
+                "severity": "HIGH",
+                "description": "libwebp: OOB write in BuildHuffmanTable",
+                "links": [],
+                "cvss_score": 8.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2023-09-12",
+                "updated_at": "2024-01-08",
+                "CWE_ID": "CWE-787",
+                "CWE_DESCRIPTION": "Out-of-bounds Write"
+            },
+            {
+                "id": "GHSA-8ghj-p4vj-mr35",
+                "severity": "HIGH",
+                "description": "Pillow Denial of Service vulnerability",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2023-11-03",
+                "updated_at": "2024-03-22",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-8ghj-p4vj-mr35",
+                "severity": "HIGH",
+                "description": "Pillow Denial of Service vulnerability",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2023-11-03",
+                "updated_at": "2024-03-22",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-56pw-mpj4-fxww",
+                "severity": "HIGH",
+                "description": "Bundled libwebp in Pillow vulnerable",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2023-10-05",
+                "updated_at": "2023-10-05",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-56pw-mpj4-fxww",
+                "severity": "HIGH",
+                "description": "Bundled libwebp in Pillow vulnerable",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2023-10-05",
+                "updated_at": "2023-10-05",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-3f63-hfp8-52jq",
+                "severity": "HIGH",
+                "description": "Arbitrary Code Execution in Pillow",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2024-01-19",
+                "updated_at": "2024-03-27",
+                "CWE_ID": "CWE-94",
+                "CWE_DESCRIPTION": "Improper Control of Generation of Code ('Code Injection')"
+            },
+            {
+                "id": "GHSA-3f63-hfp8-52jq",
+                "severity": "HIGH",
+                "description": "Arbitrary Code Execution in Pillow",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2024-01-19",
+                "updated_at": "2024-03-27",
+                "CWE_ID": "CWE-94",
+                "CWE_DESCRIPTION": "Improper Control of Generation of Code ('Code Injection')"
+            },
+            {
+                "id": "GHSA-xrcv-f9gm-v42c",
+                "severity": "MODERATE",
+                "description": "Out-of-bounds Read in Pillow",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
+                "published_at": "2022-01-12",
+                "updated_at": "2023-09-04",
+                "CWE_ID": "CWE-125",
+                "CWE_DESCRIPTION": "Out-of-bounds Read"
+            },
+            {
+                "id": "GHSA-xrcv-f9gm-v42c",
+                "severity": "MODERATE",
+                "description": "Out-of-bounds Read in Pillow",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
+                "published_at": "2022-01-12",
+                "updated_at": "2023-09-04",
+                "CWE_ID": "CWE-125",
+                "CWE_DESCRIPTION": "Out-of-bounds Read"
+            },
+            {
+                "id": "GHSA-pw3c-h7wp-cvhx",
+                "severity": "MODERATE",
+                "description": "Improper Initialization in Pillow",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
+                "published_at": "2022-01-12",
+                "updated_at": "2024-04-03",
+                "CWE_ID": "CWE-665",
+                "CWE_DESCRIPTION": "Improper Initialization"
+            },
+            {
+                "id": "GHSA-pw3c-h7wp-cvhx",
+                "severity": "MODERATE",
+                "description": "Improper Initialization in Pillow",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
+                "published_at": "2022-01-12",
+                "updated_at": "2024-04-03",
+                "CWE_ID": "CWE-665",
+                "CWE_DESCRIPTION": "Improper Initialization"
+            },
+            {
+                "id": "GHSA-44wm-f244-xhp3",
+                "severity": "MODERATE",
+                "description": "Pillow buffer overflow vulnerability",
+                "links": [],
+                "cvss_score": 6.7,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2024-04-03",
+                "updated_at": "2024-04-20",
+                "CWE_ID": "CWE-120",
+                "CWE_DESCRIPTION": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')"
+            },
+            {
+                "id": "GHSA-44wm-f244-xhp3",
+                "severity": "MODERATE",
+                "description": "Pillow buffer overflow vulnerability",
+                "links": [],
+                "cvss_score": 6.7,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2024-04-03",
+                "updated_at": "2024-04-20",
+                "CWE_ID": "CWE-120",
+                "CWE_DESCRIPTION": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')"
+            },
+            {
+                "id": "GHSA-4fx9-vc88-q2xc",
+                "severity": "LOW",
+                "description": "Infinite loop in Pillow",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-03-11",
+                "updated_at": "2023-01-11",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-4fx9-vc88-q2xc",
+                "severity": "LOW",
+                "description": "Infinite loop in Pillow",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-03-11",
+                "updated_at": "2023-01-11",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "future:0.17.1": {
+        "name": "future",
+        "version": "0.17.1",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-v3c5-jqr6-7qm8",
+                "severity": "HIGH",
+                "description": "Python Charmers Future denial of service vulnerability",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-12-23",
+                "updated_at": "2023-01-28",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-v3c5-jqr6-7qm8",
+                "severity": "HIGH",
+                "description": "Python Charmers Future denial of service vulnerability",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-12-23",
+                "updated_at": "2023-01-28",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "paramiko:2.10.1": {
+        "name": "paramiko",
+        "version": "2.10.1",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-45x7-px36-x8w8",
+                "severity": "MODERATE",
+                "description": "Prefix Truncation Attack against ChaCha20-Poly1305 and Encrypt-then-MAC aka Terrapin",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2023-12-18",
+                "updated_at": "2024-05-02",
+                "CWE_ID": "CWE-345",
+                "CWE_DESCRIPTION": "Insufficient Verification of Data Authenticity"
+            },
+            {
+                "id": "GHSA-45x7-px36-x8w8",
+                "severity": "MODERATE",
+                "description": "Prefix Truncation Attack against ChaCha20-Poly1305 and Encrypt-then-MAC aka Terrapin",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2023-12-18",
+                "updated_at": "2024-05-02",
+                "CWE_ID": "CWE-345",
+                "CWE_DESCRIPTION": "Insufficient Verification of Data Authenticity"
+            }
+        ]
+    },
+    "reportlab:3.5.23": {
+        "name": "reportlab",
+        "version": "3.5.23",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-qpg2-vx7j-3869",
+                "severity": "CRITICAL",
+                "description": "XML Injection in ReportLab",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-05-24",
+                "updated_at": "2023-08-22",
+                "CWE_ID": "CWE-91",
+                "CWE_DESCRIPTION": "XML Injection (aka Blind XPath Injection)"
+            },
+            {
+                "id": "GHSA-qpg2-vx7j-3869",
+                "severity": "CRITICAL",
+                "description": "XML Injection in ReportLab",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-05-24",
+                "updated_at": "2023-08-22",
+                "CWE_ID": "CWE-91",
+                "CWE_DESCRIPTION": "XML Injection (aka Blind XPath Injection)"
+            },
+            {
+                "id": "GHSA-pj98-2xf6-cff5",
+                "severity": "CRITICAL",
+                "description": "ReportLab vulnerable to remote code execution via paraparser",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2023-09-20",
+                "updated_at": "2024-04-28",
+                "CWE_ID": "CWE-91",
+                "CWE_DESCRIPTION": "XML Injection (aka Blind XPath Injection)"
+            },
+            {
+                "id": "GHSA-pj98-2xf6-cff5",
+                "severity": "CRITICAL",
+                "description": "ReportLab vulnerable to remote code execution via paraparser",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2023-09-20",
+                "updated_at": "2024-04-28",
+                "CWE_ID": "CWE-91",
+                "CWE_DESCRIPTION": "XML Injection (aka Blind XPath Injection)"
+            },
+            {
+                "id": "GHSA-9q9m-c65c-37pq",
+                "severity": "HIGH",
+                "description": "Reportlab vulnerable to remote code execution",
+                "links": [],
+                "cvss_score": 7.8,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2023-06-05",
+                "updated_at": "2023-11-04",
+                "CWE_ID": "CWE-94",
+                "CWE_DESCRIPTION": "Improper Control of Generation of Code ('Code Injection')"
+            },
+            {
+                "id": "GHSA-9q9m-c65c-37pq",
+                "severity": "HIGH",
+                "description": "Reportlab vulnerable to remote code execution",
+                "links": [],
+                "cvss_score": 7.8,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2023-06-05",
+                "updated_at": "2023-11-04",
+                "CWE_ID": "CWE-94",
+                "CWE_DESCRIPTION": "Improper Control of Generation of Code ('Code Injection')"
+            },
+            {
+                "id": "GHSA-mpvw-25mg-59vx",
+                "severity": "MODERATE",
+                "description": "Server-side Request Forgery (SSRF) via img tags in reportlab",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2021-03-29",
+                "updated_at": "2023-11-06",
+                "CWE_ID": "CWE-918",
+                "CWE_DESCRIPTION": "Server-Side Request Forgery (SSRF)"
+            },
+            {
+                "id": "GHSA-mpvw-25mg-59vx",
+                "severity": "MODERATE",
+                "description": "Server-side Request Forgery (SSRF) via img tags in reportlab",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2021-03-29",
+                "updated_at": "2023-11-06",
+                "CWE_ID": "CWE-918",
+                "CWE_DESCRIPTION": "Server-Side Request Forgery (SSRF)"
+            }
+        ]
+    }
+}

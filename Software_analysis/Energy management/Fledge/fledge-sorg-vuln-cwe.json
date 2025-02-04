@@ -1,0 +1,302 @@
+{
+    "aiohttp:3.8.1": {
+        "name": "aiohttp",
+        "version": "3.8.1",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-q3qx-c6g2-7pw2",
+                "severity": "HIGH",
+                "description": "aiohttp's ClientSession is vulnerable to CRLF injection via version",
+                "links": [],
+                "cvss_score": 7.2,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
+                "published_at": "2023-11-27",
+                "updated_at": "2024-01-29",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-q3qx-c6g2-7pw2",
+                "severity": "HIGH",
+                "description": "aiohttp's ClientSession is vulnerable to CRLF injection via version",
+                "links": [],
+                "cvss_score": 7.2,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
+                "published_at": "2023-11-27",
+                "updated_at": "2024-01-29",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-5m98-qgg9-wh84",
+                "severity": "HIGH",
+                "description": "aiohttp vulnerable to Denial of Service when trying to parse malformed POST requests",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-05-03",
+                "updated_at": "2024-05-03",
+                "CWE_ID": "CWE-835",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-5m98-qgg9-wh84",
+                "severity": "HIGH",
+                "description": "aiohttp vulnerable to Denial of Service when trying to parse malformed POST requests",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-05-03",
+                "updated_at": "2024-05-03",
+                "CWE_ID": "CWE-835",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-qvrw-v9rv-5rjx",
+                "severity": "MODERATE",
+                "description": "aiohttp's ClientSession is vulnerable to CRLF injection via method",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2023-11-27",
+                "updated_at": "2024-01-29",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-qvrw-v9rv-5rjx",
+                "severity": "MODERATE",
+                "description": "aiohttp's ClientSession is vulnerable to CRLF injection via method",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2023-11-27",
+                "updated_at": "2024-01-29",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-pjjw-qhg8-p2p9",
+                "severity": "MODERATE",
+                "description": "aiohttp has vulnerable dependency that is vulnerable to request smuggling",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2023-11-27",
+                "updated_at": "2023-11-27",
+                "CWE_ID": "CWE-444",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-pjjw-qhg8-p2p9",
+                "severity": "MODERATE",
+                "description": "aiohttp has vulnerable dependency that is vulnerable to request smuggling",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2023-11-27",
+                "updated_at": "2023-11-27",
+                "CWE_ID": "CWE-444",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-gfw2-4jvh-wgfg",
+                "severity": "MODERATE",
+                "description": "AIOHTTP has problems in HTTP parser (the python one, not llhttp)",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2023-11-14",
+                "updated_at": "2024-02-15",
+                "CWE_ID": "CWE-444",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-gfw2-4jvh-wgfg",
+                "severity": "MODERATE",
+                "description": "AIOHTTP has problems in HTTP parser (the python one, not llhttp)",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2023-11-14",
+                "updated_at": "2024-02-15",
+                "CWE_ID": "CWE-444",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-8qpw-xqxj-h4r2",
+                "severity": "MODERATE",
+                "description": "aiohttp's HTTP parser (the python one, not llhttp) still overly lenient about separators",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
+                "published_at": "2024-01-29",
+                "updated_at": "2024-02-18",
+                "CWE_ID": "CWE-444",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-8qpw-xqxj-h4r2",
+                "severity": "MODERATE",
+                "description": "aiohttp's HTTP parser (the python one, not llhttp) still overly lenient about separators",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
+                "published_at": "2024-01-29",
+                "updated_at": "2024-02-18",
+                "CWE_ID": "CWE-444",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-7gpw-8wmc-pm8g",
+                "severity": "MODERATE",
+                "description": "aiohttp Cross-site Scripting vulnerability on index pages for static file handling",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2024-04-18",
+                "updated_at": "2024-05-02",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-7gpw-8wmc-pm8g",
+                "severity": "MODERATE",
+                "description": "aiohttp Cross-site Scripting vulnerability on index pages for static file handling",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2024-04-18",
+                "updated_at": "2024-05-02",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-5h86-8mv2-jq9f",
+                "severity": "MODERATE",
+                "description": "aiohttp is vulnerable to directory traversal",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2024-01-29",
+                "updated_at": "2024-02-18",
+                "CWE_ID": "CWE-22",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-5h86-8mv2-jq9f",
+                "severity": "MODERATE",
+                "description": "aiohttp is vulnerable to directory traversal",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2024-01-29",
+                "updated_at": "2024-02-18",
+                "CWE_ID": "CWE-22",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-45c4-8wx5-qw6w",
+                "severity": "MODERATE",
+                "description": "aiohttp.web.Application vulnerable to HTTP request smuggling via llhttp HTTP request parser",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2023-07-20",
+                "updated_at": "2023-11-06",
+                "CWE_ID": "CWE-444",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-45c4-8wx5-qw6w",
+                "severity": "MODERATE",
+                "description": "aiohttp.web.Application vulnerable to HTTP request smuggling via llhttp HTTP request parser",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2023-07-20",
+                "updated_at": "2023-11-06",
+                "CWE_ID": "CWE-444",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "requests:2.20.0": {
+        "name": "requests",
+        "version": "2.20.0",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-j8r2-6x86-q33q",
+                "severity": "MODERATE",
+                "description": "Unintended leak of Proxy-Authorization header in requests",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:N/A:N",
+                "published_at": "2023-05-22",
+                "updated_at": "2024-03-27",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-9wx4-h78v-vm56",
+                "severity": "MODERATE",
+                "description": "Requests `Session` object does not verify requests after making first request with verify=False",
+                "links": [],
+                "cvss_score": 5.6,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:U/C:H/I:H/A:N",
+                "published_at": "2024-05-20",
+                "updated_at": "2024-06-10",
+                "CWE_ID": "CWE-670",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "urllib3:1.26.15": {
+        "name": "urllib3",
+        "version": "1.26.15",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-v845-jxx5-vc9f",
+                "severity": "MODERATE",
+                "description": "`Cookie` HTTP header isn't stripped on cross-origin redirects",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:N",
+                "published_at": "2023-10-02",
+                "updated_at": "2023-11-04",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-g4mx-q9vg-27p4",
+                "severity": "MODERATE",
+                "description": "urllib3's request body not stripped after redirect from 303 status changes request method to GET",
+                "links": [],
+                "cvss_score": 4.2,
+                "vector_attack": "CVSS:3.1/AV:A/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2023-10-17",
+                "updated_at": "2023-11-06",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-34jh-p97f-mpxf",
+                "severity": "MODERATE",
+                "description": "urllib3's Proxy-Authorization request header isn't stripped during cross-origin redirects ",
+                "links": [],
+                "cvss_score": 4.4,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2024-06-17",
+                "updated_at": "2024-06-17",
+                "CWE_ID": "CWE-669",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    }
+}

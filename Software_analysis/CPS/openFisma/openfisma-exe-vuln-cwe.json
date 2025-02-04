@@ -1,0 +1,63 @@
+{
+    "ant:1.6.5": {
+        "name": "ant",
+        "version": "1.6.5",
+        "type": "java-archive",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-q5r4-cfpx-h6fh",
+                "severity": "MODERATE",
+                "description": "Improper Handling of Length Parameter Inconsistency in Apache Ant",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2021-08-02",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-130",
+                "CWE_DESCRIPTION": "Improper Handling of Length Parameter Inconsistency"
+            },
+            {
+                "id": "GHSA-4p6w-m9wc-c9c9",
+                "severity": "MODERATE",
+                "description": "Sensitive Data Exposure in Apache Ant",
+                "links": [],
+                "cvss_score": 6.3,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N",
+                "published_at": "2020-09-14",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            }
+        ]
+    },
+    "solr:1.4.1 955763M - mark - 2010-06-17 18:06:52": {
+        "name": "solr",
+        "version": "1.4.1 955763M - mark - 2010-06-17 18:06:52",
+        "type": "java-archive",
+        "licenses": [
+            "Apache-2.0",
+            "BSD-3-Clause",
+            "CDDL-1.0",
+            "CPL-1.0",
+            "ICU",
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-4fxw-g29w-r8mx",
+                "severity": "MODERATE",
+                "description": "Apache Solr Cross-site scripting Vulnerability",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2022-05-17",
+                "updated_at": "2023-08-03",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            }
+        ]
+    }
+}

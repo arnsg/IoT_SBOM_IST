@@ -1,0 +1,20 @@
+{
+    "numpy:1.21.5": {
+        "name": "numpy",
+        "version": "1.21.5",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-fpfv-jqm9-f5jm",
+                "severity": "MODERATE",
+                "description": "Incorrect Comparison in NumPy",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "CWE_ID": "CWE-697",
+                "CWE_DESCRIPTION": "Incorrect Comparison"
+            }
+        ]
+    }
+}

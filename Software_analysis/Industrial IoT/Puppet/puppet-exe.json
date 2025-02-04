@@ -1,0 +1,545 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:71d43a64-36d4-4ac7-8e1a-e00e2cc1cda6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-08-02T15:23:27+02:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.4.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "f24be877bf9244f5",
+      "type": "file",
+      "name": "/Users/massimocoppolaro/Desktop/Università/Tirocinio2.0/Software/puppet"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:github/korthout/backport-action@v1?package-id=1c2f0e772861bcbf",
+      "type": "library",
+      "name": "korthout/backport-action",
+      "version": "v1",
+      "cpe": "cpe:2.3:a:korthout\\/backport-action:korthout\\/backport-action:v1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/korthout/backport-action@v1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:korthout\\/backport-action:korthout\\/backport_action:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:korthout\\/backport_action:korthout\\/backport-action:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:korthout\\/backport_action:korthout\\/backport_action:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:korthout\\/backport:korthout\\/backport-action:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:korthout\\/backport:korthout\\/backport_action:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/backport.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:gem/puppet@8.9.0?package-id=31a5e2133c65f8c7",
+      "type": "library",
+      "author": "Puppet Labs",
+      "name": "puppet",
+      "version": "8.9.0",
+      "licenses": [
+        {
+          "license": {
+            "name": "'Apache-2.0'"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:puppet-labs:puppet:8.9.0:*:*:*:*:*:*:*",
+      "purl": "pkg:gem/puppet@8.9.0",
+      "externalReferences": [
+        {
+          "url": "https://github.com/puppetlabs/puppet",
+          "type": "website"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "ruby-gemspec-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "ruby"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "gem"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "ruby-gemspec"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:puppet_labs:puppet:8.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:puppetlabs:puppet:8.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ruby-lang:puppet:8.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ruby_lang:puppet:8.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:puppet:puppet:8.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ruby:puppet:8.9.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/puppet.gemspec"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/puppetlabs/phoenix-github-actions@main?package-id=4e9c604e4e9e9aa3#github/workflows/jirayml",
+      "type": "library",
+      "name": "puppetlabs/phoenix-github-actions/.github/workflows/jira.yml",
+      "version": "main",
+      "cpe": "cpe:2.3:a:puppetlabs\\/phoenix-github-actions\\/.github\\/workflows\\/jira.yml:puppetlabs\\/phoenix-github-actions\\/.github\\/workflows\\/jira.yml:main:*:*:*:*:*:*:*",
+      "purl": "pkg:github/puppetlabs/phoenix-github-actions@main#.github/workflows/jira.yml",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-action-workflow-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action-workflow"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:puppetlabs\\/phoenix-github-actions\\/.github\\/workflows\\/jira.yml:puppetlabs\\/phoenix_github_actions\\/.github\\/workflows\\/jira.yml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:puppetlabs\\/phoenix_github_actions\\/.github\\/workflows\\/jira.yml:puppetlabs\\/phoenix-github-actions\\/.github\\/workflows\\/jira.yml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:puppetlabs\\/phoenix_github_actions\\/.github\\/workflows\\/jira.yml:puppetlabs\\/phoenix_github_actions\\/.github\\/workflows\\/jira.yml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:puppetlabs\\/phoenix-github:puppetlabs\\/phoenix-github-actions\\/.github\\/workflows\\/jira.yml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:puppetlabs\\/phoenix-github:puppetlabs\\/phoenix_github_actions\\/.github\\/workflows\\/jira.yml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:puppetlabs\\/phoenix_github:puppetlabs\\/phoenix-github-actions\\/.github\\/workflows\\/jira.yml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:puppetlabs\\/phoenix_github:puppetlabs\\/phoenix_github_actions\\/.github\\/workflows\\/jira.yml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:puppetlabs\\/phoenix:puppetlabs\\/phoenix-github-actions\\/.github\\/workflows\\/jira.yml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:puppetlabs\\/phoenix:puppetlabs\\/phoenix_github_actions\\/.github\\/workflows\\/jira.yml:main:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/jira.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/ruby/setup-ruby@v1?package-id=ae2d575f6473893d",
+      "type": "library",
+      "name": "ruby/setup-ruby",
+      "version": "v1",
+      "cpe": "cpe:2.3:a:ruby\\/setup-ruby:ruby\\/setup-ruby:v1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/ruby/setup-ruby@v1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ruby\\/setup-ruby:ruby\\/setup_ruby:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ruby\\/setup_ruby:ruby\\/setup-ruby:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ruby\\/setup_ruby:ruby\\/setup_ruby:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ruby\\/setup:ruby\\/setup-ruby:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ruby\\/setup:ruby\\/setup_ruby:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/checks.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/arrow-array@52.1.0?package-id=a7ecbb0fba935ece",
+      "type": "library",
+      "name": "arrow-array",
+      "version": "52.1.0",
+      "cpe": "cpe:2.3:a:arrow-array:arrow-array:52.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/arrow-array@52.1.0",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:arrow-array:arrow_array:52.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:arrow_array:arrow-array:52.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:arrow_array:arrow_array:52.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:arrow:arrow-array:52.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:arrow:arrow_array:52.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/arrow-buffer@52.1.0?package-id=a00c65625d9683e6",
+      "type": "library",
+      "name": "arrow-buffer",
+      "version": "52.1.0",
+      "cpe": "cpe:2.3:a:arrow-buffer:arrow-buffer:52.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/arrow-buffer@52.1.0",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:arrow-buffer:arrow_buffer:52.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:arrow_buffer:arrow-buffer:52.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:arrow_buffer:arrow_buffer:52.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:arrow:arrow-buffer:52.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:arrow:arrow_buffer:52.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/arrow-cast@52.1.0?package-id=76d6cafc89e0cbbe",
+      "type": "library",
+      "name": "arrow-cast",
+      "version": "52.1.0",
+      "cpe": "cpe:2.3:a:arrow-cast:arrow-cast:52.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/arrow-cast@52.1.0",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:arrow-cast:arrow_cast:52.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:arrow_cast:arrow-cast:52.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:arrow_cast:arrow_cast:52.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:arrow:arrow-cast:52.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:arrow:arrow_cast:52.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/arrow-csv@52.1.0?package-id=191d18dccded8147",
+      "type": "library",
+      "name": "arrow-csv",
+      "version": "52.1.0",
+      "cpe": "cpe:2.3:a:arrow-csv:arrow-csv:52.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/arrow-csv@52.1.0",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:arrow-csv:arrow_csv:52.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:arrow_csv:arrow-csv:52.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:arrow_csv:arrow_csv:52.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:arrow:arrow-csv:52.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:arrow:arrow_csv:52.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/ruby/setup-ruby@v1?package-id=2084b28d3b42e3e9",
+      "type": "library",
+      "name": "ruby/setup-ruby",
+      "version": "v1",
+      "cpe": "cpe:2.3:a:ruby\\/setup-ruby:ruby\\/setup-ruby:v1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/ruby/setup-ruby@v1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ruby\\/setup-ruby:ruby\\/setup_ruby:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ruby\\/setup_ruby:ruby\\/setup-ruby:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ruby\\/setup_ruby:ruby\\/setup_ruby:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ruby\\/setup:ruby\\/setup-ruby:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ruby\\/setup:ruby\\/setup_ruby:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/mend.yaml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/ruby/setup-ruby@v1?package-id=cc4a6021d9436c19",
+      "type": "library",
+      "name": "ruby/setup-ruby",
+      "version": "v1",
+      "cpe": "cpe:2.3:a:ruby\\/setup-ruby:ruby\\/setup-ruby:v1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/ruby/setup-ruby@v1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ruby\\/setup-ruby:ruby\\/setup_ruby:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ruby\\/setup_ruby:ruby\\/setup-ruby:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ruby\\/setup_ruby:ruby\\/setup_ruby:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ruby\\/setup:ruby\\/setup-ruby:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:ruby\\/setup:ruby\\/setup_ruby:v1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/rspec_tests.yaml"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+    "braces:3.0.2": {
+        "name": "braces",
+        "version": "3.0.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-grv7-fg5c-xmjg",
+                "severity": "HIGH",
+                "description": "Uncontrolled resource consumption in braces",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-05-14",
+                "updated_at": "2024-07-05"
+            }
+        ]
+    },
+    "commons-compress:1.24.0": {
+        "name": "commons-compress",
+        "version": "1.24.0",
+        "type": "java-archive",
+        "licenses": [
+            "https://www.apache.org/licenses/LICENSE-2.0.txt"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-4g9r-vxhx-9pgx",
+                "severity": "HIGH",
+                "description": "Apache Commons Compress: Denial of service caused by an infinite loop for a corrupted DUMP file",
+                "links": [],
+                "cvss_score": 8.2,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2024-02-19",
+                "updated_at": "2024-03-07"
+            },
+            {
+                "id": "GHSA-4265-ccf5-phj5",
+                "severity": "HIGH",
+                "description": "Apache Commons Compress: OutOfMemoryError unpacking broken Pack200 file",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-02-19",
+                "updated_at": "2024-03-07"
+            }
+        ]
+    },
+    "commons-configuration2:2.8.0": {
+        "name": "commons-configuration2",
+        "version": "2.8.0",
+        "type": "java-archive",
+        "licenses": [
+            "https://www.apache.org/licenses/LICENSE-2.0.txt"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-xjp4-hw94-mvp5",
+                "severity": "MODERATE",
+                "description": "Apache Commons Configuration: StackOverflowError adding property in AbstractListDelimiterHandler.flattenIterator()",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
+                "published_at": "2024-03-21",
+                "updated_at": "2024-05-02"
+            },
+            {
+                "id": "GHSA-9w38-p64v-xpmv",
+                "severity": "MODERATE",
+                "description": "Apache Commons Configuration: StackOverflowError calling ListDelimiterHandler.flatten(Object, int) with a cyclical object tree",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
+                "published_at": "2024-03-21",
+                "updated_at": "2024-05-02"
+            }
+        ]
+    },
+    "commons-httpclient:3.0.1": {
+        "name": "commons-httpclient",
+        "version": "3.0.1",
+        "type": "java-archive",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-3832-9276-x7gf",
+                "severity": "MODERATE",
+                "description": "Improper Certificate Validation in apache HttpClient",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-13",
+                "updated_at": "2024-03-14"
+            }
+        ]
+    },
+    "semver:7.3.8": {
+        "name": "semver",
+        "version": "7.3.8",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c2qf-rxjj-qqgw",
+                "severity": "MODERATE",
+                "description": "semver vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2023-06-21",
+                "updated_at": "2024-02-14"
+            }
+        ]
+    },
+    "word-wrap:1.2.3": {
+        "name": "word-wrap",
+        "version": "1.2.3",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-j8xg-fqg3-53r7",
+                "severity": "MODERATE",
+                "description": "word-wrap vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2023-06-22",
+                "updated_at": "2024-06-21"
+            }
+        ]
+    }
+}

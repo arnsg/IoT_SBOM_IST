@@ -1,0 +1,2479 @@
+{
+    "angular:1.7.9": {
+        "name": "angular",
+        "version": "1.7.9",
+        "type": "npm",
+        "licenses": [
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-4w4v-5hc9-xrr2",
+                "severity": "HIGH",
+                "description": "angular vulnerable to super-linear runtime due to backtracking",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-02-10",
+                "updated_at": "2024-05-14",
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            },
+            {
+                "id": "GHSA-qwqh-hm9m-p5hr",
+                "severity": "MODERATE",
+                "description": "angular vulnerable to regular expression denial of service via the <input type=\"url\"> element",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2023-03-30",
+                "updated_at": "2023-11-03",
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            },
+            {
+                "id": "GHSA-prc3-vjfx-vhm9",
+                "severity": "MODERATE",
+                "description": "Angular (deprecated package) Cross-site Scripting",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2022-07-16",
+                "updated_at": "2023-09-08",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            },
+            {
+                "id": "GHSA-mhp6-pxh8-r675",
+                "severity": "MODERATE",
+                "description": "Cross site scripting in Angular",
+                "links": [],
+                "cvss_score": 5.4,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2020-06-18",
+                "updated_at": "2023-09-08",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            },
+            {
+                "id": "GHSA-m2h2-264f-f486",
+                "severity": "MODERATE",
+                "description": "angular vulnerable to regular expression denial of service (ReDoS)",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2022-05-03",
+                "updated_at": "2023-01-30",
+                "CWE_ID": "CWE-770",
+                "CWE_DESCRIPTION": "Allocation of Resources Without Limits or Throttling"
+            },
+            {
+                "id": "GHSA-5cp4-xmrw-59wf",
+                "severity": "MODERATE",
+                "description": "XSS via JQLite DOM manipulation functions in AngularJS",
+                "links": [],
+                "cvss_score": 5.0,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L",
+                "published_at": "2020-08-05",
+                "updated_at": "2023-01-09",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            },
+            {
+                "id": "GHSA-2vrf-hf26-jrp5",
+                "severity": "MODERATE",
+                "description": "angular vulnerable to regular expression denial of service via the angular.copy() utility",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2023-03-30",
+                "updated_at": "2023-11-03",
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            },
+            {
+                "id": "GHSA-2qqx-w9hr-q5gx",
+                "severity": "MODERATE",
+                "description": "angular vulnerable to regular expression denial of service via the $resource service",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2023-03-30",
+                "updated_at": "2023-11-03",
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "batik-bridge:1.14": {
+        "name": "batik-bridge",
+        "version": "1.14",
+        "type": "java-archive",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-gq5f-xv48-2365",
+                "severity": "HIGH",
+                "description": "Apache XML Graphics Batik Server-Side Request Forgery vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H",
+                "published_at": "2023-08-22",
+                "updated_at": "2024-01-08",
+                "CWE_ID": "CWE-918",
+                "CWE_DESCRIPTION": "Server-Side Request Forgery (SSRF)"
+            }
+        ]
+    },
+    "batik-script:1.14": {
+        "name": "batik-script",
+        "version": "1.14",
+        "type": "java-archive",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-2474-2566-3qxp",
+                "severity": "MODERATE",
+                "description": "Apache Batik information disclosure vulnerability",
+                "links": [],
+                "cvss_score": 4.4,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+                "published_at": "2023-08-22",
+                "updated_at": "2024-01-08",
+                "CWE_ID": "CWE-918",
+                "CWE_DESCRIPTION": "Server-Side Request Forgery (SSRF)"
+            }
+        ]
+    },
+    "bootstrap-select:1.12.2": {
+        "name": "bootstrap-select",
+        "version": "1.12.2",
+        "type": "npm",
+        "licenses": [
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-9r7h-6639-v5mw",
+                "severity": "HIGH",
+                "description": "Cross-Site Scripting in bootstrap-select",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2020-09-03",
+                "updated_at": "2023-01-09",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            },
+            {
+                "id": "GHSA-7c82-mp33-r854",
+                "severity": "MODERATE",
+                "description": "Cross-site scripting in bootstrap-select",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2021-05-07",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            }
+        ]
+    },
+    "bootstrap-select:1.12.4": {
+        "name": "bootstrap-select",
+        "version": "1.12.4",
+        "type": "npm",
+        "licenses": [
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-9r7h-6639-v5mw",
+                "severity": "HIGH",
+                "description": "Cross-Site Scripting in bootstrap-select",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2020-09-03",
+                "updated_at": "2023-01-09",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            },
+            {
+                "id": "GHSA-7c82-mp33-r854",
+                "severity": "MODERATE",
+                "description": "Cross-site scripting in bootstrap-select",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2021-05-07",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            }
+        ]
+    },
+    "commons-compress:1.18": {
+        "name": "commons-compress",
+        "version": "1.18",
+        "type": "java-archive",
+        "licenses": [
+            "https://www.apache.org/licenses/LICENSE-2.0.txt"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-xqfj-vm6h-2x34",
+                "severity": "HIGH",
+                "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-08-02",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-130",
+                "CWE_DESCRIPTION": "Improper Handling of Length Parameter Inconsistency"
+            },
+            {
+                "id": "GHSA-mc84-pj99-q6hh",
+                "severity": "HIGH",
+                "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-08-02",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-130",
+                "CWE_DESCRIPTION": "Improper Handling of Length Parameter Inconsistency"
+            },
+            {
+                "id": "GHSA-crv7-7245-f45f",
+                "severity": "HIGH",
+                "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-08-02",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-130",
+                "CWE_DESCRIPTION": "Improper Handling of Length Parameter Inconsistency"
+            },
+            {
+                "id": "GHSA-7hfm-57qf-j43q",
+                "severity": "HIGH",
+                "description": "Excessive Iteration in Compress",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-08-02",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-834",
+                "CWE_DESCRIPTION": "Excessive Iteration"
+            },
+            {
+                "id": "GHSA-53x6-4x5p-rrvv",
+                "severity": "HIGH",
+                "description": "Denial of Service in Apache Commons Compress",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2019-10-11",
+                "updated_at": "2023-10-09",
+                "CWE_ID": "CWE-835",
+                "CWE_DESCRIPTION": "Loop with Unreachable Exit Condition ('Infinite Loop')"
+            },
+            {
+                "id": "GHSA-4g9r-vxhx-9pgx",
+                "severity": "HIGH",
+                "description": "Apache Commons Compress: Denial of service caused by an infinite loop for a corrupted DUMP file",
+                "links": [],
+                "cvss_score": 8.2,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2024-02-19",
+                "updated_at": "2024-03-07",
+                "CWE_ID": "CWE-835",
+                "CWE_DESCRIPTION": "Loop with Unreachable Exit Condition ('Infinite Loop')"
+            }
+        ]
+    },
+    "commons-compress:1.19": {
+        "name": "commons-compress",
+        "version": "1.19",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-xqfj-vm6h-2x34",
+                "severity": "HIGH",
+                "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-08-02",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-130",
+                "CWE_DESCRIPTION": "Improper Handling of Length Parameter Inconsistency"
+            },
+            {
+                "id": "GHSA-mc84-pj99-q6hh",
+                "severity": "HIGH",
+                "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-08-02",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-130",
+                "CWE_DESCRIPTION": "Improper Handling of Length Parameter Inconsistency"
+            },
+            {
+                "id": "GHSA-crv7-7245-f45f",
+                "severity": "HIGH",
+                "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-08-02",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-130",
+                "CWE_DESCRIPTION": "Improper Handling of Length Parameter Inconsistency"
+            },
+            {
+                "id": "GHSA-7hfm-57qf-j43q",
+                "severity": "HIGH",
+                "description": "Excessive Iteration in Compress",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-08-02",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-834",
+                "CWE_DESCRIPTION": "Excessive Iteration"
+            },
+            {
+                "id": "GHSA-4g9r-vxhx-9pgx",
+                "severity": "HIGH",
+                "description": "Apache Commons Compress: Denial of service caused by an infinite loop for a corrupted DUMP file",
+                "links": [],
+                "cvss_score": 8.2,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2024-02-19",
+                "updated_at": "2024-03-07",
+                "CWE_ID": "CWE-835",
+                "CWE_DESCRIPTION": "Loop with Unreachable Exit Condition ('Infinite Loop')"
+            }
+        ]
+    },
+    "guava:25.0-jre": {
+        "name": "guava",
+        "version": "25.0-jre",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-7g45-4rm6-3mm3",
+                "severity": "MODERATE",
+                "description": "Guava vulnerable to insecure use of temporary directory",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2023-06-14",
+                "updated_at": "2024-02-13",
+                "CWE_ID": "CWE-379",
+                "CWE_DESCRIPTION": "Creation of Temporary File in Directory with Insecure Permissions"
+            },
+            {
+                "id": "GHSA-5mg8-w23w-74h3",
+                "severity": "LOW",
+                "description": "Information Disclosure in Guava",
+                "links": [],
+                "cvss_score": 3.3,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+                "published_at": "2021-03-25",
+                "updated_at": "2023-11-09",
+                "CWE_ID": "CWE-173",
+                "CWE_DESCRIPTION": "Improper Handling of Alternate Encoding"
+            }
+        ]
+    },
+    "guava:28.0-android": {
+        "name": "guava",
+        "version": "28.0-android",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-7g45-4rm6-3mm3",
+                "severity": "MODERATE",
+                "description": "Guava vulnerable to insecure use of temporary directory",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2023-06-14",
+                "updated_at": "2024-02-13",
+                "CWE_ID": "CWE-379",
+                "CWE_DESCRIPTION": "Creation of Temporary File in Directory with Insecure Permissions"
+            },
+            {
+                "id": "GHSA-5mg8-w23w-74h3",
+                "severity": "LOW",
+                "description": "Information Disclosure in Guava",
+                "links": [],
+                "cvss_score": 3.3,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+                "published_at": "2021-03-25",
+                "updated_at": "2023-11-09",
+                "CWE_ID": "CWE-173",
+                "CWE_DESCRIPTION": "Improper Handling of Alternate Encoding"
+            }
+        ]
+    },
+    "guava:28.2-jre": {
+        "name": "guava",
+        "version": "28.2-jre",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-7g45-4rm6-3mm3",
+                "severity": "MODERATE",
+                "description": "Guava vulnerable to insecure use of temporary directory",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2023-06-14",
+                "updated_at": "2024-02-13",
+                "CWE_ID": "CWE-379",
+                "CWE_DESCRIPTION": "Creation of Temporary File in Directory with Insecure Permissions"
+            },
+            {
+                "id": "GHSA-5mg8-w23w-74h3",
+                "severity": "LOW",
+                "description": "Information Disclosure in Guava",
+                "links": [],
+                "cvss_score": 3.3,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+                "published_at": "2021-03-25",
+                "updated_at": "2023-11-09",
+                "CWE_ID": "CWE-173",
+                "CWE_DESCRIPTION": "Improper Handling of Alternate Encoding"
+            }
+        ]
+    },
+    "jackson-databind:2.9.8": {
+        "name": "jackson-databind",
+        "version": "2.9.8",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-q93h-jc49-78gg",
+                "severity": "CRITICAL",
+                "description": "jackson-databind mishandles the interaction between serialization gadgets and typing",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2020-05-15",
+                "updated_at": "2023-09-14",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-p43x-xfjf-5jhr",
+                "severity": "CRITICAL",
+                "description": "jackson-databind mishandles the interaction between serialization gadgets and typing",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2020-05-15",
+                "updated_at": "2024-03-15",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-mx7p-6679-8g3q",
+                "severity": "CRITICAL",
+                "description": "Polymorphic Typing in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2019-10-28",
+                "updated_at": "2024-03-15",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-h822-r4r5-v8jg",
+                "severity": "CRITICAL",
+                "description": "Polymorphic Typing issue in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2019-09-23",
+                "updated_at": "2024-03-15",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-gww7-p5w4-wrfv",
+                "severity": "CRITICAL",
+                "description": "Deserialization of Untrusted Data in jackson-databind",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2020-03-04",
+                "updated_at": "2024-03-15",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-gjmw-vf9h-g25v",
+                "severity": "CRITICAL",
+                "description": "jackson-databind polymorphic typing issue",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2019-11-13",
+                "updated_at": "2023-09-14",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-fmmc-742q-jg75",
+                "severity": "CRITICAL",
+                "description": "jackson-databind polymorphic typing issue",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2019-11-13",
+                "updated_at": "2023-09-14",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-f3j5-rmmp-3fc5",
+                "severity": "CRITICAL",
+                "description": "Improper Input Validation in jackson-databind",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2020-06-15",
+                "updated_at": "2023-09-13",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-85cw-hj65-qqv9",
+                "severity": "CRITICAL",
+                "description": "Polymorphic Typing issue in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2019-09-23",
+                "updated_at": "2023-09-13",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-6fpp-rgj9-8rwc",
+                "severity": "CRITICAL",
+                "description": "Deserialization of untrusted data in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2019-08-01",
+                "updated_at": "2023-09-13",
+                "CWE_ID": "CWE-915",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Dynamically-Determined Object Attributes"
+            },
+            {
+                "id": "GHSA-5p34-5m6p-p58g",
+                "severity": "CRITICAL",
+                "description": "jackson-databind mishandles the interaction between serialization gadgets and typing",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2020-04-23",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-4w82-r329-3q67",
+                "severity": "CRITICAL",
+                "description": "Deserialization of Untrusted Data in jackson-databind",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2020-03-04",
+                "updated_at": "2023-06-08",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-wh8g-3j2c-rqj5",
+                "severity": "HIGH",
+                "description": "Serialization gadgets exploit in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-12-09",
+                "updated_at": "2024-03-15",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-vfqx-33qm-g869",
+                "severity": "HIGH",
+                "description": "Unsafe Deserialization in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-12-09",
+                "updated_at": "2023-09-14",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-v585-23hc-c647",
+                "severity": "HIGH",
+                "description": "Unsafe Deserialization in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-11-19",
+                "updated_at": "2023-09-14",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-v3xw-c963-f5hc",
+                "severity": "HIGH",
+                "description": "jackson-databind mishandles the interaction between serialization gadgets and typing",
+                "links": [],
+                "cvss_score": 8.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2020-05-15",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-rpr3-cw39-3pxh",
+                "severity": "HIGH",
+                "description": "jackson-databind before 2.9.10.4 vulnerable to unsafe deserialization",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-07-15",
+                "updated_at": "2023-08-18",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-rgv9-q543-rqg4",
+                "severity": "HIGH",
+                "description": "Uncontrolled Resource Consumption in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-10-03",
+                "updated_at": "2024-03-24",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-rf6r-2c4q-2vwg",
+                "severity": "HIGH",
+                "description": "jackson-databind mishandles the interaction between serialization gadgets and typing",
+                "links": [],
+                "cvss_score": 8.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2020-05-15",
+                "updated_at": "2024-03-15",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-r695-7vr9-jgc2",
+                "severity": "HIGH",
+                "description": "Unsafe Deserialization in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-12-09",
+                "updated_at": "2023-09-14",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-r3gr-cxrf-hg25",
+                "severity": "HIGH",
+                "description": "Serialization gadgets exploit in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-12-09",
+                "updated_at": "2024-06-25",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-qmqc-x3r4-6v39",
+                "severity": "HIGH",
+                "description": "Polymorphic deserialization of malicious object in jackson-databind",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2020-05-15",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-qjw2-hr98-qgfh",
+                "severity": "HIGH",
+                "description": "Unsafe Deserialization in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-12-09",
+                "updated_at": "2023-09-14",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-mc6h-4qgp-37qh",
+                "severity": "HIGH",
+                "description": "Deserialization of untrusted data in Jackson Databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2020-06-18",
+                "updated_at": "2024-03-15",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-m6x4-97wx-4q27",
+                "severity": "HIGH",
+                "description": "Unsafe Deserialization in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-12-09",
+                "updated_at": "2023-09-14",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-jjjh-jjxp-wpff",
+                "severity": "HIGH",
+                "description": "Uncontrolled Resource Consumption in Jackson-databind",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-10-03",
+                "updated_at": "2024-03-15",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-j823-4qch-3rgm",
+                "severity": "HIGH",
+                "description": "Deserialization of untrusted data in Jackson Databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2020-06-18",
+                "updated_at": "2024-03-15",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-h4rc-386g-6m85",
+                "severity": "HIGH",
+                "description": "jackson-databind mishandles the interaction between serialization gadgets and typing",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2020-04-23",
+                "updated_at": "2024-03-15",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-h3cw-g4mq-c5x2",
+                "severity": "HIGH",
+                "description": "Code Injection in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-12-09",
+                "updated_at": "2023-09-14",
+                "CWE_ID": "CWE-94",
+                "CWE_DESCRIPTION": "Improper Control of Generation of Code ('Code Injection')"
+            },
+            {
+                "id": "GHSA-gwp4-hfv6-p7hw",
+                "severity": "HIGH",
+                "description": "Deserialization of untrusted data in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2019-08-01",
+                "updated_at": "2023-11-27",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-fqwf-pjwf-7vqv",
+                "severity": "HIGH",
+                "description": "jackson-databind mishandles the interaction between serialization gadgets and typing",
+                "links": [],
+                "cvss_score": 8.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2020-05-15",
+                "updated_at": "2024-07-03",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-f9xh-2qgp-cq57",
+                "severity": "HIGH",
+                "description": "Unsafe Deserialization in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-12-09",
+                "updated_at": "2023-09-14",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-cvm9-fjm9-3572",
+                "severity": "HIGH",
+                "description": "Unsafe Deserialization in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-12-09",
+                "updated_at": "2023-09-14",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-cf6r-3wgc-h863",
+                "severity": "HIGH",
+                "description": "Polymorphic deserialization of malicious object in jackson-databind",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2020-05-15",
+                "updated_at": "2023-09-14",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            },
+            {
+                "id": "GHSA-c2q3-4qrh-fm48",
+                "severity": "HIGH",
+                "description": "Deserialization of untrusted data in Jackson Databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2020-06-18",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-c265-37vj-cwcc",
+                "severity": "HIGH",
+                "description": "Deserialization of untrusted data in Jackson Databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2020-06-18",
+                "updated_at": "2024-06-25",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-9vvp-fxw6-jcxr",
+                "severity": "HIGH",
+                "description": "jackson-databind mishandles the interaction between serialization gadgets and typing",
+                "links": [],
+                "cvss_score": 8.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2020-05-15",
+                "updated_at": "2024-03-15",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-9m6f-7xcq-8vf8",
+                "severity": "HIGH",
+                "description": "Unsafe Deserialization in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-12-09",
+                "updated_at": "2023-09-14",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-9gph-22xh-8x98",
+                "severity": "HIGH",
+                "description": "Unsafe Deserialization in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-12-09",
+                "updated_at": "2023-09-14",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-95cm-88f5-f2c7",
+                "severity": "HIGH",
+                "description": "jackson-databind mishandles the interaction between serialization gadgets and typing",
+                "links": [],
+                "cvss_score": 8.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2020-04-23",
+                "updated_at": "2024-07-03",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-8w26-6f25-cm9x",
+                "severity": "HIGH",
+                "description": "Unsafe Deserialization in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-12-09",
+                "updated_at": "2023-09-14",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-8c4j-34r4-xr8g",
+                "severity": "HIGH",
+                "description": "Unsafe Deserialization in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-12-09",
+                "updated_at": "2023-09-14",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-89qr-369f-5m5x",
+                "severity": "HIGH",
+                "description": "Unsafe Deserialization in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-12-09",
+                "updated_at": "2023-09-14",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-758m-v56v-grj4",
+                "severity": "HIGH",
+                "description": "jackson-databind mishandles the interaction between serialization gadgets and typing",
+                "links": [],
+                "cvss_score": 8.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2020-04-23",
+                "updated_at": "2024-06-25",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-5ww9-j83m-q7qx",
+                "severity": "HIGH",
+                "description": "Information exposure in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2019-05-23",
+                "updated_at": "2024-03-15",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-5r5r-6hpj-8gg9",
+                "severity": "HIGH",
+                "description": "Serialization gadget exploit in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-12-09",
+                "updated_at": "2023-11-21",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-5949-rw7g-wx7w",
+                "severity": "HIGH",
+                "description": "Deserialization of untrusted data in jackson-databind",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-01-20",
+                "updated_at": "2024-03-15",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-58pp-9c76-5625",
+                "severity": "HIGH",
+                "description": "jackson-databind mishandles the interaction between serialization gadgets and typing",
+                "links": [],
+                "cvss_score": 8.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2020-06-10",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-57j2-w4cx-62h2",
+                "severity": "HIGH",
+                "description": "Deeply nested json in jackson-databind",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-03-12",
+                "updated_at": "2024-03-15",
+                "CWE_ID": "CWE-787",
+                "CWE_DESCRIPTION": "Out-of-bounds Write"
+            },
+            {
+                "id": "GHSA-288c-cq4h-88gq",
+                "severity": "HIGH",
+                "description": "XML External Entity (XXE) Injection in Jackson Databind",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2021-02-18",
+                "updated_at": "2024-03-15",
+                "CWE_ID": "CWE-611",
+                "CWE_DESCRIPTION": "Improper Restriction of XML External Entity Reference"
+            },
+            {
+                "id": "GHSA-27xj-rqx5-2255",
+                "severity": "HIGH",
+                "description": "jackson-databind mishandles the interaction between serialization gadgets and typing",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2020-05-15",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-mph4-vhrx-mv67",
+                "severity": "MODERATE",
+                "description": "Deserialization of Untrusted Data in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2019-07-05",
+                "updated_at": "2024-03-15",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-cmfg-87vq-g5g4",
+                "severity": "MODERATE",
+                "description": "Deserialization of untrusted data in FasterXML jackson-databind",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2019-07-17",
+                "updated_at": "2024-03-15",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            }
+        ]
+    },
+    "jetty-http:9.4.12.v20180830": {
+        "name": "jetty-http",
+        "version": "9.4.12.v20180830",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-hmr7-m48g-48f6",
+                "severity": "MODERATE",
+                "description": "Jetty accepts \"+\" prefixed value in Content-Length",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2023-09-14",
+                "updated_at": "2023-11-06",
+                "CWE_ID": "CWE-130",
+                "CWE_DESCRIPTION": "Improper Handling of Length Parameter Inconsistency"
+            },
+            {
+                "id": "GHSA-cj7v-27pg-wf7q",
+                "severity": "LOW",
+                "description": "Jetty invalid URI parsing may produce invalid HttpURI.authority",
+                "links": [],
+                "cvss_score": 2.7,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2022-07-07",
+                "updated_at": "2023-01-29",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            }
+        ]
+    },
+    "jetty-http:9.4.28.v20200408": {
+        "name": "jetty-http",
+        "version": "9.4.28.v20200408",
+        "type": "java-archive",
+        "licenses": [
+            "http://www.apache.org/licenses/LICENSE-2.0, http://www.eclipse.org/org/documents/epl-v10.php"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-hmr7-m48g-48f6",
+                "severity": "MODERATE",
+                "description": "Jetty accepts \"+\" prefixed value in Content-Length",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2023-09-14",
+                "updated_at": "2023-11-06",
+                "CWE_ID": "CWE-130",
+                "CWE_DESCRIPTION": "Improper Handling of Length Parameter Inconsistency"
+            },
+            {
+                "id": "GHSA-cj7v-27pg-wf7q",
+                "severity": "LOW",
+                "description": "Jetty invalid URI parsing may produce invalid HttpURI.authority",
+                "links": [],
+                "cvss_score": 2.7,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2022-07-07",
+                "updated_at": "2023-01-29",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            }
+        ]
+    },
+    "jetty-server:9.4.12.v20180830": {
+        "name": "jetty-server",
+        "version": "9.4.12.v20180830",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-26vr-8j45-3r4w",
+                "severity": "HIGH",
+                "description": "Jetty vulnerable to incorrect handling of invalid large TLS frame, exhausting CPU resources",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-04-06",
+                "updated_at": "2023-09-26",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-xc67-hjx6-cgg6",
+                "severity": "MODERATE",
+                "description": "Installation information leak in Eclipse Jetty",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+                "published_at": "2019-04-23",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            },
+            {
+                "id": "GHSA-r28m-g6j9-r2h5",
+                "severity": "MODERATE",
+                "description": "Information Exposure vulnerability in Eclipse Jetty",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+                "published_at": "2019-04-23",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            },
+            {
+                "id": "GHSA-qw69-rqj8-6qw8",
+                "severity": "MODERATE",
+                "description": "OutOfMemoryError for large multipart without filename in Eclipse Jetty",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2023-04-19",
+                "updated_at": "2023-11-06",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-m394-8rww-3jr7",
+                "severity": "MODERATE",
+                "description": "DOS vulnerability for Quoted Quality CSV headers",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2021-03-10",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-86wm-rrjm-8wh8",
+                "severity": "MODERATE",
+                "description": "Buffer not correctly recycled in Gzip Request inflation",
+                "links": [],
+                "cvss_score": 4.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:L",
+                "published_at": "2020-12-02",
+                "updated_at": "2024-02-21",
+                "CWE_ID": "CWE-226",
+                "CWE_DESCRIPTION": "Sensitive Information in Resource Not Removed Before Reuse"
+            },
+            {
+                "id": "GHSA-7vx9-xjhr-rw6h",
+                "severity": "MODERATE",
+                "description": "Cross-site Scripting in Eclipse Jetty",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2019-04-23",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            },
+            {
+                "id": "GHSA-p26g-97m4-6q7c",
+                "severity": "LOW",
+                "description": "Eclipse Jetty's cookie parsing of quoted values can exfiltrate values from other cookies",
+                "links": [],
+                "cvss_score": 2.4,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:L/I:N/A:N",
+                "published_at": "2023-04-18",
+                "updated_at": "2023-11-06",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            },
+            {
+                "id": "GHSA-m6cp-vxjx-65j6",
+                "severity": "LOW",
+                "description": "SessionListener can prevent a session from being invalidated breaking logout",
+                "links": [],
+                "cvss_score": 3.5,
+                "vector_attack": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+                "published_at": "2021-06-23",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-613",
+                "CWE_DESCRIPTION": "Insufficient Session Expiration"
+            }
+        ]
+    },
+    "jetty-server:9.4.28.v20200408": {
+        "name": "jetty-server",
+        "version": "9.4.28.v20200408",
+        "type": "java-archive",
+        "licenses": [
+            "http://www.apache.org/licenses/LICENSE-2.0, http://www.eclipse.org/org/documents/epl-v10.php"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-x3rh-m7vp-35f2",
+                "severity": "CRITICAL",
+                "description": "Operation on a Resource after Expiration or Release in Jetty Server",
+                "links": [],
+                "cvss_score": 9.4,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L",
+                "published_at": "2020-08-05",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-672",
+                "CWE_DESCRIPTION": "Operation on a Resource after Expiration or Release"
+            },
+            {
+                "id": "GHSA-26vr-8j45-3r4w",
+                "severity": "HIGH",
+                "description": "Jetty vulnerable to incorrect handling of invalid large TLS frame, exhausting CPU resources",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-04-06",
+                "updated_at": "2023-09-26",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-qw69-rqj8-6qw8",
+                "severity": "MODERATE",
+                "description": "OutOfMemoryError for large multipart without filename in Eclipse Jetty",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2023-04-19",
+                "updated_at": "2023-11-06",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-m394-8rww-3jr7",
+                "severity": "MODERATE",
+                "description": "DOS vulnerability for Quoted Quality CSV headers",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2021-03-10",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-86wm-rrjm-8wh8",
+                "severity": "MODERATE",
+                "description": "Buffer not correctly recycled in Gzip Request inflation",
+                "links": [],
+                "cvss_score": 4.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:L",
+                "published_at": "2020-12-02",
+                "updated_at": "2024-02-21",
+                "CWE_ID": "CWE-226",
+                "CWE_DESCRIPTION": "Sensitive Information in Resource Not Removed Before Reuse"
+            },
+            {
+                "id": "GHSA-p26g-97m4-6q7c",
+                "severity": "LOW",
+                "description": "Eclipse Jetty's cookie parsing of quoted values can exfiltrate values from other cookies",
+                "links": [],
+                "cvss_score": 2.4,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:L/I:N/A:N",
+                "published_at": "2023-04-18",
+                "updated_at": "2023-11-06",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            },
+            {
+                "id": "GHSA-m6cp-vxjx-65j6",
+                "severity": "LOW",
+                "description": "SessionListener can prevent a session from being invalidated breaking logout",
+                "links": [],
+                "cvss_score": 3.5,
+                "vector_attack": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+                "published_at": "2021-06-23",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-613",
+                "CWE_DESCRIPTION": "Insufficient Session Expiration"
+            }
+        ]
+    },
+    "jetty-xml:9.4.12.v20180830": {
+        "name": "jetty-xml",
+        "version": "9.4.12.v20180830",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-58qw-p7qm-5rvh",
+                "severity": "LOW",
+                "description": "Eclipse Jetty XmlParser allows arbitrary DOCTYPE declarations",
+                "links": [],
+                "cvss_score": 3.9,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:L/I:L/A:L",
+                "published_at": "2023-07-10",
+                "updated_at": "2023-09-05",
+                "CWE_ID": "CWE-611",
+                "CWE_DESCRIPTION": "Improper Restriction of XML External Entity Reference"
+            }
+        ]
+    },
+    "jetty-xml:9.4.28.v20200408": {
+        "name": "jetty-xml",
+        "version": "9.4.28.v20200408",
+        "type": "java-archive",
+        "licenses": [
+            "http://www.apache.org/licenses/LICENSE-2.0, http://www.eclipse.org/org/documents/epl-v10.php"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-58qw-p7qm-5rvh",
+                "severity": "LOW",
+                "description": "Eclipse Jetty XmlParser allows arbitrary DOCTYPE declarations",
+                "links": [],
+                "cvss_score": 3.9,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:L/I:L/A:L",
+                "published_at": "2023-07-10",
+                "updated_at": "2023-09-05",
+                "CWE_ID": "CWE-611",
+                "CWE_DESCRIPTION": "Improper Restriction of XML External Entity Reference"
+            }
+        ]
+    },
+    "jquery:3.4.1": {
+        "name": "jquery",
+        "version": "3.4.1",
+        "type": "npm",
+        "licenses": [
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-jpcq-cgw6-v4j6",
+                "severity": "MODERATE",
+                "description": "Potential XSS vulnerability in jQuery",
+                "links": [],
+                "cvss_score": 6.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:L/A:N",
+                "published_at": "2020-04-29",
+                "updated_at": "2024-05-15",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            },
+            {
+                "id": "GHSA-gxr4-xjj5-5px2",
+                "severity": "MODERATE",
+                "description": "Potential XSS vulnerability in jQuery",
+                "links": [],
+                "cvss_score": 6.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:L/A:N",
+                "published_at": "2020-04-29",
+                "updated_at": "2023-09-27",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            }
+        ]
+    },
+    "lodash:4.17.19": {
+        "name": "lodash",
+        "version": "4.17.19",
+        "type": "npm",
+        "licenses": [
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-35jh-r3h4-6jhm",
+                "severity": "HIGH",
+                "description": "Command Injection in lodash",
+                "links": [],
+                "cvss_score": 7.2,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-05-06",
+                "updated_at": "2024-04-17",
+                "CWE_ID": "CWE-77",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements used in a Command ('Command Injection')"
+            },
+            {
+                "id": "GHSA-29mw-wpgm-hmr9",
+                "severity": "MODERATE",
+                "description": "Regular Expression Denial of Service (ReDoS) in lodash",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2022-01-06",
+                "updated_at": "2023-11-01",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "moment:2.24.0": {
+        "name": "moment",
+        "version": "2.24.0",
+        "type": "npm",
+        "licenses": [
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-wc69-rhjr-hc9g",
+                "severity": "HIGH",
+                "description": "Moment.js vulnerable to Inefficient Regular Expression Complexity",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-07-06",
+                "updated_at": "2023-11-29",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-8hfj-j24r-96c4",
+                "severity": "HIGH",
+                "description": "Path Traversal: 'dir/../../filename' in moment.locale",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2022-04-04",
+                "updated_at": "2023-11-29",
+                "CWE_ID": "CWE-22",
+                "CWE_DESCRIPTION": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            }
+        ]
+    },
+    "moment-timezone:0.4.1": {
+        "name": "moment-timezone",
+        "version": "0.4.1",
+        "type": "npm",
+        "licenses": [
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-v78c-4p63-2j6c",
+                "severity": "MODERATE",
+                "description": "Cleartext Transmission of Sensitive Information in moment-timezone",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-08-30",
+                "updated_at": "2023-01-12",
+                "CWE_ID": "CWE-319",
+                "CWE_DESCRIPTION": "Cleartext Transmission of Sensitive Information"
+            },
+            {
+                "id": "GHSA-56x4-j7p9-fcf9",
+                "severity": "LOW",
+                "description": "Command Injection in moment-timezone",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-08-30",
+                "updated_at": "2023-01-12",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "node-sass:4.12.0": {
+        "name": "node-sass",
+        "version": "4.12.0",
+        "type": "npm",
+        "licenses": [
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-r8f7-9pfq-mjmv",
+                "severity": "MODERATE",
+                "description": "Improper Certificate Validation in node-sass",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2022-02-09",
+                "updated_at": "2023-04-30",
+                "CWE_ID": "CWE-295",
+                "CWE_DESCRIPTION": "Improper Certificate Validation"
+            },
+            {
+                "id": "GHSA-9v62-24cr-58cx",
+                "severity": "MODERATE",
+                "description": "Denial of Service in node-sass",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2020-09-11",
+                "updated_at": "2023-01-09",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "okio:1.14.0": {
+        "name": "okio",
+        "version": "1.14.0",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-w33c-445m-f8w7",
+                "severity": "MODERATE",
+                "description": "Okio Signed to Unsigned Conversion Error vulnerability",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2023-07-12",
+                "updated_at": "2023-11-27",
+                "CWE_ID": "CWE-195",
+                "CWE_DESCRIPTION": "Signed to Unsigned Conversion Error"
+            }
+        ]
+    },
+    "plantuml:1.2023.1": {
+        "name": "plantuml",
+        "version": "1.2023.1",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-ff3m-68vj-h86p",
+                "severity": "HIGH",
+                "description": "PlantUML Server-Side Request Forgery vulnerability",
+                "links": [],
+                "cvss_score": 7.2,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
+                "published_at": "2023-06-27",
+                "updated_at": "2023-11-27",
+                "CWE_ID": "CWE-918",
+                "CWE_DESCRIPTION": "Server-Side Request Forgery (SSRF)"
+            }
+        ]
+    },
+    "qs:6.5.2": {
+        "name": "qs",
+        "version": "6.5.2",
+        "type": "npm",
+        "licenses": [
+            "BSD-3-Clause"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-hrpp-h998-j3pp",
+                "severity": "HIGH",
+                "description": "qs vulnerable to Prototype Pollution",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-11-27",
+                "updated_at": "2024-02-13",
+                "CWE_ID": "CWE-1321",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')"
+            }
+        ]
+    },
+    "request:2.88.0": {
+        "name": "request",
+        "version": "2.88.0",
+        "type": "npm",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-p8p7-x288-28g6",
+                "severity": "MODERATE",
+                "description": "Server-Side Request Forgery in Request",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2023-03-16",
+                "updated_at": "2024-03-21",
+                "CWE_ID": "CWE-918",
+                "CWE_DESCRIPTION": "Server-Side Request Forgery (SSRF)"
+            }
+        ]
+    },
+    "scss-tokenizer:0.2.3": {
+        "name": "scss-tokenizer",
+        "version": "0.2.3",
+        "type": "npm",
+        "licenses": [
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-7mwh-4pqv-wmr8",
+                "severity": "HIGH",
+                "description": "Regular expression denial of service in scss-tokenizer",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-07-02",
+                "updated_at": "2023-11-29",
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "semver:5.3.0": {
+        "name": "semver",
+        "version": "5.3.0",
+        "type": "npm",
+        "licenses": [
+            "ISC"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c2qf-rxjj-qqgw",
+                "severity": "MODERATE",
+                "description": "semver vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2023-06-21",
+                "updated_at": "2024-02-14",
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "semver:5.7.1": {
+        "name": "semver",
+        "version": "5.7.1",
+        "type": "npm",
+        "licenses": [
+            "ISC"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c2qf-rxjj-qqgw",
+                "severity": "MODERATE",
+                "description": "semver vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2023-06-21",
+                "updated_at": "2024-02-14",
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "snakeyaml:1.19": {
+        "name": "snakeyaml",
+        "version": "1.19",
+        "type": "java-archive",
+        "licenses": [
+            "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-rvwf-54qp-4r6v",
+                "severity": "HIGH",
+                "description": "SnakeYAML Entity Expansion during load operation",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-06-04",
+                "updated_at": "2023-05-22",
+                "CWE_ID": "CWE-776",
+                "CWE_DESCRIPTION": "Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion')"
+            },
+            {
+                "id": "GHSA-mjmj-j48q-9wg2",
+                "severity": "HIGH",
+                "description": "SnakeYaml Constructor Deserialization Remote Code Execution",
+                "links": [],
+                "cvss_score": 8.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L",
+                "published_at": "2022-12-12",
+                "updated_at": "2024-06-24",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            },
+            {
+                "id": "GHSA-3mc7-4q67-w48m",
+                "severity": "HIGH",
+                "description": "Uncontrolled Resource Consumption in snakeyaml",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-08-31",
+                "updated_at": "2024-03-15",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-w37g-rhq8-7m4j",
+                "severity": "MODERATE",
+                "description": "Snakeyaml vulnerable to Stack overflow leading to denial of service",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2022-11-11",
+                "updated_at": "2024-06-21",
+                "CWE_ID": "CWE-121",
+                "CWE_DESCRIPTION": "Stack-based Buffer Overflow"
+            },
+            {
+                "id": "GHSA-hhhw-99gj-p3c3",
+                "severity": "MODERATE",
+                "description": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2022-09-06",
+                "updated_at": "2024-03-15",
+                "CWE_ID": "CWE-121",
+                "CWE_DESCRIPTION": "Stack-based Buffer Overflow"
+            },
+            {
+                "id": "GHSA-c4r9-r8fh-9vj2",
+                "severity": "MODERATE",
+                "description": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-09-06",
+                "updated_at": "2024-03-15",
+                "CWE_ID": "CWE-121",
+                "CWE_DESCRIPTION": "Stack-based Buffer Overflow"
+            },
+            {
+                "id": "GHSA-9w3m-gqgf-c4p9",
+                "severity": "MODERATE",
+                "description": "snakeYAML before 1.32 vulnerable to Denial of Service due to Out-of-bounds Write",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-09-06",
+                "updated_at": "2024-03-15",
+                "CWE_ID": "CWE-121",
+                "CWE_DESCRIPTION": "Stack-based Buffer Overflow"
+            },
+            {
+                "id": "GHSA-98wm-3w3q-mw94",
+                "severity": "MODERATE",
+                "description": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-09-06",
+                "updated_at": "2024-03-15",
+                "CWE_ID": "CWE-121",
+                "CWE_DESCRIPTION": "Stack-based Buffer Overflow"
+            }
+        ]
+    },
+    "spring-web:5.1.14.RELEASE": {
+        "name": "spring-web",
+        "version": "5.1.14.RELEASE",
+        "type": "java-archive",
+        "licenses": [
+            "Apache-2.0",
+            "BSD-3-Clause"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-4wrc-f8pq-fpqp",
+                "severity": "CRITICAL",
+                "description": "Pivotal Spring Framework contains unsafe Java deserialization methods",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-05-24",
+                "updated_at": "2023-06-01",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-4wrc-f8pq-fpqp",
+                "severity": "CRITICAL",
+                "description": "Pivotal Spring Framework contains unsafe Java deserialization methods",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-05-24",
+                "updated_at": "2023-06-01",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-hgjh-9rj2-g67j",
+                "severity": "HIGH",
+                "description": "Spring Framework URL Parsing with Host Validation Vulnerability",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+                "published_at": "2024-03-16",
+                "updated_at": "2024-06-10",
+                "CWE_ID": "CWE-601",
+                "CWE_DESCRIPTION": "URL Redirection to Untrusted Site ('Open Redirect')"
+            },
+            {
+                "id": "GHSA-hgjh-9rj2-g67j",
+                "severity": "HIGH",
+                "description": "Spring Framework URL Parsing with Host Validation Vulnerability",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+                "published_at": "2024-03-16",
+                "updated_at": "2024-06-10",
+                "CWE_ID": "CWE-601",
+                "CWE_DESCRIPTION": "URL Redirection to Untrusted Site ('Open Redirect')"
+            },
+            {
+                "id": "GHSA-ccgv-vj62-xf9h",
+                "severity": "HIGH",
+                "description": "Spring Web vulnerable to Open Redirect or Server Side Request Forgery",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+                "published_at": "2024-02-23",
+                "updated_at": "2024-06-10",
+                "CWE_ID": "CWE-601",
+                "CWE_DESCRIPTION": "URL Redirection to Untrusted Site ('Open Redirect')"
+            },
+            {
+                "id": "GHSA-ccgv-vj62-xf9h",
+                "severity": "HIGH",
+                "description": "Spring Web vulnerable to Open Redirect or Server Side Request Forgery",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+                "published_at": "2024-02-23",
+                "updated_at": "2024-06-10",
+                "CWE_ID": "CWE-601",
+                "CWE_DESCRIPTION": "URL Redirection to Untrusted Site ('Open Redirect')"
+            },
+            {
+                "id": "GHSA-2wrp-6fg6-hmc5",
+                "severity": "HIGH",
+                "description": "Spring Framework URL Parsing with Host Validation",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+                "published_at": "2024-04-16",
+                "updated_at": "2024-06-10",
+                "CWE_ID": "CWE-601",
+                "CWE_DESCRIPTION": "URL Redirection to Untrusted Site ('Open Redirect')"
+            },
+            {
+                "id": "GHSA-2wrp-6fg6-hmc5",
+                "severity": "HIGH",
+                "description": "Spring Framework URL Parsing with Host Validation",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+                "published_at": "2024-04-16",
+                "updated_at": "2024-06-10",
+                "CWE_ID": "CWE-601",
+                "CWE_DESCRIPTION": "URL Redirection to Untrusted Site ('Open Redirect')"
+            }
+        ]
+    },
+    "tar:2.2.2": {
+        "name": "tar",
+        "version": "2.2.2",
+        "type": "npm",
+        "licenses": [
+            "ISC"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-5955-9wpr-37jh",
+                "severity": "HIGH",
+                "description": "Arbitrary File Creation/Overwrite on Windows via insufficient relative path sanitization",
+                "links": [],
+                "cvss_score": 8.2,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N",
+                "published_at": "2021-08-31",
+                "updated_at": "2023-11-29",
+                "CWE_ID": "CWE-22",
+                "CWE_DESCRIPTION": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            },
+            {
+                "id": "GHSA-3jfq-g458-7qm9",
+                "severity": "HIGH",
+                "description": "Arbitrary File Creation/Overwrite due to insufficient absolute path sanitization",
+                "links": [],
+                "cvss_score": 8.2,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N",
+                "published_at": "2021-08-03",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-22",
+                "CWE_DESCRIPTION": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            },
+            {
+                "id": "GHSA-f5x3-32g6-xq36",
+                "severity": "MODERATE",
+                "description": "Denial of service while parsing a tar file due to lack of folders count validation",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2024-03-22",
+                "updated_at": "2024-06-10",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "tough-cookie:2.4.3": {
+        "name": "tough-cookie",
+        "version": "2.4.3",
+        "type": "npm",
+        "licenses": [
+            "BSD-3-Clause"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-72xf-g2v4-qvf3",
+                "severity": "MODERATE",
+                "description": "tough-cookie Prototype Pollution vulnerability",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+                "published_at": "2023-07-01",
+                "updated_at": "2024-06-21",
+                "CWE_ID": "CWE-1321",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')"
+            }
+        ]
+    },
+    "trim-newlines:1.0.0": {
+        "name": "trim-newlines",
+        "version": "1.0.0",
+        "type": "npm",
+        "licenses": [
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-7p7h-4mm5-852v",
+                "severity": "HIGH",
+                "description": "Uncontrolled Resource Consumption in trim-newlines",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-06-07",
+                "updated_at": "2023-11-29",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "xstream:1.4.7": {
+        "name": "xstream",
+        "version": "1.4.7",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-hf23-9pf7-388p",
+                "severity": "CRITICAL",
+                "description": "Deserialization of Untrusted Data and Code Injection in xstream",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2019-07-26",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-94",
+                "CWE_DESCRIPTION": "Improper Control of Generation of Code ('Code Injection')"
+            },
+            {
+                "id": "GHSA-xw4p-crpj-vjx2",
+                "severity": "HIGH",
+                "description": "A Server-Side Forgery Request can be activated unmarshalling with XStream to access data streams from an arbitrary URL referencing a resource in an intranet or the local host",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2021-08-25",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-rmr5-cpv2-vgjf",
+                "severity": "HIGH",
+                "description": "Denial of Service by injecting highly recursive collections or maps in XStream",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-02-01",
+                "updated_at": "2023-01-29",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-rgh3-987h-wpmw",
+                "severity": "HIGH",
+                "description": "XML External Entity Injection in XStream",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2020-06-30",
+                "updated_at": "2023-01-09",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            },
+            {
+                "id": "GHSA-qrx8-8545-4wg2",
+                "severity": "HIGH",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2021-08-25",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-p8pq-r894-fm8f",
+                "severity": "HIGH",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2021-08-25",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-mw36-7c6c-q4q2",
+                "severity": "HIGH",
+                "description": "XStream can be used for Remote Code Execution",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:H",
+                "published_at": "2020-11-16",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-78",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+            },
+            {
+                "id": "GHSA-j9h8-phrw-h4fh",
+                "severity": "HIGH",
+                "description": "XStream is vulnerable to a Remote Command Execution attack",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2021-08-25",
+                "updated_at": "2023-06-27",
+                "CWE_ID": "CWE-94",
+                "CWE_DESCRIPTION": "Improper Control of Generation of Code ('Code Injection')"
+            },
+            {
+                "id": "GHSA-j563-grx4-pjpv",
+                "severity": "HIGH",
+                "description": "XStream can cause Denial of Service via stack overflow",
+                "links": [],
+                "cvss_score": 8.2,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H",
+                "published_at": "2022-12-29",
+                "updated_at": "2023-06-27",
+                "CWE_ID": "CWE-120",
+                "CWE_DESCRIPTION": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')"
+            },
+            {
+                "id": "GHSA-hph2-m3g5-xxv4",
+                "severity": "HIGH",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2021-08-25",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-434",
+                "CWE_DESCRIPTION": "Unrestricted Upload of File with Dangerous Type"
+            },
+            {
+                "id": "GHSA-h7v4-7xg3-hxcc",
+                "severity": "HIGH",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2021-08-25",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-g5w6-mrj7-75h2",
+                "severity": "HIGH",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2021-08-25",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-f8cc-g7j8-xxpm",
+                "severity": "HIGH",
+                "description": "XStream can cause a Denial of Service by injecting deeply nested objects raising a stack overflow",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-12-30",
+                "updated_at": "2023-01-07",
+                "CWE_ID": "CWE-121",
+                "CWE_DESCRIPTION": "Stack-based Buffer Overflow"
+            },
+            {
+                "id": "GHSA-cxfm-5m4g-x7xp",
+                "severity": "HIGH",
+                "description": "A Server-Side Forgery Request can be activated unmarshalling with XStream to access data streams from an arbitrary URL referencing a resource in an intranet or the local host",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2021-08-25",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-8jrj-525p-826v",
+                "severity": "HIGH",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2021-08-25",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-7hwc-46rm-65jh",
+                "severity": "HIGH",
+                "description": "Denial of service in XStream",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2020-06-30",
+                "updated_at": "2023-01-09",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            },
+            {
+                "id": "GHSA-7chv-rrw6-w6fc",
+                "severity": "HIGH",
+                "description": "XStream is vulnerable to a Remote Command Execution attack",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-05-18",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-74",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')"
+            },
+            {
+                "id": "GHSA-6w62-hx7r-mw68",
+                "severity": "HIGH",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2021-08-25",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-434",
+                "CWE_DESCRIPTION": "Unrestricted Upload of File with Dangerous Type"
+            },
+            {
+                "id": "GHSA-64xx-cq4q-mf44",
+                "severity": "HIGH",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2021-08-25",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-4cch-wxpw-8p28",
+                "severity": "HIGH",
+                "description": "Server-Side Forgery Request can be activated unmarshalling with XStream",
+                "links": [],
+                "cvss_score": 7.7,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+                "published_at": "2020-12-21",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-918",
+                "CWE_DESCRIPTION": "Server-Side Request Forgery (SSRF)"
+            },
+            {
+                "id": "GHSA-3ccq-5vw3-2p6x",
+                "severity": "HIGH",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2021-08-25",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-434",
+                "CWE_DESCRIPTION": "Unrestricted Upload of File with Dangerous Type"
+            },
+            {
+                "id": "GHSA-2q8x-2p7f-574v",
+                "severity": "HIGH",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2021-08-25",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-2p3x-qw9c-25hh",
+                "severity": "HIGH",
+                "description": "XStream can cause a Denial of Service.",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-03-22",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-qpfq-ph7r-qv6f",
+                "severity": "MODERATE",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:N/I:H/A:N",
+                "published_at": "2021-03-22",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-434",
+                "CWE_DESCRIPTION": "Unrestricted Upload of File with Dangerous Type"
+            },
+            {
+                "id": "GHSA-jfvx-7wrx-43fh",
+                "severity": "MODERATE",
+                "description": "XStream vulnerable to an Arbitrary File Deletion on the local host when unmarshalling",
+                "links": [],
+                "cvss_score": 6.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:N",
+                "published_at": "2020-12-21",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-78",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+            },
+            {
+                "id": "GHSA-hwpc-8xqv-jvj4",
+                "severity": "MODERATE",
+                "description": "XStream is vulnerable to a Remote Command Execution attack",
+                "links": [],
+                "cvss_score": 5.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:N/I:H/A:N",
+                "published_at": "2021-03-22",
+                "updated_at": "2023-01-29",
+                "CWE_ID": "CWE-78",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')"
+            },
+            {
+                "id": "GHSA-hvv8-336g-rx3m",
+                "severity": "MODERATE",
+                "description": "A Server-Side Forgery Request can be activated unmarshalling with XStream to access data streams from an arbitrary URL referencing a resource in an intranet or the local host",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:N",
+                "published_at": "2021-03-22",
+                "updated_at": "2023-03-09",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-hrcp-8f3q-4w2c",
+                "severity": "MODERATE",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 5.4,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:C/C:N/I:H/A:N",
+                "published_at": "2021-03-22",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-434",
+                "CWE_DESCRIPTION": "Unrestricted Upload of File with Dangerous Type"
+            },
+            {
+                "id": "GHSA-f6hm-88x3-mfjv",
+                "severity": "MODERATE",
+                "description": "A Server-Side Forgery Request can be activated unmarshalling with XStream to access data streams from an arbitrary URL referencing a resource in an intranet or the local host",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:N/I:H/A:N",
+                "published_at": "2021-03-22",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-74cv-f58x-f9wf",
+                "severity": "MODERATE",
+                "description": "XStream is vulnerable to an Arbitrary File Deletion on the local host when unmarshalling as long as the executing process has sufficient rights",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:N",
+                "published_at": "2021-03-22",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-73",
+                "CWE_DESCRIPTION": "External Control of File Name or Path"
+            },
+            {
+                "id": "GHSA-6wf9-jmg9-vxcc",
+                "severity": "MODERATE",
+                "description": "XStream can cause a Denial of Service",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-08-25",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "Deserialization of Untrusted Data"
+            },
+            {
+                "id": "GHSA-59jw-jqf4-3wq3",
+                "severity": "MODERATE",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:N",
+                "published_at": "2021-03-22",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-434",
+                "CWE_DESCRIPTION": "Unrestricted Upload of File with Dangerous Type"
+            },
+            {
+                "id": "GHSA-56p8-3fh9-4cvq",
+                "severity": "MODERATE",
+                "description": "XStream is vulnerable to an attack using Regular Expression for a Denial of Service (ReDos)",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2021-03-22",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-4hrm-m67v-5cxr",
+                "severity": "MODERATE",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:N/I:H/A:N",
+                "published_at": "2021-03-22",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-434",
+                "CWE_DESCRIPTION": "Unrestricted Upload of File with Dangerous Type"
+            },
+            {
+                "id": "GHSA-43gc-mjxg-gvrq",
+                "severity": "MODERATE",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:N",
+                "published_at": "2021-03-22",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-434",
+                "CWE_DESCRIPTION": "Unrestricted Upload of File with Dangerous Type"
+            }
+        ]
+    }
+}

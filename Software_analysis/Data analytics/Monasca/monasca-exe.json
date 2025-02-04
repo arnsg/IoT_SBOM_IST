@@ -1,0 +1,722 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:61dd80a3-c6a4-48ec-aa7c-f7f280be3b61",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-08-01T16:52:34+02:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.4.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "370ff24f041f79b0",
+      "type": "file",
+      "name": "/Users/massimocoppolaro/Desktop/Università/Tirocinio2.0/Software/monasca-api"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:maven/monasca-common/monasca-common-middleware@1.3.0-SNAPSHOT?package-id=cd25db052c5665f1",
+      "type": "library",
+      "group": "monasca-common",
+      "name": "monasca-common-middleware",
+      "version": "1.3.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:monasca-common-middleware:monasca-common-middleware:1.3.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/monasca-common/monasca-common-middleware@1.3.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca-common-middleware:monasca_common_middleware:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca_common_middleware:monasca-common-middleware:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca_common_middleware:monasca_common_middleware:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca-common:monasca-common-middleware:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca-common:monasca_common_middleware:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca_common:monasca-common-middleware:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca_common:monasca_common_middleware:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca:monasca-common-middleware:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca:monasca_common_middleware:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/java/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "monasca-common-middleware"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "monasca-common"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/monasca-common/monasca-common-model@1.3.0-SNAPSHOT?package-id=202c2b548d5477df",
+      "type": "library",
+      "group": "monasca-common",
+      "name": "monasca-common-model",
+      "version": "1.3.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:monasca-common-model:monasca-common-model:1.3.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/monasca-common/monasca-common-model@1.3.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca-common-model:monasca_common_model:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca_common_model:monasca-common-model:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca_common_model:monasca_common_model:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca-common:monasca-common-model:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca-common:monasca_common_model:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca_common:monasca-common-model:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca_common:monasca_common_model:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca:monasca-common-model:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca:monasca_common_model:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/java/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "monasca-common-model"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "monasca-common"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/monasca-common/monasca-common-persistence@1.3.0-SNAPSHOT?package-id=a2096ea0663db76f",
+      "type": "library",
+      "group": "monasca-common",
+      "name": "monasca-common-persistence",
+      "version": "1.3.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:monasca-common-persistence:monasca-common-persistence:1.3.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/monasca-common/monasca-common-persistence@1.3.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca-common-persistence:monasca_common_persistence:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca_common_persistence:monasca-common-persistence:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca_common_persistence:monasca_common_persistence:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca-common:monasca-common-persistence:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca-common:monasca_common_persistence:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca_common:monasca-common-persistence:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca_common:monasca_common_persistence:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca:monasca-common-persistence:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca:monasca_common_persistence:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/java/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "monasca-common-persistence"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "monasca-common"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/ahash@0.8.11?package-id=cf22c55398f908cd",
+      "type": "library",
+      "name": "ahash",
+      "version": "0.8.11",
+      "cpe": "cpe:2.3:a:ahash:ahash:0.8.11:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/ahash@0.8.11",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/aho-corasick@1.1.3?package-id=430c592c9ff121bb",
+      "type": "library",
+      "name": "aho-corasick",
+      "version": "1.1.3",
+      "cpe": "cpe:2.3:a:aho-corasick:aho-corasick:1.1.3:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/aho-corasick@1.1.3",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:aho-corasick:aho_corasick:1.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:aho_corasick:aho-corasick:1.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:aho_corasick:aho_corasick:1.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:aho:aho-corasick:1.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:aho:aho_corasick:1.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/monasca-common/monasca-common-testing@1.3.0-SNAPSHOT?package-id=163a6cf0c9825612",
+      "type": "library",
+      "group": "monasca-common",
+      "name": "monasca-common-testing",
+      "version": "1.3.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:monasca-common-testing:monasca-common-testing:1.3.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/monasca-common/monasca-common-testing@1.3.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca-common-testing:monasca_common_testing:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca_common_testing:monasca-common-testing:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca_common_testing:monasca_common_testing:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca-common:monasca-common-testing:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca-common:monasca_common_testing:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca_common:monasca-common-testing:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca_common:monasca_common_testing:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca:monasca-common-testing:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca:monasca_common_testing:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/java/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "monasca-common-testing"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "monasca-common"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/monasca-common/monasca-common-util@1.3.0-SNAPSHOT?package-id=b1c273e496684bf2",
+      "type": "library",
+      "group": "monasca-common",
+      "name": "monasca-common-util",
+      "version": "1.3.0-SNAPSHOT",
+      "cpe": "cpe:2.3:a:monasca-common-util:monasca-common-util:1.3.0-SNAPSHOT:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/monasca-common/monasca-common-util@1.3.0-SNAPSHOT",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca-common-util:monasca_common_util:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca_common_util:monasca-common-util:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca_common_util:monasca_common_util:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca-common:monasca-common-util:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca-common:monasca_common_util:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca_common:monasca-common-util:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca_common:monasca_common_util:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca:monasca-common-util:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:monasca:monasca_common_util:1.3.0-SNAPSHOT:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/java/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "monasca-common-util"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "monasca-common"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/mysql/mysql-connector-java@5.1.36?package-id=f66e0d2efb60f80f",
+      "type": "library",
+      "group": "mysql",
+      "name": "mysql-connector-java",
+      "version": "5.1.36",
+      "cpe": "cpe:2.3:a:mysql-connector-java:mysql-connector-java:5.1.36:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/mysql/mysql-connector-java@5.1.36",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mysql-connector-java:mysql_connector_java:5.1.36:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mysql_connector_java:mysql-connector-java:5.1.36:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mysql_connector_java:mysql_connector_java:5.1.36:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mysql-connector:mysql-connector-java:5.1.36:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mysql-connector:mysql_connector_java:5.1.36:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mysql_connector:mysql-connector-java:5.1.36:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mysql_connector:mysql_connector_java:5.1.36:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mysql:mysql-connector-java:5.1.36:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mysql:mysql_connector_java:5.1.36:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/java/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "mysql-connector-java"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "mysql"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/postgresql/postgresql@9.1-901.jdbc4?package-id=e5a0d60cc2ce9e1a",
+      "type": "library",
+      "group": "postgresql",
+      "name": "postgresql",
+      "version": "9.1-901.jdbc4",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:9.1-901.jdbc4:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/postgresql/postgresql@9.1-901.jdbc4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/java/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "postgresql"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "postgresql"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.jayway.restassured/rest-assured@2.3.2?package-id=2a64eff5e2e7844e",
+      "type": "library",
+      "group": "com.jayway.restassured",
+      "name": "rest-assured",
+      "version": "2.3.2",
+      "cpe": "cpe:2.3:a:rest-assured:rest-assured:2.3.2:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.jayway.restassured/rest-assured@2.3.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:rest-assured:rest_assured:2.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:rest_assured:rest-assured:2.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:rest_assured:rest_assured:2.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:restassured:rest-assured:2.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:restassured:rest_assured:2.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jayway:rest-assured:2.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jayway:rest_assured:2.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:rest:rest-assured:2.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:rest:rest_assured:2.3.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/java/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "rest-assured"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "com.jayway.restassured"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.testng/testng@6.8.8?package-id=ec182ee3ef98c48d",
+      "type": "library",
+      "group": "org.testng",
+      "name": "testng",
+      "version": "6.8.8",
+      "cpe": "cpe:2.3:a:testng:testng:6.8.8:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.testng/testng@6.8.8",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/java/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "testng"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.testng"
+        }
+      ]
+    }
+  ]
+}

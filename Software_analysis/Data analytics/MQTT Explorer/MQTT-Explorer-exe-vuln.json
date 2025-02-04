@@ -1,0 +1,196 @@
+{
+    "braces:3.0.2": {
+        "name": "braces",
+        "version": "3.0.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-grv7-fg5c-xmjg",
+                "severity": "HIGH",
+                "description": "Uncontrolled resource consumption in braces",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-05-14",
+                "updated_at": "2024-07-05"
+            },
+            {
+                "id": "GHSA-grv7-fg5c-xmjg",
+                "severity": "HIGH",
+                "description": "Uncontrolled resource consumption in braces",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-05-14",
+                "updated_at": "2024-07-05"
+            }
+        ]
+    },
+    "d3-color:1.4.1": {
+        "name": "d3-color",
+        "version": "1.4.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-36jr-mh4h-2g58",
+                "severity": "HIGH",
+                "description": "d3-color vulnerable to ReDoS",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-09-29",
+                "updated_at": "2023-01-13"
+            }
+        ]
+    },
+    "electron-updater:4.6.5": {
+        "name": "electron-updater",
+        "version": "4.6.5",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-9jxc-qjr9-vjxq",
+                "severity": "HIGH",
+                "description": "electron-updater Code Signing Bypass on Windows",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2024-07-09",
+                "updated_at": "2024-08-01"
+            }
+        ]
+    },
+    "guava:28.2-jre": {
+        "name": "guava",
+        "version": "28.2-jre",
+        "type": "java-archive",
+        "licenses": [
+            "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-7g45-4rm6-3mm3",
+                "severity": "MODERATE",
+                "description": "Guava vulnerable to insecure use of temporary directory",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2023-06-14",
+                "updated_at": "2024-02-13"
+            },
+            {
+                "id": "GHSA-5mg8-w23w-74h3",
+                "severity": "LOW",
+                "description": "Information Disclosure in Guava",
+                "links": [],
+                "cvss_score": 3.3,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+                "published_at": "2021-03-25",
+                "updated_at": "2023-11-09"
+            }
+        ]
+    },
+    "postcss:7.0.39": {
+        "name": "postcss",
+        "version": "7.0.39",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-7fh5-64p2-3v2j",
+                "severity": "MODERATE",
+                "description": "PostCSS line return parsing error",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2023-09-30",
+                "updated_at": "2023-11-05"
+            }
+        ]
+    },
+    "socket.io-parser:3.3.3": {
+        "name": "socket.io-parser",
+        "version": "3.3.3",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-cqmj-92xf-r6r9",
+                "severity": "HIGH",
+                "description": "Insufficient validation when decoding a Socket.IO packet",
+                "links": [],
+                "cvss_score": 7.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+                "published_at": "2023-05-23",
+                "updated_at": "2024-08-01"
+            }
+        ]
+    },
+    "ws:7.4.6": {
+        "name": "ws",
+        "version": "7.4.6",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-3h5v-q93c-6h6q",
+                "severity": "HIGH",
+                "description": "ws affected by a DoS when handling a request with many HTTP headers",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-06-17",
+                "updated_at": "2024-06-17"
+            }
+        ]
+    },
+    "ws:7.5.9": {
+        "name": "ws",
+        "version": "7.5.9",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-3h5v-q93c-6h6q",
+                "severity": "HIGH",
+                "description": "ws affected by a DoS when handling a request with many HTTP headers",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-06-17",
+                "updated_at": "2024-06-17"
+            },
+            {
+                "id": "GHSA-3h5v-q93c-6h6q",
+                "severity": "HIGH",
+                "description": "ws affected by a DoS when handling a request with many HTTP headers",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-06-17",
+                "updated_at": "2024-06-17"
+            }
+        ]
+    },
+    "ws:8.17.0": {
+        "name": "ws",
+        "version": "8.17.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-3h5v-q93c-6h6q",
+                "severity": "HIGH",
+                "description": "ws affected by a DoS when handling a request with many HTTP headers",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-06-17",
+                "updated_at": "2024-06-17"
+            }
+        ]
+    }
+}

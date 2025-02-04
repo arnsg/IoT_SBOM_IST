@@ -1,0 +1,326 @@
+{
+    "netty-all:4.1.19.Final": {
+        "name": "netty-all",
+        "version": "4.1.19.Final",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-p979-4mfw-53vg",
+                "severity": "HIGH",
+                "description": "HTTP Request Smuggling in Netty",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
+            }
+        ]
+    },
+    "quartz:2.2.1": {
+        "name": "quartz",
+        "version": "2.2.1",
+        "type": "java-archive",
+        "licenses": [
+            "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-9qcf-c26r-x5rf",
+                "severity": "CRITICAL",
+                "description": "XML external entity injection in Terracotta Quartz Scheduler",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+            }
+        ]
+    },
+    "xstream:1.4.7": {
+        "name": "xstream",
+        "version": "1.4.7",
+        "type": "java-archive",
+        "licenses": [
+            "http://xstream.codehaus.org/license.html"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-hf23-9pf7-388p",
+                "severity": "CRITICAL",
+                "description": "Deserialization of Untrusted Data and Code Injection in xstream",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+            },
+            {
+                "id": "GHSA-xw4p-crpj-vjx2",
+                "severity": "HIGH",
+                "description": "A Server-Side Forgery Request can be activated unmarshalling with XStream to access data streams from an arbitrary URL referencing a resource in an intranet or the local host",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H"
+            },
+            {
+                "id": "GHSA-rmr5-cpv2-vgjf",
+                "severity": "HIGH",
+                "description": "Denial of Service by injecting highly recursive collections or maps in XStream",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+            },
+            {
+                "id": "GHSA-rgh3-987h-wpmw",
+                "severity": "HIGH",
+                "description": "XML External Entity Injection in XStream",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+            },
+            {
+                "id": "GHSA-qrx8-8545-4wg2",
+                "severity": "HIGH",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H"
+            },
+            {
+                "id": "GHSA-p8pq-r894-fm8f",
+                "severity": "HIGH",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H"
+            },
+            {
+                "id": "GHSA-mw36-7c6c-q4q2",
+                "severity": "HIGH",
+                "description": "XStream can be used for Remote Code Execution",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:H"
+            },
+            {
+                "id": "GHSA-j9h8-phrw-h4fh",
+                "severity": "HIGH",
+                "description": "XStream is vulnerable to a Remote Command Execution attack",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H"
+            },
+            {
+                "id": "GHSA-j563-grx4-pjpv",
+                "severity": "HIGH",
+                "description": "XStream can cause Denial of Service via stack overflow",
+                "links": [],
+                "cvss_score": 8.2,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H"
+            },
+            {
+                "id": "GHSA-hph2-m3g5-xxv4",
+                "severity": "HIGH",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H"
+            },
+            {
+                "id": "GHSA-h7v4-7xg3-hxcc",
+                "severity": "HIGH",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H"
+            },
+            {
+                "id": "GHSA-g5w6-mrj7-75h2",
+                "severity": "HIGH",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H"
+            },
+            {
+                "id": "GHSA-f8cc-g7j8-xxpm",
+                "severity": "HIGH",
+                "description": "XStream can cause a Denial of Service by injecting deeply nested objects raising a stack overflow",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+            },
+            {
+                "id": "GHSA-cxfm-5m4g-x7xp",
+                "severity": "HIGH",
+                "description": "A Server-Side Forgery Request can be activated unmarshalling with XStream to access data streams from an arbitrary URL referencing a resource in an intranet or the local host",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H"
+            },
+            {
+                "id": "GHSA-8jrj-525p-826v",
+                "severity": "HIGH",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H"
+            },
+            {
+                "id": "GHSA-7hwc-46rm-65jh",
+                "severity": "HIGH",
+                "description": "Denial of service in XStream",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+            },
+            {
+                "id": "GHSA-7chv-rrw6-w6fc",
+                "severity": "HIGH",
+                "description": "XStream is vulnerable to a Remote Command Execution attack",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H"
+            },
+            {
+                "id": "GHSA-6w62-hx7r-mw68",
+                "severity": "HIGH",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H"
+            },
+            {
+                "id": "GHSA-64xx-cq4q-mf44",
+                "severity": "HIGH",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H"
+            },
+            {
+                "id": "GHSA-4cch-wxpw-8p28",
+                "severity": "HIGH",
+                "description": "Server-Side Forgery Request can be activated unmarshalling with XStream",
+                "links": [],
+                "cvss_score": 7.7,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N"
+            },
+            {
+                "id": "GHSA-3ccq-5vw3-2p6x",
+                "severity": "HIGH",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H"
+            },
+            {
+                "id": "GHSA-2q8x-2p7f-574v",
+                "severity": "HIGH",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H"
+            },
+            {
+                "id": "GHSA-2p3x-qw9c-25hh",
+                "severity": "HIGH",
+                "description": "XStream can cause a Denial of Service.",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+            },
+            {
+                "id": "GHSA-qpfq-ph7r-qv6f",
+                "severity": "MODERATE",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:N/I:H/A:N"
+            },
+            {
+                "id": "GHSA-jfvx-7wrx-43fh",
+                "severity": "MODERATE",
+                "description": "XStream vulnerable to an Arbitrary File Deletion on the local host when unmarshalling",
+                "links": [],
+                "cvss_score": 6.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:N"
+            },
+            {
+                "id": "GHSA-hwpc-8xqv-jvj4",
+                "severity": "MODERATE",
+                "description": "XStream is vulnerable to a Remote Command Execution attack",
+                "links": [],
+                "cvss_score": 5.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:N/I:H/A:N"
+            },
+            {
+                "id": "GHSA-hvv8-336g-rx3m",
+                "severity": "MODERATE",
+                "description": "A Server-Side Forgery Request can be activated unmarshalling with XStream to access data streams from an arbitrary URL referencing a resource in an intranet or the local host",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:N"
+            },
+            {
+                "id": "GHSA-hrcp-8f3q-4w2c",
+                "severity": "MODERATE",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 5.4,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:C/C:N/I:H/A:N"
+            },
+            {
+                "id": "GHSA-f6hm-88x3-mfjv",
+                "severity": "MODERATE",
+                "description": "A Server-Side Forgery Request can be activated unmarshalling with XStream to access data streams from an arbitrary URL referencing a resource in an intranet or the local host",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:N/I:H/A:N"
+            },
+            {
+                "id": "GHSA-74cv-f58x-f9wf",
+                "severity": "MODERATE",
+                "description": "XStream is vulnerable to an Arbitrary File Deletion on the local host when unmarshalling as long as the executing process has sufficient rights",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:N"
+            },
+            {
+                "id": "GHSA-6wf9-jmg9-vxcc",
+                "severity": "MODERATE",
+                "description": "XStream can cause a Denial of Service",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+            },
+            {
+                "id": "GHSA-59jw-jqf4-3wq3",
+                "severity": "MODERATE",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:N"
+            },
+            {
+                "id": "GHSA-56p8-3fh9-4cvq",
+                "severity": "MODERATE",
+                "description": "XStream is vulnerable to an attack using Regular Expression for a Denial of Service (ReDos)",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H"
+            },
+            {
+                "id": "GHSA-4hrm-m67v-5cxr",
+                "severity": "MODERATE",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:N/I:H/A:N"
+            },
+            {
+                "id": "GHSA-43gc-mjxg-gvrq",
+                "severity": "MODERATE",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:N"
+            }
+        ]
+    }
+}

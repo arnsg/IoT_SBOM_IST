@@ -1,0 +1,242 @@
+{
+    "Flask:0.12": {
+        "name": "Flask",
+        "version": "0.12",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-m2qf-hxjv-5gpq",
+                "severity": "HIGH",
+                "description": "Flask vulnerable to possible disclosure of permanent session cookie due to missing Vary: Cookie header",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2023-05-01",
+                "updated_at": "2023-11-06"
+            },
+            {
+                "id": "GHSA-m2qf-hxjv-5gpq",
+                "severity": "HIGH",
+                "description": "Flask vulnerable to possible disclosure of permanent session cookie due to missing Vary: Cookie header",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2023-05-01",
+                "updated_at": "2023-11-06"
+            },
+            {
+                "id": "GHSA-5wv5-4vpf-pj6m",
+                "severity": "HIGH",
+                "description": "Pallets Project Flask is vulnerable to Denial of Service via Unexpected memory usage",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2019-07-19",
+                "updated_at": "2023-08-14"
+            },
+            {
+                "id": "GHSA-5wv5-4vpf-pj6m",
+                "severity": "HIGH",
+                "description": "Pallets Project Flask is vulnerable to Denial of Service via Unexpected memory usage",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2019-07-19",
+                "updated_at": "2023-08-14"
+            },
+            {
+                "id": "GHSA-562c-5r94-xh97",
+                "severity": "HIGH",
+                "description": "Flask is vulnerable to Denial of Service via incorrect encoding of JSON data",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2018-08-23",
+                "updated_at": "2023-09-05"
+            },
+            {
+                "id": "GHSA-562c-5r94-xh97",
+                "severity": "HIGH",
+                "description": "Flask is vulnerable to Denial of Service via incorrect encoding of JSON data",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2018-08-23",
+                "updated_at": "2023-09-05"
+            }
+        ]
+    },
+    "eventlet:0.20.0": {
+        "name": "eventlet",
+        "version": "0.20.0",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-9p9m-jm8w-94p2",
+                "severity": "MODERATE",
+                "description": "Improper Handling of Highly Compressed Data (Data Amplification) and Memory Allocation with Excessive Size Value in eventlet",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2021-05-07",
+                "updated_at": "2023-09-07"
+            },
+            {
+                "id": "GHSA-9p9m-jm8w-94p2",
+                "severity": "MODERATE",
+                "description": "Improper Handling of Highly Compressed Data (Data Amplification) and Memory Allocation with Excessive Size Value in eventlet",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2021-05-07",
+                "updated_at": "2023-09-07"
+            },
+            {
+                "id": "GHSA-3rq5-2g8h-59hc",
+                "severity": "MODERATE",
+                "description": "Potential DoS via the Tudoor mechanism in eventlet and dnspython",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-04-11",
+                "updated_at": "2024-06-26"
+            },
+            {
+                "id": "GHSA-3rq5-2g8h-59hc",
+                "severity": "MODERATE",
+                "description": "Potential DoS via the Tudoor mechanism in eventlet and dnspython",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-04-11",
+                "updated_at": "2024-06-26"
+            }
+        ]
+    },
+    "psutil:4.3.0": {
+        "name": "psutil",
+        "version": "4.3.0",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-qfc5-mcwq-26q8",
+                "severity": "HIGH",
+                "description": "Double Free in psutil",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2020-03-12",
+                "updated_at": "2023-01-09"
+            },
+            {
+                "id": "GHSA-qfc5-mcwq-26q8",
+                "severity": "HIGH",
+                "description": "Double Free in psutil",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2020-03-12",
+                "updated_at": "2023-01-09"
+            }
+        ]
+    },
+    "requests:2.8.1": {
+        "name": "requests",
+        "version": "2.8.1",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-x84v-xcm2-53pg",
+                "severity": "HIGH",
+                "description": "Insufficiently Protected Credentials in Requests",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2018-10-29",
+                "updated_at": "2023-02-01"
+            },
+            {
+                "id": "GHSA-x84v-xcm2-53pg",
+                "severity": "HIGH",
+                "description": "Insufficiently Protected Credentials in Requests",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2018-10-29",
+                "updated_at": "2023-02-01"
+            },
+            {
+                "id": "GHSA-j8r2-6x86-q33q",
+                "severity": "MODERATE",
+                "description": "Unintended leak of Proxy-Authorization header in requests",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:N/A:N",
+                "published_at": "2023-05-22",
+                "updated_at": "2024-03-27"
+            },
+            {
+                "id": "GHSA-j8r2-6x86-q33q",
+                "severity": "MODERATE",
+                "description": "Unintended leak of Proxy-Authorization header in requests",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:N/A:N",
+                "published_at": "2023-05-22",
+                "updated_at": "2024-03-27"
+            },
+            {
+                "id": "GHSA-9wx4-h78v-vm56",
+                "severity": "MODERATE",
+                "description": "Requests `Session` object does not verify requests after making first request with verify=False",
+                "links": [],
+                "cvss_score": 5.6,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:U/C:H/I:H/A:N",
+                "published_at": "2024-05-20",
+                "updated_at": "2024-06-10"
+            },
+            {
+                "id": "GHSA-9wx4-h78v-vm56",
+                "severity": "MODERATE",
+                "description": "Requests `Session` object does not verify requests after making first request with verify=False",
+                "links": [],
+                "cvss_score": 5.6,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:U/C:H/I:H/A:N",
+                "published_at": "2024-05-20",
+                "updated_at": "2024-06-10"
+            }
+        ]
+    },
+    "wheel:0.24.0": {
+        "name": "wheel",
+        "version": "0.24.0",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-qwmp-2cf2-g9g6",
+                "severity": "HIGH",
+                "description": "pypa/wheel vulnerable to Regular Expression denial of service (ReDoS)",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-12-23",
+                "updated_at": "2023-01-27"
+            },
+            {
+                "id": "GHSA-qwmp-2cf2-g9g6",
+                "severity": "HIGH",
+                "description": "pypa/wheel vulnerable to Regular Expression denial of service (ReDoS)",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-12-23",
+                "updated_at": "2023-01-27"
+            }
+        ]
+    }
+}

@@ -1,0 +1,2159 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:8c2f7bee-c3f0-46f6-a5d6-6da91db3d264",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-07-10T17:18:49+02:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.4.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "06a89ad6d397aab5",
+      "type": "file",
+      "name": "/Users/massimocoppolaro/Desktop/Università/Tirocinio/Software/mynewt-core"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:github/actions/checkout@v3?package-id=604d84d2f1ac0dd8",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v3",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v3:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/build_all_apps.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v3?package-id=49ae9e955cdd460d",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v3",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v3:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/build_blinky.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v3?package-id=9d99d253dda800e2",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v3",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v3:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/build_bootloader.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v3?package-id=4cfa8f3b8b5471d3",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v3",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v3:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/build_cc_target.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v3?package-id=58455ddb6fce2956",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v3",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v3:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/build_targets.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v3?package-id=863476df586e687e",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v3",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v3:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/check_compliance.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v3?package-id=e0e0282551f218d0",
+      "type": "library",
+      "name": "actions/checkout",
+      "version": "v3",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v3:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/checkout@v3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/newt_test_all.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/setup-go@v3?package-id=d7cf2be36503b346",
+      "type": "library",
+      "name": "actions/setup-go",
+      "version": "v3",
+      "cpe": "cpe:2.3:a:actions\\/setup-go:actions\\/setup-go:v3:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/setup-go@v3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup-go:actions\\/setup_go:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_go:actions\\/setup-go:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_go:actions\\/setup_go:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup-go:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup_go:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/build_all_apps.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/setup-go@v3?package-id=303f711a6dba3eb7",
+      "type": "library",
+      "name": "actions/setup-go",
+      "version": "v3",
+      "cpe": "cpe:2.3:a:actions\\/setup-go:actions\\/setup-go:v3:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/setup-go@v3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup-go:actions\\/setup_go:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_go:actions\\/setup-go:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_go:actions\\/setup_go:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup-go:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup_go:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/build_blinky.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/setup-go@v3?package-id=40dfc9dbceae66f9",
+      "type": "library",
+      "name": "actions/setup-go",
+      "version": "v3",
+      "cpe": "cpe:2.3:a:actions\\/setup-go:actions\\/setup-go:v3:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/setup-go@v3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup-go:actions\\/setup_go:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_go:actions\\/setup-go:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_go:actions\\/setup_go:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup-go:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup_go:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/build_bootloader.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/setup-go@v3?package-id=f4fd3b286c903793",
+      "type": "library",
+      "name": "actions/setup-go",
+      "version": "v3",
+      "cpe": "cpe:2.3:a:actions\\/setup-go:actions\\/setup-go:v3:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/setup-go@v3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup-go:actions\\/setup_go:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_go:actions\\/setup-go:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_go:actions\\/setup_go:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup-go:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup_go:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/build_cc_target.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/setup-go@v3?package-id=628185e531396b8b",
+      "type": "library",
+      "name": "actions/setup-go",
+      "version": "v3",
+      "cpe": "cpe:2.3:a:actions\\/setup-go:actions\\/setup-go:v3:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/setup-go@v3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup-go:actions\\/setup_go:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_go:actions\\/setup-go:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_go:actions\\/setup_go:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup-go:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup_go:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/build_targets.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/actions/setup-go@v3?package-id=49e619495e290cfa",
+      "type": "library",
+      "name": "actions/setup-go",
+      "version": "v3",
+      "cpe": "cpe:2.3:a:actions\\/setup-go:actions\\/setup-go:v3:*:*:*:*:*:*:*",
+      "purl": "pkg:github/actions/setup-go@v3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup-go:actions\\/setup_go:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_go:actions\\/setup-go:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_go:actions\\/setup_go:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup-go:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup_go:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/newt_test_all.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/carlosperate/arm-none-eabi-gcc-action@48db4484a55750df7a0ccca63347fcdea6534d78?package-id=871173654271dff7",
+      "type": "library",
+      "name": "carlosperate/arm-none-eabi-gcc-action",
+      "version": "48db4484a55750df7a0ccca63347fcdea6534d78",
+      "cpe": "cpe:2.3:a:carlosperate\\/arm-none-eabi-gcc-action:carlosperate\\/arm-none-eabi-gcc-action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*",
+      "purl": "pkg:github/carlosperate/arm-none-eabi-gcc-action@48db4484a55750df7a0ccca63347fcdea6534d78",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none-eabi-gcc-action:carlosperate\\/arm_none_eabi_gcc_action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none_eabi_gcc_action:carlosperate\\/arm-none-eabi-gcc-action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none_eabi_gcc_action:carlosperate\\/arm_none_eabi_gcc_action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none-eabi-gcc:carlosperate\\/arm-none-eabi-gcc-action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none-eabi-gcc:carlosperate\\/arm_none_eabi_gcc_action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none_eabi_gcc:carlosperate\\/arm-none-eabi-gcc-action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none_eabi_gcc:carlosperate\\/arm_none_eabi_gcc_action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none-eabi:carlosperate\\/arm-none-eabi-gcc-action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none-eabi:carlosperate\\/arm_none_eabi_gcc_action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none_eabi:carlosperate\\/arm-none-eabi-gcc-action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none_eabi:carlosperate\\/arm_none_eabi_gcc_action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none:carlosperate\\/arm-none-eabi-gcc-action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none:carlosperate\\/arm_none_eabi_gcc_action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none:carlosperate\\/arm-none-eabi-gcc-action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none:carlosperate\\/arm_none_eabi_gcc_action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm:carlosperate\\/arm-none-eabi-gcc-action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm:carlosperate\\/arm_none_eabi_gcc_action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/build_all_apps.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-codec?package-id=7f1cb4cd723f6a6c",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-codec",
+      "cpe": "cpe:2.3:a:netty-codec:netty-codec:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/io.netty/netty-codec",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty-codec:netty_codec:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_codec:netty-codec:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_codec:netty_codec:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty-codec:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty_codec:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/utils/plc-simulator/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "netty-codec"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "io.netty"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-common?package-id=a55acf8765f06e50",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-common",
+      "cpe": "cpe:2.3:a:netty-common:netty-common:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/io.netty/netty-common",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty-common:netty_common:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_common:netty-common:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_common:netty_common:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty-common:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty_common:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/s7/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "netty-common"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "io.netty"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-common?package-id=0d93ea57b138d109",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-common",
+      "cpe": "cpe:2.3:a:netty-common:netty-common:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/io.netty/netty-common",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty-common:netty_common:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_common:netty-common:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_common:netty_common:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty-common:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty_common:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/spi/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "netty-common"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "io.netty"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-common?package-id=8b9f8a48187d0223",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-common",
+      "cpe": "cpe:2.3:a:netty-common:netty-common:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/io.netty/netty-common",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty-common:netty_common:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_common:netty-common:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_common:netty_common:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty-common:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty_common:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/transports/serial/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "netty-common"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "io.netty"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-common?package-id=c704179e7f9636ad",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-common",
+      "cpe": "cpe:2.3:a:netty-common:netty-common:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/io.netty/netty-common",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty-common:netty_common:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_common:netty-common:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_common:netty_common:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty-common:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty_common:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/transports/test/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "netty-common"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "io.netty"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-common?package-id=8c74ab1dc6acfc6d",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-common",
+      "cpe": "cpe:2.3:a:netty-common:netty-common:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/io.netty/netty-common",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty-common:netty_common:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_common:netty-common:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_common:netty_common:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty-common:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty_common:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/utils/plc-simulator/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "netty-common"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "io.netty"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-common?package-id=cba959c58faa7ee8",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-common",
+      "cpe": "cpe:2.3:a:netty-common:netty-common:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/io.netty/netty-common",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty-common:netty_common:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_common:netty-common:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_common:netty_common:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty-common:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty_common:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/utils/raw-sockets/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "netty-common"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "io.netty"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-handler?package-id=c33b75651abe587b",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-handler",
+      "cpe": "cpe:2.3:a:netty-handler:netty-handler:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/io.netty/netty-handler",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty-handler:netty_handler:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_handler:netty-handler:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_handler:netty_handler:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty-handler:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty_handler:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/s7/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "netty-handler"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "io.netty"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-transport?package-id=85bd83ecf3421087",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-transport",
+      "cpe": "cpe:2.3:a:netty-transport:netty-transport:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/io.netty/netty-transport",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty-transport:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_transport:netty-transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_transport:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty-transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/ab-eth/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "netty-transport"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "io.netty"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-transport?package-id=fb2d57a269dfc925",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-transport",
+      "cpe": "cpe:2.3:a:netty-transport:netty-transport:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/io.netty/netty-transport",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty-transport:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_transport:netty-transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_transport:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty-transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/ads/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "netty-transport"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "io.netty"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-transport?package-id=89c83474bccabb09",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-transport",
+      "cpe": "cpe:2.3:a:netty-transport:netty-transport:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/io.netty/netty-transport",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty-transport:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_transport:netty-transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_transport:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty-transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/can/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "netty-transport"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "io.netty"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-transport?package-id=015baeae87cc33e7",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-transport",
+      "cpe": "cpe:2.3:a:netty-transport:netty-transport:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/io.netty/netty-transport",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty-transport:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_transport:netty-transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_transport:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty-transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/iec-60870/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "netty-transport"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "io.netty"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-transport?package-id=7dbda2378d9237ba",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-transport",
+      "cpe": "cpe:2.3:a:netty-transport:netty-transport:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/io.netty/netty-transport",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty-transport:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_transport:netty-transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_transport:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty-transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/knxnetip/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "netty-transport"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "io.netty"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-transport?package-id=89a1858317540963",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-transport",
+      "cpe": "cpe:2.3:a:netty-transport:netty-transport:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/io.netty/netty-transport",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty-transport:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_transport:netty-transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_transport:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty-transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/opcua/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "netty-transport"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "io.netty"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-transport?package-id=f1a067b2acaee200",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-transport",
+      "cpe": "cpe:2.3:a:netty-transport:netty-transport:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/io.netty/netty-transport",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty-transport:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_transport:netty-transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_transport:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty-transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/plc4x/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "netty-transport"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "io.netty"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-transport?package-id=0e85924d27fc110d",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-transport",
+      "cpe": "cpe:2.3:a:netty-transport:netty-transport:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/io.netty/netty-transport",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty-transport:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_transport:netty-transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_transport:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty-transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/profinet-ng/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "netty-transport"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "io.netty"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-transport?package-id=7b26544e7fb3e0ec",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-transport",
+      "cpe": "cpe:2.3:a:netty-transport:netty-transport:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/io.netty/netty-transport",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty-transport:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_transport:netty-transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_transport:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty-transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/drivers/s7/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "netty-transport"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "io.netty"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-transport?package-id=09e658b74800bc93",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-transport",
+      "cpe": "cpe:2.3:a:netty-transport:netty-transport:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/io.netty/netty-transport",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty-transport:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_transport:netty-transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_transport:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty-transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/spi/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "netty-transport"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "io.netty"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-transport?package-id=8dbc7fb5f7424a1d",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-transport",
+      "cpe": "cpe:2.3:a:netty-transport:netty-transport:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/io.netty/netty-transport",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty-transport:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_transport:netty-transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_transport:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty-transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/transports/pcap-replay/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "netty-transport"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "io.netty"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-transport?package-id=ee8f127a9c60250f",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-transport",
+      "cpe": "cpe:2.3:a:netty-transport:netty-transport:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/io.netty/netty-transport",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty-transport:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_transport:netty-transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_transport:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty-transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/transports/raw-socket/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "netty-transport"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "io.netty"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-transport?package-id=3a10833b514f6a0d",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-transport",
+      "cpe": "cpe:2.3:a:netty-transport:netty-transport:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/io.netty/netty-transport",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty-transport:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_transport:netty-transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_transport:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty-transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/transports/serial/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "netty-transport"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "io.netty"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/io.netty/netty-transport?package-id=6c9e5ef2fec2559f",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-transport",
+      "cpe": "cpe:2.3:a:netty-transport:netty-transport:*:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/io.netty/netty-transport",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty-transport:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_transport:netty-transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty_transport:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty-transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:netty:netty_transport:*:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/plc4j/transports/socketcan/pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "netty-transport"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "io.netty"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/carlosperate/arm-none-eabi-gcc-action@48db4484a55750df7a0ccca63347fcdea6534d78?package-id=e573721c2e412695",
+      "type": "library",
+      "name": "carlosperate/arm-none-eabi-gcc-action",
+      "version": "48db4484a55750df7a0ccca63347fcdea6534d78",
+      "cpe": "cpe:2.3:a:carlosperate\\/arm-none-eabi-gcc-action:carlosperate\\/arm-none-eabi-gcc-action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*",
+      "purl": "pkg:github/carlosperate/arm-none-eabi-gcc-action@48db4484a55750df7a0ccca63347fcdea6534d78",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none-eabi-gcc-action:carlosperate\\/arm_none_eabi_gcc_action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none_eabi_gcc_action:carlosperate\\/arm-none-eabi-gcc-action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none_eabi_gcc_action:carlosperate\\/arm_none_eabi_gcc_action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none-eabi-gcc:carlosperate\\/arm-none-eabi-gcc-action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none-eabi-gcc:carlosperate\\/arm_none_eabi_gcc_action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none_eabi_gcc:carlosperate\\/arm-none-eabi-gcc-action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none_eabi_gcc:carlosperate\\/arm_none_eabi_gcc_action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none-eabi:carlosperate\\/arm-none-eabi-gcc-action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none-eabi:carlosperate\\/arm_none_eabi_gcc_action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none_eabi:carlosperate\\/arm-none-eabi-gcc-action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none_eabi:carlosperate\\/arm_none_eabi_gcc_action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none:carlosperate\\/arm-none-eabi-gcc-action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none:carlosperate\\/arm_none_eabi_gcc_action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none:carlosperate\\/arm-none-eabi-gcc-action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none:carlosperate\\/arm_none_eabi_gcc_action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm:carlosperate\\/arm-none-eabi-gcc-action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm:carlosperate\\/arm_none_eabi_gcc_action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/build_blinky.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/carlosperate/arm-none-eabi-gcc-action@48db4484a55750df7a0ccca63347fcdea6534d78?package-id=4759d73972f4eb43",
+      "type": "library",
+      "name": "carlosperate/arm-none-eabi-gcc-action",
+      "version": "48db4484a55750df7a0ccca63347fcdea6534d78",
+      "cpe": "cpe:2.3:a:carlosperate\\/arm-none-eabi-gcc-action:carlosperate\\/arm-none-eabi-gcc-action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*",
+      "purl": "pkg:github/carlosperate/arm-none-eabi-gcc-action@48db4484a55750df7a0ccca63347fcdea6534d78",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none-eabi-gcc-action:carlosperate\\/arm_none_eabi_gcc_action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none_eabi_gcc_action:carlosperate\\/arm-none-eabi-gcc-action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none_eabi_gcc_action:carlosperate\\/arm_none_eabi_gcc_action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none-eabi-gcc:carlosperate\\/arm-none-eabi-gcc-action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none-eabi-gcc:carlosperate\\/arm_none_eabi_gcc_action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none_eabi_gcc:carlosperate\\/arm-none-eabi-gcc-action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none_eabi_gcc:carlosperate\\/arm_none_eabi_gcc_action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none-eabi:carlosperate\\/arm-none-eabi-gcc-action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none-eabi:carlosperate\\/arm_none_eabi_gcc_action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none_eabi:carlosperate\\/arm-none-eabi-gcc-action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none_eabi:carlosperate\\/arm_none_eabi_gcc_action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none:carlosperate\\/arm-none-eabi-gcc-action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none:carlosperate\\/arm_none_eabi_gcc_action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none:carlosperate\\/arm-none-eabi-gcc-action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none:carlosperate\\/arm_none_eabi_gcc_action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm:carlosperate\\/arm-none-eabi-gcc-action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm:carlosperate\\/arm_none_eabi_gcc_action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/build_bootloader.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/carlosperate/arm-none-eabi-gcc-action@48db4484a55750df7a0ccca63347fcdea6534d78?package-id=a7e8884485729098",
+      "type": "library",
+      "name": "carlosperate/arm-none-eabi-gcc-action",
+      "version": "48db4484a55750df7a0ccca63347fcdea6534d78",
+      "cpe": "cpe:2.3:a:carlosperate\\/arm-none-eabi-gcc-action:carlosperate\\/arm-none-eabi-gcc-action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*",
+      "purl": "pkg:github/carlosperate/arm-none-eabi-gcc-action@48db4484a55750df7a0ccca63347fcdea6534d78",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none-eabi-gcc-action:carlosperate\\/arm_none_eabi_gcc_action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none_eabi_gcc_action:carlosperate\\/arm-none-eabi-gcc-action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none_eabi_gcc_action:carlosperate\\/arm_none_eabi_gcc_action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none-eabi-gcc:carlosperate\\/arm-none-eabi-gcc-action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none-eabi-gcc:carlosperate\\/arm_none_eabi_gcc_action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none_eabi_gcc:carlosperate\\/arm-none-eabi-gcc-action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none_eabi_gcc:carlosperate\\/arm_none_eabi_gcc_action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none-eabi:carlosperate\\/arm-none-eabi-gcc-action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none-eabi:carlosperate\\/arm_none_eabi_gcc_action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none_eabi:carlosperate\\/arm-none-eabi-gcc-action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none_eabi:carlosperate\\/arm_none_eabi_gcc_action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none:carlosperate\\/arm-none-eabi-gcc-action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none:carlosperate\\/arm_none_eabi_gcc_action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none:carlosperate\\/arm-none-eabi-gcc-action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none:carlosperate\\/arm_none_eabi_gcc_action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm:carlosperate\\/arm-none-eabi-gcc-action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm:carlosperate\\/arm_none_eabi_gcc_action:48db4484a55750df7a0ccca63347fcdea6534d78:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/build_targets.yml"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/carlosperate/arm-none-eabi-gcc-action@v1.8.1?package-id=36404c873fef87ac",
+      "type": "library",
+      "name": "carlosperate/arm-none-eabi-gcc-action",
+      "version": "v1.8.1",
+      "cpe": "cpe:2.3:a:carlosperate\\/arm-none-eabi-gcc-action:carlosperate\\/arm-none-eabi-gcc-action:v1.8.1:*:*:*:*:*:*:*",
+      "purl": "pkg:github/carlosperate/arm-none-eabi-gcc-action@v1.8.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none-eabi-gcc-action:carlosperate\\/arm_none_eabi_gcc_action:v1.8.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none_eabi_gcc_action:carlosperate\\/arm-none-eabi-gcc-action:v1.8.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none_eabi_gcc_action:carlosperate\\/arm_none_eabi_gcc_action:v1.8.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none-eabi-gcc:carlosperate\\/arm-none-eabi-gcc-action:v1.8.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none-eabi-gcc:carlosperate\\/arm_none_eabi_gcc_action:v1.8.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none_eabi_gcc:carlosperate\\/arm-none-eabi-gcc-action:v1.8.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none_eabi_gcc:carlosperate\\/arm_none_eabi_gcc_action:v1.8.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none-eabi:carlosperate\\/arm-none-eabi-gcc-action:v1.8.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none-eabi:carlosperate\\/arm_none_eabi_gcc_action:v1.8.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none_eabi:carlosperate\\/arm-none-eabi-gcc-action:v1.8.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none_eabi:carlosperate\\/arm_none_eabi_gcc_action:v1.8.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none:carlosperate\\/arm-none-eabi-gcc-action:v1.8.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm-none:carlosperate\\/arm_none_eabi_gcc_action:v1.8.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none:carlosperate\\/arm-none-eabi-gcc-action:v1.8.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm_none:carlosperate\\/arm_none_eabi_gcc_action:v1.8.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm:carlosperate\\/arm-none-eabi-gcc-action:v1.8.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:carlosperate\\/arm:carlosperate\\/arm_none_eabi_gcc_action:v1.8.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/build_cc_target.yml"
+        }
+      ]
+    }
+  ]
+}

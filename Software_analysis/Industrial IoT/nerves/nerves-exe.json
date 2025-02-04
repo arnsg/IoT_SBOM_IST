@@ -1,0 +1,565 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:2461f4ce-eb89-41c5-a458-04d108ed460f",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-08-02T11:06:30+02:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.4.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "1aa14a8921439230",
+      "type": "file",
+      "name": "/Users/massimocoppolaro/Desktop/Università/Tirocinio2.0/Software/nerves"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:hex/makeup_elixir@0.16.2?package-id=9032446b6ca9dc25",
+      "type": "library",
+      "name": "makeup_elixir",
+      "version": "0.16.2",
+      "cpe": "cpe:2.3:a:makeup-elixir:makeup-elixir:0.16.2:*:*:*:*:*:*:*",
+      "purl": "pkg:hex/makeup_elixir@0.16.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "elixir-mix-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "elixir"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "hex"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "elixir-mix-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:makeup-elixir:makeup_elixir:0.16.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:makeup_elixir:makeup-elixir:0.16.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:makeup_elixir:makeup_elixir:0.16.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:makeup:makeup-elixir:0.16.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:makeup:makeup_elixir:0.16.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/mix.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:hex/makeup_erlang@1.0.1?package-id=daf850fc554d5152",
+      "type": "library",
+      "name": "makeup_erlang",
+      "version": "1.0.1",
+      "cpe": "cpe:2.3:a:makeup-erlang:makeup-erlang:1.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:hex/makeup_erlang@1.0.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "elixir-mix-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "elixir"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "hex"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "elixir-mix-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:makeup-erlang:makeup_erlang:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:makeup_erlang:makeup-erlang:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:makeup_erlang:makeup_erlang:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:makeup:makeup-erlang:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:makeup:makeup_erlang:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/mix.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:hex/mime@2.0.6?package-id=50a625efe904258c",
+      "type": "library",
+      "name": "mime",
+      "version": "2.0.6",
+      "cpe": "cpe:2.3:a:mime:mime:2.0.6:*:*:*:*:*:*:*",
+      "purl": "pkg:hex/mime@2.0.6",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "elixir-mix-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "elixir"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "hex"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "elixir-mix-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/mix.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:hex/nimble_parsec@1.4.0?package-id=8e7185f006fa29aa",
+      "type": "library",
+      "name": "nimble_parsec",
+      "version": "1.4.0",
+      "cpe": "cpe:2.3:a:nimble-parsec:nimble-parsec:1.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:hex/nimble_parsec@1.4.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "elixir-mix-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "elixir"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "hex"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "elixir-mix-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:nimble-parsec:nimble_parsec:1.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:nimble_parsec:nimble-parsec:1.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:nimble_parsec:nimble_parsec:1.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:nimble:nimble-parsec:1.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:nimble:nimble_parsec:1.4.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/mix.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:hex/plug@1.16.1?package-id=8f5f4fb303a5c5c7",
+      "type": "library",
+      "name": "plug",
+      "version": "1.16.1",
+      "cpe": "cpe:2.3:a:plug:plug:1.16.1:*:*:*:*:*:*:*",
+      "purl": "pkg:hex/plug@1.16.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "elixir-mix-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "elixir"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "hex"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "elixir-mix-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/mix.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:hex/plug_cowboy@2.7.1?package-id=5bf0869c05c43102",
+      "type": "library",
+      "name": "plug_cowboy",
+      "version": "2.7.1",
+      "cpe": "cpe:2.3:a:plug-cowboy:plug-cowboy:2.7.1:*:*:*:*:*:*:*",
+      "purl": "pkg:hex/plug_cowboy@2.7.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "elixir-mix-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "elixir"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "hex"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "elixir-mix-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:plug-cowboy:plug_cowboy:2.7.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:plug_cowboy:plug-cowboy:2.7.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:plug_cowboy:plug_cowboy:2.7.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:plug:plug-cowboy:2.7.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:plug:plug_cowboy:2.7.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/mix.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:hex/plug_crypto@2.1.0?package-id=7d86b608d7381d30",
+      "type": "library",
+      "name": "plug_crypto",
+      "version": "2.1.0",
+      "cpe": "cpe:2.3:a:plug-crypto:plug-crypto:2.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:hex/plug_crypto@2.1.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "elixir-mix-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "elixir"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "hex"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "elixir-mix-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:plug-crypto:plug_crypto:2.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:plug_crypto:plug-crypto:2.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:plug_crypto:plug_crypto:2.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:plug:plug-crypto:2.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:plug:plug_crypto:2.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/mix.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/arrow-data@52.1.0?package-id=9eedb265fcdfdcde",
+      "type": "library",
+      "name": "arrow-data",
+      "version": "52.1.0",
+      "cpe": "cpe:2.3:a:arrow-data:arrow-data:52.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/arrow-data@52.1.0",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:arrow-data:arrow_data:52.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:arrow_data:arrow-data:52.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:arrow_data:arrow_data:52.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:arrow:arrow-data:52.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:arrow:arrow_data:52.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/arrow-flight@52.1.0?package-id=cd08837e1a2a1457",
+      "type": "library",
+      "name": "arrow-flight",
+      "version": "52.1.0",
+      "cpe": "cpe:2.3:a:arrow-flight:arrow-flight:52.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/arrow-flight@52.1.0",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:arrow-flight:arrow_flight:52.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:arrow_flight:arrow-flight:52.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:arrow_flight:arrow_flight:52.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:arrow:arrow-flight:52.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:arrow:arrow_flight:52.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:cargo/arrow-ipc@52.1.0?package-id=dad8c41c4ed6d826",
+      "type": "library",
+      "name": "arrow-ipc",
+      "version": "52.1.0",
+      "cpe": "cpe:2.3:a:arrow-ipc:arrow-ipc:52.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:cargo/arrow-ipc@52.1.0",
+      "externalReferences": [
+        {
+          "url": "registry+https://github.com/rust-lang/crates.io-index",
+          "type": "distribution"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "rust-cargo-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "rust"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "rust-crate"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "rust-cargo-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:arrow-ipc:arrow_ipc:52.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:arrow_ipc:arrow-ipc:52.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:arrow_ipc:arrow_ipc:52.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:arrow:arrow-ipc:52.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:arrow:arrow_ipc:52.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Cargo.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:hex/ranch@1.8.0?package-id=210911b2893e3d77",
+      "type": "library",
+      "name": "ranch",
+      "version": "1.8.0",
+      "cpe": "cpe:2.3:a:ranch:ranch:1.8.0:*:*:*:*:*:*:*",
+      "purl": "pkg:hex/ranch@1.8.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "elixir-mix-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "elixir"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "hex"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "elixir-mix-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/mix.lock"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:hex/telemetry@1.2.1?package-id=834c1c04bf8c077a",
+      "type": "library",
+      "name": "telemetry",
+      "version": "1.2.1",
+      "cpe": "cpe:2.3:a:telemetry:telemetry:1.2.1:*:*:*:*:*:*:*",
+      "purl": "pkg:hex/telemetry@1.2.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "elixir-mix-lock-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "elixir"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "hex"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "elixir-mix-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/mix.lock"
+        }
+      ]
+    }
+  ]
+}

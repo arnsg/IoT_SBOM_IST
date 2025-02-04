@@ -1,0 +1,320 @@
+{
+    "classgraph:4.8.53": {
+        "name": "classgraph",
+        "version": "4.8.53",
+        "type": "java-archive",
+        "licenses": [
+            "http://opensource.org/licenses/MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-v2xm-76pq-phcf",
+                "severity": "MODERATE",
+                "description": "ClassGraph XML External Entity Reference",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+                "published_at": "2024-06-21",
+                "updated_at": "2024-06-21",
+                "CWE_ID": "CWE-611",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "commons-compress:1.24.0": {
+        "name": "commons-compress",
+        "version": "1.24.0",
+        "type": "java-archive",
+        "licenses": [
+            "https://www.apache.org/licenses/LICENSE-2.0.txt"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-4g9r-vxhx-9pgx",
+                "severity": "HIGH",
+                "description": "Apache Commons Compress: Denial of service caused by an infinite loop for a corrupted DUMP file",
+                "links": [],
+                "cvss_score": 8.2,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2024-02-19",
+                "updated_at": "2024-03-07",
+                "CWE_ID": "CWE-835",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-4265-ccf5-phj5",
+                "severity": "HIGH",
+                "description": "Apache Commons Compress: OutOfMemoryError unpacking broken Pack200 file",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-02-19",
+                "updated_at": "2024-03-07",
+                "CWE_ID": "CWE-770",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "commons-configuration2:2.8.0": {
+        "name": "commons-configuration2",
+        "version": "2.8.0",
+        "type": "java-archive",
+        "licenses": [
+            "https://www.apache.org/licenses/LICENSE-2.0.txt"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-xjp4-hw94-mvp5",
+                "severity": "MODERATE",
+                "description": "Apache Commons Configuration: StackOverflowError adding property in AbstractListDelimiterHandler.flattenIterator()",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
+                "published_at": "2024-03-21",
+                "updated_at": "2024-05-02",
+                "CWE_ID": "CWE-787",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-9w38-p64v-xpmv",
+                "severity": "MODERATE",
+                "description": "Apache Commons Configuration: StackOverflowError calling ListDelimiterHandler.flatten(Object, int) with a cyclical object tree",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
+                "published_at": "2024-03-21",
+                "updated_at": "2024-05-02",
+                "CWE_ID": "CWE-787",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "commons-httpclient:3.0.1": {
+        "name": "commons-httpclient",
+        "version": "3.0.1",
+        "type": "java-archive",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-3832-9276-x7gf",
+                "severity": "MODERATE",
+                "description": "Improper Certificate Validation in apache HttpClient",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-13",
+                "updated_at": "2024-03-14",
+                "CWE_ID": "CWE-295",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "guava:28.2-jre": {
+        "name": "guava",
+        "version": "28.2-jre",
+        "type": "java-archive",
+        "licenses": [
+            "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-7g45-4rm6-3mm3",
+                "severity": "MODERATE",
+                "description": "Guava vulnerable to insecure use of temporary directory",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2023-06-14",
+                "updated_at": "2024-02-13",
+                "CWE_ID": "CWE-379",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-5mg8-w23w-74h3",
+                "severity": "LOW",
+                "description": "Information Disclosure in Guava",
+                "links": [],
+                "cvss_score": 3.3,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+                "published_at": "2021-03-25",
+                "updated_at": "2023-11-09",
+                "CWE_ID": "CWE-173",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "junit:4.8.1": {
+        "name": "junit",
+        "version": "4.8.1",
+        "type": "java-archive",
+        "licenses": [
+            "BSD-3-Clause"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-269g-pwp5-87pp",
+                "severity": "MODERATE",
+                "description": "TemporaryFolder on unix-like systems does not limit access to created files",
+                "links": [],
+                "cvss_score": 4.4,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:N/A:N",
+                "published_at": "2020-10-12",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-269g-pwp5-87pp",
+                "severity": "MODERATE",
+                "description": "TemporaryFolder on unix-like systems does not limit access to created files",
+                "links": [],
+                "cvss_score": 4.4,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:N/A:N",
+                "published_at": "2020-10-12",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-269g-pwp5-87pp",
+                "severity": "MODERATE",
+                "description": "TemporaryFolder on unix-like systems does not limit access to created files",
+                "links": [],
+                "cvss_score": 4.4,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:N/A:N",
+                "published_at": "2020-10-12",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-269g-pwp5-87pp",
+                "severity": "MODERATE",
+                "description": "TemporaryFolder on unix-like systems does not limit access to created files",
+                "links": [],
+                "cvss_score": 4.4,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:N/A:N",
+                "published_at": "2020-10-12",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-269g-pwp5-87pp",
+                "severity": "MODERATE",
+                "description": "TemporaryFolder on unix-like systems does not limit access to created files",
+                "links": [],
+                "cvss_score": 4.4,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:N/A:N",
+                "published_at": "2020-10-12",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-269g-pwp5-87pp",
+                "severity": "MODERATE",
+                "description": "TemporaryFolder on unix-like systems does not limit access to created files",
+                "links": [],
+                "cvss_score": 4.4,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:N/A:N",
+                "published_at": "2020-10-12",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-269g-pwp5-87pp",
+                "severity": "MODERATE",
+                "description": "TemporaryFolder on unix-like systems does not limit access to created files",
+                "links": [],
+                "cvss_score": 4.4,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:N/A:N",
+                "published_at": "2020-10-12",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "netty-codec-http:4.1.97.Final": {
+        "name": "netty-codec-http",
+        "version": "4.1.97.Final",
+        "type": "java-archive",
+        "licenses": [
+            "https://www.apache.org/licenses/LICENSE-2.0"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-5jpm-x58v-624v",
+                "severity": "MODERATE",
+                "description": "Netty's HttpPostRequestDecoder can OOM",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2024-03-25",
+                "updated_at": "2024-06-22",
+                "CWE_ID": "CWE-770",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "netty-codec-http2:4.1.97.Final": {
+        "name": "netty-codec-http2",
+        "version": "4.1.97.Final",
+        "type": "java-archive",
+        "licenses": [
+            "https://www.apache.org/licenses/LICENSE-2.0"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-xpw8-rcwv-8f8p",
+                "severity": "HIGH",
+                "description": "io.netty:netty-codec-http2 vulnerable to HTTP/2 Rapid Reset Attack",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2023-10-10",
+                "updated_at": "2023-11-06",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "postgresql:42.6.0": {
+        "name": "postgresql",
+        "version": "42.6.0",
+        "type": "java-archive",
+        "licenses": [
+            "BSD-2-Clause"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-24rp-q3w6-vc56",
+                "severity": "CRITICAL",
+                "description": "org.postgresql:postgresql vulnerable to SQL Injection via line comment generation",
+                "links": [],
+                "cvss_score": 10.0,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2024-02-21",
+                "updated_at": "2024-02-21",
+                "CWE_ID": "CWE-89",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-24rp-q3w6-vc56",
+                "severity": "CRITICAL",
+                "description": "org.postgresql:postgresql vulnerable to SQL Injection via line comment generation",
+                "links": [],
+                "cvss_score": 10.0,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2024-02-21",
+                "updated_at": "2024-02-21",
+                "CWE_ID": "CWE-89",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    }
+}

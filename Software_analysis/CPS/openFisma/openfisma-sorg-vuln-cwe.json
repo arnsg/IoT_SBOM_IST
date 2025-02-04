@@ -1,0 +1,235 @@
+{
+    "ant:1.6.5": {
+        "name": "ant",
+        "version": "1.6.5",
+        "type": "java-archive",
+        "licenses": [
+            "Apache-2.0"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-q5r4-cfpx-h6fh",
+                "severity": "MODERATE",
+                "description": "Improper Handling of Length Parameter Inconsistency in Apache Ant",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2021-08-02",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-130",
+                "CWE_DESCRIPTION": "Improper Handling of Length Parameter Inconsistency"
+            },
+            {
+                "id": "GHSA-4p6w-m9wc-c9c9",
+                "severity": "MODERATE",
+                "description": "Sensitive Data Exposure in Apache Ant",
+                "links": [],
+                "cvss_score": 6.3,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N",
+                "published_at": "2020-09-14",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            }
+        ]
+    },
+    "commons-fileupload:1.2.1": {
+        "name": "commons-fileupload",
+        "version": "1.2.1",
+        "type": "java-archive",
+        "licenses": [
+            "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-7x9j-7223-rg5m",
+                "severity": "CRITICAL",
+                "description": "Improper Access Control in commons-fileupload",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2018-12-21",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-284",
+                "CWE_DESCRIPTION": "Improper Access Control"
+            },
+            {
+                "id": "GHSA-xx68-jfcg-xmmf",
+                "severity": "HIGH",
+                "description": "Commons FileUpload Denial of service vulnerability",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2018-12-21",
+                "updated_at": "2024-03-05",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            },
+            {
+                "id": "GHSA-qx6h-9567-5fqw",
+                "severity": "HIGH",
+                "description": "Arbitrary file write in Apache Commons Fileupload",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-14",
+                "updated_at": "2024-03-05",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            },
+            {
+                "id": "GHSA-hfrx-6qgj-fp6c",
+                "severity": "HIGH",
+                "description": "Apache Commons FileUpload denial of service vulnerability",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2023-02-20",
+                "updated_at": "2024-04-18",
+                "CWE_ID": "CWE-770",
+                "CWE_DESCRIPTION": "Allocation of Resources Without Limits or Throttling"
+            },
+            {
+                "id": "GHSA-fvm3-cfvj-gxqq",
+                "severity": "HIGH",
+                "description": "High severity vulnerability that affects commons-fileupload:commons-fileupload",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2018-12-21",
+                "updated_at": "2023-12-17",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            },
+            {
+                "id": "GHSA-vm69-474v-7q2w",
+                "severity": "LOW",
+                "description": "Incorrect Default Permissions in Apache Commons FileUpload",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-05",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-276",
+                "CWE_DESCRIPTION": "Incorrect Default Permissions"
+            }
+        ]
+    },
+    "commons-io:1.4": {
+        "name": "commons-io",
+        "version": "1.4",
+        "type": "java-archive",
+        "licenses": [
+            "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-gwrp-pvrq-jmwv",
+                "severity": "MODERATE",
+                "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+                "links": [],
+                "cvss_score": 4.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+                "published_at": "2021-04-26",
+                "updated_at": "2024-02-14",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            }
+        ]
+    },
+    "jetty:6.1.3": {
+        "name": "jetty",
+        "version": "6.1.3",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-fvh3-4v5r-cvvc",
+                "severity": "HIGH",
+                "description": "Improper Authentication in Mortbay Jetty",
+                "links": [],
+                "cvss_score": 7.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+                "published_at": "2022-05-01",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-287",
+                "CWE_DESCRIPTION": "Improper Authentication"
+            },
+            {
+                "id": "GHSA-6jxp-7g74-2rc3",
+                "severity": "HIGH",
+                "description": "Improper input validation in Mort Bay Jetty",
+                "links": [],
+                "cvss_score": 7.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+                "published_at": "2022-05-02",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            },
+            {
+                "id": "GHSA-9986-w5h5-vw59",
+                "severity": "MODERATE",
+                "description": "Directory traversal in Mort Bay Jetty",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+                "published_at": "2022-05-02",
+                "updated_at": "2023-08-03",
+                "CWE_ID": "CWE-22",
+                "CWE_DESCRIPTION": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            },
+            {
+                "id": "GHSA-966r-962g-2jq5",
+                "severity": "MODERATE",
+                "description": "Mortbay Jetty CRLF Injection Vulnerability",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-01",
+                "updated_at": "2023-09-21",
+                "CWE_ID": "CWE-94",
+                "CWE_DESCRIPTION": "Improper Control of Generation of Code ('Code Injection')"
+            },
+            {
+                "id": "GHSA-8h77-9vh5-hw5g",
+                "severity": "MODERATE",
+                "description": "Mortbay Jetty vulnerable to Cross-site scripting",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2022-05-01",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            }
+        ]
+    },
+    "solr:1.4.1 955763M - mark - 2010-06-17 18:06:52": {
+        "name": "solr",
+        "version": "1.4.1 955763M - mark - 2010-06-17 18:06:52",
+        "type": "java-archive",
+        "licenses": [
+            "Apache-2.0",
+            "BSD-3-Clause",
+            "CDDL-1.0",
+            "CPL-1.0",
+            "ICU",
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-4fxw-g29w-r8mx",
+                "severity": "MODERATE",
+                "description": "Apache Solr Cross-site scripting Vulnerability",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2022-05-17",
+                "updated_at": "2023-08-03",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            }
+        ]
+    }
+}

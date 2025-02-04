@@ -1,0 +1,1640 @@
+{
+    "@babel/traverse:7.8.4": {
+        "name": "@babel/traverse",
+        "version": "7.8.4",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-67hx-6x53-jw92",
+                "severity": "CRITICAL",
+                "description": "Babel vulnerable to arbitrary code execution when compiling specifically crafted malicious code",
+                "links": [],
+                "cvss_score": 9.4,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2023-10-16",
+                "updated_at": "2024-04-04"
+            }
+        ]
+    },
+    "acorn:6.0.2": {
+        "name": "acorn",
+        "version": "6.0.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-6chw-6frg-f759",
+                "severity": "HIGH",
+                "description": "Regular Expression Denial of Service in Acorn",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2020-04-03",
+                "updated_at": "2023-01-09"
+            }
+        ]
+    },
+    "acorn:6.0.4": {
+        "name": "acorn",
+        "version": "6.0.4",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-6chw-6frg-f759",
+                "severity": "HIGH",
+                "description": "Regular Expression Denial of Service in Acorn",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2020-04-03",
+                "updated_at": "2023-01-09"
+            }
+        ]
+    },
+    "acorn:7.1.0": {
+        "name": "acorn",
+        "version": "7.1.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-6chw-6frg-f759",
+                "severity": "HIGH",
+                "description": "Regular Expression Denial of Service in Acorn",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2020-04-03",
+                "updated_at": "2023-01-09"
+            }
+        ]
+    },
+    "ajv:6.5.4": {
+        "name": "ajv",
+        "version": "6.5.4",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-v88g-cgmw-v5xw",
+                "severity": "MODERATE",
+                "description": "Prototype Pollution in Ajv",
+                "links": [],
+                "cvss_score": 5.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+                "published_at": "2022-02-10",
+                "updated_at": "2024-06-21"
+            }
+        ]
+    },
+    "ajv:6.7.0": {
+        "name": "ajv",
+        "version": "6.7.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-v88g-cgmw-v5xw",
+                "severity": "MODERATE",
+                "description": "Prototype Pollution in Ajv",
+                "links": [],
+                "cvss_score": 5.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+                "published_at": "2022-02-10",
+                "updated_at": "2024-06-21"
+            }
+        ]
+    },
+    "ansi-regex:3.0.0": {
+        "name": "ansi-regex",
+        "version": "3.0.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-93q8-gq69-wqmw",
+                "severity": "HIGH",
+                "description": "Inefficient Regular Expression Complexity in chalk/ansi-regex",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-09-20",
+                "updated_at": "2023-09-21"
+            }
+        ]
+    },
+    "braces:2.3.2": {
+        "name": "braces",
+        "version": "2.3.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-grv7-fg5c-xmjg",
+                "severity": "HIGH",
+                "description": "Uncontrolled resource consumption in braces",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-05-14",
+                "updated_at": "2024-07-05"
+            },
+            {
+                "id": "GHSA-grv7-fg5c-xmjg",
+                "severity": "HIGH",
+                "description": "Uncontrolled resource consumption in braces",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-05-14",
+                "updated_at": "2024-07-05"
+            }
+        ]
+    },
+    "browserify-sign:4.0.4": {
+        "name": "browserify-sign",
+        "version": "4.0.4",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-x9w5-v3q2-3rhw",
+                "severity": "HIGH",
+                "description": "browserify-sign upper bound check issue in `dsaVerify` leads to a signature forgery attack",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2023-10-26",
+                "updated_at": "2024-03-07"
+            },
+            {
+                "id": "GHSA-x9w5-v3q2-3rhw",
+                "severity": "HIGH",
+                "description": "browserify-sign upper bound check issue in `dsaVerify` leads to a signature forgery attack",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2023-10-26",
+                "updated_at": "2024-03-07"
+            }
+        ]
+    },
+    "cached-path-relative:1.0.2": {
+        "name": "cached-path-relative",
+        "version": "1.0.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-wg6g-ppvx-927h",
+                "severity": "HIGH",
+                "description": "Prototype Pollution in cached-path-relative",
+                "links": [],
+                "cvss_score": 7.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+                "published_at": "2022-01-27",
+                "updated_at": "2023-01-31"
+            },
+            {
+                "id": "GHSA-wg6g-ppvx-927h",
+                "severity": "HIGH",
+                "description": "Prototype Pollution in cached-path-relative",
+                "links": [],
+                "cvss_score": 7.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+                "published_at": "2022-01-27",
+                "updated_at": "2023-01-31"
+            }
+        ]
+    },
+    "color-string:1.5.3": {
+        "name": "color-string",
+        "version": "1.5.3",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-257v-vj4p-3w2h",
+                "severity": "MODERATE",
+                "description": "Regular Expression Denial of Service (ReDOS)",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2021-06-22",
+                "updated_at": "2023-02-01"
+            }
+        ]
+    },
+    "decode-uri-component:0.2.0": {
+        "name": "decode-uri-component",
+        "version": "0.2.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-w573-4hg7-7wgq",
+                "severity": "HIGH",
+                "description": "decode-uri-component vulnerable to Denial of Service (DoS)",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-11-28",
+                "updated_at": "2023-09-21"
+            },
+            {
+                "id": "GHSA-w573-4hg7-7wgq",
+                "severity": "HIGH",
+                "description": "decode-uri-component vulnerable to Denial of Service (DoS)",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-11-28",
+                "updated_at": "2023-09-21"
+            }
+        ]
+    },
+    "elliptic:6.4.1": {
+        "name": "elliptic",
+        "version": "6.4.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-vh7m-p724-62c2",
+                "severity": "HIGH",
+                "description": "Signature Malleabillity in elliptic",
+                "links": [],
+                "cvss_score": 7.7,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L",
+                "published_at": "2020-07-29",
+                "updated_at": "2023-11-29"
+            },
+            {
+                "id": "GHSA-r9p9-mrjm-926w",
+                "severity": "MODERATE",
+                "description": "Elliptic Uses a Broken or Risky Cryptographic Algorithm",
+                "links": [],
+                "cvss_score": 6.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N",
+                "published_at": "2021-03-08",
+                "updated_at": "2023-09-06"
+            }
+        ]
+    },
+    "elliptic:6.5.2": {
+        "name": "elliptic",
+        "version": "6.5.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-vh7m-p724-62c2",
+                "severity": "HIGH",
+                "description": "Signature Malleabillity in elliptic",
+                "links": [],
+                "cvss_score": 7.7,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L",
+                "published_at": "2020-07-29",
+                "updated_at": "2023-11-29"
+            },
+            {
+                "id": "GHSA-r9p9-mrjm-926w",
+                "severity": "MODERATE",
+                "description": "Elliptic Uses a Broken or Risky Cryptographic Algorithm",
+                "links": [],
+                "cvss_score": 6.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N",
+                "published_at": "2021-03-08",
+                "updated_at": "2023-09-06"
+            }
+        ]
+    },
+    "getobject:0.1.0": {
+        "name": "getobject",
+        "version": "0.1.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-957j-59c2-j692",
+                "severity": "CRITICAL",
+                "description": "Prototype pollution in getobject",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-10-12",
+                "updated_at": "2023-09-07"
+            },
+            {
+                "id": "GHSA-957j-59c2-j692",
+                "severity": "CRITICAL",
+                "description": "Prototype pollution in getobject",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-10-12",
+                "updated_at": "2023-09-07"
+            }
+        ]
+    },
+    "grunt:1.0.3": {
+        "name": "grunt",
+        "version": "1.0.3",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-rm36-94g8-835r",
+                "severity": "HIGH",
+                "description": "Race Condition in Grunt",
+                "links": [],
+                "cvss_score": 7.0,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-05-11",
+                "updated_at": "2023-04-06"
+            },
+            {
+                "id": "GHSA-m5pj-vjjf-4m3h",
+                "severity": "HIGH",
+                "description": "Arbitrary Code Execution in grunt",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2021-05-06",
+                "updated_at": "2023-02-01"
+            },
+            {
+                "id": "GHSA-j383-35pm-c5h4",
+                "severity": "MODERATE",
+                "description": "Path Traversal in Grunt",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2022-04-13",
+                "updated_at": "2023-04-06"
+            }
+        ]
+    },
+    "grunt:1.0.4": {
+        "name": "grunt",
+        "version": "1.0.4",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-rm36-94g8-835r",
+                "severity": "HIGH",
+                "description": "Race Condition in Grunt",
+                "links": [],
+                "cvss_score": 7.0,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-05-11",
+                "updated_at": "2023-04-06"
+            },
+            {
+                "id": "GHSA-m5pj-vjjf-4m3h",
+                "severity": "HIGH",
+                "description": "Arbitrary Code Execution in grunt",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2021-05-06",
+                "updated_at": "2023-02-01"
+            },
+            {
+                "id": "GHSA-j383-35pm-c5h4",
+                "severity": "MODERATE",
+                "description": "Path Traversal in Grunt",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2022-04-13",
+                "updated_at": "2023-04-06"
+            }
+        ]
+    },
+    "guava:14.0.1": {
+        "name": "guava",
+        "version": "14.0.1",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-mvr2-9pj6-7w5j",
+                "severity": "MODERATE",
+                "description": "Denial of Service in Google Guava",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2020-06-15",
+                "updated_at": "2023-11-09"
+            },
+            {
+                "id": "GHSA-7g45-4rm6-3mm3",
+                "severity": "MODERATE",
+                "description": "Guava vulnerable to insecure use of temporary directory",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2023-06-14",
+                "updated_at": "2024-02-13"
+            },
+            {
+                "id": "GHSA-5mg8-w23w-74h3",
+                "severity": "LOW",
+                "description": "Information Disclosure in Guava",
+                "links": [],
+                "cvss_score": 3.3,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+                "published_at": "2021-03-25",
+                "updated_at": "2023-11-09"
+            }
+        ]
+    },
+    "hosted-git-info:2.7.1": {
+        "name": "hosted-git-info",
+        "version": "2.7.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-43f8-2h32-f4cj",
+                "severity": "MODERATE",
+                "description": "Regular Expression Denial of Service in hosted-git-info",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2021-05-06",
+                "updated_at": "2023-02-01"
+            }
+        ]
+    },
+    "hosted-git-info:2.8.5": {
+        "name": "hosted-git-info",
+        "version": "2.8.5",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-43f8-2h32-f4cj",
+                "severity": "MODERATE",
+                "description": "Regular Expression Denial of Service in hosted-git-info",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2021-05-06",
+                "updated_at": "2023-02-01"
+            }
+        ]
+    },
+    "https-proxy-agent:2.2.1": {
+        "name": "https-proxy-agent",
+        "version": "2.2.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-pc5p-h8pf-mvwp",
+                "severity": "MODERATE",
+                "description": "Machine-In-The-Middle in https-proxy-agent",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N",
+                "published_at": "2020-04-16",
+                "updated_at": "2023-11-01"
+            },
+            {
+                "id": "GHSA-pc5p-h8pf-mvwp",
+                "severity": "MODERATE",
+                "description": "Machine-In-The-Middle in https-proxy-agent",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N",
+                "published_at": "2020-04-16",
+                "updated_at": "2023-11-01"
+            }
+        ]
+    },
+    "ini:1.3.5": {
+        "name": "ini",
+        "version": "1.3.5",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-qqgx-2p2h-9c37",
+                "severity": "HIGH",
+                "description": "ini before 1.3.6 vulnerable to Prototype Pollution via ini.parse",
+                "links": [],
+                "cvss_score": 7.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+                "published_at": "2020-12-10",
+                "updated_at": "2023-08-31"
+            },
+            {
+                "id": "GHSA-qqgx-2p2h-9c37",
+                "severity": "HIGH",
+                "description": "ini before 1.3.6 vulnerable to Prototype Pollution via ini.parse",
+                "links": [],
+                "cvss_score": 7.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+                "published_at": "2020-12-10",
+                "updated_at": "2023-08-31"
+            }
+        ]
+    },
+    "js-yaml:3.5.5": {
+        "name": "js-yaml",
+        "version": "3.5.5",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-8j8c-7jfh-h6hx",
+                "severity": "HIGH",
+                "description": "Code Injection in js-yaml",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2019-06-04",
+                "updated_at": "2023-11-29"
+            },
+            {
+                "id": "GHSA-2pr6-76vf-7546",
+                "severity": "MODERATE",
+                "description": "Denial of Service in js-yaml",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2019-06-05",
+                "updated_at": "2023-01-09"
+            }
+        ]
+    },
+    "json-schema:0.2.3": {
+        "name": "json-schema",
+        "version": "0.2.3",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-896r-f27r-55mw",
+                "severity": "CRITICAL",
+                "description": "json-schema is vulnerable to Prototype Pollution",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-11-19",
+                "updated_at": "2023-11-29"
+            },
+            {
+                "id": "GHSA-896r-f27r-55mw",
+                "severity": "CRITICAL",
+                "description": "json-schema is vulnerable to Prototype Pollution",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-11-19",
+                "updated_at": "2023-11-29"
+            }
+        ]
+    },
+    "json5:2.1.1": {
+        "name": "json5",
+        "version": "2.1.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-9c47-m6qq-7p4h",
+                "severity": "HIGH",
+                "description": "Prototype Pollution in JSON5 via Parse Method",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:L/A:H",
+                "published_at": "2022-12-29",
+                "updated_at": "2024-02-22"
+            }
+        ]
+    },
+    "junit:4.11": {
+        "name": "junit",
+        "version": "4.11",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-269g-pwp5-87pp",
+                "severity": "MODERATE",
+                "description": "TemporaryFolder on unix-like systems does not limit access to created files",
+                "links": [],
+                "cvss_score": 4.4,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:N/A:N",
+                "published_at": "2020-10-12",
+                "updated_at": "2023-02-01"
+            }
+        ]
+    },
+    "kind-of:6.0.2": {
+        "name": "kind-of",
+        "version": "6.0.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-6c8f-qphg-qjgp",
+                "severity": "HIGH",
+                "description": "Validation Bypass in kind-of",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2020-03-31",
+                "updated_at": "2023-11-29"
+            },
+            {
+                "id": "GHSA-6c8f-qphg-qjgp",
+                "severity": "HIGH",
+                "description": "Validation Bypass in kind-of",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2020-03-31",
+                "updated_at": "2023-11-29"
+            }
+        ]
+    },
+    "lodash:4.17.11": {
+        "name": "lodash",
+        "version": "4.17.11",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-jf85-cpcp-j695",
+                "severity": "CRITICAL",
+                "description": "Prototype Pollution in lodash",
+                "links": [],
+                "cvss_score": 9.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H",
+                "published_at": "2019-07-10",
+                "updated_at": "2024-04-22"
+            },
+            {
+                "id": "GHSA-jf85-cpcp-j695",
+                "severity": "CRITICAL",
+                "description": "Prototype Pollution in lodash",
+                "links": [],
+                "cvss_score": 9.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H",
+                "published_at": "2019-07-10",
+                "updated_at": "2024-04-22"
+            },
+            {
+                "id": "GHSA-p6mc-m468-83gw",
+                "severity": "HIGH",
+                "description": "Prototype Pollution in lodash",
+                "links": [],
+                "cvss_score": 7.4,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H",
+                "published_at": "2020-07-15",
+                "updated_at": "2024-01-26"
+            },
+            {
+                "id": "GHSA-p6mc-m468-83gw",
+                "severity": "HIGH",
+                "description": "Prototype Pollution in lodash",
+                "links": [],
+                "cvss_score": 7.4,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H",
+                "published_at": "2020-07-15",
+                "updated_at": "2024-01-26"
+            },
+            {
+                "id": "GHSA-35jh-r3h4-6jhm",
+                "severity": "HIGH",
+                "description": "Command Injection in lodash",
+                "links": [],
+                "cvss_score": 7.2,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-05-06",
+                "updated_at": "2024-04-17"
+            },
+            {
+                "id": "GHSA-35jh-r3h4-6jhm",
+                "severity": "HIGH",
+                "description": "Command Injection in lodash",
+                "links": [],
+                "cvss_score": 7.2,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-05-06",
+                "updated_at": "2024-04-17"
+            },
+            {
+                "id": "GHSA-29mw-wpgm-hmr9",
+                "severity": "MODERATE",
+                "description": "Regular Expression Denial of Service (ReDoS) in lodash",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2022-01-06",
+                "updated_at": "2023-11-01"
+            },
+            {
+                "id": "GHSA-29mw-wpgm-hmr9",
+                "severity": "MODERATE",
+                "description": "Regular Expression Denial of Service (ReDoS) in lodash",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2022-01-06",
+                "updated_at": "2023-11-01"
+            }
+        ]
+    },
+    "lodash:4.17.15": {
+        "name": "lodash",
+        "version": "4.17.15",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-p6mc-m468-83gw",
+                "severity": "HIGH",
+                "description": "Prototype Pollution in lodash",
+                "links": [],
+                "cvss_score": 7.4,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H",
+                "published_at": "2020-07-15",
+                "updated_at": "2024-01-26"
+            },
+            {
+                "id": "GHSA-35jh-r3h4-6jhm",
+                "severity": "HIGH",
+                "description": "Command Injection in lodash",
+                "links": [],
+                "cvss_score": 7.2,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-05-06",
+                "updated_at": "2024-04-17"
+            },
+            {
+                "id": "GHSA-29mw-wpgm-hmr9",
+                "severity": "MODERATE",
+                "description": "Regular Expression Denial of Service (ReDoS) in lodash",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2022-01-06",
+                "updated_at": "2023-11-01"
+            }
+        ]
+    },
+    "markdown-it:8.4.2": {
+        "name": "markdown-it",
+        "version": "8.4.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-6vfc-qv3f-vr6c",
+                "severity": "MODERATE",
+                "description": "Uncontrolled Resource Consumption in markdown-it",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2022-01-12",
+                "updated_at": "2023-07-24"
+            },
+            {
+                "id": "GHSA-6vfc-qv3f-vr6c",
+                "severity": "MODERATE",
+                "description": "Uncontrolled Resource Consumption in markdown-it",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2022-01-12",
+                "updated_at": "2023-07-24"
+            }
+        ]
+    },
+    "marked:0.3.19": {
+        "name": "marked",
+        "version": "0.3.19",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-rrrm-qjm4-v8hf",
+                "severity": "HIGH",
+                "description": "Inefficient Regular Expression Complexity in marked",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-01-14",
+                "updated_at": "2023-11-29"
+            },
+            {
+                "id": "GHSA-5v2h-r2cx-5xgj",
+                "severity": "HIGH",
+                "description": "Inefficient Regular Expression Complexity in marked",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-01-14",
+                "updated_at": "2023-11-29"
+            },
+            {
+                "id": "GHSA-xf5p-87ch-gxw2",
+                "severity": "MODERATE",
+                "description": "Marked ReDoS due to email addresses being evaluated in quadratic time",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2019-06-05",
+                "updated_at": "2023-01-11"
+            }
+        ]
+    },
+    "marked:0.7.0": {
+        "name": "marked",
+        "version": "0.7.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-rrrm-qjm4-v8hf",
+                "severity": "HIGH",
+                "description": "Inefficient Regular Expression Complexity in marked",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-01-14",
+                "updated_at": "2023-11-29"
+            },
+            {
+                "id": "GHSA-rrrm-qjm4-v8hf",
+                "severity": "HIGH",
+                "description": "Inefficient Regular Expression Complexity in marked",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-01-14",
+                "updated_at": "2023-11-29"
+            },
+            {
+                "id": "GHSA-5v2h-r2cx-5xgj",
+                "severity": "HIGH",
+                "description": "Inefficient Regular Expression Complexity in marked",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-01-14",
+                "updated_at": "2023-11-29"
+            },
+            {
+                "id": "GHSA-5v2h-r2cx-5xgj",
+                "severity": "HIGH",
+                "description": "Inefficient Regular Expression Complexity in marked",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-01-14",
+                "updated_at": "2023-11-29"
+            }
+        ]
+    },
+    "minimatch:3.0.4": {
+        "name": "minimatch",
+        "version": "3.0.4",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-f8q6-p94x-37v3",
+                "severity": "HIGH",
+                "description": "minimatch ReDoS vulnerability",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-10-18",
+                "updated_at": "2024-02-14"
+            },
+            {
+                "id": "GHSA-f8q6-p94x-37v3",
+                "severity": "HIGH",
+                "description": "minimatch ReDoS vulnerability",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-10-18",
+                "updated_at": "2024-02-14"
+            },
+            {
+                "id": "GHSA-f8q6-p94x-37v3",
+                "severity": "HIGH",
+                "description": "minimatch ReDoS vulnerability",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-10-18",
+                "updated_at": "2024-02-14"
+            }
+        ]
+    },
+    "minimist:0.0.8": {
+        "name": "minimist",
+        "version": "0.0.8",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-xvch-5gv4-984h",
+                "severity": "CRITICAL",
+                "description": "Prototype Pollution in minimist",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-03-18",
+                "updated_at": "2024-06-21"
+            },
+            {
+                "id": "GHSA-xvch-5gv4-984h",
+                "severity": "CRITICAL",
+                "description": "Prototype Pollution in minimist",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-03-18",
+                "updated_at": "2024-06-21"
+            },
+            {
+                "id": "GHSA-xvch-5gv4-984h",
+                "severity": "CRITICAL",
+                "description": "Prototype Pollution in minimist",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-03-18",
+                "updated_at": "2024-06-21"
+            },
+            {
+                "id": "GHSA-vh95-rmgr-6w4m",
+                "severity": "MODERATE",
+                "description": "Prototype Pollution in minimist",
+                "links": [],
+                "cvss_score": 5.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+                "published_at": "2020-04-03",
+                "updated_at": "2024-02-13"
+            },
+            {
+                "id": "GHSA-vh95-rmgr-6w4m",
+                "severity": "MODERATE",
+                "description": "Prototype Pollution in minimist",
+                "links": [],
+                "cvss_score": 5.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+                "published_at": "2020-04-03",
+                "updated_at": "2024-02-13"
+            },
+            {
+                "id": "GHSA-vh95-rmgr-6w4m",
+                "severity": "MODERATE",
+                "description": "Prototype Pollution in minimist",
+                "links": [],
+                "cvss_score": 5.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+                "published_at": "2020-04-03",
+                "updated_at": "2024-02-13"
+            }
+        ]
+    },
+    "mixin-deep:1.3.1": {
+        "name": "mixin-deep",
+        "version": "1.3.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-fhjf-83wg-r2j9",
+                "severity": "CRITICAL",
+                "description": "Prototype Pollution in mixin-deep",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2019-08-27",
+                "updated_at": "2023-11-29"
+            },
+            {
+                "id": "GHSA-fhjf-83wg-r2j9",
+                "severity": "CRITICAL",
+                "description": "Prototype Pollution in mixin-deep",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2019-08-27",
+                "updated_at": "2023-11-29"
+            }
+        ]
+    },
+    "path-parse:1.0.6": {
+        "name": "path-parse",
+        "version": "1.0.6",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-hj48-42vr-x3v9",
+                "severity": "MODERATE",
+                "description": "Regular Expression Denial of Service in path-parse",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2021-08-10",
+                "updated_at": "2023-02-01"
+            },
+            {
+                "id": "GHSA-hj48-42vr-x3v9",
+                "severity": "MODERATE",
+                "description": "Regular Expression Denial of Service in path-parse",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2021-08-10",
+                "updated_at": "2023-02-01"
+            },
+            {
+                "id": "GHSA-hj48-42vr-x3v9",
+                "severity": "MODERATE",
+                "description": "Regular Expression Denial of Service in path-parse",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2021-08-10",
+                "updated_at": "2023-02-01"
+            }
+        ]
+    },
+    "plexus-utils:3.0.14": {
+        "name": "plexus-utils",
+        "version": "3.0.14",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-8vhq-qq4p-grq3",
+                "severity": "CRITICAL",
+                "description": "OS Command Injection in Plexus-utils",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-05-13",
+                "updated_at": "2023-01-27"
+            },
+            {
+                "id": "GHSA-g6ph-x5wf-g337",
+                "severity": "HIGH",
+                "description": "plexus-codehaus vulnerable to directory traversal",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2023-09-25",
+                "updated_at": "2024-05-03"
+            },
+            {
+                "id": "GHSA-jcwr-x25h-x5fh",
+                "severity": "MODERATE",
+                "description": "codehaus-plexus vulnerable to XML injection",
+                "links": [],
+                "cvss_score": 4.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+                "published_at": "2023-09-25",
+                "updated_at": "2024-05-03"
+            }
+        ]
+    },
+    "puppeteer:1.11.0": {
+        "name": "puppeteer",
+        "version": "1.11.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c2gp-86p4-5935",
+                "severity": "MODERATE",
+                "description": "Use-After-Free in puppeteer",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2020-09-02",
+                "updated_at": "2023-11-11"
+            },
+            {
+                "id": "GHSA-c2gp-86p4-5935",
+                "severity": "MODERATE",
+                "description": "Use-After-Free in puppeteer",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2020-09-02",
+                "updated_at": "2023-11-11"
+            }
+        ]
+    },
+    "qs:6.5.2": {
+        "name": "qs",
+        "version": "6.5.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-hrpp-h998-j3pp",
+                "severity": "HIGH",
+                "description": "qs vulnerable to Prototype Pollution",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-11-27",
+                "updated_at": "2024-02-13"
+            },
+            {
+                "id": "GHSA-hrpp-h998-j3pp",
+                "severity": "HIGH",
+                "description": "qs vulnerable to Prototype Pollution",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-11-27",
+                "updated_at": "2024-02-13"
+            }
+        ]
+    },
+    "request:2.88.0": {
+        "name": "request",
+        "version": "2.88.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-p8p7-x288-28g6",
+                "severity": "MODERATE",
+                "description": "Server-Side Request Forgery in Request",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2023-03-16",
+                "updated_at": "2024-03-21"
+            },
+            {
+                "id": "GHSA-p8p7-x288-28g6",
+                "severity": "MODERATE",
+                "description": "Server-Side Request Forgery in Request",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2023-03-16",
+                "updated_at": "2024-03-21"
+            }
+        ]
+    },
+    "semver:5.6.0": {
+        "name": "semver",
+        "version": "5.6.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c2qf-rxjj-qqgw",
+                "severity": "MODERATE",
+                "description": "semver vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2023-06-21",
+                "updated_at": "2024-02-14"
+            },
+            {
+                "id": "GHSA-c2qf-rxjj-qqgw",
+                "severity": "MODERATE",
+                "description": "semver vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2023-06-21",
+                "updated_at": "2024-02-14"
+            }
+        ]
+    },
+    "semver:5.7.1": {
+        "name": "semver",
+        "version": "5.7.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c2qf-rxjj-qqgw",
+                "severity": "MODERATE",
+                "description": "semver vulnerable to Regular Expression Denial of Service",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2023-06-21",
+                "updated_at": "2024-02-14"
+            }
+        ]
+    },
+    "set-value:2.0.0": {
+        "name": "set-value",
+        "version": "2.0.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-4g88-fppr-53pp",
+                "severity": "CRITICAL",
+                "description": "Prototype Pollution in set-value",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2019-08-27",
+                "updated_at": "2023-11-29"
+            },
+            {
+                "id": "GHSA-4g88-fppr-53pp",
+                "severity": "CRITICAL",
+                "description": "Prototype Pollution in set-value",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2019-08-27",
+                "updated_at": "2023-11-29"
+            },
+            {
+                "id": "GHSA-4jqc-8m5r-9rpr",
+                "severity": "HIGH",
+                "description": "Prototype Pollution in set-value",
+                "links": [],
+                "cvss_score": 7.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+                "published_at": "2021-09-13",
+                "updated_at": "2023-11-03"
+            },
+            {
+                "id": "GHSA-4jqc-8m5r-9rpr",
+                "severity": "HIGH",
+                "description": "Prototype Pollution in set-value",
+                "links": [],
+                "cvss_score": 7.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+                "published_at": "2021-09-13",
+                "updated_at": "2023-11-03"
+            }
+        ]
+    },
+    "shell-quote:1.6.1": {
+        "name": "shell-quote",
+        "version": "1.6.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-g4rg-993r-mgx7",
+                "severity": "CRITICAL",
+                "description": "Improper Neutralization of Special Elements used in a Command in Shell-quote",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-05-24",
+                "updated_at": "2024-02-02"
+            }
+        ]
+    },
+    "shell-quote:1.7.2": {
+        "name": "shell-quote",
+        "version": "1.7.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-g4rg-993r-mgx7",
+                "severity": "CRITICAL",
+                "description": "Improper Neutralization of Special Elements used in a Command in Shell-quote",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-05-24",
+                "updated_at": "2024-02-02"
+            }
+        ]
+    },
+    "shelljs:0.3.0": {
+        "name": "shelljs",
+        "version": "0.3.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-4rq4-32rv-6wp6",
+                "severity": "HIGH",
+                "description": "Improper Privilege Management in shelljs",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+                "published_at": "2022-01-21",
+                "updated_at": "2023-11-29"
+            },
+            {
+                "id": "GHSA-4rq4-32rv-6wp6",
+                "severity": "HIGH",
+                "description": "Improper Privilege Management in shelljs",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+                "published_at": "2022-01-21",
+                "updated_at": "2023-11-29"
+            },
+            {
+                "id": "GHSA-64g7-mvw6-v9qj",
+                "severity": "MODERATE",
+                "description": "Improper Privilege Management in shelljs",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-01-14",
+                "updated_at": "2023-01-11"
+            },
+            {
+                "id": "GHSA-64g7-mvw6-v9qj",
+                "severity": "MODERATE",
+                "description": "Improper Privilege Management in shelljs",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-01-14",
+                "updated_at": "2023-01-11"
+            }
+        ]
+    },
+    "taffydb:2.6.2": {
+        "name": "taffydb",
+        "version": "2.6.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-mxhp-79qh-mcx6",
+                "severity": "HIGH",
+                "description": "TaffyDB can allow access to any data items in the DB",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2020-02-19",
+                "updated_at": "2023-01-30"
+            },
+            {
+                "id": "GHSA-mxhp-79qh-mcx6",
+                "severity": "HIGH",
+                "description": "TaffyDB can allow access to any data items in the DB",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2020-02-19",
+                "updated_at": "2023-01-30"
+            },
+            {
+                "id": "GHSA-mxhp-79qh-mcx6",
+                "severity": "HIGH",
+                "description": "TaffyDB can allow access to any data items in the DB",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2020-02-19",
+                "updated_at": "2023-01-30"
+            }
+        ]
+    },
+    "tough-cookie:2.4.3": {
+        "name": "tough-cookie",
+        "version": "2.4.3",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-72xf-g2v4-qvf3",
+                "severity": "MODERATE",
+                "description": "tough-cookie Prototype Pollution vulnerability",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+                "published_at": "2023-07-01",
+                "updated_at": "2024-06-21"
+            },
+            {
+                "id": "GHSA-72xf-g2v4-qvf3",
+                "severity": "MODERATE",
+                "description": "tough-cookie Prototype Pollution vulnerability",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+                "published_at": "2023-07-01",
+                "updated_at": "2024-06-21"
+            }
+        ]
+    },
+    "trim-newlines:1.0.0": {
+        "name": "trim-newlines",
+        "version": "1.0.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-7p7h-4mm5-852v",
+                "severity": "HIGH",
+                "description": "Uncontrolled Resource Consumption in trim-newlines",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-06-07",
+                "updated_at": "2023-11-29"
+            },
+            {
+                "id": "GHSA-7p7h-4mm5-852v",
+                "severity": "HIGH",
+                "description": "Uncontrolled Resource Consumption in trim-newlines",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-06-07",
+                "updated_at": "2023-11-29"
+            }
+        ]
+    },
+    "underscore:1.8.3": {
+        "name": "underscore",
+        "version": "1.8.3",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-cf4h-3jhx-xvhq",
+                "severity": "CRITICAL",
+                "description": "Arbitrary Code Execution in underscore",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-05-06",
+                "updated_at": "2023-11-29"
+            }
+        ]
+    },
+    "underscore:1.9.1": {
+        "name": "underscore",
+        "version": "1.9.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-cf4h-3jhx-xvhq",
+                "severity": "CRITICAL",
+                "description": "Arbitrary Code Execution in underscore",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-05-06",
+                "updated_at": "2023-11-29"
+            }
+        ]
+    },
+    "underscore:1.9.2": {
+        "name": "underscore",
+        "version": "1.9.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-cf4h-3jhx-xvhq",
+                "severity": "CRITICAL",
+                "description": "Arbitrary Code Execution in underscore",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-05-06",
+                "updated_at": "2023-11-29"
+            }
+        ]
+    },
+    "ws:5.2.2": {
+        "name": "ws",
+        "version": "5.2.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-3h5v-q93c-6h6q",
+                "severity": "HIGH",
+                "description": "ws affected by a DoS when handling a request with many HTTP headers",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-06-17",
+                "updated_at": "2024-06-17"
+            },
+            {
+                "id": "GHSA-6fc8-4gx4-v693",
+                "severity": "MODERATE",
+                "description": "ReDoS in Sec-Websocket-Protocol header",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2021-05-28",
+                "updated_at": "2023-02-03"
+            }
+        ]
+    },
+    "ws:6.1.3": {
+        "name": "ws",
+        "version": "6.1.3",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-3h5v-q93c-6h6q",
+                "severity": "HIGH",
+                "description": "ws affected by a DoS when handling a request with many HTTP headers",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-06-17",
+                "updated_at": "2024-06-17"
+            },
+            {
+                "id": "GHSA-3h5v-q93c-6h6q",
+                "severity": "HIGH",
+                "description": "ws affected by a DoS when handling a request with many HTTP headers",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-06-17",
+                "updated_at": "2024-06-17"
+            },
+            {
+                "id": "GHSA-6fc8-4gx4-v693",
+                "severity": "MODERATE",
+                "description": "ReDoS in Sec-Websocket-Protocol header",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2021-05-28",
+                "updated_at": "2023-02-03"
+            },
+            {
+                "id": "GHSA-6fc8-4gx4-v693",
+                "severity": "MODERATE",
+                "description": "ReDoS in Sec-Websocket-Protocol header",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2021-05-28",
+                "updated_at": "2023-02-03"
+            }
+        ]
+    },
+    "y18n:4.0.0": {
+        "name": "y18n",
+        "version": "4.0.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c4w7-xm78-47vh",
+                "severity": "HIGH",
+                "description": "Prototype Pollution in y18n",
+                "links": [],
+                "cvss_score": 7.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+                "published_at": "2021-03-29",
+                "updated_at": "2023-11-29"
+            }
+        ]
+    },
+    "yargs-parser:16.1.0": {
+        "name": "yargs-parser",
+        "version": "16.1.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-p9pc-299p-vxgp",
+                "severity": "MODERATE",
+                "description": "yargs-parser Vulnerable to Prototype Pollution",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+                "published_at": "2020-09-04",
+                "updated_at": "2023-01-27"
+            }
+        ]
+    }
+}

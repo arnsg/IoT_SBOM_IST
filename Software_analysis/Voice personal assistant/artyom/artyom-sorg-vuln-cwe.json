@@ -1,0 +1,862 @@
+{
+    "babel-traverse:6.25.0": {
+        "name": "babel-traverse",
+        "version": "6.25.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-67hx-6x53-jw92",
+                "severity": "CRITICAL",
+                "description": "Babel vulnerable to arbitrary code execution when compiling specifically crafted malicious code",
+                "links": [],
+                "cvss_score": 9.4,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2023-10-16",
+                "updated_at": "2024-04-04",
+                "CWE_ID": "CWE-184",
+                "CWE_DESCRIPTION": "Incomplete List of Disallowed Inputs"
+            }
+        ]
+    },
+    "braces:1.8.5": {
+        "name": "braces",
+        "version": "1.8.5",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-grv7-fg5c-xmjg",
+                "severity": "HIGH",
+                "description": "Uncontrolled resource consumption in braces",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-05-14",
+                "updated_at": "2024-07-05",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-g95f-p29q-9xw4",
+                "severity": "LOW",
+                "description": "Regular Expression Denial of Service in braces",
+                "links": [],
+                "cvss_score": 3.7,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2019-06-06",
+                "updated_at": "2023-01-09",
+                "CWE_ID": "CWE-185",
+                "CWE_DESCRIPTION": "Incorrect Regular Expression"
+            },
+            {
+                "id": "GHSA-cwfw-4gq5-mrqx",
+                "severity": "LOW",
+                "description": "Regular Expression Denial of Service (ReDoS) in braces",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-01-06",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "clean-css:4.1.7": {
+        "name": "clean-css",
+        "version": "4.1.7",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-wxhq-pm8v-cw75",
+                "severity": "LOW",
+                "description": "Regular Expression Denial of Service in clean-css",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2019-06-05",
+                "updated_at": "2023-04-11",
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "css-what:2.1.0": {
+        "name": "css-what",
+        "version": "2.1.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-p28h-cc7q-c4fg",
+                "severity": "HIGH",
+                "description": "css-what vulnerable to ReDoS due to use of insecure regular expression",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-10-01",
+                "updated_at": "2023-11-29",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "debug:2.6.8": {
+        "name": "debug",
+        "version": "2.6.8",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-9vvw-cc9w-f27h",
+                "severity": "HIGH",
+                "description": "debug Inefficient Regular Expression Complexity vulnerability",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2023-01-09",
+                "updated_at": "2023-10-24",
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            },
+            {
+                "id": "GHSA-gxpj-cx7g-858c",
+                "severity": "LOW",
+                "description": "Regular Expression Denial of Service in debug",
+                "links": [],
+                "cvss_score": 3.7,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2018-08-09",
+                "updated_at": "2024-03-25",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "eventsource:0.1.6": {
+        "name": "eventsource",
+        "version": "0.1.6",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-6h5x-7c5m-7cr7",
+                "severity": "CRITICAL",
+                "description": "Exposure of Sensitive Information in eventsource",
+                "links": [],
+                "cvss_score": 9.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N",
+                "published_at": "2022-05-13",
+                "updated_at": "2023-11-28",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            }
+        ]
+    },
+    "express:4.15.3": {
+        "name": "express",
+        "version": "4.15.3",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-rv95-896h-c2vc",
+                "severity": "MODERATE",
+                "description": "Express.js Open Redirect in malformed URLs",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2024-03-25",
+                "updated_at": "2024-03-27",
+                "CWE_ID": "CWE-601",
+                "CWE_DESCRIPTION": "URL Redirection to Untrusted Site ('Open Redirect')"
+            }
+        ]
+    },
+    "forwarded:0.1.0": {
+        "name": "forwarded",
+        "version": "0.1.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-mpcf-4gmh-23w8",
+                "severity": "HIGH",
+                "description": "Regular Expression Denial of Service in forwarded",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2018-07-24",
+                "updated_at": "2023-09-11",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "fresh:0.5.0": {
+        "name": "fresh",
+        "version": "0.5.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-9qj9-36jm-prpv",
+                "severity": "HIGH",
+                "description": "Regular Expression Denial of Service in fresh",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2018-07-24",
+                "updated_at": "2023-09-08",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "html-minifier:3.5.2": {
+        "name": "html-minifier",
+        "version": "3.5.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-pfq8-rq6v-vf5m",
+                "severity": "HIGH",
+                "description": "kangax html-minifier REDoS vulnerability",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-10-31",
+                "updated_at": "2024-04-22",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "http-proxy:1.16.2": {
+        "name": "http-proxy",
+        "version": "1.16.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-6x33-pw7p-hmpq",
+                "severity": "HIGH",
+                "description": "Denial of Service in http-proxy",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2020-09-04",
+                "updated_at": "2024-01-29",
+                "CWE_ID": "CWE-184",
+                "CWE_DESCRIPTION": "Incomplete List of Disallowed Inputs"
+            }
+        ]
+    },
+    "json5:0.5.1": {
+        "name": "json5",
+        "version": "0.5.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-9c47-m6qq-7p4h",
+                "severity": "HIGH",
+                "description": "Prototype Pollution in JSON5 via Parse Method",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:L/A:H",
+                "published_at": "2022-12-29",
+                "updated_at": "2024-02-22",
+                "CWE_ID": "CWE-1321",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')"
+            }
+        ]
+    },
+    "loader-utils:0.2.17": {
+        "name": "loader-utils",
+        "version": "0.2.17",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-76p3-8jx3-jpfq",
+                "severity": "CRITICAL",
+                "description": "Prototype pollution in webpack loader-utils",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-10-13",
+                "updated_at": "2023-09-21",
+                "CWE_ID": "CWE-1321",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')"
+            }
+        ]
+    },
+    "lodash:4.17.4": {
+        "name": "lodash",
+        "version": "4.17.4",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-jf85-cpcp-j695",
+                "severity": "CRITICAL",
+                "description": "Prototype Pollution in lodash",
+                "links": [],
+                "cvss_score": 9.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H",
+                "published_at": "2019-07-10",
+                "updated_at": "2024-04-22",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            },
+            {
+                "id": "GHSA-p6mc-m468-83gw",
+                "severity": "HIGH",
+                "description": "Prototype Pollution in lodash",
+                "links": [],
+                "cvss_score": 7.4,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H",
+                "published_at": "2020-07-15",
+                "updated_at": "2024-01-26",
+                "CWE_ID": "CWE-770",
+                "CWE_DESCRIPTION": "Allocation of Resources Without Limits or Throttling"
+            },
+            {
+                "id": "GHSA-4xc9-xhrj-v574",
+                "severity": "HIGH",
+                "description": "Prototype Pollution in lodash",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2019-02-07",
+                "updated_at": "2023-11-01",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-35jh-r3h4-6jhm",
+                "severity": "HIGH",
+                "description": "Command Injection in lodash",
+                "links": [],
+                "cvss_score": 7.2,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-05-06",
+                "updated_at": "2024-04-17",
+                "CWE_ID": "CWE-77",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements used in a Command ('Command Injection')"
+            },
+            {
+                "id": "GHSA-x5rq-j2xg-h7qm",
+                "severity": "MODERATE",
+                "description": "Regular Expression Denial of Service (ReDoS) in lodash",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2019-07-19",
+                "updated_at": "2023-01-09",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-fvqr-27wr-82fm",
+                "severity": "MODERATE",
+                "description": "Prototype Pollution in lodash",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2018-07-26",
+                "updated_at": "2024-04-22",
+                "CWE_ID": "CWE-471",
+                "CWE_DESCRIPTION": "Modification of Assumed-Immutable Data (MAID)"
+            },
+            {
+                "id": "GHSA-29mw-wpgm-hmr9",
+                "severity": "MODERATE",
+                "description": "Regular Expression Denial of Service (ReDoS) in lodash",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2022-01-06",
+                "updated_at": "2023-11-01",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "lodash.merge:4.6.0": {
+        "name": "lodash.merge",
+        "version": "4.6.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-h726-x36v-rx45",
+                "severity": "HIGH",
+                "description": "Prototype Pollution in lodash.merge",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2020-09-03",
+                "updated_at": "2023-01-09",
+                "CWE_ID": "CWE-1321",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')"
+            },
+            {
+                "id": "GHSA-2m96-9w4j-wgv7",
+                "severity": "HIGH",
+                "description": "Prototype Pollution in lodash.merge",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2020-09-03",
+                "updated_at": "2023-01-09",
+                "CWE_ID": "CWE-1321",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')"
+            }
+        ]
+    },
+    "mime:1.3.4": {
+        "name": "mime",
+        "version": "1.3.4",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-wrvr-8mpx-r7pp",
+                "severity": "HIGH",
+                "description": "mime Regular Expression Denial of Service when MIME lookup performed on untrusted user input",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2018-07-20",
+                "updated_at": "2023-09-12",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "minimatch:3.0.4": {
+        "name": "minimatch",
+        "version": "3.0.4",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-f8q6-p94x-37v3",
+                "severity": "HIGH",
+                "description": "minimatch ReDoS vulnerability",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-10-18",
+                "updated_at": "2024-02-14",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "minimist:0.0.8": {
+        "name": "minimist",
+        "version": "0.0.8",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-xvch-5gv4-984h",
+                "severity": "CRITICAL",
+                "description": "Prototype Pollution in minimist",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-03-18",
+                "updated_at": "2024-06-21",
+                "CWE_ID": "CWE-1321",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')"
+            },
+            {
+                "id": "GHSA-vh95-rmgr-6w4m",
+                "severity": "MODERATE",
+                "description": "Prototype Pollution in minimist",
+                "links": [],
+                "cvss_score": 5.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+                "published_at": "2020-04-03",
+                "updated_at": "2024-02-13",
+                "CWE_ID": "CWE-1321",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')"
+            }
+        ]
+    },
+    "no-case:2.3.1": {
+        "name": "no-case",
+        "version": "2.3.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-ff6r-5jwm-8292",
+                "severity": "HIGH",
+                "description": "Regular Expression Denial of Service in no-case",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2018-07-24",
+                "updated_at": "2023-09-11",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "node-fetch:1.7.1": {
+        "name": "node-fetch",
+        "version": "1.7.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-r683-j2x4-v87g",
+                "severity": "HIGH",
+                "description": "node-fetch forwards secure headers to untrusted sites",
+                "links": [],
+                "cvss_score": 8.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-01-21",
+                "updated_at": "2023-11-29",
+                "CWE_ID": "CWE-173",
+                "CWE_DESCRIPTION": "Improper Handling of Alternate Encoding"
+            }
+        ]
+    },
+    "nth-check:1.0.1": {
+        "name": "nth-check",
+        "version": "1.0.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-rp65-9cf3-cjxr",
+                "severity": "HIGH",
+                "description": "Inefficient Regular Expression Complexity in nth-check",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-09-20",
+                "updated_at": "2023-11-29",
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "Inefficient Regular Expression Complexity"
+            }
+        ]
+    },
+    "open:0.0.5": {
+        "name": "open",
+        "version": "0.0.5",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-28xh-wpgr-7fm8",
+                "severity": "CRITICAL",
+                "description": "Command Injection in open",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2019-06-20",
+                "updated_at": "2023-01-09",
+                "CWE_ID": "CWE-77",
+                "CWE_DESCRIPTION": "Improper Neutralization of Special Elements used in a Command ('Command Injection')"
+            }
+        ]
+    },
+    "qs:6.4.0": {
+        "name": "qs",
+        "version": "6.4.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-hrpp-h998-j3pp",
+                "severity": "HIGH",
+                "description": "qs vulnerable to Prototype Pollution",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-11-27",
+                "updated_at": "2024-02-13",
+                "CWE_ID": "CWE-1321",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')"
+            }
+        ]
+    },
+    "querystringify:0.0.4": {
+        "name": "querystringify",
+        "version": "0.0.4",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-hxcm-v35h-mg2x",
+                "severity": "HIGH",
+                "description": "Prototype Pollution in querystringify",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2019-06-07",
+                "updated_at": "2023-11-29",
+                "CWE_ID": "CWE-1321",
+                "CWE_DESCRIPTION": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution')"
+            }
+        ]
+    },
+    "randomatic:1.1.7": {
+        "name": "randomatic",
+        "version": "1.1.7",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-6g33-f262-xjp4",
+                "severity": "MODERATE",
+                "description": "Cryptographically Weak PRNG in randomatic",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+                "published_at": "2018-10-09",
+                "updated_at": "2023-09-08",
+                "CWE_ID": "CWE-330",
+                "CWE_DESCRIPTION": "Use of Insufficiently Random Values"
+            }
+        ]
+    },
+    "sockjs:0.3.18": {
+        "name": "sockjs",
+        "version": "0.3.18",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c9g6-9335-x697",
+                "severity": "MODERATE",
+                "description": "Improper Input Validation in SocksJS-Node",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2021-04-13",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            }
+        ]
+    },
+    "ua-parser-js:0.7.13": {
+        "name": "ua-parser-js",
+        "version": "0.7.13",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-fhg7-m89q-25r3",
+                "severity": "HIGH",
+                "description": "ReDoS Vulnerability in ua-parser-js version",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2023-01-24",
+                "updated_at": "2023-06-21",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-662x-fhqg-9p8v",
+                "severity": "HIGH",
+                "description": "Regular Expression Denial of Service in ua-parser-js",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-05-07",
+                "updated_at": "2023-01-31",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-394c-5j6w-4xmx",
+                "severity": "HIGH",
+                "description": "ua-parser-js Regular Expression Denial of Service vulnerability",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-02-09",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "url-parse:1.1.9": {
+        "name": "url-parse",
+        "version": "1.1.9",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-pv4c-p2j5-38j4",
+                "severity": "CRITICAL",
+                "description": "Open Redirect in url-parse",
+                "links": [],
+                "cvss_score": 10.0,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2018-08-13",
+                "updated_at": "2023-09-11",
+                "CWE_ID": "CWE-425",
+                "CWE_DESCRIPTION": "Direct Request ('Forced Browsing')"
+            },
+            {
+                "id": "GHSA-hgjh-723h-mx2j",
+                "severity": "CRITICAL",
+                "description": "Authorization Bypass Through User-Controlled Key in url-parse",
+                "links": [],
+                "cvss_score": 9.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+                "published_at": "2022-02-21",
+                "updated_at": "2023-11-29",
+                "CWE_ID": "CWE-639",
+                "CWE_DESCRIPTION": "Authorization Bypass Through User-Controlled Key"
+            },
+            {
+                "id": "GHSA-rqff-837h-mm52",
+                "severity": "MODERATE",
+                "description": "Authorization bypass in url-parse",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2022-02-15",
+                "updated_at": "2023-02-23",
+                "CWE_ID": "CWE-639",
+                "CWE_DESCRIPTION": "Authorization Bypass Through User-Controlled Key"
+            },
+            {
+                "id": "GHSA-jf5r-8hm2-f872",
+                "severity": "MODERATE",
+                "description": "url-parse incorrectly parses hostname / protocol due to unstripped leading control characters.",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+                "published_at": "2022-02-22",
+                "updated_at": "2023-09-11",
+                "CWE_ID": "CWE-639",
+                "CWE_DESCRIPTION": "Authorization Bypass Through User-Controlled Key"
+            },
+            {
+                "id": "GHSA-hh27-ffr2-f2jc",
+                "severity": "MODERATE",
+                "description": "Open redirect in url-parse",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2021-08-10",
+                "updated_at": "2023-02-23",
+                "CWE_ID": "CWE-601",
+                "CWE_DESCRIPTION": "URL Redirection to Untrusted Site ('Open Redirect')"
+            },
+            {
+                "id": "GHSA-9m6j-fcg5-2442",
+                "severity": "MODERATE",
+                "description": "Path traversal in url-parse",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2021-05-06",
+                "updated_at": "2023-02-23",
+                "CWE_ID": "CWE-23",
+                "CWE_DESCRIPTION": "Relative Path Traversal"
+            },
+            {
+                "id": "GHSA-8v38-pw62-9cw2",
+                "severity": "MODERATE",
+                "description": "url-parse Incorrectly parses URLs that include an '@'",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+                "published_at": "2022-02-18",
+                "updated_at": "2023-09-11",
+                "CWE_ID": "CWE-639",
+                "CWE_DESCRIPTION": "Authorization Bypass Through User-Controlled Key"
+            },
+            {
+                "id": "GHSA-46c4-8wrp-j99v",
+                "severity": "MODERATE",
+                "description": "Improper Validation and Sanitization in url-parse",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2022-01-06",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            }
+        ]
+    },
+    "webpack-dev-middleware:1.11.0": {
+        "name": "webpack-dev-middleware",
+        "version": "1.11.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-wr3j-pwj9-hqq6",
+                "severity": "HIGH",
+                "description": "Path traversal in webpack-dev-middleware",
+                "links": [],
+                "cvss_score": 7.4,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:N/A:N",
+                "published_at": "2024-03-21",
+                "updated_at": "2024-03-21",
+                "CWE_ID": "CWE-22",
+                "CWE_DESCRIPTION": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')"
+            }
+        ]
+    },
+    "webpack-dev-server:1.16.5": {
+        "name": "webpack-dev-server",
+        "version": "1.16.5",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-cf66-xwfp-gvc4",
+                "severity": "HIGH",
+                "description": "Missing Origin Validation in webpack-dev-server",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2019-01-04",
+                "updated_at": "2023-01-09",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "Improper Input Validation"
+            }
+        ]
+    },
+    "websocket-extensions:0.1.1": {
+        "name": "websocket-extensions",
+        "version": "0.1.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-g78m-2chm-r7qv",
+                "severity": "HIGH",
+                "description": "Regular Expression Denial of Service in websocket-extensions (NPM package)",
+                "links": [],
+                "cvss_score": 8.2,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H",
+                "published_at": "2020-06-05",
+                "updated_at": "2023-01-09",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    }
+}

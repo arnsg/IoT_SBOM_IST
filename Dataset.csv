@@ -1,0 +1,159 @@
+FileName,Category,Link,Num_Components_Source,Num_Components_Exe,Num_Vulnerabilities_Source,Num_Vulnerabilities_Exe,Source_Vulnerabilities_Low,Source_Vulnerabilities_Moderate,Source_Vulnerabilities_High,Source_Vulnerabilities_Critical,EXE_Vulnerabilities_Low,EXE_Vulnerabilities_Moderate,EXE_Vulnerabilities_High,EXE_Vulnerabilities_Critical,Num_Vulnerabilities_Source_NO_CVSS,Num_Vulnerabilities_Source_SI_CVSS,Num_Vulnerabilities_EXE_NO_CVSS,Num_Vulnerabilities_EXE_SI_CVSS,Num_Vulnerabilities_Source_PRE2020,Num_Vulnerabilities_Source_POST2020,Num_Vulnerabilities_EXE_PRE2020,Num_Vulnerabilities_EXE_POST2020,Num_set_comp_Unique_source,Num_set_comp_Unique_exe,Num_set_comp_Inter,Num_set_vul_Unique_source,Num_set_vul_Unique_exe,Num_set_vul_Inter,Num_list_comp_Unique_source,Num_list_comp_Unique_exe,Num_list_comp_Inter,Num_list_vul_Unique_source,Num_list_vul_Unique_exe,Num_list_vul_Inter,sonar_high,sonar_medium,sonar_low,sonar_total
+fabric,CPS,https://github.com/hyperledger/fabric,191,162,1,1,0,1,0,0,0,1,0,0,0,1,0,1,0,1,0,1,30,1,161,0,0,1,30,1,161,0,0,1,4,0,0.0,4
+fawkes,CPS,https://github.com/fawkesrobotics/fawkes,1288,1195,33,32,4,14,14,1,4,13,14,1,7,26,7,25,0,33,0,32,93,0,1195,1,0,24,93,0,1195,1,0,32,0,0,0.0,0
+gz-sim,CPS,https://github.com/gazebosim/gz-sim,7,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,7,0,0,0,0,7,7,0,0,0,0,0,0.0,0
+jmri,CPS,https://github.com/JMRI/JMRI,645,570,175,167,12,55,93,15,12,48,92,15,5,170,5,162,15,160,15,152,75,0,570,8,0,146,75,0,570,8,0,167,3,0,0.0,3
+konnected,CPS,https://github.com/konnected-io/konnected-security,108,71,26,24,0,3,12,11,0,3,11,10,3,23,3,21,16,10,15,9,70,33,38,2,0,24,70,33,38,2,0,24,0,0,0.0,0
+moveit,CPS,https://github.com/ros-planning/moveit,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,20,0,0,0,1,0,1.0,2
+mrpt,CPS,https://github.com/MRPT/mrpt,37,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,37,0,0,0,0,0,37,0,0,0,0,0,0.0,0
+OpenCV,CPS,https://github.com/opencv/opencv,38,27,2,0,0,2,0,0,0,0,0,0,0,2,0,0,0,2,0,0,12,1,26,1,0,0,12,1,26,2,0,0,0,0,0.0,0
+openDDS,CPS,https://github.com/objectcomputing/OpenDDS,74,62,5,3,0,2,2,1,0,0,2,1,0,5,0,3,1,4,1,2,19,7,55,2,0,3,19,7,55,2,0,3,0,0,0.0,0
+openFisma,CPS,https://github.com/openfisma/openfisma,35,15,15,3,1,7,6,1,0,3,0,0,4,11,0,3,3,12,0,3,20,0,15,12,0,3,20,0,15,12,0,3,0,0,0.0,0
+OpenPLC,CPS,https://github.com/thiagoralves/OpenPLC_v3,13,31,3,3,0,0,1,0,0,0,1,0,3,0,3,0,0,0,0,0,0,18,13,0,0,2,0,18,13,0,0,3,0,0,0.0,0
+OpenThread,CPS,https://github.com/openthread/openthread,128,104,13,13,1,10,2,0,1,10,2,0,1,12,1,12,0,13,0,13,24,0,104,0,0,13,24,0,104,0,0,13,1,0,0.0,1
+osate,CPS,https://github.com/osate/osate2,115,91,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31,7,84,0,0,0,31,7,84,0,0,0,0,0,0.0,0
+plc4x,CPS,https://github.com/apache/plc4x,664,415,60,16,1,22,23,14,1,7,6,2,8,52,3,13,0,0,0,0,299,50,365,40,0,14,299,50,365,44,0,16,0,0,0.0,0
+PX4Autopilot,CPS,https://github.com/PX4/PX4-Autopilot,53,51,1,1,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,26,24,27,0,0,1,26,24,27,0,0,1,0,0,0.0,0
+yarp,CPS,https://github.com/robotology/yarp,1163,1088,80,81,1,30,36,13,1,37,31,12,2,78,2,79,6,74,6,75,119,44,1044,5,5,55,119,44,1044,8,9,72,12,0,0.0,12
+chronograf,Data analytics,https://github.com/influxdata/chronograf,1578,1069,14,9,0,8,5,1,0,6,3,0,1,13,0,9,0,14,0,9,515,6,1063,4,0,8,515,6,1063,5,0,9,0,0,0.0,0
+druid,Data analytics,https://github.com/apache/druid,4169,3532,125,103,5,45,52,23,5,31,47,20,14,111,11,92,22,103,22,81,637,0,3532,14,0,98,637,0,3532,22,0,103,0,0,0.0,0
+Grafana,Data analytics,https://github.com/grafana/grafana,3909,3476,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,433,0,3476,0,0,0,433,0,3476,0,0,0,0,0,0.0,0
+graphite,Data analytics,https://github.com/graphite-project/graphite-web,14,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,3,6,0,0,0,8,3,6,0,0,0,4,0,0.0,4
+influxdb,Data analytics,https://github.com/influxdata/influxdb,555,443,2,2,0,2,0,0,0,2,0,0,0,2,0,2,0,2,0,2,119,7,436,0,0,2,119,7,436,0,0,2,0,0,1.0,1
+IoTDB,Data analytics,https://github.com/apache/iotdb,354,175,66,46,5,19,27,15,4,8,20,14,6,60,2,44,21,45,18,28,179,0,175,20,0,44,179,0,175,20,0,46,0,0,0.0,0
+kapua,Data analytics,https://github.com/eclipse/kapua,1700,1448,120,108,3,33,52,32,2,30,48,28,17,103,15,93,37,83,37,71,252,0,1448,10,0,106,252,0,1448,12,0,108,4,0,0.0,4
+Keptn,Data analytics,https://github.com/keptn/keptn,3901,3278,62,52,3,30,19,10,3,28,16,5,9,53,9,43,0,62,0,52,623,0,3278,4,0,33,623,0,3278,10,0,52,0,23,0.0,23
+Kibana,Data analytics,https://github.com/elastic/kibana,4925,4607,11,11,0,2,8,1,0,2,8,1,4,7,4,7,0,11,0,11,326,8,4599,0,0,10,326,8,4599,0,0,11,0,0,0.0,0
+kuzzle,Data analytics,https://github.com/kuzzleio/kuzzle,1615,1215,16,13,5,7,4,0,5,5,3,0,3,13,3,10,0,16,0,13,400,0,1215,3,0,12,400,0,1215,3,0,13,0,0,0.0,0
+moira,Data analytics,https://github.com/moira-alert/moira,224,115,3,2,1,2,0,0,0,2,0,0,3,0,2,0,0,3,0,2,113,4,111,1,0,2,113,4,111,1,0,2,0,0,0.0,0
+Monasca,Data analytics,https://github.com/openstack/monasca-api,30,11,8,6,1,5,2,0,1,3,2,0,0,8,0,6,0,8,0,6,21,2,9,2,0,6,21,2,9,2,0,6,1,0,0.0,1
+MQTT Explorer,Data analytics,https://github.com/thomasnordquist/MQTT-Explorer,1782,1359,8,10,0,1,7,0,1,2,7,0,1,7,1,9,0,8,0,10,427,4,1355,0,2,6,427,4,1355,0,2,8,0,0,0.0,0
+Nifi,Data analytics,https://github.com/apache/nifi,6656,5356,178,70,9,66,68,35,2,35,23,10,22,156,10,60,39,139,6,64,1300,0,5356,106,0,63,1300,0,5356,108,0,70,0,0,0.0,0
+Pachyderm,Data analytics,https://github.com/pachyderm/pachyderm,5477,4871,51,49,3,35,12,1,3,33,12,1,4,47,4,45,0,51,0,49,606,0,4871,2,0,39,606,0,4871,2,0,49,2,39,3.0,44
+telegraf,Data analytics,https://github.com/influxdata/telegraf,526,376,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,156,6,370,0,0,0,156,6,370,0,0,0,12,0,0.0,12
+Teslamate,Data analytics,https://github.com/adriankumpf/teslamate,1285,1158,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,127,0,1158,0,0,0,127,0,1158,0,0,0,0,0,0.0,0
+tyk,Data analytics,https://github.com/TykTechnologies/tyk,257,142,2,2,1,1,0,0,1,1,0,0,1,1,1,1,0,2,0,2,115,0,142,0,0,2,115,0,142,0,0,2,1,0,0.0,1
+calliope,Energy management,https://github.com/calliope-project/calliope,11,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,4,5,0,0,0,6,4,5,0,0,0,0,0,0.0,0
+Eemeter,Energy management,https://github.com/openeemeter/eemeter,31,17,2,1,0,2,0,0,0,1,0,0,0,2,0,1,0,2,0,1,14,0,17,1,0,1,14,0,17,1,0,1,0,0,0.0,0
+EnergyPlus,Energy management,https://github.com/NREL/EnergyPlus,84,62,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27,5,57,0,0,0,27,5,57,0,0,0,0,0,0.0,0
+Fledge,Energy management,https://github.com/fledge-iot/fledge,25,7,14,9,0,12,2,0,0,7,2,0,1,13,1,8,0,14,0,9,18,0,7,5,0,9,18,0,7,5,0,9,18,0,0.0,18
+GridCal,Energy management,https://github.com/SanPen/GridCal,83,56,1,1,0,0,1,0,0,0,1,0,0,1,0,1,0,1,0,1,27,0,56,0,0,1,27,0,56,0,0,1,1,0,0.0,1
+GridLab,Energy management,https://github.com/gridlab-d/gridlab-d,8,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,2,3,0,0,0,5,2,3,0,0,0,1,0,0.0,1
+gridstudy,Energy management,https://github.com/gridsuite/gridstudy-app,1385,1290,2,2,0,1,1,0,0,1,1,0,0,2,0,2,0,2,0,2,100,5,1285,0,0,2,100,5,1285,0,0,2,0,0,0.0,0
+HELICS,Energy management,https://github.com/GMLC-TDC/HELICS,36,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30,8,6,0,0,0,30,8,6,0,0,0,0,0,0.0,0
+OCPP,Energy management,https://github.com/ChargeTimeEU/Java-OCA-OCPP,86,59,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27,0,59,0,0,0,27,0,59,0,0,0,0,0,0.0,0
+OpenEMS,Energy management,https://github.com/OpenEMS/openems,1700,1403,4,4,0,4,0,0,0,4,0,0,0,4,0,4,0,4,0,4,297,0,1403,0,0,4,297,0,1403,0,0,4,0,0,0.0,0
+OpenPDC,Energy management,https://github.com/GridProtectionAlliance/openPDC,242,88,7,5,1,4,1,1,1,3,1,0,1,6,1,4,0,7,0,5,154,0,88,1,0,5,154,0,88,2,0,5,0,0,0.0,0
+powerapi,Energy management,https://github.com/powerapi-ng/powerapi,18,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,3,13,0,0,0,5,3,13,0,0,0,0,0,0.0,0
+PowerSimulations,Energy management,https://github.com/NREL-Sienna/PowerSimulations.jl,22,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,2,16,0,0,0,6,2,16,0,0,0,0,0,0.0,0
+REopt,Energy management,https://github.com/NREL/REopt_API,137,45,33,2,4,13,12,4,0,1,0,1,4,29,0,2,0,33,0,2,98,6,39,31,0,2,98,6,39,31,0,2,1,0,0.0,1
+volttron,Energy management,https://github.com/VOLTTRON/volttron,100,68,20,18,3,11,5,1,3,9,5,1,4,16,4,14,0,20,0,18,32,0,68,2,0,17,32,0,68,2,0,18,11,0,0.0,11
+CancerGenomics,Healthcare IoT,https://github.com/cBioPortal/cbioportal,83,78,18,17,0,5,7,6,0,5,7,5,3,15,3,14,2,16,2,15,35,30,48,1,0,15,35,30,48,1,0,17,6,2,0.0,8
+connect,Healthcare IoT,https://github.com/nextgenhealthcare/connect,424,324,12,4,1,7,3,1,0,2,1,1,1,11,0,4,0,12,0,4,100,0,324,8,0,4,100,0,324,8,0,4,0,0,0.0,0
+CouchDB,Healthcare IoT,https://github.com/apache/couchdb,9,9,2,2,0,2,0,0,0,2,0,0,0,2,0,2,0,2,0,2,0,0,9,0,0,2,0,0,9,0,0,2,0,0,0.0,0
+fhir-server,Healthcare IoT,https://github.com/microsoft/fhir-server,9,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,7,0,0,0,2,0,7,0,0,0,0,2,0.0,2
+freemed,Healthcare IoT,https://github.com/freehealth/freehealth,32,27,3,0,0,1,2,0,0,0,0,0,2,1,0,0,0,3,0,0,10,5,22,3,0,0,10,5,22,3,0,0,0,0,0.0,0
+hapi-fhir,Healthcare IoT,https://github.com/hapifhir/hapi-fhir,1080,974,133,118,7,47,48,31,6,43,40,29,19,114,16,102,38,95,37,81,106,0,974,15,0,108,106,0,974,15,0,118,0,0,0.0,0
+lh-toolkit,Healthcare IoT,https://github.com/LibreHealthIO/lh-toolkit,88,68,92,78,1,29,47,15,1,27,39,11,11,81,8,70,15,77,11,67,27,7,61,14,0,77,27,7,61,14,0,78,0,0,0.0,0
+OpenClinica,Healthcare IoT,https://github.com/OpenClinica/OpenClinica,176,84,64,38,2,18,33,11,1,13,18,6,16,48,8,30,7,57,4,34,92,0,84,23,0,34,92,0,84,26,0,38,0,0,0.0,0
+openemr,Healthcare IoT,https://github.com/openemr/openemr,1645,1574,58,58,3,29,22,4,3,30,22,3,3,55,3,55,1,57,1,57,97,26,1548,1,1,52,97,26,1548,1,1,57,10,0,0.0,10
+OpenHIM,Healthcare IoT,https://github.com/jembi/openhim-core-js,44,13,77,16,2,14,37,24,1,5,8,2,3,74,1,15,23,54,2,14,31,0,13,61,0,16,31,0,13,61,0,16,0,0,0.0,0
+openmct,Healthcare IoT,https://github.com/nasa/openmct,1094,1111,2,2,0,0,2,0,0,0,2,0,0,2,0,2,0,2,0,2,0,17,1094,0,0,2,0,17,1094,0,0,2,1,0,0.0,1
+openmrs-core,Healthcare IoT,https://github.com/openmrs/openmrs-core,128,107,116,102,3,30,59,24,2,29,51,20,13,103,9,93,25,91,22,80,37,16,91,12,0,101,37,16,91,14,0,102,0,0,0.0,0
+OpenSpecimen,Healthcare IoT,https://github.com/krishagni/openspecimen,29,22,19,14,1,8,6,4,0,7,4,3,1,18,1,13,3,16,2,12,7,0,22,5,0,14,7,0,22,5,0,14,1,0,0.0,1
+Sana Mobile,Healthcare IoT,https://github.com/SanaMobile/sana.mobile,8,8,5,5,0,4,1,0,0,4,1,0,4,1,4,1,3,2,3,2,1,1,7,0,0,5,1,1,7,0,0,5,0,19,0.0,19
+Viewers,Healthcare IoT,https://github.com/OHIF/Viewers,2834,2785,5,5,0,3,2,0,0,3,2,0,2,3,2,3,0,5,0,5,76,27,2758,0,0,3,76,27,2758,0,0,5,16,0,0.0,16
+Vista,Healthcare IoT,https://github.com/OSEHRA/VistA,16,9,17,16,1,5,7,4,1,5,6,4,2,15,2,14,0,17,0,16,7,0,9,1,0,16,7,0,9,1,0,16,16,0,0.0,16
+Weasis,Healthcare IoT,https://github.com/nroduit/Weasis,134,125,26,9,0,4,11,11,0,4,3,2,0,26,0,9,10,16,0,9,33,24,101,18,1,6,33,24,101,18,1,8,0,0,0.0,0
+ChirpStack,Industrial IoT,https://github.com/chirpstack/chirpstack,118,48,14,8,1,8,5,0,0,5,3,0,2,12,1,7,0,14,0,8,70,0,48,6,0,7,70,0,48,6,0,8,5,0,0.0,5
+Crossbar,Industrial IoT,https://github.com/crossbario/crossbar,144,96,41,10,5,23,13,0,0,7,3,0,5,36,0,10,0,41,0,10,52,4,92,31,0,10,52,4,92,31,0,10,0,0,0.0,0
+Ditto,Industrial IoT,https://github.com/eclipse/ditto,1254,964,10,10,0,6,2,2,0,6,2,2,1,9,1,9,0,10,0,10,290,0,964,0,0,10,290,0,964,0,0,10,5,113,1.0,119
+FogFlow,Industrial IoT,https://github.com/smartfog/fogflow,28,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,4,9,0,0,0,19,4,9,0,0,0,5,123,0.0,128
+Foundry,Industrial IoT,https://github.com/foundry-rs/foundry,142,112,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34,4,108,0,0,0,34,4,108,0,0,0,1,0,0.0,1
+Gobot,Industrial IoT,https://github.com/hybridgroup/gobot,42,22,1,1,0,1,0,0,0,1,0,0,0,1,0,1,0,1,0,1,22,2,20,0,0,1,22,2,20,0,0,1,0,0,0.0,0
+Hono,Industrial IoT,https://github.com/eclipse/hono,553,338,42,34,1,11,18,12,0,7,17,10,1,41,1,33,10,32,10,24,215,0,338,8,0,34,215,0,338,8,0,34,0,0,0.0,0
+Ignition,Industrial IoT,https://github.com/coreos/ignition,2257,1748,66,58,3,23,32,8,3,21,28,6,6,60,6,52,0,66,0,58,509,0,1748,5,0,42,509,0,1748,8,0,58,4,0,0.0,4
+Keti,Industrial IoT,https://github.com/eclipse/keti,62,30,32,16,1,8,16,7,0,5,7,4,4,28,2,14,11,21,9,7,36,4,26,16,0,16,36,4,26,16,0,16,3,0,0.0,3
+MindSphere,Industrial IoT,https://github.com/mindsphere/mindconnect-nodejs,824,613,2,2,0,1,1,0,0,1,1,0,0,2,0,2,0,2,0,2,211,0,613,0,0,2,211,0,613,0,0,2,0,0,0.0,0
+nerves,Industrial IoT,https://github.com/nerves-project/nerves,23,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,3,9,0,0,0,14,3,9,0,0,0,0,0,0.0,0
+OPC Foundation,Industrial IoT,https://github.com/OPCFoundation/UA-.NETStandard,17,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,3,4,0,0,0,13,3,4,0,0,0,0,0,0.0,0
+OpcUa,Industrial IoT,https://github.com/node-opcua/node-opcua,585,387,3,0,0,0,3,0,0,0,0,0,0,3,0,0,0,3,0,0,198,0,387,3,0,0,198,0,387,3,0,0,0,0,0.0,0
+open62541,Industrial IoT,https://github.com/open62541/open62541,18,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,2,7,0,0,0,11,2,7,0,0,0,0,0,0.0,0
+Puppet,Industrial IoT,https://github.com/puppetlabs/puppet,16,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,4,6,0,0,0,10,4,6,0,0,0,4,0,0.0,4
+ScadaBR,Industrial IoT,https://github.com/ScadaBR/ScadaBR,160,62,60,48,2,22,23,13,2,15,21,10,20,40,15,33,14,46,13,35,98,0,62,8,0,35,98,0,62,12,0,48,0,0,0.0,0
+scylladb,Industrial IoT,https://github.com/scylladb/scylla,275,155,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,136,16,139,0,0,0,136,16,139,0,0,0,39,0,0.0,39
+Sensu,Industrial IoT,https://github.com/sensu/sensu-go,131,52,12,8,0,10,2,0,0,6,2,0,4,8,1,7,0,12,0,8,82,3,49,4,0,7,82,3,49,4,0,8,0,0,0.0,0
+contiki-ng,IoT,https://github.com/contiki-ng/contiki-ng,15,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0,15,0,0,0,0,0,0.0,0
+esphome,IoT,https://github.com/esphome/esphome,67,57,4,3,0,3,1,0,0,3,0,0,0,4,0,3,0,4,0,3,34,24,33,1,0,3,34,24,33,1,0,3,1,0,0.0,1
+home-assistant,IoT,https://github.com/home-assistant/core,1823,1235,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,688,100,1135,0,1,0,688,100,1135,0,1,0,19,0,,19
+kura,IoT,https://github.com/eclipse/kura,109,56,5,2,0,3,2,0,0,1,1,0,0,5,0,2,0,5,0,2,59,6,50,3,0,2,59,6,50,3,0,2,0,0,0.0,0
+MainFlux,IoT,https://github.com/mainflux/mainflux,287,263,18,19,0,15,3,0,0,16,3,0,6,12,6,13,0,18,0,19,35,11,252,0,1,18,35,11,252,0,1,18,0,0,0.0,0
+mbed-os,IoT,https://github.com/ARMmbed/mbed-os,37,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,37,0,0,0,0,0,37,0,0,0,0,0,0.0,0
+micropython,IoT,https://github.com/micropython/micropython,42,41,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,9,32,0,0,0,10,9,32,0,0,0,2,0,0.0,2
+myNewt,IoT,https://github.com/apache/mynewt-core,40,36,3,3,0,2,1,0,0,2,1,0,1,2,1,2,0,3,0,3,9,5,31,0,0,3,9,5,31,0,0,3,2,0,0.0,2
+nuttx,IoT,https://github.com/apache/nuttx,60,43,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,0,43,0,0,0,17,0,43,0,0,0,1,0,0.0,1
+openhab-core,IoT,https://github.com/openhab/openhab-addons,598,311,5,4,0,4,1,0,0,4,0,0,0,5,0,4,0,0,0,0,287,0,311,1,0,4,287,0,311,1,0,4,0,0,0.0,0
+openwrt,IoT,https://github.com/openwrt/openwrt,14,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,1,11,0,0,0,3,1,11,0,0,0,2,0,0.0,2
+RIOT,IoT,https://github.com/RIOT-OS/RIOT,461,393,7,11,0,1,5,1,0,9,2,0,1,6,1,10,0,7,0,11,100,32,361,5,5,2,100,32,361,5,9,2,0,0,0.0,0
+smarthome,IoT,https://github.com/eclipse/smarthome,22,17,37,37,0,12,23,2,0,12,23,2,0,37,0,37,0,0,0,0,5,0,17,0,0,37,5,0,17,0,0,37,0,0,0.0,0
+thingspeak,IoT,https://github.com/mathworks/thingspeak-arduino,143,140,118,114,9,51,49,9,8,50,47,9,26,92,25,89,38,80,36,78,23,20,120,5,1,113,23,20,120,5,1,113,0,0,0.0,0
+Trasmota,IoT,https://github.com/arendst/Tasmota,42,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,42,0,0,0,0,0,42,0,0,0,0,0,0.0,0
+zephyr,IoT,https://github.com/zephyrproject-rtos/zephyr,84,62,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,1,61,0,0,0,23,1,61,0,0,0,0,0,0.0,0
+zigbee2mqtt,IoT,https://github.com/Koenkk/zigbee2mqtt,661,715,0,4,0,0,0,0,0,4,0,0,0,0,0,4,0,0,0,0,46,100,615,0,4,0,46,100,615,0,4,0,0,0,0.0,0
+AmazeFileManager,Mobile,https://github.com/TeamAmaze/AmazeFileManager,22,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,0,9,0,0,0,13,0,9,0,0,0,4,8,0.0,12
+AnySoftKeyboard,Mobile,https://github.com/AnySoftKeyboard/AnySoftKeyboard,453,305,5,8,2,2,1,0,0,5,3,0,0,5,1,7,0,5,0,8,162,14,291,2,5,3,162,14,291,2,5,3,8,0,0.0,8
+Bitwarden,Mobile,https://github.com/bitwarden/mobile,104,32,4,2,0,1,2,1,0,1,1,0,0,4,0,2,0,4,0,2,72,0,32,2,0,2,72,0,32,2,0,2,0,0,0.0,0
+DuckDuckGo,Mobile,https://github.com/duckduckgo/duckduckgo-privacy-extension,248,211,2,2,0,2,0,0,0,2,0,0,0,2,0,2,0,2,0,2,37,0,211,0,0,2,37,0,211,0,0,2,0,0,0.0,0
+F-Droid,Mobile,https://github.com/f-droid/fdroidclient,24,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12,0,12,0,0,0,12,0,12,0,0,0,0,3,0.0,3
+Jitsi Meet,Mobile,https://github.com/jitsi/jitsi-meet,1566,1399,7,6,0,1,6,0,0,0,6,0,0,7,0,6,0,7,0,6,167,0,1399,1,0,2,167,0,1399,1,0,6,0,1,0.0,1
+joplin,Mobile,https://github.com/laurent22/joplin,16117,15517,259,252,13,114,113,19,10,114,109,19,21,238,15,237,3,256,3,249,600,0,15517,3,0,157,600,0,15517,7,0,252,0,0,0.0,0
+Mattermost,Mobile,https://github.com/mattermost/mattermost,2734,2439,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,295,0,2439,0,0,0,295,0,2439,0,0,0,0,0,0.0,0
+NextCloud,Mobile,https://github.com/nextcloud/android,135,41,1,1,0,1,0,0,0,1,0,0,0,1,0,1,0,1,0,1,100,6,35,0,0,1,100,6,35,0,0,1,0,11,0.0,11
+OSMand,Mobile,https://github.com/osmandapp/Osmand,16,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,3,8,0,0,0,8,3,8,0,0,0,0,9,0.0,9
+React,Mobile,https://github.com/facebook/react,1521,1330,14,14,3,8,2,1,3,8,2,1,0,14,0,14,0,14,0,14,200,9,1321,0,0,13,200,9,1321,0,0,14,0,0,0.0,0
+Rocket.chat,Mobile,https://github.com/RocketChat/Rocket.Chat,2355,2048,22,21,1,8,12,1,1,8,12,0,0,22,0,21,2,20,2,19,316,9,2039,1,0,13,316,9,2039,1,0,21,0,0,0.0,0
+Signal,Mobile,https://github.com/signalapp/Signal-Android,15,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,10,0,0,0,5,0,10,0,0,0,0,13,0.0,13
+Tutanota,Mobile,https://github.com/tutao/tutanota,1017,828,7,6,1,4,2,0,1,4,1,0,1,6,1,5,0,7,0,6,208,19,809,1,0,6,208,19,809,1,0,6,0,0,0.0,0
+Wire,Mobile,https://github.com/wireapp/wire-android,74,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,39,0,35,0,0,0,39,0,35,0,0,0,0,5,0.0,5
+Zulip,Mobile,https://github.com/zulip/zulip-mobile,1828,1597,14,14,0,5,9,0,0,5,9,0,1,13,1,13,0,14,0,14,231,0,1597,0,0,12,231,0,1597,0,0,14,0,0,0.0,0
+DeviceHive,Smart cities,https://github.com/devicehive/devicehive-java-server,83,67,19,9,1,6,7,5,1,2,3,3,4,15,1,8,3,16,0,9,34,18,49,9,1,8,34,18,49,11,1,8,0,0,0.0,0
+Edgex,Smart cities,https://github.com/edgexfoundry/edgex-go,138,119,1,1,0,1,0,0,0,1,0,0,0,1,0,1,0,1,0,1,26,7,112,0,0,1,26,7,112,0,0,1,0,0,0.0,0
+IOTA,Smart cities,https://github.com/iotaledger/iota-wiki,30,16,74,20,1,19,49,5,0,7,12,1,0,74,0,20,1,73,0,20,20,6,10,54,0,20,20,6,10,54,0,20,0,0,0.0,0
+lorawan,Smart cities,https://github.com/brocaar/chirpstack-network-server,2381,1981,6,6,1,3,2,0,1,3,2,0,3,3,3,3,0,6,0,6,400,0,1981,0,0,6,400,0,1981,0,0,6,4,0,0.0,4
+mycroft,Smart cities,https://github.com/MycroftAI/mycroft-core,25,15,11,11,1,3,5,2,1,3,5,2,2,9,2,9,0,11,0,11,10,0,15,0,0,11,10,0,15,0,0,11,5,0,0.0,5
+openaq,Smart cities,https://github.com/jsynowiec/airqmon,643,492,59,52,1,19,27,12,0,18,24,10,8,51,7,45,7,52,7,45,151,0,492,7,0,52,151,0,492,7,0,52,0,0,0.0,0
+OpenDataCam,Smart cities,https://github.com/opendatacam/opendatacam,1093,800,38,24,4,18,13,3,3,14,6,1,4,34,3,21,1,37,1,23,293,0,800,14,0,18,293,0,800,14,0,24,0,24,0.0,24
+OpenIOT,Smart cities,https://github.com/OpenIotOrg/openiot,306,275,128,115,3,54,55,16,2,49,49,15,29,99,23,92,14,114,11,104,46,15,260,13,0,95,46,15,260,13,0,115,0,0,0.0,0
+OpenRemote,Smart cities,https://github.com/openremote/openremote,994,782,11,11,1,5,4,1,1,5,4,1,2,9,2,9,0,11,0,11,212,0,782,0,0,11,212,0,782,0,0,11,0,0,0.0,0
+OpenStreetMap (OSM),Smart cities,https://github.com/openstreetmap/openstreetmap-website,13,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,4,0,0,0,9,0,4,0,0,0,0,0,0.0,0
+Particle,Smart cities,https://github.com/particle-iot/particle-iot.github.io,139,75,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,75,11,64,1,0,0,75,11,64,1,0,0,0,0,0.0,0
+RHIOT,Smart cities,https://github.com/rhiot/rhiot,507,429,116,108,1,21,54,40,1,18,50,39,11,105,7,101,47,69,41,67,100,22,407,8,0,90,100,22,407,8,0,108,0,0,0.0,0
+sentilo,Smart cities,https://github.com/sentilo/sentilo,98,81,70,67,2,22,29,17,2,21,28,16,9,61,9,58,23,47,23,44,33,16,65,2,0,64,33,16,65,3,0,67,0,0,0.0,0
+SUMO,Smart cities,https://github.com/eclipse/sumo,55,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,29,0,26,0,0,0,29,0,26,0,0,0,0,0,0.0,0
+Traffic Management,Smart cities,https://github.com/codefeeder/Smart-Traffic-Management-System,363,295,3,2,1,1,1,0,1,1,0,0,1,2,1,1,0,3,0,2,68,0,295,1,0,2,68,0,295,1,0,2,2,0,0.0,2
+Urban Mobility Simulation ,Smart cities,https://github.com/openstreetmap/openstreetmap-website,253,169,26,21,1,3,13,9,1,2,9,9,1,25,0,21,11,15,11,10,84,0,169,5,0,21,84,0,169,5,0,21,0,0,0.0,0
+apm_planner,UAV,https://github.com/ArduPilot/apm_planner,14,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,14,0,0,0,0,0,0.0,0
+ardupilot,UAV,https://github.com/ArduPilot/ardupilot,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,64,0,0,0,0,0,1,0,0.0,1
+betaflight,UAV,https://github.com/betaflight/betaflight,15,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0,15,0,0,0,0,0,0.0,0
+crazyflie,UAV,https://github.com/bitcraze/crazyflie-firmware,9,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,7,0,0,0,2,1,7,0,0,0,0,0,1.0,1
+inav,UAV,https://github.com/iNavFlight/inav,13,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,2,10,0,0,0,3,2,10,0,0,0,0,0,0.0,0
+MissionPlanner,UAV,https://github.com/ArduPilot/MissionPlanner,51,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17,0,34,0,0,0,17,0,34,0,0,0,5,0,0.0,5
+Pymavlink,UAV,https://github.com/ArduPilot/pymavlink,758,677,13,10,2,3,6,2,2,4,4,0,1,12,1,9,2,11,2,8,87,6,671,2,1,8,87,6,671,4,1,9,0,0,0.0,0
+qgroundcontrol,UAV,https://github.com/mavlink/qgroundcontrol,177,156,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,41,20,136,0,0,0,41,20,136,0,0,0,0,0,0.0,0
+artyom,Voice personal assistant,https://github.com/sdkcarlos/artyom.js,361,194,51,37,4,13,26,8,0,12,19,6,8,43,6,31,16,35,11,26,167,0,194,14,0,37,167,0,194,14,0,37,0,0,0.0,0
+BotPress,Voice personal assistant,https://github.com/botpress/botpress,1448,1158,38,35,2,28,7,1,2,26,7,0,2,36,2,33,0,38,0,35,290,0,1158,3,0,22,290,0,1158,3,0,35,0,0,0.0,0
+Coqui STT,Voice personal assistant,https://github.com/coqui-ai/STT,78,41,393,392,102,192,94,5,102,191,94,5,5,388,5,387,0,393,0,392,40,3,38,1,0,392,40,3,38,1,0,392,0,0,0.0,0
+DeepPavlov,Voice personal assistant,https://github.com/deepmipt/DeepPavlov,14,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,2,6,0,0,0,8,2,6,0,0,0,1,0,0.0,1
+DeepSpeech,Voice personal assistant,https://github.com/mozilla/deepspeech,69,19,393,392,102,192,94,5,102,191,94,5,5,388,5,387,0,393,0,392,50,0,19,1,0,392,50,0,19,1,0,392,0,0,0.0,0
+Dragonfire,Voice personal assistant,https://github.com/DragonComputer/Dragonfire,29,12,403,402,102,193,100,8,102,193,100,7,5,398,5,397,0,403,0,402,17,0,12,1,0,402,17,0,12,1,0,402,0,0,0.0,0
+hubot,Voice personal assistant,https://github.com/hubotio/hubot,336,278,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70,12,266,0,0,0,70,12,266,0,0,0,0,0,0.0,0
+Jasper,Voice personal assistant,https://github.com/jasperproject/jasper-client,13,9,7,3,0,3,1,3,0,0,0,3,1,6,0,3,2,5,1,2,6,2,7,4,0,3,6,2,7,4,0,3,0,0,0.0,0
+Leon,Voice personal assistant,https://github.com/leon-ai/leon,126,85,8,8,0,4,4,0,0,4,4,0,0,8,0,8,0,8,0,8,41,0,85,0,0,7,41,0,85,0,0,8,0,0,0.0,0
+Melissa,Voice personal assistant,https://github.com/Melissa-AI/Melissa-Core,45,10,10,1,0,4,6,0,0,0,1,0,0,10,0,1,3,7,0,1,35,0,10,9,0,1,35,0,10,9,0,1,0,0,0.0,0
+Mumble,Voice personal assistant,https://github.com/mumble-voip/mumble,17,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,3,8,0,0,0,9,3,8,0,0,0,0,0,0.0,0
+NeMo,Voice personal assistant,https://github.com/NVIDIA/NeMo,38,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,4,13,0,0,0,25,4,13,0,0,0,0,0,0.0,0
+Picovoice,Voice personal assistant,https://github.com/Picovoice,10314,10115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,199,0,10115,0,0,0,199,0,10115,0,0,0,0,0,0.0,0
+Porcupine,Voice personal assistant,https://github.com/Picovoice/porcupine,10314,10016,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,298,0,10016,0,0,0,298,0,10016,0,0,0,0,0,0.0,0
+Rasa,Voice personal assistant,https://github.com/RasaHQ/rasa,2650,2158,168,149,8,70,76,14,8,62,69,10,8,160,8,141,1,167,1,148,500,8,2150,15,0,128,500,8,2150,19,0,149,13,0,0.0,13
+rhasspy,Voice personal assistant,https://github.com/rhasspy/rhasspy,35,18,16,2,1,11,4,0,0,0,2,0,1,15,0,2,0,16,0,2,19,2,16,14,0,2,19,2,16,14,0,2,0,0,0.0,0
+speechbrain,Voice personal assistant,https://github.com/speechbrain/speechbrain,35,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,2,10,0,0,0,25,2,10,0,0,0,2,0,0.0,2

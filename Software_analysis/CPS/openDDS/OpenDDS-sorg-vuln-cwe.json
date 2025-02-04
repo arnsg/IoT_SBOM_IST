@@ -1,0 +1,86 @@
+{
+    "ant:1.7.1": {
+        "name": "ant",
+        "version": "1.7.1",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-q5r4-cfpx-h6fh",
+                "severity": "MODERATE",
+                "description": "Improper Handling of Length Parameter Inconsistency in Apache Ant",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2021-08-02",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-130",
+                "CWE_DESCRIPTION": "Improper Handling of Length Parameter Inconsistency"
+            },
+            {
+                "id": "GHSA-4p6w-m9wc-c9c9",
+                "severity": "MODERATE",
+                "description": "Sensitive Data Exposure in Apache Ant",
+                "links": [],
+                "cvss_score": 6.3,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N",
+                "published_at": "2020-09-14",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            }
+        ]
+    },
+    "dom4j:1.6.1": {
+        "name": "dom4j",
+        "version": "1.6.1",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-hwj3-m3p6-hj38",
+                "severity": "CRITICAL",
+                "description": "dom4j allows External Entities by default which might enable XXE attacks",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2020-06-05",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-611",
+                "CWE_DESCRIPTION": "Improper Restriction of XML External Entity Reference"
+            },
+            {
+                "id": "GHSA-6pcc-3rfx-4gpm",
+                "severity": "HIGH",
+                "description": "Dom4j contains a XML Injection vulnerability",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2018-10-16",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-91",
+                "CWE_DESCRIPTION": "XML Injection (aka Blind XPath Injection)"
+            }
+        ]
+    },
+    "jdom:1.1": {
+        "name": "jdom",
+        "version": "1.1",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-2363-cqg2-863c",
+                "severity": "HIGH",
+                "description": "XML External Entity (XXE) Injection in JDOM",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-07-27",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-611",
+                "CWE_DESCRIPTION": "Improper Restriction of XML External Entity Reference"
+            }
+        ]
+    }
+}

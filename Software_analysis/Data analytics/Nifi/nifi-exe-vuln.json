@@ -1,0 +1,5056 @@
+{
+  "angular:1.8.3": {
+    "name": "angular",
+    "version": "1.8.3",
+    "type": "npm",
+    "licenses": [],
+    "vulnerabilities": [
+      {
+        "id": "GHSA-4w4v-5hc9-xrr2",
+        "severity": "HIGH",
+        "description": "angular vulnerable to super-linear runtime due to backtracking",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2024-02-10",
+        "updated_at": "2024-05-14"
+      },
+      {
+        "id": "GHSA-qwqh-hm9m-p5hr",
+        "severity": "MODERATE",
+        "description": "angular vulnerable to regular expression denial of service via the <input type=\"url\"> element",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2023-03-30",
+        "updated_at": "2023-11-03"
+      },
+      {
+        "id": "GHSA-prc3-vjfx-vhm9",
+        "severity": "MODERATE",
+        "description": "Angular (deprecated package) Cross-site Scripting",
+        "links": [],
+        "cvss_score": 6.1,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+        "published_at": "2022-07-16",
+        "updated_at": "2023-09-08"
+      },
+      {
+        "id": "GHSA-m2h2-264f-f486",
+        "severity": "MODERATE",
+        "description": "angular vulnerable to regular expression denial of service (ReDoS)",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2022-05-03",
+        "updated_at": "2023-01-30"
+      },
+      {
+        "id": "GHSA-2vrf-hf26-jrp5",
+        "severity": "MODERATE",
+        "description": "angular vulnerable to regular expression denial of service via the angular.copy() utility",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2023-03-30",
+        "updated_at": "2023-11-03"
+      },
+      {
+        "id": "GHSA-2qqx-w9hr-q5gx",
+        "severity": "MODERATE",
+        "description": "angular vulnerable to regular expression denial of service via the $resource service",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2023-03-30",
+        "updated_at": "2023-11-03"
+      }
+    ]
+  },
+  "avro:": {
+    "name": "avro",
+    "version": "",
+    "type": "java-archive",
+    "licenses": [],
+    "vulnerabilities": [
+      {
+        "id": "GHSA-rhrv-645h-fjfh",
+        "severity": "HIGH",
+        "description": "Apache Avro Java SDK vulnerable to Improper Input Validation",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2023-09-29",
+        "updated_at": "2024-06-21"
+      },
+      {
+        "id": "GHSA-rhrv-645h-fjfh",
+        "severity": "HIGH",
+        "description": "Apache Avro Java SDK vulnerable to Improper Input Validation",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2023-09-29",
+        "updated_at": "2024-06-21"
+      },
+      {
+        "id": "GHSA-rhrv-645h-fjfh",
+        "severity": "HIGH",
+        "description": "Apache Avro Java SDK vulnerable to Improper Input Validation",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2023-09-29",
+        "updated_at": "2024-06-21"
+      },
+      {
+        "id": "GHSA-rhrv-645h-fjfh",
+        "severity": "HIGH",
+        "description": "Apache Avro Java SDK vulnerable to Improper Input Validation",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2023-09-29",
+        "updated_at": "2024-06-21"
+      },
+      {
+        "id": "GHSA-rhrv-645h-fjfh",
+        "severity": "HIGH",
+        "description": "Apache Avro Java SDK vulnerable to Improper Input Validation",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2023-09-29",
+        "updated_at": "2024-06-21"
+      },
+      {
+        "id": "GHSA-rhrv-645h-fjfh",
+        "severity": "HIGH",
+        "description": "Apache Avro Java SDK vulnerable to Improper Input Validation",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2023-09-29",
+        "updated_at": "2024-06-21"
+      },
+      {
+        "id": "GHSA-rhrv-645h-fjfh",
+        "severity": "HIGH",
+        "description": "Apache Avro Java SDK vulnerable to Improper Input Validation",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2023-09-29",
+        "updated_at": "2024-06-21"
+      },
+      {
+        "id": "GHSA-rhrv-645h-fjfh",
+        "severity": "HIGH",
+        "description": "Apache Avro Java SDK vulnerable to Improper Input Validation",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2023-09-29",
+        "updated_at": "2024-06-21"
+      },
+      {
+        "id": "GHSA-rhrv-645h-fjfh",
+        "severity": "HIGH",
+        "description": "Apache Avro Java SDK vulnerable to Improper Input Validation",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2023-09-29",
+        "updated_at": "2024-06-21"
+      },
+      {
+        "id": "GHSA-rhrv-645h-fjfh",
+        "severity": "HIGH",
+        "description": "Apache Avro Java SDK vulnerable to Improper Input Validation",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2023-09-29",
+        "updated_at": "2024-06-21"
+      },
+      {
+        "id": "GHSA-rhrv-645h-fjfh",
+        "severity": "HIGH",
+        "description": "Apache Avro Java SDK vulnerable to Improper Input Validation",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2023-09-29",
+        "updated_at": "2024-06-21"
+      },
+      {
+        "id": "GHSA-rhrv-645h-fjfh",
+        "severity": "HIGH",
+        "description": "Apache Avro Java SDK vulnerable to Improper Input Validation",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2023-09-29",
+        "updated_at": "2024-06-21"
+      },
+      {
+        "id": "GHSA-rhrv-645h-fjfh",
+        "severity": "HIGH",
+        "description": "Apache Avro Java SDK vulnerable to Improper Input Validation",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2023-09-29",
+        "updated_at": "2024-06-21"
+      },
+      {
+        "id": "GHSA-rhrv-645h-fjfh",
+        "severity": "HIGH",
+        "description": "Apache Avro Java SDK vulnerable to Improper Input Validation",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2023-09-29",
+        "updated_at": "2024-06-21"
+      }
+    ]
+  },
+  "aws-java-sdk-s3:": {
+    "name": "aws-java-sdk-s3",
+    "version": "",
+    "type": "java-archive",
+    "licenses": [],
+    "vulnerabilities": [
+      {
+        "id": "GHSA-c28r-hw5m-5gv3",
+        "severity": "HIGH",
+        "description": "Partial Path Traversal in com.amazonaws:aws-java-sdk-s3 ",
+        "links": [],
+        "cvss_score": 7.9,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:L",
+        "published_at": "2022-07-15",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-c28r-hw5m-5gv3",
+        "severity": "HIGH",
+        "description": "Partial Path Traversal in com.amazonaws:aws-java-sdk-s3 ",
+        "links": [],
+        "cvss_score": 7.9,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:L",
+        "published_at": "2022-07-15",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-c28r-hw5m-5gv3",
+        "severity": "HIGH",
+        "description": "Partial Path Traversal in com.amazonaws:aws-java-sdk-s3 ",
+        "links": [],
+        "cvss_score": 7.9,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:L",
+        "published_at": "2022-07-15",
+        "updated_at": "2023-01-27"
+      }
+    ]
+  },
+  "azure-identity:": {
+    "name": "azure-identity",
+    "version": "",
+    "type": "java-archive",
+    "licenses": [],
+    "vulnerabilities": [
+      {
+        "id": "GHSA-m5vv-6r4h-3vj9",
+        "severity": "MODERATE",
+        "description": "Azure Identity Libraries and Microsoft Authentication Library Elevation of Privilege Vulnerability",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2024-06-11",
+        "updated_at": "2024-06-19"
+      }
+    ]
+  },
+  "azure-storage-blob:": {
+    "name": "azure-storage-blob",
+    "version": "",
+    "type": "java-archive",
+    "licenses": [],
+    "vulnerabilities": [
+      {
+        "id": "GHSA-64x4-9hc6-r2h6",
+        "severity": "MODERATE",
+        "description": "Microsoft: CBC Padding Oracle in Azure Blob Storage Encryption Library",
+        "links": [],
+        "cvss_score": 4.7,
+        "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2022-07-13",
+        "updated_at": "2024-05-23"
+      }
+    ]
+  },
+  "babel-traverse:6.26.0": {
+    "name": "babel-traverse",
+    "version": "6.26.0",
+    "type": "npm",
+    "licenses": [],
+    "vulnerabilities": [
+      {
+        "id": "GHSA-67hx-6x53-jw92",
+        "severity": "CRITICAL",
+        "description": "Babel vulnerable to arbitrary code execution when compiling specifically crafted malicious code",
+        "links": [],
+        "cvss_score": 9.4,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+        "published_at": "2023-10-16",
+        "updated_at": "2024-04-04"
+      }
+    ]
+  },
+  "bcpkix-jdk18on:": {
+    "name": "bcpkix-jdk18on",
+    "version": "",
+    "type": "java-archive",
+    "licenses": [],
+    "vulnerabilities": [
+      {
+        "id": "GHSA-wjxj-5m7g-mg7q",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle Denial of Service (DoS)",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+        "published_at": "2023-11-23",
+        "updated_at": "2024-05-23"
+      },
+      {
+        "id": "GHSA-wjxj-5m7g-mg7q",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle Denial of Service (DoS)",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+        "published_at": "2023-11-23",
+        "updated_at": "2024-05-23"
+      },
+      {
+        "id": "GHSA-wjxj-5m7g-mg7q",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle Denial of Service (DoS)",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+        "published_at": "2023-11-23",
+        "updated_at": "2024-05-23"
+      },
+      {
+        "id": "GHSA-wjxj-5m7g-mg7q",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle Denial of Service (DoS)",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+        "published_at": "2023-11-23",
+        "updated_at": "2024-05-23"
+      },
+      {
+        "id": "GHSA-wjxj-5m7g-mg7q",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle Denial of Service (DoS)",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+        "published_at": "2023-11-23",
+        "updated_at": "2024-05-23"
+      },
+      {
+        "id": "GHSA-wjxj-5m7g-mg7q",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle Denial of Service (DoS)",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+        "published_at": "2023-11-23",
+        "updated_at": "2024-05-23"
+      },
+      {
+        "id": "GHSA-wjxj-5m7g-mg7q",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle Denial of Service (DoS)",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+        "published_at": "2023-11-23",
+        "updated_at": "2024-05-23"
+      },
+      {
+        "id": "GHSA-v435-xc8x-wvr9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+        "links": [],
+        "cvss_score": 5.9,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-v435-xc8x-wvr9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+        "links": [],
+        "cvss_score": 5.9,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-v435-xc8x-wvr9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+        "links": [],
+        "cvss_score": 5.9,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-v435-xc8x-wvr9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+        "links": [],
+        "cvss_score": 5.9,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-v435-xc8x-wvr9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+        "links": [],
+        "cvss_score": 5.9,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-v435-xc8x-wvr9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+        "links": [],
+        "cvss_score": 5.9,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-v435-xc8x-wvr9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+        "links": [],
+        "cvss_score": 5.9,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-m44j-cfrm-g8qc",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-m44j-cfrm-g8qc",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-m44j-cfrm-g8qc",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-m44j-cfrm-g8qc",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-m44j-cfrm-g8qc",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-m44j-cfrm-g8qc",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-m44j-cfrm-g8qc",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-8xfc-gm6g-vgpv",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-05-14"
+      },
+      {
+        "id": "GHSA-8xfc-gm6g-vgpv",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-05-14"
+      },
+      {
+        "id": "GHSA-8xfc-gm6g-vgpv",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-05-14"
+      },
+      {
+        "id": "GHSA-8xfc-gm6g-vgpv",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-05-14"
+      },
+      {
+        "id": "GHSA-8xfc-gm6g-vgpv",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-05-14"
+      },
+      {
+        "id": "GHSA-8xfc-gm6g-vgpv",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-05-14"
+      },
+      {
+        "id": "GHSA-8xfc-gm6g-vgpv",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-05-14"
+      }
+    ]
+  },
+  "bcprov-jdk18on:": {
+    "name": "bcprov-jdk18on",
+    "version": "",
+    "type": "java-archive",
+    "licenses": [],
+    "vulnerabilities": [
+      {
+        "id": "GHSA-wjxj-5m7g-mg7q",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle Denial of Service (DoS)",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+        "published_at": "2023-11-23",
+        "updated_at": "2024-05-23"
+      },
+      {
+        "id": "GHSA-wjxj-5m7g-mg7q",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle Denial of Service (DoS)",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+        "published_at": "2023-11-23",
+        "updated_at": "2024-05-23"
+      },
+      {
+        "id": "GHSA-wjxj-5m7g-mg7q",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle Denial of Service (DoS)",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+        "published_at": "2023-11-23",
+        "updated_at": "2024-05-23"
+      },
+      {
+        "id": "GHSA-wjxj-5m7g-mg7q",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle Denial of Service (DoS)",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+        "published_at": "2023-11-23",
+        "updated_at": "2024-05-23"
+      },
+      {
+        "id": "GHSA-wjxj-5m7g-mg7q",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle Denial of Service (DoS)",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+        "published_at": "2023-11-23",
+        "updated_at": "2024-05-23"
+      },
+      {
+        "id": "GHSA-wjxj-5m7g-mg7q",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle Denial of Service (DoS)",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+        "published_at": "2023-11-23",
+        "updated_at": "2024-05-23"
+      },
+      {
+        "id": "GHSA-wjxj-5m7g-mg7q",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle Denial of Service (DoS)",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+        "published_at": "2023-11-23",
+        "updated_at": "2024-05-23"
+      },
+      {
+        "id": "GHSA-wjxj-5m7g-mg7q",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle Denial of Service (DoS)",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+        "published_at": "2023-11-23",
+        "updated_at": "2024-05-23"
+      },
+      {
+        "id": "GHSA-wjxj-5m7g-mg7q",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle Denial of Service (DoS)",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+        "published_at": "2023-11-23",
+        "updated_at": "2024-05-23"
+      },
+      {
+        "id": "GHSA-wjxj-5m7g-mg7q",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle Denial of Service (DoS)",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+        "published_at": "2023-11-23",
+        "updated_at": "2024-05-23"
+      },
+      {
+        "id": "GHSA-wjxj-5m7g-mg7q",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle Denial of Service (DoS)",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+        "published_at": "2023-11-23",
+        "updated_at": "2024-05-23"
+      },
+      {
+        "id": "GHSA-wjxj-5m7g-mg7q",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle Denial of Service (DoS)",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+        "published_at": "2023-11-23",
+        "updated_at": "2024-05-23"
+      },
+      {
+        "id": "GHSA-wjxj-5m7g-mg7q",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle Denial of Service (DoS)",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+        "published_at": "2023-11-23",
+        "updated_at": "2024-05-23"
+      },
+      {
+        "id": "GHSA-wjxj-5m7g-mg7q",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle Denial of Service (DoS)",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+        "published_at": "2023-11-23",
+        "updated_at": "2024-05-23"
+      },
+      {
+        "id": "GHSA-wjxj-5m7g-mg7q",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle Denial of Service (DoS)",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+        "published_at": "2023-11-23",
+        "updated_at": "2024-05-23"
+      },
+      {
+        "id": "GHSA-wjxj-5m7g-mg7q",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle Denial of Service (DoS)",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+        "published_at": "2023-11-23",
+        "updated_at": "2024-05-23"
+      },
+      {
+        "id": "GHSA-wjxj-5m7g-mg7q",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle Denial of Service (DoS)",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+        "published_at": "2023-11-23",
+        "updated_at": "2024-05-23"
+      },
+      {
+        "id": "GHSA-wjxj-5m7g-mg7q",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle Denial of Service (DoS)",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+        "published_at": "2023-11-23",
+        "updated_at": "2024-05-23"
+      },
+      {
+        "id": "GHSA-wjxj-5m7g-mg7q",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle Denial of Service (DoS)",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+        "published_at": "2023-11-23",
+        "updated_at": "2024-05-23"
+      },
+      {
+        "id": "GHSA-wjxj-5m7g-mg7q",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle Denial of Service (DoS)",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+        "published_at": "2023-11-23",
+        "updated_at": "2024-05-23"
+      },
+      {
+        "id": "GHSA-wjxj-5m7g-mg7q",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle Denial of Service (DoS)",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+        "published_at": "2023-11-23",
+        "updated_at": "2024-05-23"
+      },
+      {
+        "id": "GHSA-wjxj-5m7g-mg7q",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle Denial of Service (DoS)",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+        "published_at": "2023-11-23",
+        "updated_at": "2024-05-23"
+      },
+      {
+        "id": "GHSA-wjxj-5m7g-mg7q",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle Denial of Service (DoS)",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+        "published_at": "2023-11-23",
+        "updated_at": "2024-05-23"
+      },
+      {
+        "id": "GHSA-v435-xc8x-wvr9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+        "links": [],
+        "cvss_score": 5.9,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-v435-xc8x-wvr9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+        "links": [],
+        "cvss_score": 5.9,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-v435-xc8x-wvr9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+        "links": [],
+        "cvss_score": 5.9,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-v435-xc8x-wvr9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+        "links": [],
+        "cvss_score": 5.9,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-v435-xc8x-wvr9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+        "links": [],
+        "cvss_score": 5.9,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-v435-xc8x-wvr9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+        "links": [],
+        "cvss_score": 5.9,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-v435-xc8x-wvr9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+        "links": [],
+        "cvss_score": 5.9,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-v435-xc8x-wvr9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+        "links": [],
+        "cvss_score": 5.9,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-v435-xc8x-wvr9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+        "links": [],
+        "cvss_score": 5.9,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-v435-xc8x-wvr9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+        "links": [],
+        "cvss_score": 5.9,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-v435-xc8x-wvr9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+        "links": [],
+        "cvss_score": 5.9,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-v435-xc8x-wvr9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+        "links": [],
+        "cvss_score": 5.9,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-v435-xc8x-wvr9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+        "links": [],
+        "cvss_score": 5.9,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-v435-xc8x-wvr9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+        "links": [],
+        "cvss_score": 5.9,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-v435-xc8x-wvr9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+        "links": [],
+        "cvss_score": 5.9,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-v435-xc8x-wvr9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+        "links": [],
+        "cvss_score": 5.9,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-v435-xc8x-wvr9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+        "links": [],
+        "cvss_score": 5.9,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-v435-xc8x-wvr9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+        "links": [],
+        "cvss_score": 5.9,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-v435-xc8x-wvr9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+        "links": [],
+        "cvss_score": 5.9,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-v435-xc8x-wvr9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+        "links": [],
+        "cvss_score": 5.9,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-v435-xc8x-wvr9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+        "links": [],
+        "cvss_score": 5.9,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-v435-xc8x-wvr9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+        "links": [],
+        "cvss_score": 5.9,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-v435-xc8x-wvr9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+        "links": [],
+        "cvss_score": 5.9,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-m44j-cfrm-g8qc",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-m44j-cfrm-g8qc",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-m44j-cfrm-g8qc",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-m44j-cfrm-g8qc",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-m44j-cfrm-g8qc",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-m44j-cfrm-g8qc",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-m44j-cfrm-g8qc",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-m44j-cfrm-g8qc",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-m44j-cfrm-g8qc",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-m44j-cfrm-g8qc",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-m44j-cfrm-g8qc",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-m44j-cfrm-g8qc",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-m44j-cfrm-g8qc",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-m44j-cfrm-g8qc",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-m44j-cfrm-g8qc",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-m44j-cfrm-g8qc",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-m44j-cfrm-g8qc",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-m44j-cfrm-g8qc",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-m44j-cfrm-g8qc",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-m44j-cfrm-g8qc",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-m44j-cfrm-g8qc",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-m44j-cfrm-g8qc",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-m44j-cfrm-g8qc",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-06-14"
+      },
+      {
+        "id": "GHSA-hr8g-6v94-x4m9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle For Java LDAP injection vulnerability",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "published_at": "2023-07-05",
+        "updated_at": "2023-11-04"
+      },
+      {
+        "id": "GHSA-hr8g-6v94-x4m9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle For Java LDAP injection vulnerability",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "published_at": "2023-07-05",
+        "updated_at": "2023-11-04"
+      },
+      {
+        "id": "GHSA-hr8g-6v94-x4m9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle For Java LDAP injection vulnerability",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "published_at": "2023-07-05",
+        "updated_at": "2023-11-04"
+      },
+      {
+        "id": "GHSA-hr8g-6v94-x4m9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle For Java LDAP injection vulnerability",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "published_at": "2023-07-05",
+        "updated_at": "2023-11-04"
+      },
+      {
+        "id": "GHSA-hr8g-6v94-x4m9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle For Java LDAP injection vulnerability",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "published_at": "2023-07-05",
+        "updated_at": "2023-11-04"
+      },
+      {
+        "id": "GHSA-hr8g-6v94-x4m9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle For Java LDAP injection vulnerability",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "published_at": "2023-07-05",
+        "updated_at": "2023-11-04"
+      },
+      {
+        "id": "GHSA-hr8g-6v94-x4m9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle For Java LDAP injection vulnerability",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "published_at": "2023-07-05",
+        "updated_at": "2023-11-04"
+      },
+      {
+        "id": "GHSA-hr8g-6v94-x4m9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle For Java LDAP injection vulnerability",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "published_at": "2023-07-05",
+        "updated_at": "2023-11-04"
+      },
+      {
+        "id": "GHSA-hr8g-6v94-x4m9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle For Java LDAP injection vulnerability",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "published_at": "2023-07-05",
+        "updated_at": "2023-11-04"
+      },
+      {
+        "id": "GHSA-hr8g-6v94-x4m9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle For Java LDAP injection vulnerability",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "published_at": "2023-07-05",
+        "updated_at": "2023-11-04"
+      },
+      {
+        "id": "GHSA-hr8g-6v94-x4m9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle For Java LDAP injection vulnerability",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "published_at": "2023-07-05",
+        "updated_at": "2023-11-04"
+      },
+      {
+        "id": "GHSA-hr8g-6v94-x4m9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle For Java LDAP injection vulnerability",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "published_at": "2023-07-05",
+        "updated_at": "2023-11-04"
+      },
+      {
+        "id": "GHSA-hr8g-6v94-x4m9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle For Java LDAP injection vulnerability",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "published_at": "2023-07-05",
+        "updated_at": "2023-11-04"
+      },
+      {
+        "id": "GHSA-hr8g-6v94-x4m9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle For Java LDAP injection vulnerability",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "published_at": "2023-07-05",
+        "updated_at": "2023-11-04"
+      },
+      {
+        "id": "GHSA-hr8g-6v94-x4m9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle For Java LDAP injection vulnerability",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "published_at": "2023-07-05",
+        "updated_at": "2023-11-04"
+      },
+      {
+        "id": "GHSA-hr8g-6v94-x4m9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle For Java LDAP injection vulnerability",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "published_at": "2023-07-05",
+        "updated_at": "2023-11-04"
+      },
+      {
+        "id": "GHSA-hr8g-6v94-x4m9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle For Java LDAP injection vulnerability",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "published_at": "2023-07-05",
+        "updated_at": "2023-11-04"
+      },
+      {
+        "id": "GHSA-hr8g-6v94-x4m9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle For Java LDAP injection vulnerability",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "published_at": "2023-07-05",
+        "updated_at": "2023-11-04"
+      },
+      {
+        "id": "GHSA-hr8g-6v94-x4m9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle For Java LDAP injection vulnerability",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "published_at": "2023-07-05",
+        "updated_at": "2023-11-04"
+      },
+      {
+        "id": "GHSA-hr8g-6v94-x4m9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle For Java LDAP injection vulnerability",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "published_at": "2023-07-05",
+        "updated_at": "2023-11-04"
+      },
+      {
+        "id": "GHSA-hr8g-6v94-x4m9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle For Java LDAP injection vulnerability",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "published_at": "2023-07-05",
+        "updated_at": "2023-11-04"
+      },
+      {
+        "id": "GHSA-hr8g-6v94-x4m9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle For Java LDAP injection vulnerability",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "published_at": "2023-07-05",
+        "updated_at": "2023-11-04"
+      },
+      {
+        "id": "GHSA-hr8g-6v94-x4m9",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle For Java LDAP injection vulnerability",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "published_at": "2023-07-05",
+        "updated_at": "2023-11-04"
+      },
+      {
+        "id": "GHSA-8xfc-gm6g-vgpv",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-05-14"
+      },
+      {
+        "id": "GHSA-8xfc-gm6g-vgpv",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-05-14"
+      },
+      {
+        "id": "GHSA-8xfc-gm6g-vgpv",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-05-14"
+      },
+      {
+        "id": "GHSA-8xfc-gm6g-vgpv",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-05-14"
+      },
+      {
+        "id": "GHSA-8xfc-gm6g-vgpv",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-05-14"
+      },
+      {
+        "id": "GHSA-8xfc-gm6g-vgpv",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-05-14"
+      },
+      {
+        "id": "GHSA-8xfc-gm6g-vgpv",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-05-14"
+      },
+      {
+        "id": "GHSA-8xfc-gm6g-vgpv",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-05-14"
+      },
+      {
+        "id": "GHSA-8xfc-gm6g-vgpv",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-05-14"
+      },
+      {
+        "id": "GHSA-8xfc-gm6g-vgpv",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-05-14"
+      },
+      {
+        "id": "GHSA-8xfc-gm6g-vgpv",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-05-14"
+      },
+      {
+        "id": "GHSA-8xfc-gm6g-vgpv",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-05-14"
+      },
+      {
+        "id": "GHSA-8xfc-gm6g-vgpv",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-05-14"
+      },
+      {
+        "id": "GHSA-8xfc-gm6g-vgpv",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-05-14"
+      },
+      {
+        "id": "GHSA-8xfc-gm6g-vgpv",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-05-14"
+      },
+      {
+        "id": "GHSA-8xfc-gm6g-vgpv",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-05-14"
+      },
+      {
+        "id": "GHSA-8xfc-gm6g-vgpv",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-05-14"
+      },
+      {
+        "id": "GHSA-8xfc-gm6g-vgpv",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-05-14"
+      },
+      {
+        "id": "GHSA-8xfc-gm6g-vgpv",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-05-14"
+      },
+      {
+        "id": "GHSA-8xfc-gm6g-vgpv",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-05-14"
+      },
+      {
+        "id": "GHSA-8xfc-gm6g-vgpv",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-05-14"
+      },
+      {
+        "id": "GHSA-8xfc-gm6g-vgpv",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-05-14"
+      },
+      {
+        "id": "GHSA-8xfc-gm6g-vgpv",
+        "severity": "MODERATE",
+        "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-05-14"
+      }
+    ]
+  },
+  "braces:2.3.2": {
+    "name": "braces",
+    "version": "2.3.2",
+    "type": "npm",
+    "licenses": [],
+    "vulnerabilities": [
+      {
+        "id": "GHSA-grv7-fg5c-xmjg",
+        "severity": "HIGH",
+        "description": "Uncontrolled resource consumption in braces",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-07-05"
+      }
+    ]
+  },
+  "braces:3.0.2": {
+    "name": "braces",
+    "version": "3.0.2",
+    "type": "npm",
+    "licenses": [],
+    "vulnerabilities": [
+      {
+        "id": "GHSA-grv7-fg5c-xmjg",
+        "severity": "HIGH",
+        "description": "Uncontrolled resource consumption in braces",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2024-05-14",
+        "updated_at": "2024-07-05"
+      }
+    ]
+  },
+  "calcite-core:": {
+    "name": "calcite-core",
+    "version": "",
+    "type": "java-archive",
+    "licenses": [],
+    "vulnerabilities": [
+      {
+        "id": "GHSA-fj2m-w3wv-x9pr",
+        "severity": "CRITICAL",
+        "description": "Apache Calcite before 1.32.0 vulnerable to potential XML External Entity (XXE) attack",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2022-09-12",
+        "updated_at": "2023-02-01"
+      },
+      {
+        "id": "GHSA-hxp5-8pgq-mgv9",
+        "severity": "MODERATE",
+        "description": "Missing Authentication for Critical Function in Apache Calcite",
+        "links": [],
+        "cvss_score": 5.9,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2021-04-22",
+        "updated_at": "2023-02-01"
+      }
+    ]
+  },
+  "commons-collections4:": {
+    "name": "commons-collections4",
+    "version": "",
+    "type": "java-archive",
+    "licenses": [],
+    "vulnerabilities": [
+      {
+        "id": "GHSA-fjq5-5j5f-mvxh",
+        "severity": "CRITICAL",
+        "description": "Deserialization of Untrusted Data in Apache commons collections",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2022-05-13",
+        "updated_at": "2023-11-02"
+      },
+      {
+        "id": "GHSA-fjq5-5j5f-mvxh",
+        "severity": "CRITICAL",
+        "description": "Deserialization of Untrusted Data in Apache commons collections",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2022-05-13",
+        "updated_at": "2023-11-02"
+      },
+      {
+        "id": "GHSA-fjq5-5j5f-mvxh",
+        "severity": "CRITICAL",
+        "description": "Deserialization of Untrusted Data in Apache commons collections",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2022-05-13",
+        "updated_at": "2023-11-02"
+      },
+      {
+        "id": "GHSA-fjq5-5j5f-mvxh",
+        "severity": "CRITICAL",
+        "description": "Deserialization of Untrusted Data in Apache commons collections",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2022-05-13",
+        "updated_at": "2023-11-02"
+      },
+      {
+        "id": "GHSA-6hgm-866r-3cjv",
+        "severity": "HIGH",
+        "description": "Insecure Deserialization in Apache Commons Collection",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2020-06-15",
+        "updated_at": "2023-06-12"
+      },
+      {
+        "id": "GHSA-6hgm-866r-3cjv",
+        "severity": "HIGH",
+        "description": "Insecure Deserialization in Apache Commons Collection",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2020-06-15",
+        "updated_at": "2023-06-12"
+      },
+      {
+        "id": "GHSA-6hgm-866r-3cjv",
+        "severity": "HIGH",
+        "description": "Insecure Deserialization in Apache Commons Collection",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2020-06-15",
+        "updated_at": "2023-06-12"
+      },
+      {
+        "id": "GHSA-6hgm-866r-3cjv",
+        "severity": "HIGH",
+        "description": "Insecure Deserialization in Apache Commons Collection",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2020-06-15",
+        "updated_at": "2023-06-12"
+      }
+    ]
+  },
+  "commons-compress:": {
+    "name": "commons-compress",
+    "version": "",
+    "type": "java-archive",
+    "licenses": [],
+    "vulnerabilities": [
+      {
+        "id": "GHSA-xqfj-vm6h-2x34",
+        "severity": "HIGH",
+        "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-xqfj-vm6h-2x34",
+        "severity": "HIGH",
+        "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-xqfj-vm6h-2x34",
+        "severity": "HIGH",
+        "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-xqfj-vm6h-2x34",
+        "severity": "HIGH",
+        "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-xqfj-vm6h-2x34",
+        "severity": "HIGH",
+        "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-xqfj-vm6h-2x34",
+        "severity": "HIGH",
+        "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-xqfj-vm6h-2x34",
+        "severity": "HIGH",
+        "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-xqfj-vm6h-2x34",
+        "severity": "HIGH",
+        "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-xqfj-vm6h-2x34",
+        "severity": "HIGH",
+        "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-xqfj-vm6h-2x34",
+        "severity": "HIGH",
+        "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-mc84-pj99-q6hh",
+        "severity": "HIGH",
+        "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-mc84-pj99-q6hh",
+        "severity": "HIGH",
+        "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-mc84-pj99-q6hh",
+        "severity": "HIGH",
+        "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-mc84-pj99-q6hh",
+        "severity": "HIGH",
+        "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-mc84-pj99-q6hh",
+        "severity": "HIGH",
+        "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-mc84-pj99-q6hh",
+        "severity": "HIGH",
+        "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-mc84-pj99-q6hh",
+        "severity": "HIGH",
+        "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-mc84-pj99-q6hh",
+        "severity": "HIGH",
+        "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-mc84-pj99-q6hh",
+        "severity": "HIGH",
+        "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-mc84-pj99-q6hh",
+        "severity": "HIGH",
+        "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-crv7-7245-f45f",
+        "severity": "HIGH",
+        "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-crv7-7245-f45f",
+        "severity": "HIGH",
+        "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-crv7-7245-f45f",
+        "severity": "HIGH",
+        "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-crv7-7245-f45f",
+        "severity": "HIGH",
+        "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-crv7-7245-f45f",
+        "severity": "HIGH",
+        "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-crv7-7245-f45f",
+        "severity": "HIGH",
+        "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-crv7-7245-f45f",
+        "severity": "HIGH",
+        "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-crv7-7245-f45f",
+        "severity": "HIGH",
+        "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-crv7-7245-f45f",
+        "severity": "HIGH",
+        "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-crv7-7245-f45f",
+        "severity": "HIGH",
+        "description": "Improper Handling of Length Parameter Inconsistency in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-7hfm-57qf-j43q",
+        "severity": "HIGH",
+        "description": "Excessive Iteration in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-7hfm-57qf-j43q",
+        "severity": "HIGH",
+        "description": "Excessive Iteration in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-7hfm-57qf-j43q",
+        "severity": "HIGH",
+        "description": "Excessive Iteration in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-7hfm-57qf-j43q",
+        "severity": "HIGH",
+        "description": "Excessive Iteration in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-7hfm-57qf-j43q",
+        "severity": "HIGH",
+        "description": "Excessive Iteration in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-7hfm-57qf-j43q",
+        "severity": "HIGH",
+        "description": "Excessive Iteration in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-7hfm-57qf-j43q",
+        "severity": "HIGH",
+        "description": "Excessive Iteration in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-7hfm-57qf-j43q",
+        "severity": "HIGH",
+        "description": "Excessive Iteration in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-7hfm-57qf-j43q",
+        "severity": "HIGH",
+        "description": "Excessive Iteration in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-7hfm-57qf-j43q",
+        "severity": "HIGH",
+        "description": "Excessive Iteration in Compress",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-08-02",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-6fxm-66hq-fc96",
+        "severity": "MODERATE",
+        "description": "Uncontrolled Resource Consumption in Apache Commons Compress",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2022-05-13",
+        "updated_at": "2024-02-22"
+      },
+      {
+        "id": "GHSA-6fxm-66hq-fc96",
+        "severity": "MODERATE",
+        "description": "Uncontrolled Resource Consumption in Apache Commons Compress",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2022-05-13",
+        "updated_at": "2024-02-22"
+      },
+      {
+        "id": "GHSA-6fxm-66hq-fc96",
+        "severity": "MODERATE",
+        "description": "Uncontrolled Resource Consumption in Apache Commons Compress",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2022-05-13",
+        "updated_at": "2024-02-22"
+      },
+      {
+        "id": "GHSA-6fxm-66hq-fc96",
+        "severity": "MODERATE",
+        "description": "Uncontrolled Resource Consumption in Apache Commons Compress",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2022-05-13",
+        "updated_at": "2024-02-22"
+      },
+      {
+        "id": "GHSA-6fxm-66hq-fc96",
+        "severity": "MODERATE",
+        "description": "Uncontrolled Resource Consumption in Apache Commons Compress",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2022-05-13",
+        "updated_at": "2024-02-22"
+      },
+      {
+        "id": "GHSA-6fxm-66hq-fc96",
+        "severity": "MODERATE",
+        "description": "Uncontrolled Resource Consumption in Apache Commons Compress",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2022-05-13",
+        "updated_at": "2024-02-22"
+      },
+      {
+        "id": "GHSA-6fxm-66hq-fc96",
+        "severity": "MODERATE",
+        "description": "Uncontrolled Resource Consumption in Apache Commons Compress",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2022-05-13",
+        "updated_at": "2024-02-22"
+      },
+      {
+        "id": "GHSA-6fxm-66hq-fc96",
+        "severity": "MODERATE",
+        "description": "Uncontrolled Resource Consumption in Apache Commons Compress",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2022-05-13",
+        "updated_at": "2024-02-22"
+      },
+      {
+        "id": "GHSA-6fxm-66hq-fc96",
+        "severity": "MODERATE",
+        "description": "Uncontrolled Resource Consumption in Apache Commons Compress",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2022-05-13",
+        "updated_at": "2024-02-22"
+      },
+      {
+        "id": "GHSA-6fxm-66hq-fc96",
+        "severity": "MODERATE",
+        "description": "Uncontrolled Resource Consumption in Apache Commons Compress",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2022-05-13",
+        "updated_at": "2024-02-22"
+      }
+    ]
+  },
+  "commons-io:": {
+    "name": "commons-io",
+    "version": "",
+    "type": "java-archive",
+    "licenses": [],
+    "vulnerabilities": [
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      },
+      {
+        "id": "GHSA-gwrp-pvrq-jmwv",
+        "severity": "MODERATE",
+        "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+        "links": [],
+        "cvss_score": 4.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+        "published_at": "2021-04-26",
+        "updated_at": "2024-02-14"
+      }
+    ]
+  },
+  "commons-net:": {
+    "name": "commons-net",
+    "version": "",
+    "type": "java-archive",
+    "licenses": [],
+    "vulnerabilities": [
+      {
+        "id": "GHSA-cgp8-4m63-fhh5",
+        "severity": "MODERATE",
+        "description": "Apache Commons Net vulnerable to information leakage via malicious server",
+        "links": [],
+        "cvss_score": 6.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+        "published_at": "2022-12-03",
+        "updated_at": "2023-02-02"
+      },
+      {
+        "id": "GHSA-cgp8-4m63-fhh5",
+        "severity": "MODERATE",
+        "description": "Apache Commons Net vulnerable to information leakage via malicious server",
+        "links": [],
+        "cvss_score": 6.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+        "published_at": "2022-12-03",
+        "updated_at": "2023-02-02"
+      },
+      {
+        "id": "GHSA-cgp8-4m63-fhh5",
+        "severity": "MODERATE",
+        "description": "Apache Commons Net vulnerable to information leakage via malicious server",
+        "links": [],
+        "cvss_score": 6.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+        "published_at": "2022-12-03",
+        "updated_at": "2023-02-02"
+      },
+      {
+        "id": "GHSA-cgp8-4m63-fhh5",
+        "severity": "MODERATE",
+        "description": "Apache Commons Net vulnerable to information leakage via malicious server",
+        "links": [],
+        "cvss_score": 6.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+        "published_at": "2022-12-03",
+        "updated_at": "2023-02-02"
+      },
+      {
+        "id": "GHSA-cgp8-4m63-fhh5",
+        "severity": "MODERATE",
+        "description": "Apache Commons Net vulnerable to information leakage via malicious server",
+        "links": [],
+        "cvss_score": 6.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+        "published_at": "2022-12-03",
+        "updated_at": "2023-02-02"
+      }
+    ]
+  },
+  "derby:": {
+    "name": "derby",
+    "version": "",
+    "type": "java-archive",
+    "licenses": [],
+    "vulnerabilities": [
+      {
+        "id": "GHSA-wr69-g62g-2r9h",
+        "severity": "CRITICAL",
+        "description": "Improper Restriction of XML External Entity Reference in Apace Derby",
+        "links": [],
+        "cvss_score": 9.1,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H",
+        "published_at": "2022-05-13",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-wr69-g62g-2r9h",
+        "severity": "CRITICAL",
+        "description": "Improper Restriction of XML External Entity Reference in Apace Derby",
+        "links": [],
+        "cvss_score": 9.1,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H",
+        "published_at": "2022-05-13",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-wr69-g62g-2r9h",
+        "severity": "CRITICAL",
+        "description": "Improper Restriction of XML External Entity Reference in Apace Derby",
+        "links": [],
+        "cvss_score": 9.1,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H",
+        "published_at": "2022-05-13",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-wr69-g62g-2r9h",
+        "severity": "CRITICAL",
+        "description": "Improper Restriction of XML External Entity Reference in Apace Derby",
+        "links": [],
+        "cvss_score": 9.1,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H",
+        "published_at": "2022-05-13",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-wr69-g62g-2r9h",
+        "severity": "CRITICAL",
+        "description": "Improper Restriction of XML External Entity Reference in Apace Derby",
+        "links": [],
+        "cvss_score": 9.1,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H",
+        "published_at": "2022-05-13",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-wr69-g62g-2r9h",
+        "severity": "CRITICAL",
+        "description": "Improper Restriction of XML External Entity Reference in Apace Derby",
+        "links": [],
+        "cvss_score": 9.1,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H",
+        "published_at": "2022-05-13",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-wr69-g62g-2r9h",
+        "severity": "CRITICAL",
+        "description": "Improper Restriction of XML External Entity Reference in Apace Derby",
+        "links": [],
+        "cvss_score": 9.1,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H",
+        "published_at": "2022-05-13",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-v7cq-pq7v-mh5v",
+        "severity": "MODERATE",
+        "description": "Apache Derby SQL Injection",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2022-05-01",
+        "updated_at": "2024-02-12"
+      },
+      {
+        "id": "GHSA-v7cq-pq7v-mh5v",
+        "severity": "MODERATE",
+        "description": "Apache Derby SQL Injection",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2022-05-01",
+        "updated_at": "2024-02-12"
+      },
+      {
+        "id": "GHSA-v7cq-pq7v-mh5v",
+        "severity": "MODERATE",
+        "description": "Apache Derby SQL Injection",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2022-05-01",
+        "updated_at": "2024-02-12"
+      },
+      {
+        "id": "GHSA-v7cq-pq7v-mh5v",
+        "severity": "MODERATE",
+        "description": "Apache Derby SQL Injection",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2022-05-01",
+        "updated_at": "2024-02-12"
+      },
+      {
+        "id": "GHSA-v7cq-pq7v-mh5v",
+        "severity": "MODERATE",
+        "description": "Apache Derby SQL Injection",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2022-05-01",
+        "updated_at": "2024-02-12"
+      },
+      {
+        "id": "GHSA-v7cq-pq7v-mh5v",
+        "severity": "MODERATE",
+        "description": "Apache Derby SQL Injection",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2022-05-01",
+        "updated_at": "2024-02-12"
+      },
+      {
+        "id": "GHSA-v7cq-pq7v-mh5v",
+        "severity": "MODERATE",
+        "description": "Apache Derby SQL Injection",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2022-05-01",
+        "updated_at": "2024-02-12"
+      },
+      {
+        "id": "GHSA-rp7r-79rm-2758",
+        "severity": "MODERATE",
+        "description": "Apache Derby exposes user and password attributes",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2022-05-01",
+        "updated_at": "2023-01-31"
+      },
+      {
+        "id": "GHSA-rp7r-79rm-2758",
+        "severity": "MODERATE",
+        "description": "Apache Derby exposes user and password attributes",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2022-05-01",
+        "updated_at": "2023-01-31"
+      },
+      {
+        "id": "GHSA-rp7r-79rm-2758",
+        "severity": "MODERATE",
+        "description": "Apache Derby exposes user and password attributes",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2022-05-01",
+        "updated_at": "2023-01-31"
+      },
+      {
+        "id": "GHSA-rp7r-79rm-2758",
+        "severity": "MODERATE",
+        "description": "Apache Derby exposes user and password attributes",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2022-05-01",
+        "updated_at": "2023-01-31"
+      },
+      {
+        "id": "GHSA-rp7r-79rm-2758",
+        "severity": "MODERATE",
+        "description": "Apache Derby exposes user and password attributes",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2022-05-01",
+        "updated_at": "2023-01-31"
+      },
+      {
+        "id": "GHSA-rp7r-79rm-2758",
+        "severity": "MODERATE",
+        "description": "Apache Derby exposes user and password attributes",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2022-05-01",
+        "updated_at": "2023-01-31"
+      },
+      {
+        "id": "GHSA-rp7r-79rm-2758",
+        "severity": "MODERATE",
+        "description": "Apache Derby exposes user and password attributes",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2022-05-01",
+        "updated_at": "2023-01-31"
+      },
+      {
+        "id": "GHSA-fh32-35w2-rxcc",
+        "severity": "MODERATE",
+        "description": "Use of Password Hash With Insufficient Computational Effort in Apache Derby",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2022-05-02",
+        "updated_at": "2023-09-26"
+      },
+      {
+        "id": "GHSA-fh32-35w2-rxcc",
+        "severity": "MODERATE",
+        "description": "Use of Password Hash With Insufficient Computational Effort in Apache Derby",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2022-05-02",
+        "updated_at": "2023-09-26"
+      },
+      {
+        "id": "GHSA-fh32-35w2-rxcc",
+        "severity": "MODERATE",
+        "description": "Use of Password Hash With Insufficient Computational Effort in Apache Derby",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2022-05-02",
+        "updated_at": "2023-09-26"
+      },
+      {
+        "id": "GHSA-fh32-35w2-rxcc",
+        "severity": "MODERATE",
+        "description": "Use of Password Hash With Insufficient Computational Effort in Apache Derby",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2022-05-02",
+        "updated_at": "2023-09-26"
+      },
+      {
+        "id": "GHSA-fh32-35w2-rxcc",
+        "severity": "MODERATE",
+        "description": "Use of Password Hash With Insufficient Computational Effort in Apache Derby",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2022-05-02",
+        "updated_at": "2023-09-26"
+      },
+      {
+        "id": "GHSA-fh32-35w2-rxcc",
+        "severity": "MODERATE",
+        "description": "Use of Password Hash With Insufficient Computational Effort in Apache Derby",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2022-05-02",
+        "updated_at": "2023-09-26"
+      },
+      {
+        "id": "GHSA-fh32-35w2-rxcc",
+        "severity": "MODERATE",
+        "description": "Use of Password Hash With Insufficient Computational Effort in Apache Derby",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2022-05-02",
+        "updated_at": "2023-09-26"
+      }
+    ]
+  },
+  "gson:": {
+    "name": "gson",
+    "version": "",
+    "type": "java-archive",
+    "licenses": [],
+    "vulnerabilities": [
+      {
+        "id": "GHSA-4jrv-ppp4-jm57",
+        "severity": "HIGH",
+        "description": "Deserialization of Untrusted Data in Gson",
+        "links": [],
+        "cvss_score": 7.7,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:H/A:H",
+        "published_at": "2022-05-03",
+        "updated_at": "2023-01-29"
+      },
+      {
+        "id": "GHSA-4jrv-ppp4-jm57",
+        "severity": "HIGH",
+        "description": "Deserialization of Untrusted Data in Gson",
+        "links": [],
+        "cvss_score": 7.7,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:H/A:H",
+        "published_at": "2022-05-03",
+        "updated_at": "2023-01-29"
+      },
+      {
+        "id": "GHSA-4jrv-ppp4-jm57",
+        "severity": "HIGH",
+        "description": "Deserialization of Untrusted Data in Gson",
+        "links": [],
+        "cvss_score": 7.7,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:H/A:H",
+        "published_at": "2022-05-03",
+        "updated_at": "2023-01-29"
+      },
+      {
+        "id": "GHSA-4jrv-ppp4-jm57",
+        "severity": "HIGH",
+        "description": "Deserialization of Untrusted Data in Gson",
+        "links": [],
+        "cvss_score": 7.7,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:H/A:H",
+        "published_at": "2022-05-03",
+        "updated_at": "2023-01-29"
+      }
+    ]
+  },
+  "guava:": {
+    "name": "guava",
+    "version": "",
+    "type": "java-archive",
+    "licenses": [],
+    "vulnerabilities": [
+      {
+        "id": "GHSA-5mg8-w23w-74h3",
+        "severity": "LOW",
+        "description": "Information Disclosure in Guava",
+        "links": [],
+        "cvss_score": 3.3,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+        "published_at": "2021-03-25",
+        "updated_at": "2023-11-09"
+      },
+      {
+        "id": "GHSA-5mg8-w23w-74h3",
+        "severity": "LOW",
+        "description": "Information Disclosure in Guava",
+        "links": [],
+        "cvss_score": 3.3,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+        "published_at": "2021-03-25",
+        "updated_at": "2023-11-09"
+      },
+      {
+        "id": "GHSA-5mg8-w23w-74h3",
+        "severity": "LOW",
+        "description": "Information Disclosure in Guava",
+        "links": [],
+        "cvss_score": 3.3,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+        "published_at": "2021-03-25",
+        "updated_at": "2023-11-09"
+      }
+    ]
+  },
+  "h2:": {
+    "name": "h2",
+    "version": "",
+    "type": "java-archive",
+    "licenses": [],
+    "vulnerabilities": [
+      {
+        "id": "GHSA-45hx-wfhj-473x",
+        "severity": "CRITICAL",
+        "description": "Arbitrary code execution in H2 Console",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2022-01-21",
+        "updated_at": "2023-08-18"
+      },
+      {
+        "id": "GHSA-45hx-wfhj-473x",
+        "severity": "CRITICAL",
+        "description": "Arbitrary code execution in H2 Console",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2022-01-21",
+        "updated_at": "2023-08-18"
+      },
+      {
+        "id": "GHSA-45hx-wfhj-473x",
+        "severity": "CRITICAL",
+        "description": "Arbitrary code execution in H2 Console",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2022-01-21",
+        "updated_at": "2023-08-18"
+      },
+      {
+        "id": "GHSA-45hx-wfhj-473x",
+        "severity": "CRITICAL",
+        "description": "Arbitrary code execution in H2 Console",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2022-01-21",
+        "updated_at": "2023-08-18"
+      },
+      {
+        "id": "GHSA-45hx-wfhj-473x",
+        "severity": "CRITICAL",
+        "description": "Arbitrary code execution in H2 Console",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2022-01-21",
+        "updated_at": "2023-08-18"
+      }
+    ]
+  },
+  "hadoop-client:": {
+    "name": "hadoop-client",
+    "version": "",
+    "type": "java-archive",
+    "licenses": [],
+    "vulnerabilities": [
+      {
+        "id": "GHSA-q46v-cj5v-hvg6",
+        "severity": "CRITICAL",
+        "description": "Use of a Broken or Risky Cryptographic Algorithm in Apache Hadoop",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2022-05-17",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-q46v-cj5v-hvg6",
+        "severity": "CRITICAL",
+        "description": "Use of a Broken or Risky Cryptographic Algorithm in Apache Hadoop",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2022-05-17",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-q46v-cj5v-hvg6",
+        "severity": "CRITICAL",
+        "description": "Use of a Broken or Risky Cryptographic Algorithm in Apache Hadoop",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2022-05-17",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-pr9x-qmp5-j3rr",
+        "severity": "HIGH",
+        "description": "Improper Input Validation in Apache Hadoop",
+        "links": [],
+        "cvss_score": 7.3,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+        "published_at": "2022-05-13",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-pr9x-qmp5-j3rr",
+        "severity": "HIGH",
+        "description": "Improper Input Validation in Apache Hadoop",
+        "links": [],
+        "cvss_score": 7.3,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+        "published_at": "2022-05-13",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-pr9x-qmp5-j3rr",
+        "severity": "HIGH",
+        "description": "Improper Input Validation in Apache Hadoop",
+        "links": [],
+        "cvss_score": 7.3,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+        "published_at": "2022-05-13",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-qm7f-r83w-3p46",
+        "severity": "MODERATE",
+        "description": "Improper Neutralization of Input During Web Page Generation in Apache Hadoop",
+        "links": [],
+        "cvss_score": 6.1,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+        "published_at": "2022-05-13",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-qm7f-r83w-3p46",
+        "severity": "MODERATE",
+        "description": "Improper Neutralization of Input During Web Page Generation in Apache Hadoop",
+        "links": [],
+        "cvss_score": 6.1,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+        "published_at": "2022-05-13",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-qm7f-r83w-3p46",
+        "severity": "MODERATE",
+        "description": "Improper Neutralization of Input During Web Page Generation in Apache Hadoop",
+        "links": [],
+        "cvss_score": 6.1,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+        "published_at": "2022-05-13",
+        "updated_at": "2023-01-27"
+      }
+    ]
+  },
+  "hadoop-common:": {
+    "name": "hadoop-common",
+    "version": "",
+    "type": "java-archive",
+    "licenses": [],
+    "vulnerabilities": [
+      {
+        "id": "GHSA-rmpj-7c96-mrg8",
+        "severity": "CRITICAL",
+        "description": "Apache Hadoop heap overflow before v2.10.2, v3.2.3, v3.3.2",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2022-06-14",
+        "updated_at": "2023-06-27"
+      },
+      {
+        "id": "GHSA-rmpj-7c96-mrg8",
+        "severity": "CRITICAL",
+        "description": "Apache Hadoop heap overflow before v2.10.2, v3.2.3, v3.3.2",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2022-06-14",
+        "updated_at": "2023-06-27"
+      },
+      {
+        "id": "GHSA-rmpj-7c96-mrg8",
+        "severity": "CRITICAL",
+        "description": "Apache Hadoop heap overflow before v2.10.2, v3.2.3, v3.3.2",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2022-06-14",
+        "updated_at": "2023-06-27"
+      },
+      {
+        "id": "GHSA-rmpj-7c96-mrg8",
+        "severity": "CRITICAL",
+        "description": "Apache Hadoop heap overflow before v2.10.2, v3.2.3, v3.3.2",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2022-06-14",
+        "updated_at": "2023-06-27"
+      },
+      {
+        "id": "GHSA-rmpj-7c96-mrg8",
+        "severity": "CRITICAL",
+        "description": "Apache Hadoop heap overflow before v2.10.2, v3.2.3, v3.3.2",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2022-06-14",
+        "updated_at": "2023-06-27"
+      },
+      {
+        "id": "GHSA-rmpj-7c96-mrg8",
+        "severity": "CRITICAL",
+        "description": "Apache Hadoop heap overflow before v2.10.2, v3.2.3, v3.3.2",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2022-06-14",
+        "updated_at": "2023-06-27"
+      },
+      {
+        "id": "GHSA-gx2c-fvhc-ph4j",
+        "severity": "CRITICAL",
+        "description": "Path traversal in Hadoop",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2022-04-08",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-gx2c-fvhc-ph4j",
+        "severity": "CRITICAL",
+        "description": "Path traversal in Hadoop",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2022-04-08",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-gx2c-fvhc-ph4j",
+        "severity": "CRITICAL",
+        "description": "Path traversal in Hadoop",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2022-04-08",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-gx2c-fvhc-ph4j",
+        "severity": "CRITICAL",
+        "description": "Path traversal in Hadoop",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2022-04-08",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-gx2c-fvhc-ph4j",
+        "severity": "CRITICAL",
+        "description": "Path traversal in Hadoop",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2022-04-08",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-gx2c-fvhc-ph4j",
+        "severity": "CRITICAL",
+        "description": "Path traversal in Hadoop",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2022-04-08",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-h24p-qwf4-84q8",
+        "severity": "HIGH",
+        "description": "Apache Hadoop's LinuxContainerExecutor runs docker commands as root with insufficient input validation",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2022-05-17",
+        "updated_at": "2023-02-02"
+      },
+      {
+        "id": "GHSA-h24p-qwf4-84q8",
+        "severity": "HIGH",
+        "description": "Apache Hadoop's LinuxContainerExecutor runs docker commands as root with insufficient input validation",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2022-05-17",
+        "updated_at": "2023-02-02"
+      },
+      {
+        "id": "GHSA-h24p-qwf4-84q8",
+        "severity": "HIGH",
+        "description": "Apache Hadoop's LinuxContainerExecutor runs docker commands as root with insufficient input validation",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2022-05-17",
+        "updated_at": "2023-02-02"
+      },
+      {
+        "id": "GHSA-h24p-qwf4-84q8",
+        "severity": "HIGH",
+        "description": "Apache Hadoop's LinuxContainerExecutor runs docker commands as root with insufficient input validation",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2022-05-17",
+        "updated_at": "2023-02-02"
+      },
+      {
+        "id": "GHSA-h24p-qwf4-84q8",
+        "severity": "HIGH",
+        "description": "Apache Hadoop's LinuxContainerExecutor runs docker commands as root with insufficient input validation",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2022-05-17",
+        "updated_at": "2023-02-02"
+      },
+      {
+        "id": "GHSA-h24p-qwf4-84q8",
+        "severity": "HIGH",
+        "description": "Apache Hadoop's LinuxContainerExecutor runs docker commands as root with insufficient input validation",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2022-05-17",
+        "updated_at": "2023-02-02"
+      },
+      {
+        "id": "GHSA-8r28-r8cp-g6cp",
+        "severity": "MODERATE",
+        "description": "Exposure of Sensitive Information to an Unauthorized Actor in Apache Hadoop",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2022-05-13",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-8r28-r8cp-g6cp",
+        "severity": "MODERATE",
+        "description": "Exposure of Sensitive Information to an Unauthorized Actor in Apache Hadoop",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2022-05-13",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-8r28-r8cp-g6cp",
+        "severity": "MODERATE",
+        "description": "Exposure of Sensitive Information to an Unauthorized Actor in Apache Hadoop",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2022-05-13",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-8r28-r8cp-g6cp",
+        "severity": "MODERATE",
+        "description": "Exposure of Sensitive Information to an Unauthorized Actor in Apache Hadoop",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2022-05-13",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-8r28-r8cp-g6cp",
+        "severity": "MODERATE",
+        "description": "Exposure of Sensitive Information to an Unauthorized Actor in Apache Hadoop",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2022-05-13",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-8r28-r8cp-g6cp",
+        "severity": "MODERATE",
+        "description": "Exposure of Sensitive Information to an Unauthorized Actor in Apache Hadoop",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2022-05-13",
+        "updated_at": "2023-01-27"
+      }
+    ]
+  },
+  "hive-exec:": {
+    "name": "hive-exec",
+    "version": "",
+    "type": "java-archive",
+    "licenses": [],
+    "vulnerabilities": [
+      {
+        "id": "GHSA-rrfq-g5fq-fc9c",
+        "severity": "HIGH",
+        "description": "Improper Authentication in hive:hive-exec",
+        "links": [],
+        "cvss_score": 8.1,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+        "published_at": "2018-11-21",
+        "updated_at": "2023-01-09"
+      },
+      {
+        "id": "GHSA-gf2v-9hp6-44qg",
+        "severity": "HIGH",
+        "description": "org.apache.hive:hive, org.apache.hive:hive-exec, and org.apache.hive:hive-service vulnerable to Improper Certificate Validation ",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+        "published_at": "2019-03-14",
+        "updated_at": "2023-01-11"
+      },
+      {
+        "id": "GHSA-w4x9-4f5x-8jj8",
+        "severity": "LOW",
+        "description": "Low severity vulnerability that affects      org.apache.hive:hive-exec, org.apache.hive:hive, and org.apache.hive:hive-service",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2018-11-21",
+        "updated_at": "2023-01-09"
+      }
+    ]
+  },
+  "html-minifier:3.5.21": {
+    "name": "html-minifier",
+    "version": "3.5.21",
+    "type": "npm",
+    "licenses": [],
+    "vulnerabilities": [
+      {
+        "id": "GHSA-pfq8-rq6v-vf5m",
+        "severity": "HIGH",
+        "description": "kangax html-minifier REDoS vulnerability",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2022-10-31",
+        "updated_at": "2024-04-22"
+      }
+    ]
+  },
+  "httpclient:": {
+    "name": "httpclient",
+    "version": "",
+    "type": "java-archive",
+    "licenses": [],
+    "vulnerabilities": [
+      {
+        "id": "GHSA-2x83-r56g-cv47",
+        "severity": "HIGH",
+        "description": "Improper certificate validation in org.apache.httpcomponents:httpclient",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2018-10-17",
+        "updated_at": "2024-03-05"
+      },
+      {
+        "id": "GHSA-2x83-r56g-cv47",
+        "severity": "HIGH",
+        "description": "Improper certificate validation in org.apache.httpcomponents:httpclient",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2018-10-17",
+        "updated_at": "2024-03-05"
+      },
+      {
+        "id": "GHSA-2x83-r56g-cv47",
+        "severity": "HIGH",
+        "description": "Improper certificate validation in org.apache.httpcomponents:httpclient",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2018-10-17",
+        "updated_at": "2024-03-05"
+      },
+      {
+        "id": "GHSA-2x83-r56g-cv47",
+        "severity": "HIGH",
+        "description": "Improper certificate validation in org.apache.httpcomponents:httpclient",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2018-10-17",
+        "updated_at": "2024-03-05"
+      },
+      {
+        "id": "GHSA-2x83-r56g-cv47",
+        "severity": "HIGH",
+        "description": "Improper certificate validation in org.apache.httpcomponents:httpclient",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2018-10-17",
+        "updated_at": "2024-03-05"
+      },
+      {
+        "id": "GHSA-2x83-r56g-cv47",
+        "severity": "HIGH",
+        "description": "Improper certificate validation in org.apache.httpcomponents:httpclient",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2018-10-17",
+        "updated_at": "2024-03-05"
+      },
+      {
+        "id": "GHSA-2x83-r56g-cv47",
+        "severity": "HIGH",
+        "description": "Improper certificate validation in org.apache.httpcomponents:httpclient",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2018-10-17",
+        "updated_at": "2024-03-05"
+      },
+      {
+        "id": "GHSA-2x83-r56g-cv47",
+        "severity": "HIGH",
+        "description": "Improper certificate validation in org.apache.httpcomponents:httpclient",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2018-10-17",
+        "updated_at": "2024-03-05"
+      },
+      {
+        "id": "GHSA-2x83-r56g-cv47",
+        "severity": "HIGH",
+        "description": "Improper certificate validation in org.apache.httpcomponents:httpclient",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2018-10-17",
+        "updated_at": "2024-03-05"
+      },
+      {
+        "id": "GHSA-2x83-r56g-cv47",
+        "severity": "HIGH",
+        "description": "Improper certificate validation in org.apache.httpcomponents:httpclient",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2018-10-17",
+        "updated_at": "2024-03-05"
+      },
+      {
+        "id": "GHSA-2x83-r56g-cv47",
+        "severity": "HIGH",
+        "description": "Improper certificate validation in org.apache.httpcomponents:httpclient",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2018-10-17",
+        "updated_at": "2024-03-05"
+      },
+      {
+        "id": "GHSA-fmj5-wv96-r2ch",
+        "severity": "MODERATE",
+        "description": "Denial of service vulnerability in org.apache.httpcomponents:httpclient",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2018-10-17",
+        "updated_at": "2023-02-13"
+      },
+      {
+        "id": "GHSA-fmj5-wv96-r2ch",
+        "severity": "MODERATE",
+        "description": "Denial of service vulnerability in org.apache.httpcomponents:httpclient",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2018-10-17",
+        "updated_at": "2023-02-13"
+      },
+      {
+        "id": "GHSA-fmj5-wv96-r2ch",
+        "severity": "MODERATE",
+        "description": "Denial of service vulnerability in org.apache.httpcomponents:httpclient",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2018-10-17",
+        "updated_at": "2023-02-13"
+      },
+      {
+        "id": "GHSA-fmj5-wv96-r2ch",
+        "severity": "MODERATE",
+        "description": "Denial of service vulnerability in org.apache.httpcomponents:httpclient",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2018-10-17",
+        "updated_at": "2023-02-13"
+      },
+      {
+        "id": "GHSA-fmj5-wv96-r2ch",
+        "severity": "MODERATE",
+        "description": "Denial of service vulnerability in org.apache.httpcomponents:httpclient",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2018-10-17",
+        "updated_at": "2023-02-13"
+      },
+      {
+        "id": "GHSA-fmj5-wv96-r2ch",
+        "severity": "MODERATE",
+        "description": "Denial of service vulnerability in org.apache.httpcomponents:httpclient",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2018-10-17",
+        "updated_at": "2023-02-13"
+      },
+      {
+        "id": "GHSA-fmj5-wv96-r2ch",
+        "severity": "MODERATE",
+        "description": "Denial of service vulnerability in org.apache.httpcomponents:httpclient",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2018-10-17",
+        "updated_at": "2023-02-13"
+      },
+      {
+        "id": "GHSA-fmj5-wv96-r2ch",
+        "severity": "MODERATE",
+        "description": "Denial of service vulnerability in org.apache.httpcomponents:httpclient",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2018-10-17",
+        "updated_at": "2023-02-13"
+      },
+      {
+        "id": "GHSA-fmj5-wv96-r2ch",
+        "severity": "MODERATE",
+        "description": "Denial of service vulnerability in org.apache.httpcomponents:httpclient",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2018-10-17",
+        "updated_at": "2023-02-13"
+      },
+      {
+        "id": "GHSA-fmj5-wv96-r2ch",
+        "severity": "MODERATE",
+        "description": "Denial of service vulnerability in org.apache.httpcomponents:httpclient",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2018-10-17",
+        "updated_at": "2023-02-13"
+      },
+      {
+        "id": "GHSA-fmj5-wv96-r2ch",
+        "severity": "MODERATE",
+        "description": "Denial of service vulnerability in org.apache.httpcomponents:httpclient",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2018-10-17",
+        "updated_at": "2023-02-13"
+      },
+      {
+        "id": "GHSA-cfh5-3ghh-wfjx",
+        "severity": "MODERATE",
+        "description": "Improper Verification of Cryptographic Signature in org.apache.httpcomponents:httpclient",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2018-10-17",
+        "updated_at": "2024-04-12"
+      },
+      {
+        "id": "GHSA-cfh5-3ghh-wfjx",
+        "severity": "MODERATE",
+        "description": "Improper Verification of Cryptographic Signature in org.apache.httpcomponents:httpclient",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2018-10-17",
+        "updated_at": "2024-04-12"
+      },
+      {
+        "id": "GHSA-cfh5-3ghh-wfjx",
+        "severity": "MODERATE",
+        "description": "Improper Verification of Cryptographic Signature in org.apache.httpcomponents:httpclient",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2018-10-17",
+        "updated_at": "2024-04-12"
+      },
+      {
+        "id": "GHSA-cfh5-3ghh-wfjx",
+        "severity": "MODERATE",
+        "description": "Improper Verification of Cryptographic Signature in org.apache.httpcomponents:httpclient",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2018-10-17",
+        "updated_at": "2024-04-12"
+      },
+      {
+        "id": "GHSA-cfh5-3ghh-wfjx",
+        "severity": "MODERATE",
+        "description": "Improper Verification of Cryptographic Signature in org.apache.httpcomponents:httpclient",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2018-10-17",
+        "updated_at": "2024-04-12"
+      },
+      {
+        "id": "GHSA-cfh5-3ghh-wfjx",
+        "severity": "MODERATE",
+        "description": "Improper Verification of Cryptographic Signature in org.apache.httpcomponents:httpclient",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2018-10-17",
+        "updated_at": "2024-04-12"
+      },
+      {
+        "id": "GHSA-cfh5-3ghh-wfjx",
+        "severity": "MODERATE",
+        "description": "Improper Verification of Cryptographic Signature in org.apache.httpcomponents:httpclient",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2018-10-17",
+        "updated_at": "2024-04-12"
+      },
+      {
+        "id": "GHSA-cfh5-3ghh-wfjx",
+        "severity": "MODERATE",
+        "description": "Improper Verification of Cryptographic Signature in org.apache.httpcomponents:httpclient",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2018-10-17",
+        "updated_at": "2024-04-12"
+      },
+      {
+        "id": "GHSA-cfh5-3ghh-wfjx",
+        "severity": "MODERATE",
+        "description": "Improper Verification of Cryptographic Signature in org.apache.httpcomponents:httpclient",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2018-10-17",
+        "updated_at": "2024-04-12"
+      },
+      {
+        "id": "GHSA-cfh5-3ghh-wfjx",
+        "severity": "MODERATE",
+        "description": "Improper Verification of Cryptographic Signature in org.apache.httpcomponents:httpclient",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2018-10-17",
+        "updated_at": "2024-04-12"
+      },
+      {
+        "id": "GHSA-cfh5-3ghh-wfjx",
+        "severity": "MODERATE",
+        "description": "Improper Verification of Cryptographic Signature in org.apache.httpcomponents:httpclient",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2018-10-17",
+        "updated_at": "2024-04-12"
+      },
+      {
+        "id": "GHSA-7r82-7xv7-xcpj",
+        "severity": "MODERATE",
+        "description": "Cross-site scripting in Apache HttpClient",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+        "published_at": "2021-06-03",
+        "updated_at": "2023-02-01"
+      },
+      {
+        "id": "GHSA-7r82-7xv7-xcpj",
+        "severity": "MODERATE",
+        "description": "Cross-site scripting in Apache HttpClient",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+        "published_at": "2021-06-03",
+        "updated_at": "2023-02-01"
+      },
+      {
+        "id": "GHSA-7r82-7xv7-xcpj",
+        "severity": "MODERATE",
+        "description": "Cross-site scripting in Apache HttpClient",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+        "published_at": "2021-06-03",
+        "updated_at": "2023-02-01"
+      },
+      {
+        "id": "GHSA-7r82-7xv7-xcpj",
+        "severity": "MODERATE",
+        "description": "Cross-site scripting in Apache HttpClient",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+        "published_at": "2021-06-03",
+        "updated_at": "2023-02-01"
+      },
+      {
+        "id": "GHSA-7r82-7xv7-xcpj",
+        "severity": "MODERATE",
+        "description": "Cross-site scripting in Apache HttpClient",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+        "published_at": "2021-06-03",
+        "updated_at": "2023-02-01"
+      },
+      {
+        "id": "GHSA-7r82-7xv7-xcpj",
+        "severity": "MODERATE",
+        "description": "Cross-site scripting in Apache HttpClient",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+        "published_at": "2021-06-03",
+        "updated_at": "2023-02-01"
+      },
+      {
+        "id": "GHSA-7r82-7xv7-xcpj",
+        "severity": "MODERATE",
+        "description": "Cross-site scripting in Apache HttpClient",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+        "published_at": "2021-06-03",
+        "updated_at": "2023-02-01"
+      },
+      {
+        "id": "GHSA-7r82-7xv7-xcpj",
+        "severity": "MODERATE",
+        "description": "Cross-site scripting in Apache HttpClient",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+        "published_at": "2021-06-03",
+        "updated_at": "2023-02-01"
+      },
+      {
+        "id": "GHSA-7r82-7xv7-xcpj",
+        "severity": "MODERATE",
+        "description": "Cross-site scripting in Apache HttpClient",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+        "published_at": "2021-06-03",
+        "updated_at": "2023-02-01"
+      },
+      {
+        "id": "GHSA-7r82-7xv7-xcpj",
+        "severity": "MODERATE",
+        "description": "Cross-site scripting in Apache HttpClient",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+        "published_at": "2021-06-03",
+        "updated_at": "2023-02-01"
+      },
+      {
+        "id": "GHSA-7r82-7xv7-xcpj",
+        "severity": "MODERATE",
+        "description": "Cross-site scripting in Apache HttpClient",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+        "published_at": "2021-06-03",
+        "updated_at": "2023-02-01"
+      }
+    ]
+  },
+  "kotlin-stdlib:": {
+    "name": "kotlin-stdlib",
+    "version": "",
+    "type": "java-archive",
+    "licenses": [],
+    "vulnerabilities": [
+      {
+        "id": "GHSA-cqj8-47ch-rvvq",
+        "severity": "MODERATE",
+        "description": "Incorrect Default Permissions in JetBrains Kotlin",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "published_at": "2022-05-24",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-cqj8-47ch-rvvq",
+        "severity": "MODERATE",
+        "description": "Incorrect Default Permissions in JetBrains Kotlin",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "published_at": "2022-05-24",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-cqj8-47ch-rvvq",
+        "severity": "MODERATE",
+        "description": "Incorrect Default Permissions in JetBrains Kotlin",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+        "published_at": "2022-05-24",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-2qp4-g3q3-f92w",
+        "severity": "MODERATE",
+        "description": "Improper Locking in JetBrains Kotlin",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+        "published_at": "2022-02-26",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-2qp4-g3q3-f92w",
+        "severity": "MODERATE",
+        "description": "Improper Locking in JetBrains Kotlin",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+        "published_at": "2022-02-26",
+        "updated_at": "2023-01-27"
+      },
+      {
+        "id": "GHSA-2qp4-g3q3-f92w",
+        "severity": "MODERATE",
+        "description": "Improper Locking in JetBrains Kotlin",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+        "published_at": "2022-02-26",
+        "updated_at": "2023-01-27"
+      }
+    ]
+  },
+  "logback-classic:": {
+    "name": "logback-classic",
+    "version": "",
+    "type": "java-archive",
+    "licenses": [],
+    "vulnerabilities": [
+      {
+        "id": "GHSA-vmfg-rjjm-rjrj",
+        "severity": "CRITICAL",
+        "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2021-06-07",
+        "updated_at": "2023-01-28"
+      },
+      {
+        "id": "GHSA-vmfg-rjjm-rjrj",
+        "severity": "CRITICAL",
+        "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2021-06-07",
+        "updated_at": "2023-01-28"
+      },
+      {
+        "id": "GHSA-vmfg-rjjm-rjrj",
+        "severity": "CRITICAL",
+        "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2021-06-07",
+        "updated_at": "2023-01-28"
+      },
+      {
+        "id": "GHSA-vmfg-rjjm-rjrj",
+        "severity": "CRITICAL",
+        "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2021-06-07",
+        "updated_at": "2023-01-28"
+      },
+      {
+        "id": "GHSA-vmfg-rjjm-rjrj",
+        "severity": "CRITICAL",
+        "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2021-06-07",
+        "updated_at": "2023-01-28"
+      },
+      {
+        "id": "GHSA-vmfg-rjjm-rjrj",
+        "severity": "CRITICAL",
+        "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2021-06-07",
+        "updated_at": "2023-01-28"
+      },
+      {
+        "id": "GHSA-vmfg-rjjm-rjrj",
+        "severity": "CRITICAL",
+        "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2021-06-07",
+        "updated_at": "2023-01-28"
+      },
+      {
+        "id": "GHSA-vmfg-rjjm-rjrj",
+        "severity": "CRITICAL",
+        "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2021-06-07",
+        "updated_at": "2023-01-28"
+      },
+      {
+        "id": "GHSA-vmfg-rjjm-rjrj",
+        "severity": "CRITICAL",
+        "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2021-06-07",
+        "updated_at": "2023-01-28"
+      },
+      {
+        "id": "GHSA-vmq6-5m68-f53m",
+        "severity": "HIGH",
+        "description": "logback serialization vulnerability",
+        "links": [],
+        "cvss_score": 7.1,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+        "published_at": "2023-11-29",
+        "updated_at": "2023-12-05"
+      },
+      {
+        "id": "GHSA-vmq6-5m68-f53m",
+        "severity": "HIGH",
+        "description": "logback serialization vulnerability",
+        "links": [],
+        "cvss_score": 7.1,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+        "published_at": "2023-11-29",
+        "updated_at": "2023-12-05"
+      },
+      {
+        "id": "GHSA-vmq6-5m68-f53m",
+        "severity": "HIGH",
+        "description": "logback serialization vulnerability",
+        "links": [],
+        "cvss_score": 7.1,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+        "published_at": "2023-11-29",
+        "updated_at": "2023-12-05"
+      },
+      {
+        "id": "GHSA-vmq6-5m68-f53m",
+        "severity": "HIGH",
+        "description": "logback serialization vulnerability",
+        "links": [],
+        "cvss_score": 7.1,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+        "published_at": "2023-11-29",
+        "updated_at": "2023-12-05"
+      },
+      {
+        "id": "GHSA-vmq6-5m68-f53m",
+        "severity": "HIGH",
+        "description": "logback serialization vulnerability",
+        "links": [],
+        "cvss_score": 7.1,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+        "published_at": "2023-11-29",
+        "updated_at": "2023-12-05"
+      },
+      {
+        "id": "GHSA-vmq6-5m68-f53m",
+        "severity": "HIGH",
+        "description": "logback serialization vulnerability",
+        "links": [],
+        "cvss_score": 7.1,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+        "published_at": "2023-11-29",
+        "updated_at": "2023-12-05"
+      },
+      {
+        "id": "GHSA-vmq6-5m68-f53m",
+        "severity": "HIGH",
+        "description": "logback serialization vulnerability",
+        "links": [],
+        "cvss_score": 7.1,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+        "published_at": "2023-11-29",
+        "updated_at": "2023-12-05"
+      },
+      {
+        "id": "GHSA-vmq6-5m68-f53m",
+        "severity": "HIGH",
+        "description": "logback serialization vulnerability",
+        "links": [],
+        "cvss_score": 7.1,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+        "published_at": "2023-11-29",
+        "updated_at": "2023-12-05"
+      },
+      {
+        "id": "GHSA-vmq6-5m68-f53m",
+        "severity": "HIGH",
+        "description": "logback serialization vulnerability",
+        "links": [],
+        "cvss_score": 7.1,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+        "published_at": "2023-11-29",
+        "updated_at": "2023-12-05"
+      }
+    ]
+  },
+  "logback-core:": {
+    "name": "logback-core",
+    "version": "",
+    "type": "java-archive",
+    "licenses": [],
+    "vulnerabilities": [
+      {
+        "id": "GHSA-vmfg-rjjm-rjrj",
+        "severity": "CRITICAL",
+        "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2021-06-07",
+        "updated_at": "2023-01-28"
+      },
+      {
+        "id": "GHSA-vmfg-rjjm-rjrj",
+        "severity": "CRITICAL",
+        "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2021-06-07",
+        "updated_at": "2023-01-28"
+      },
+      {
+        "id": "GHSA-vmfg-rjjm-rjrj",
+        "severity": "CRITICAL",
+        "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2021-06-07",
+        "updated_at": "2023-01-28"
+      },
+      {
+        "id": "GHSA-vmfg-rjjm-rjrj",
+        "severity": "CRITICAL",
+        "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2021-06-07",
+        "updated_at": "2023-01-28"
+      },
+      {
+        "id": "GHSA-vmfg-rjjm-rjrj",
+        "severity": "CRITICAL",
+        "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2021-06-07",
+        "updated_at": "2023-01-28"
+      },
+      {
+        "id": "GHSA-vmfg-rjjm-rjrj",
+        "severity": "CRITICAL",
+        "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2021-06-07",
+        "updated_at": "2023-01-28"
+      },
+      {
+        "id": "GHSA-vmfg-rjjm-rjrj",
+        "severity": "CRITICAL",
+        "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2021-06-07",
+        "updated_at": "2023-01-28"
+      },
+      {
+        "id": "GHSA-vmfg-rjjm-rjrj",
+        "severity": "CRITICAL",
+        "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2021-06-07",
+        "updated_at": "2023-01-28"
+      },
+      {
+        "id": "GHSA-vmfg-rjjm-rjrj",
+        "severity": "CRITICAL",
+        "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+        "links": [],
+        "cvss_score": 9.8,
+        "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2021-06-07",
+        "updated_at": "2023-01-28"
+      },
+      {
+        "id": "GHSA-vmq6-5m68-f53m",
+        "severity": "HIGH",
+        "description": "logback serialization vulnerability",
+        "links": [],
+        "cvss_score": 7.1,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+        "published_at": "2023-11-29",
+        "updated_at": "2023-12-05"
+      },
+      {
+        "id": "GHSA-vmq6-5m68-f53m",
+        "severity": "HIGH",
+        "description": "logback serialization vulnerability",
+        "links": [],
+        "cvss_score": 7.1,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+        "published_at": "2023-11-29",
+        "updated_at": "2023-12-05"
+      },
+      {
+        "id": "GHSA-vmq6-5m68-f53m",
+        "severity": "HIGH",
+        "description": "logback serialization vulnerability",
+        "links": [],
+        "cvss_score": 7.1,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+        "published_at": "2023-11-29",
+        "updated_at": "2023-12-05"
+      },
+      {
+        "id": "GHSA-vmq6-5m68-f53m",
+        "severity": "HIGH",
+        "description": "logback serialization vulnerability",
+        "links": [],
+        "cvss_score": 7.1,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+        "published_at": "2023-11-29",
+        "updated_at": "2023-12-05"
+      },
+      {
+        "id": "GHSA-vmq6-5m68-f53m",
+        "severity": "HIGH",
+        "description": "logback serialization vulnerability",
+        "links": [],
+        "cvss_score": 7.1,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+        "published_at": "2023-11-29",
+        "updated_at": "2023-12-05"
+      },
+      {
+        "id": "GHSA-vmq6-5m68-f53m",
+        "severity": "HIGH",
+        "description": "logback serialization vulnerability",
+        "links": [],
+        "cvss_score": 7.1,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+        "published_at": "2023-11-29",
+        "updated_at": "2023-12-05"
+      },
+      {
+        "id": "GHSA-vmq6-5m68-f53m",
+        "severity": "HIGH",
+        "description": "logback serialization vulnerability",
+        "links": [],
+        "cvss_score": 7.1,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+        "published_at": "2023-11-29",
+        "updated_at": "2023-12-05"
+      },
+      {
+        "id": "GHSA-vmq6-5m68-f53m",
+        "severity": "HIGH",
+        "description": "logback serialization vulnerability",
+        "links": [],
+        "cvss_score": 7.1,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+        "published_at": "2023-11-29",
+        "updated_at": "2023-12-05"
+      },
+      {
+        "id": "GHSA-vmq6-5m68-f53m",
+        "severity": "HIGH",
+        "description": "logback serialization vulnerability",
+        "links": [],
+        "cvss_score": 7.1,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+        "published_at": "2023-11-29",
+        "updated_at": "2023-12-05"
+      },
+      {
+        "id": "GHSA-668q-qrv7-99fm",
+        "severity": "MODERATE",
+        "description": "Deserialization of Untrusted Data in logback",
+        "links": [],
+        "cvss_score": 6.6,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2021-12-17",
+        "updated_at": "2023-01-30"
+      },
+      {
+        "id": "GHSA-668q-qrv7-99fm",
+        "severity": "MODERATE",
+        "description": "Deserialization of Untrusted Data in logback",
+        "links": [],
+        "cvss_score": 6.6,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2021-12-17",
+        "updated_at": "2023-01-30"
+      },
+      {
+        "id": "GHSA-668q-qrv7-99fm",
+        "severity": "MODERATE",
+        "description": "Deserialization of Untrusted Data in logback",
+        "links": [],
+        "cvss_score": 6.6,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2021-12-17",
+        "updated_at": "2023-01-30"
+      },
+      {
+        "id": "GHSA-668q-qrv7-99fm",
+        "severity": "MODERATE",
+        "description": "Deserialization of Untrusted Data in logback",
+        "links": [],
+        "cvss_score": 6.6,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2021-12-17",
+        "updated_at": "2023-01-30"
+      },
+      {
+        "id": "GHSA-668q-qrv7-99fm",
+        "severity": "MODERATE",
+        "description": "Deserialization of Untrusted Data in logback",
+        "links": [],
+        "cvss_score": 6.6,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2021-12-17",
+        "updated_at": "2023-01-30"
+      },
+      {
+        "id": "GHSA-668q-qrv7-99fm",
+        "severity": "MODERATE",
+        "description": "Deserialization of Untrusted Data in logback",
+        "links": [],
+        "cvss_score": 6.6,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2021-12-17",
+        "updated_at": "2023-01-30"
+      },
+      {
+        "id": "GHSA-668q-qrv7-99fm",
+        "severity": "MODERATE",
+        "description": "Deserialization of Untrusted Data in logback",
+        "links": [],
+        "cvss_score": 6.6,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2021-12-17",
+        "updated_at": "2023-01-30"
+      },
+      {
+        "id": "GHSA-668q-qrv7-99fm",
+        "severity": "MODERATE",
+        "description": "Deserialization of Untrusted Data in logback",
+        "links": [],
+        "cvss_score": 6.6,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2021-12-17",
+        "updated_at": "2023-01-30"
+      },
+      {
+        "id": "GHSA-668q-qrv7-99fm",
+        "severity": "MODERATE",
+        "description": "Deserialization of Untrusted Data in logback",
+        "links": [],
+        "cvss_score": 6.6,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+        "published_at": "2021-12-17",
+        "updated_at": "2023-01-30"
+      }
+    ]
+  },
+  "netty-codec:": {
+    "name": "netty-codec",
+    "version": "",
+    "type": "java-archive",
+    "licenses": [],
+    "vulnerabilities": [
+      {
+        "id": "GHSA-grg4-wf29-r9vv",
+        "severity": "HIGH",
+        "description": "Bzip2Decoder doesn't allow setting size restrictions for decompressed data",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-09-09",
+        "updated_at": "2023-08-16"
+      },
+      {
+        "id": "GHSA-grg4-wf29-r9vv",
+        "severity": "HIGH",
+        "description": "Bzip2Decoder doesn't allow setting size restrictions for decompressed data",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-09-09",
+        "updated_at": "2023-08-16"
+      },
+      {
+        "id": "GHSA-grg4-wf29-r9vv",
+        "severity": "HIGH",
+        "description": "Bzip2Decoder doesn't allow setting size restrictions for decompressed data",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-09-09",
+        "updated_at": "2023-08-16"
+      },
+      {
+        "id": "GHSA-grg4-wf29-r9vv",
+        "severity": "HIGH",
+        "description": "Bzip2Decoder doesn't allow setting size restrictions for decompressed data",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-09-09",
+        "updated_at": "2023-08-16"
+      },
+      {
+        "id": "GHSA-grg4-wf29-r9vv",
+        "severity": "HIGH",
+        "description": "Bzip2Decoder doesn't allow setting size restrictions for decompressed data",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2021-09-09",
+        "updated_at": "2023-08-16"
+      }
+    ]
+  },
+  "netty-codec-http:": {
+    "name": "netty-codec-http",
+    "version": "",
+    "type": "java-archive",
+    "licenses": [],
+    "vulnerabilities": [
+      {
+        "id": "GHSA-5jpm-x58v-624v",
+        "severity": "MODERATE",
+        "description": "Netty's HttpPostRequestDecoder can OOM",
+        "links": [],
+        "cvss_score": 5.3,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+        "published_at": "2024-03-25",
+        "updated_at": "2024-06-22"
+      },
+      {
+        "id": "GHSA-269q-hmxg-m83q",
+        "severity": "MODERATE",
+        "description": "Local Information Disclosure Vulnerability in io.netty:netty-codec-http",
+        "links": [],
+        "cvss_score": 5.5,
+        "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+        "published_at": "2022-05-10",
+        "updated_at": "2023-01-27"
+      }
+    ]
+  },
+  "netty-codec-http2:": {
+    "name": "netty-codec-http2",
+    "version": "",
+    "type": "java-archive",
+    "licenses": [],
+    "vulnerabilities": [
+      {
+        "id": "GHSA-xpw8-rcwv-8f8p",
+        "severity": "HIGH",
+        "description": "io.netty:netty-codec-http2 vulnerable to HTTP/2 Rapid Reset Attack",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2023-10-10",
+        "updated_at": "2023-11-06"
+      }
+    ]
+  },
+  "netty-handler:": {
+    "name": "netty-handler",
+    "version": "",
+    "type": "java-archive",
+    "licenses": [],
+    "vulnerabilities": [
+      {
+        "id": "GHSA-9959-6p3m-wxpc",
+        "severity": "MODERATE",
+        "description": "Denial of service in Netty",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2020-06-30",
+        "updated_at": "2023-01-09"
+      },
+      {
+        "id": "GHSA-9959-6p3m-wxpc",
+        "severity": "MODERATE",
+        "description": "Denial of service in Netty",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2020-06-30",
+        "updated_at": "2023-01-09"
+      },
+      {
+        "id": "GHSA-9959-6p3m-wxpc",
+        "severity": "MODERATE",
+        "description": "Denial of service in Netty",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2020-06-30",
+        "updated_at": "2023-01-09"
+      },
+      {
+        "id": "GHSA-9959-6p3m-wxpc",
+        "severity": "MODERATE",
+        "description": "Denial of service in Netty",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2020-06-30",
+        "updated_at": "2023-01-09"
+      },
+      {
+        "id": "GHSA-9959-6p3m-wxpc",
+        "severity": "MODERATE",
+        "description": "Denial of service in Netty",
+        "links": [],
+        "cvss_score": 0.0,
+        "vector_attack": null,
+        "published_at": "2020-06-30",
+        "updated_at": "2023-01-09"
+      },
+      {
+        "id": "GHSA-6mjq-h674-j845",
+        "severity": "MODERATE",
+        "description": "netty-handler SniHandler 16MB allocation",
+        "links": [],
+        "cvss_score": 6.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2023-06-20",
+        "updated_at": "2024-06-24"
+      },
+      {
+        "id": "GHSA-6mjq-h674-j845",
+        "severity": "MODERATE",
+        "description": "netty-handler SniHandler 16MB allocation",
+        "links": [],
+        "cvss_score": 6.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2023-06-20",
+        "updated_at": "2024-06-24"
+      },
+      {
+        "id": "GHSA-6mjq-h674-j845",
+        "severity": "MODERATE",
+        "description": "netty-handler SniHandler 16MB allocation",
+        "links": [],
+        "cvss_score": 6.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2023-06-20",
+        "updated_at": "2024-06-24"
+      },
+      {
+        "id": "GHSA-6mjq-h674-j845",
+        "severity": "MODERATE",
+        "description": "netty-handler SniHandler 16MB allocation",
+        "links": [],
+        "cvss_score": 6.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2023-06-20",
+        "updated_at": "2024-06-24"
+      },
+      {
+        "id": "GHSA-6mjq-h674-j845",
+        "severity": "MODERATE",
+        "description": "netty-handler SniHandler 16MB allocation",
+        "links": [],
+        "cvss_score": 6.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2023-06-20",
+        "updated_at": "2024-06-24"
+      }
+    ]
+  },
+  "nifi-jolt-transform-json-ui:": {
+    "name": "nifi-jolt-transform-json-ui",
+    "version": "",
+    "type": "java-archive",
+    "licenses": [],
+    "vulnerabilities": [
+      {
+        "id": "GHSA-68pr-6fjc-wmgm",
+        "severity": "HIGH",
+        "description": "Improper Neutralization of Input in Advanced User Interface for Jolt",
+        "links": [],
+        "cvss_score": 7.9,
+        "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:L",
+        "published_at": "2023-11-28",
+        "updated_at": "2023-11-28"
+      }
+    ]
+  },
+  "ws:8.11.0": {
+    "name": "ws",
+    "version": "8.11.0",
+    "type": "npm",
+    "licenses": [],
+    "vulnerabilities": [
+      {
+        "id": "GHSA-3h5v-q93c-6h6q",
+        "severity": "HIGH",
+        "description": "ws affected by a DoS when handling a request with many HTTP headers",
+        "links": [],
+        "cvss_score": 7.5,
+        "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+        "published_at": "2024-06-17",
+        "updated_at": "2024-06-17"
+      }
+    ]
+  }
+}

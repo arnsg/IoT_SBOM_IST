@@ -1,0 +1,50 @@
+{
+    "Flask:1.0.2": {
+        "name": "Flask",
+        "version": "1.0.2",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-m2qf-hxjv-5gpq",
+                "severity": "High",
+                "description": "Flask vulnerable to possible disclosure of permanent session cookie due to missing Vary: Cookie header",
+                "links": [],
+                "CWE_ID": "CWE-539",
+                "CWE_DESCRIPTION": "Use of Persistent Cookies Containing Sensitive Information"
+            }
+        ]
+    },
+    "junit:4.10": {
+        "name": "junit",
+        "version": "4.10",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-269g-pwp5-87pp",
+                "severity": "Medium",
+                "description": "TemporaryFolder on unix-like systems does not limit access to created files",
+                "links": [],
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            }
+        ]
+    },
+    "junit:4.9": {
+        "name": "junit",
+        "version": "4.9",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-269g-pwp5-87pp",
+                "severity": "Medium",
+                "description": "TemporaryFolder on unix-like systems does not limit access to created files",
+                "links": [],
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "Exposure of Sensitive Information to an Unauthorized Actor"
+            }
+        ]
+    }
+}

@@ -1,0 +1,1189 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:1f98ea57-313c-453d-a0f3-a5e095c2115e",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-07-14T11:31:27+02:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.4.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "51c4b56640e69259",
+      "type": "file",
+      "name": "/Users/massimocoppolaro/Desktop/Università/Tirocinio/Software/openfisma"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:maven/org.apache.ant/ant@1.6.5?package-id=93cfb1f1bfc1c60d",
+      "type": "library",
+      "name": "ant",
+      "version": "1.6.5",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:ant:1.6.5:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.ant/ant@1.6.5",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "7d18faf23df1a5c3a43613952e0e8a182664564b"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/library/Solr/lib/jsp-2.1/ant-1.6.5.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/library/Solr/lib/jsp-2.1/ant-1.6.5.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.lucene/lucene-core@2.9.3?package-id=98b87bfc419c1e5a",
+      "type": "library",
+      "name": "lucene-core",
+      "version": "2.9.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:lucene-core:2.9.3:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.lucene/lucene-core@2.9.3",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "284963a064e39fa33ecba8e57cc5581067cd81d1"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:lucene_core:2.9.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:lucene:2.9.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/library/Solr/webapps/solr.war"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/library/Solr/webapps/solr.war:WEB-INF/lib/lucene-core-2.9.3.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.lucene/lucene-highlighter@2.9.3?package-id=a4862dacdb828938",
+      "type": "library",
+      "name": "lucene-highlighter",
+      "version": "2.9.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:lucene-highlighter:2.9.3:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.lucene/lucene-highlighter@2.9.3",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "971029eed6d1faefe0104ce5b8ac0f853acb6324"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:lucene_highlighter:2.9.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:lucene:2.9.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/library/Solr/webapps/solr.war"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/library/Solr/webapps/solr.war:WEB-INF/lib/lucene-highlighter-2.9.3.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.lucene/lucene-memory@2.9.3?package-id=315e96f87a53f798",
+      "type": "library",
+      "name": "lucene-memory",
+      "version": "2.9.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:lucene-memory:2.9.3:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.lucene/lucene-memory@2.9.3",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "a937d2b7c5682f0b14858ce1a41ce99153b3ce63"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:lucene_memory:2.9.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:lucene:2.9.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/library/Solr/webapps/solr.war"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/library/Solr/webapps/solr.war:WEB-INF/lib/lucene-memory-2.9.3.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.lucene/lucene-misc@2.9.3?package-id=b6c9525af2a58887",
+      "type": "library",
+      "name": "lucene-misc",
+      "version": "2.9.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:lucene-misc:2.9.3:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.lucene/lucene-misc@2.9.3",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "0930cc926138b807e5e21462be6fa11655352f4c"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:lucene_misc:2.9.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:lucene:2.9.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/library/Solr/webapps/solr.war"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/library/Solr/webapps/solr.war:WEB-INF/lib/lucene-misc-2.9.3.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.lucene/lucene-queries@2.9.3?package-id=a8629b49456ac04e",
+      "type": "library",
+      "name": "lucene-queries",
+      "version": "2.9.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:lucene-queries:2.9.3:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.lucene/lucene-queries@2.9.3",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "ba24318712942106abdc54864a8c45c6e3c85924"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:lucene_queries:2.9.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:lucene:2.9.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/library/Solr/webapps/solr.war"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/library/Solr/webapps/solr.war:WEB-INF/lib/lucene-queries-2.9.3.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.lucene/lucene-snowball@2.9.3?package-id=c7fff1127eac4d4a",
+      "type": "library",
+      "name": "lucene-snowball",
+      "version": "2.9.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:lucene-snowball:2.9.3:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.lucene/lucene-snowball@2.9.3",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "cb59ccb76857dadd903752a709f5c25157edec15"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:lucene_snowball:2.9.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:lucene:2.9.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/library/Solr/webapps/solr.war"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/library/Solr/webapps/solr.war:WEB-INF/lib/lucene-snowball-2.9.3.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.lucene/lucene-spellchecker@2.9.3?package-id=c0e42713200e0848",
+      "type": "library",
+      "name": "lucene-spellchecker",
+      "version": "2.9.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:lucene-spellchecker:2.9.3:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.lucene/lucene-spellchecker@2.9.3",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "ac512003817e15c19735c2f93d21f46208bce9ce"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:lucene_spellchecker:2.9.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:lucene:2.9.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/library/Solr/webapps/solr.war"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/library/Solr/webapps/solr.war:WEB-INF/lib/lucene-spellchecker-2.9.3.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mortbay.jetty/servlet-api-2.5@6.1.3?package-id=46ede07587f4ca78",
+      "type": "library",
+      "group": "org.mortbay.jetty",
+      "name": "servlet-api-2.5",
+      "version": "6.1.3",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache License Version 1.1",
+            "url": "http://www.apache.org/licenses/LICENSE-1.1"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:servlet-api-2.5:servlet-api-2.5:6.1.3:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.mortbay.jetty/servlet-api-2.5@6.1.3",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "86370026ccacbaa809ff2cd16028cda343d250ec"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:servlet-api-2.5:servlet_api_2.5:6.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:servlet_api_2.5:servlet-api-2.5:6.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:servlet_api_2.5:servlet_api_2.5:6.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:servlet-api:servlet-api-2.5:6.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:servlet-api:servlet_api_2.5:6.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:servlet_api:servlet-api-2.5:6.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:servlet_api:servlet_api_2.5:6.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mortbay:servlet-api-2.5:6.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mortbay:servlet_api_2.5:6.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:servlet:servlet-api-2.5:6.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:servlet:servlet_api_2.5:6.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jetty:servlet-api-2.5:6.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jetty:servlet_api_2.5:6.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:servlet-api-2.5:jetty:6.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:servlet_api_2.5:jetty:6.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:servlet-api:jetty:6.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:servlet_api:jetty:6.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mortbay:jetty:6.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:servlet:jetty:6.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jetty:jetty:6.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/library/Solr/lib/servlet-api-2.5-6.1.3.jar"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "servlet-api-2.5"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.mortbay.jetty"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/library/Solr/lib/servlet-api-2.5-6.1.3.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.5.5?package-id=4f95d3c06d8ecb45",
+      "type": "library",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "1.5.5",
+      "cpe": "cpe:2.3:a:slf4j-api:slf4j-api:1.5.5:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.slf4j/slf4j-api@1.5.5",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "72985790d9dac759d8f51015f0b41313c1e71e53"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:slf4j-api:slf4j_api:1.5.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:slf4j_api:slf4j-api:1.5.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:slf4j_api:slf4j_api:1.5.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:slf4j:slf4j-api:1.5.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:slf4j:slf4j_api:1.5.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/library/Solr/webapps/solr.war"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "slf4j-api"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.slf4j"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/library/Solr/webapps/solr.war:WEB-INF/lib/slf4j-api-1.5.5.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-jdk14@1.5.5?package-id=5d8eefd4aff9188f",
+      "type": "library",
+      "group": "org.slf4j",
+      "name": "slf4j-jdk14",
+      "version": "1.5.5",
+      "cpe": "cpe:2.3:a:slf4j-jdk14:slf4j-jdk14:1.5.5:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.slf4j/slf4j-jdk14@1.5.5",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "2a75be51d8155218daa67b02a519a75f81821478"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:slf4j-jdk14:slf4j_jdk14:1.5.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:slf4j_jdk14:slf4j-jdk14:1.5.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:slf4j_jdk14:slf4j_jdk14:1.5.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:slf4j:slf4j-jdk14:1.5.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:slf4j:slf4j_jdk14:1.5.5:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/library/Solr/webapps/solr.war"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "slf4j-jdk14"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.slf4j"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/library/Solr/webapps/solr.war:WEB-INF/lib/slf4j-jdk14-1.5.5.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.solr/solr@1.4.1%20955763M%20-%20mark%20-%202010-06-17%2018:06:52?package-id=9fc61264ee326313",
+      "type": "library",
+      "name": "solr",
+      "version": "1.4.1 955763M - mark - 2010-06-17 18:06:52",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        },
+        {
+          "license": {
+            "id": "CDDL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "CPL-1.0"
+          }
+        },
+        {
+          "license": {
+            "id": "ICU"
+          }
+        },
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:solr:1.4.1_955763M_-_mark_-_2010-06-17_18\\:06\\:52:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.solr/solr@1.4.1%20955763M%20-%20mark%20-%202010-06-17%2018:06:52",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "c21a919a293aff3bc22d91b6a882233aacbfeacb"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/library/Solr/webapps/solr.war"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/library/Solr/webapps/solr.war"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mortbay.jetty/start@6.1.3?package-id=100d6409d68bc747",
+      "type": "library",
+      "group": "org.mortbay.jetty",
+      "name": "start",
+      "version": "6.1.3",
+      "cpe": "cpe:2.3:a:mortbay:start:6.1.3:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.mortbay.jetty/start@6.1.3",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "31b5235fd902ae8690ffd27b0c36c1ca17a3c76c"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jetty:start:6.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:start:start:6.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Main:start:6.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/library/Solr/start.jar"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "start"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.mortbay.jetty"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/library/Solr/start.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/wstx-asl/wstx-asl@3.2.7?package-id=688fc49718e98c9e",
+      "type": "library",
+      "name": "wstx-asl",
+      "version": "3.2.7",
+      "cpe": "cpe:2.3:a:woodstox-codehaus-org:wstx-asl:3.2.7:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/wstx-asl/wstx-asl@3.2.7",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "252c7faae9ce98cb9c9d29f02db88f7373e7f407"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:woodstox-codehaus-org:wstx_asl:3.2.7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:woodstox_codehaus_org:wstx-asl:3.2.7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:woodstox_codehaus_org:wstx_asl:3.2.7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:wstx-asl:wstx-asl:3.2.7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:wstx-asl:wstx_asl:3.2.7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:wstx_asl:wstx-asl:3.2.7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:wstx_asl:wstx_asl:3.2.7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:wstx:wstx-asl:3.2.7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:wstx:wstx_asl:3.2.7:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/library/Solr/webapps/solr.war"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/library/Solr/webapps/solr.war:WEB-INF/lib/wstx-asl-3.2.7.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.yahoo.platform.yui.compressor.Bootstrap/yuicompressor@2.4.2?package-id=da3af8123989f821",
+      "type": "library",
+      "name": "yuicompressor",
+      "version": "2.4.2",
+      "cpe": "cpe:2.3:a:yuicompressor:yuicompressor:2.4.2:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.yahoo.platform.yui.compressor.Bootstrap/yuicompressor@2.4.2",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "b60167f8f0553ed59f172d41cb57b3b29ee86ae7"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:compressor:yuicompressor:2.4.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:yuicompressor:compressor:2.4.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Bootstrap:yuicompressor:2.4.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:yuicompressor:Bootstrap:2.4.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:platform:yuicompressor:2.4.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:yuicompressor:platform:2.4.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:compressor:compressor:2.4.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Bootstrap:compressor:2.4.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:compressor:Bootstrap:2.4.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Bootstrap:Bootstrap:2.4.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:compressor:platform:2.4.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:platform:compressor:2.4.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:yahoo:yuicompressor:2.4.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Bootstrap:platform:2.4.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:platform:Bootstrap:2.4.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:platform:platform:2.4.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:yui:yuicompressor:2.4.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:yuicompressor:yui:2.4.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:yahoo:compressor:2.4.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:yahoo:Bootstrap:2.4.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:compressor:yui:2.4.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:yahoo:platform:2.4.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:yui:compressor:2.4.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Bootstrap:yui:2.4.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:yui:Bootstrap:2.4.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:platform:yui:2.4.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:yui:platform:2.4.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:yahoo:yui:2.4.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:yui:yui:2.4.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/scripts/build/bin/yuicompressor-2.4.2.jar"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/scripts/build/bin/yuicompressor-2.4.2.jar"
+        }
+      ]
+    }
+  ]
+}

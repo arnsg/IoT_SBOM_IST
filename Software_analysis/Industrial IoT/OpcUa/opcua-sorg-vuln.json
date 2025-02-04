@@ -1,0 +1,40 @@
+{
+    "node-opcua:link:../../packages/node-opcua": {
+        "name": "node-opcua",
+        "version": "link:../../packages/node-opcua",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-vh4f-fgpp-x8x2",
+                "severity": "HIGH",
+                "description": "node-opcua DoS when bypassing limitations for excessive memory consumption",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-08-25",
+                "updated_at": "2023-01-30"
+            },
+            {
+                "id": "GHSA-qpgc-xh7j-52q8",
+                "severity": "HIGH",
+                "description": "node-opcua DoS vulnerability via message with memory allocation that exceeds v8's memory limit",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-08-24",
+                "updated_at": "2023-01-30"
+            },
+            {
+                "id": "GHSA-4hr4-pjjh-2q2w",
+                "severity": "HIGH",
+                "description": "Uncontrolled Resource Consumption in node-opcua",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-08-24",
+                "updated_at": "2023-01-28"
+            }
+        ]
+    }
+}

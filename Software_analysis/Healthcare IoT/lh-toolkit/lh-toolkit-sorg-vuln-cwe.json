@@ -1,0 +1,1382 @@
+{
+    "commons-beanutils:": {
+        "name": "commons-beanutils",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-6phf-73q6-gh87",
+                "severity": "HIGH",
+                "description": "Insecure Deserialization in Apache Commons Beanutils",
+                "links": [],
+                "cvss_score": 7.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+                "published_at": "2020-06-15",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "commons-collections:": {
+        "name": "commons-collections",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-fjq5-5j5f-mvxh",
+                "severity": "CRITICAL",
+                "description": "Deserialization of Untrusted Data in Apache commons collections",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-05-13",
+                "updated_at": "2023-11-02",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-6hgm-866r-3cjv",
+                "severity": "HIGH",
+                "description": "Insecure Deserialization in Apache Commons Collection",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2020-06-15",
+                "updated_at": "2023-06-12",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "commons-fileupload:": {
+        "name": "commons-fileupload",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-7x9j-7223-rg5m",
+                "severity": "CRITICAL",
+                "description": "Improper Access Control in commons-fileupload",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2018-12-21",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-284",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-xx68-jfcg-xmmf",
+                "severity": "HIGH",
+                "description": "Commons FileUpload Denial of service vulnerability",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2018-12-21",
+                "updated_at": "2024-03-05",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-qx6h-9567-5fqw",
+                "severity": "HIGH",
+                "description": "Arbitrary file write in Apache Commons Fileupload",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-14",
+                "updated_at": "2024-03-05",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-hfrx-6qgj-fp6c",
+                "severity": "HIGH",
+                "description": "Apache Commons FileUpload denial of service vulnerability",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2023-02-20",
+                "updated_at": "2024-04-18",
+                "CWE_ID": "CWE-770",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-fvm3-cfvj-gxqq",
+                "severity": "HIGH",
+                "description": "High severity vulnerability that affects commons-fileupload:commons-fileupload",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2018-12-21",
+                "updated_at": "2023-12-17",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "commons-io:": {
+        "name": "commons-io",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-gwrp-pvrq-jmwv",
+                "severity": "MODERATE",
+                "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+                "links": [],
+                "cvss_score": 4.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+                "published_at": "2021-04-26",
+                "updated_at": "2024-02-14",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-gwrp-pvrq-jmwv",
+                "severity": "MODERATE",
+                "description": "Path Traversal and Improper Input Validation in Apache Commons IO",
+                "links": [],
+                "cvss_score": 4.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+                "published_at": "2021-04-26",
+                "updated_at": "2024-02-14",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "dom4j:": {
+        "name": "dom4j",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-hwj3-m3p6-hj38",
+                "severity": "CRITICAL",
+                "description": "dom4j allows External Entities by default which might enable XXE attacks",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2020-06-05",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-611",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-6pcc-3rfx-4gpm",
+                "severity": "HIGH",
+                "description": "Dom4j contains a XML Injection vulnerability",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2018-10-16",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-91",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "h2:": {
+        "name": "h2",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-45hx-wfhj-473x",
+                "severity": "CRITICAL",
+                "description": "Arbitrary code execution in H2 Console",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-01-21",
+                "updated_at": "2023-08-18",
+                "CWE_ID": "CWE-88",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "hibernate-core:": {
+        "name": "hibernate-core",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-j8jw-g6fq-mp7h",
+                "severity": "HIGH",
+                "description": "SQL injection in hibernate-core",
+                "links": [],
+                "cvss_score": 7.4,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+                "published_at": "2022-02-09",
+                "updated_at": "2024-06-27",
+                "CWE_ID": "CWE-89",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-8grg-q944-cch5",
+                "severity": "MODERATE",
+                "description": "SQL Injection in Hibernate ORM",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2022-02-10",
+                "updated_at": "2024-06-27",
+                "CWE_ID": "CWE-89",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "jackson-mapper-asl:": {
+        "name": "jackson-mapper-asl",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-c27h-mcmw-48hv",
+                "severity": "CRITICAL",
+                "description": "Deserialization of Untrusted Data in org.codehaus.jackson:jackson-mapper-asl",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-05-24",
+                "updated_at": "2023-02-21",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-r6j9-8759-g62w",
+                "severity": "HIGH",
+                "description": "Improper Restriction of XML External Entity Reference in jackson-mapper-asl",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2020-02-04",
+                "updated_at": "2023-02-15",
+                "CWE_ID": "CWE-611",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "liquibase-core:": {
+        "name": "liquibase-core",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-jvfv-hrrc-6q72",
+                "severity": "CRITICAL",
+                "description": "Improper Restriction of XML External Entity Reference in Liquibase",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-03-05",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-611",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-jvfv-hrrc-6q72",
+                "severity": "CRITICAL",
+                "description": "Improper Restriction of XML External Entity Reference in Liquibase",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-03-05",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-611",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "log4j:": {
+        "name": "log4j",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-f7vh-qwp3-x37m",
+                "severity": "CRITICAL",
+                "description": "Deserialization of Untrusted Data in Apache Log4j",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-01-19",
+                "updated_at": "2023-10-31",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-65fg-84f6-3jq3",
+                "severity": "CRITICAL",
+                "description": "SQL Injection in Log4j 1.2.x",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-01-21",
+                "updated_at": "2023-10-31",
+                "CWE_ID": "CWE-89",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-w9p3-5cr8-m3jj",
+                "severity": "HIGH",
+                "description": "Deserialization of Untrusted Data in Log4j 1.x",
+                "links": [],
+                "cvss_score": 8.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-01-21",
+                "updated_at": "2023-10-31",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "mysql-connector-java:": {
+        "name": "mysql-connector-java",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-4vrv-ch96-6h42",
+                "severity": "HIGH",
+                "description": "Improper Privilege Management in MySQL Connectors Java",
+                "links": [],
+                "cvss_score": 8.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-05-13",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-269",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-4vrv-ch96-6h42",
+                "severity": "HIGH",
+                "description": "Improper Privilege Management in MySQL Connectors Java",
+                "links": [],
+                "cvss_score": 8.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-05-13",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-269",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-2xxh-f8r3-hvvr",
+                "severity": "HIGH",
+                "description": "Improper Access Control in MySQL Connectors Java",
+                "links": [],
+                "cvss_score": 8.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2022-05-13",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-284",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-2xxh-f8r3-hvvr",
+                "severity": "HIGH",
+                "description": "Improper Access Control in MySQL Connectors Java",
+                "links": [],
+                "cvss_score": 8.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2022-05-13",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-284",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-pwh7-92h3-mqr6",
+                "severity": "MODERATE",
+                "description": "Exposure of Sensitive Information to an Unauthorized Actor in Oracle MySQL Connectors Java",
+                "links": [],
+                "cvss_score": 6.4,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
+                "published_at": "2022-05-13",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-pwh7-92h3-mqr6",
+                "severity": "MODERATE",
+                "description": "Exposure of Sensitive Information to an Unauthorized Actor in Oracle MySQL Connectors Java",
+                "links": [],
+                "cvss_score": 6.4,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
+                "published_at": "2022-05-13",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-jcq3-cprp-m333",
+                "severity": "MODERATE",
+                "description": "Privilege escalation in mysql-connector-jav",
+                "links": [],
+                "cvss_score": 6.3,
+                "vector_attack": "CVSS:3.0/AV:L/AC:H/PR:H/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2020-07-01",
+                "updated_at": "2023-01-09",
+                "CWE_ID": "CWE-843",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-jcq3-cprp-m333",
+                "severity": "MODERATE",
+                "description": "Privilege escalation in mysql-connector-jav",
+                "links": [],
+                "cvss_score": 6.3,
+                "vector_attack": "CVSS:3.0/AV:L/AC:H/PR:H/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2020-07-01",
+                "updated_at": "2023-01-09",
+                "CWE_ID": "CWE-843",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-gc43-g62c-99g2",
+                "severity": "MODERATE",
+                "description": "Improper Access Control in MySQL Connectors Java",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-17",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-284",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-gc43-g62c-99g2",
+                "severity": "MODERATE",
+                "description": "Improper Access Control in MySQL Connectors Java",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-17",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-284",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-g76j-4cxx-23h9",
+                "severity": "MODERATE",
+                "description": "Improper Handling of Insufficient Permissions or Privileges in MySQL Connectors Java",
+                "links": [],
+                "cvss_score": 6.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-01-20",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-280",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-g76j-4cxx-23h9",
+                "severity": "MODERATE",
+                "description": "Improper Handling of Insufficient Permissions or Privileges in MySQL Connectors Java",
+                "links": [],
+                "cvss_score": 6.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-01-20",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-280",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-cjcf-wm2p-59h5",
+                "severity": "LOW",
+                "description": "Exposure of Sensitive Information to an Unauthorized Actor in Oracle MySQL Connectors Java",
+                "links": [],
+                "cvss_score": 3.3,
+                "vector_attack": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2022-05-13",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-cjcf-wm2p-59h5",
+                "severity": "LOW",
+                "description": "Exposure of Sensitive Information to an Unauthorized Actor in Oracle MySQL Connectors Java",
+                "links": [],
+                "cvss_score": 3.3,
+                "vector_attack": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2022-05-13",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "spring-beans:": {
+        "name": "spring-beans",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-36p3-wjmg-h94x",
+                "severity": "CRITICAL",
+                "description": "Remote Code Execution in Spring Framework",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-03-31",
+                "updated_at": "2023-01-31",
+                "CWE_ID": "CWE-74",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-hh26-6xwr-ggv7",
+                "severity": "HIGH",
+                "description": "Denial of service in Spring Framework",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-05-13",
+                "updated_at": "2024-03-14",
+                "CWE_ID": "CWE-770",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "spring-context:": {
+        "name": "spring-context",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-g5mm-vmx4-3rg7",
+                "severity": "HIGH",
+                "description": "Improper handling of case sensitivity in Spring Framework",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2022-04-15",
+                "updated_at": "2024-05-15",
+                "CWE_ID": "CWE-178",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "spring-core:": {
+        "name": "spring-core",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-p5hg-3xm3-gcjg",
+                "severity": "CRITICAL",
+                "description": "Spring Framework allows applications to expose STOMP over WebSocket endpoints",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2018-10-17",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-94",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-3rmv-2pg5-xvqj",
+                "severity": "CRITICAL",
+                "description": "Improperly Implemented Security Check for Standard in org.springframework:spring-core",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2018-10-17",
+                "updated_at": "2024-03-06",
+                "CWE_ID": "CWE-94",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-wv88-pf73-x22p",
+                "severity": "HIGH",
+                "description": "Improper Neutralization of Directives in Dynamically Evaluated Code in Spring Framework",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-17",
+                "updated_at": "2024-02-27",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-pgf9-h69p-pcgf",
+                "severity": "HIGH",
+                "description": "Files or Directories Accessible to External Parties in org.springframework:spring-core",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+                "published_at": "2018-10-17",
+                "updated_at": "2024-03-15",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-8crv-49fr-2h6j",
+                "severity": "HIGH",
+                "description": "Spring Security and Spring Framework may not recognize certain paths that should be protected",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2018-10-17",
+                "updated_at": "2024-03-05",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-4487-x383-qpph",
+                "severity": "HIGH",
+                "description": "Possible privilege escalation in org.springframework:spring-core",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2018-10-17",
+                "updated_at": "2024-03-08",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-rcpf-vj53-7h2m",
+                "severity": "MODERATE",
+                "description": "Denial of Service in org.springframework:spring-core",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2018-10-17",
+                "updated_at": "2024-03-16",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-g8hw-794c-4j9g",
+                "severity": "MODERATE",
+                "description": "Path Traversal in org.springframework:spring-core",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2018-10-17",
+                "updated_at": "2024-03-07",
+                "CWE_ID": "CWE-22",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "spring-oxm:": {
+        "name": "spring-oxm",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-vp63-rrcm-9mph",
+                "severity": "MODERATE",
+                "description": "Missing XML Validation in Spring Framework",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-13",
+                "updated_at": "2024-02-27",
+                "CWE_ID": "CWE-112",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-rp4p-g69r-438x",
+                "severity": "MODERATE",
+                "description": "Cross-Site Request Forgery in Spring Framework",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-13",
+                "updated_at": "2024-02-27",
+                "CWE_ID": "CWE-352",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "spring-web:": {
+        "name": "spring-web",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-4wrc-f8pq-fpqp",
+                "severity": "CRITICAL",
+                "description": "Pivotal Spring Framework contains unsafe Java deserialization methods",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-05-24",
+                "updated_at": "2023-06-01",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-hgjh-9rj2-g67j",
+                "severity": "HIGH",
+                "description": "Spring Framework URL Parsing with Host Validation Vulnerability",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+                "published_at": "2024-03-16",
+                "updated_at": "2024-06-10",
+                "CWE_ID": "CWE-601",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-ccgv-vj62-xf9h",
+                "severity": "HIGH",
+                "description": "Spring Web vulnerable to Open Redirect or Server Side Request Forgery",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+                "published_at": "2024-02-23",
+                "updated_at": "2024-06-10",
+                "CWE_ID": "CWE-601",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-2wrp-6fg6-hmc5",
+                "severity": "HIGH",
+                "description": "Spring Framework URL Parsing with Host Validation",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+                "published_at": "2024-04-16",
+                "updated_at": "2024-06-10",
+                "CWE_ID": "CWE-601",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-g6hf-f9cq-q7w7",
+                "severity": "MODERATE",
+                "description": "Cross-Site Request Forgery in Spring Framework",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-13",
+                "updated_at": "2024-02-27",
+                "CWE_ID": "CWE-352",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-6v7w-535j-rq5m",
+                "severity": "MODERATE",
+                "description": "Pivotal Spring Framework DoS Attack with XML Input",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2018-10-17",
+                "updated_at": "2024-03-15",
+                "CWE_ID": "CWE-119",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "spring-webmvc:": {
+        "name": "spring-webmvc",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-36p3-wjmg-h94x",
+                "severity": "CRITICAL",
+                "description": "Remote Code Execution in Spring Framework",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-03-31",
+                "updated_at": "2023-01-31",
+                "CWE_ID": "CWE-74",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-2m8h-fgr8-2q9w",
+                "severity": "HIGH",
+                "description": "Pivotal Spring Framework Paths provided to the ResourceServlet were not properly sanitized",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2018-10-04",
+                "updated_at": "2024-03-05",
+                "CWE_ID": "CWE-22",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-8cmm-qj8g-fcp6",
+                "severity": "MODERATE",
+                "description": "Cross-Site Request Forgery in Spring Framework",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-13",
+                "updated_at": "2024-02-27",
+                "CWE_ID": "CWE-352",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "velocity:": {
+        "name": "velocity",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-59j4-wjwp-mw9m",
+                "severity": "HIGH",
+                "description": "Sandbox Bypass in Apache Velocity Engine",
+                "links": [],
+                "cvss_score": 8.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-01-06",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "velocity-tools:": {
+        "name": "velocity-tools",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-fh63-4r66-jc7v",
+                "severity": "MODERATE",
+                "description": "Cross-site scripting (XSS) in Apache Velocity Tools",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2021-03-12",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "xercesImpl:": {
+        "name": "xercesImpl",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-vmqm-g3vh-847m",
+                "severity": "HIGH",
+                "description": "Denial of service in Apache Xerces2",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2020-06-15",
+                "updated_at": "2023-02-13",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-7j4h-8wpf-rqfh",
+                "severity": "HIGH",
+                "description": "Missing XML Validation in Apache Xerces2",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-13",
+                "updated_at": "2024-03-05",
+                "CWE_ID": "CWE-112",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-w4jq-qh47-hvjq",
+                "severity": "MODERATE",
+                "description": "Improper Input Validation in Xerces",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2022-02-15",
+                "updated_at": "2023-02-02",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-h65f-jvqw-m9fj",
+                "severity": "MODERATE",
+                "description": "Infinite Loop in Apache Xerces Java",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2022-01-27",
+                "updated_at": "2023-06-22",
+                "CWE_ID": "CWE-91",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-334p-wv2m-w3vp",
+                "severity": "MODERATE",
+                "description": "Denial of service in Apache Xerces2",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2020-06-15",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "xstream:": {
+        "name": "xstream",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-hf23-9pf7-388p",
+                "severity": "CRITICAL",
+                "description": "Deserialization of Untrusted Data and Code Injection in xstream",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2019-07-26",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-94",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-f554-x222-wgf7",
+                "severity": "CRITICAL",
+                "description": "Command Injection in Xstream",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2019-05-29",
+                "updated_at": "2024-03-04",
+                "CWE_ID": "CWE-77",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-xw4p-crpj-vjx2",
+                "severity": "HIGH",
+                "description": "A Server-Side Forgery Request can be activated unmarshalling with XStream to access data streams from an arbitrary URL referencing a resource in an intranet or the local host",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2021-08-25",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-rmr5-cpv2-vgjf",
+                "severity": "HIGH",
+                "description": "Denial of Service by injecting highly recursive collections or maps in XStream",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-02-01",
+                "updated_at": "2023-01-29",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-rgh3-987h-wpmw",
+                "severity": "HIGH",
+                "description": "XML External Entity Injection in XStream",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2020-06-30",
+                "updated_at": "2023-01-09",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-qrx8-8545-4wg2",
+                "severity": "HIGH",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2021-08-25",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-p8pq-r894-fm8f",
+                "severity": "HIGH",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2021-08-25",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-mw36-7c6c-q4q2",
+                "severity": "HIGH",
+                "description": "XStream can be used for Remote Code Execution",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:H",
+                "published_at": "2020-11-16",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-78",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-j9h8-phrw-h4fh",
+                "severity": "HIGH",
+                "description": "XStream is vulnerable to a Remote Command Execution attack",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2021-08-25",
+                "updated_at": "2023-06-27",
+                "CWE_ID": "CWE-94",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-j563-grx4-pjpv",
+                "severity": "HIGH",
+                "description": "XStream can cause Denial of Service via stack overflow",
+                "links": [],
+                "cvss_score": 8.2,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H",
+                "published_at": "2022-12-29",
+                "updated_at": "2023-06-27",
+                "CWE_ID": "CWE-120",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-hph2-m3g5-xxv4",
+                "severity": "HIGH",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2021-08-25",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-434",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-h7v4-7xg3-hxcc",
+                "severity": "HIGH",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2021-08-25",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-g5w6-mrj7-75h2",
+                "severity": "HIGH",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2021-08-25",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-f8cc-g7j8-xxpm",
+                "severity": "HIGH",
+                "description": "XStream can cause a Denial of Service by injecting deeply nested objects raising a stack overflow",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-12-30",
+                "updated_at": "2023-01-07",
+                "CWE_ID": "CWE-121",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-cxfm-5m4g-x7xp",
+                "severity": "HIGH",
+                "description": "A Server-Side Forgery Request can be activated unmarshalling with XStream to access data streams from an arbitrary URL referencing a resource in an intranet or the local host",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2021-08-25",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-8jrj-525p-826v",
+                "severity": "HIGH",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2021-08-25",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-7hwc-46rm-65jh",
+                "severity": "HIGH",
+                "description": "Denial of service in XStream",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2020-06-30",
+                "updated_at": "2023-01-09",
+                "CWE_ID": "CWE-20",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-7chv-rrw6-w6fc",
+                "severity": "HIGH",
+                "description": "XStream is vulnerable to a Remote Command Execution attack",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-05-18",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-74",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-6w62-hx7r-mw68",
+                "severity": "HIGH",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2021-08-25",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-434",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-64xx-cq4q-mf44",
+                "severity": "HIGH",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2021-08-25",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-4cch-wxpw-8p28",
+                "severity": "HIGH",
+                "description": "Server-Side Forgery Request can be activated unmarshalling with XStream",
+                "links": [],
+                "cvss_score": 7.7,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+                "published_at": "2020-12-21",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-918",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-3ccq-5vw3-2p6x",
+                "severity": "HIGH",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2021-08-25",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-434",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-2q8x-2p7f-574v",
+                "severity": "HIGH",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 8.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+                "published_at": "2021-08-25",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-2p3x-qw9c-25hh",
+                "severity": "HIGH",
+                "description": "XStream can cause a Denial of Service.",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-03-22",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-qpfq-ph7r-qv6f",
+                "severity": "MODERATE",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:N/I:H/A:N",
+                "published_at": "2021-03-22",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-434",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-jfvx-7wrx-43fh",
+                "severity": "MODERATE",
+                "description": "XStream vulnerable to an Arbitrary File Deletion on the local host when unmarshalling",
+                "links": [],
+                "cvss_score": 6.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:N",
+                "published_at": "2020-12-21",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-78",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-hwpc-8xqv-jvj4",
+                "severity": "MODERATE",
+                "description": "XStream is vulnerable to a Remote Command Execution attack",
+                "links": [],
+                "cvss_score": 5.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:N/I:H/A:N",
+                "published_at": "2021-03-22",
+                "updated_at": "2023-01-29",
+                "CWE_ID": "CWE-78",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-hvv8-336g-rx3m",
+                "severity": "MODERATE",
+                "description": "A Server-Side Forgery Request can be activated unmarshalling with XStream to access data streams from an arbitrary URL referencing a resource in an intranet or the local host",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:N",
+                "published_at": "2021-03-22",
+                "updated_at": "2023-03-09",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-hrcp-8f3q-4w2c",
+                "severity": "MODERATE",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 5.4,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:C/C:N/I:H/A:N",
+                "published_at": "2021-03-22",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-434",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-f6hm-88x3-mfjv",
+                "severity": "MODERATE",
+                "description": "A Server-Side Forgery Request can be activated unmarshalling with XStream to access data streams from an arbitrary URL referencing a resource in an intranet or the local host",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:N/I:H/A:N",
+                "published_at": "2021-03-22",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-74cv-f58x-f9wf",
+                "severity": "MODERATE",
+                "description": "XStream is vulnerable to an Arbitrary File Deletion on the local host when unmarshalling as long as the executing process has sufficient rights",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:N",
+                "published_at": "2021-03-22",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-73",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-6wf9-jmg9-vxcc",
+                "severity": "MODERATE",
+                "description": "XStream can cause a Denial of Service",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-08-25",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "CWE-502",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-59jw-jqf4-3wq3",
+                "severity": "MODERATE",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:N",
+                "published_at": "2021-03-22",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-434",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-56p8-3fh9-4cvq",
+                "severity": "MODERATE",
+                "description": "XStream is vulnerable to an attack using Regular Expression for a Denial of Service (ReDos)",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2021-03-22",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-4hrm-m67v-5cxr",
+                "severity": "MODERATE",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:N/I:H/A:N",
+                "published_at": "2021-03-22",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-434",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-43gc-mjxg-gvrq",
+                "severity": "MODERATE",
+                "description": "XStream is vulnerable to an Arbitrary Code Execution attack",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:N",
+                "published_at": "2021-03-22",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-434",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    }
+}

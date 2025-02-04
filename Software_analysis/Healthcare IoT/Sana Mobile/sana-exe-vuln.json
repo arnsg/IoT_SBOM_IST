@@ -1,0 +1,73 @@
+{
+    "apache-mime4j-core:0.7.2": {
+        "name": "apache-mime4j-core",
+        "version": "0.7.2",
+        "type": "java-archive",
+        "licenses": [
+            "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-jw7r-rxff-gv24",
+                "severity": "MODERATE",
+                "description": "Apache James MIME4J improper input validation vulnerability",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-02-27",
+                "updated_at": "2024-03-01"
+            }
+        ]
+    },
+    "httpclient:4.1.3": {
+        "name": "httpclient",
+        "version": "4.1.3",
+        "type": "java-archive",
+        "licenses": [
+            "Apache-2.0",
+            "CC-BY-2.5"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-2x83-r56g-cv47",
+                "severity": "HIGH",
+                "description": "Improper certificate validation in org.apache.httpcomponents:httpclient",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2018-10-17",
+                "updated_at": "2024-03-05"
+            },
+            {
+                "id": "GHSA-fmj5-wv96-r2ch",
+                "severity": "MODERATE",
+                "description": "Denial of service vulnerability in org.apache.httpcomponents:httpclient",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2018-10-17",
+                "updated_at": "2023-02-13"
+            },
+            {
+                "id": "GHSA-cfh5-3ghh-wfjx",
+                "severity": "MODERATE",
+                "description": "Improper Verification of Cryptographic Signature in org.apache.httpcomponents:httpclient",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2018-10-17",
+                "updated_at": "2024-04-12"
+            },
+            {
+                "id": "GHSA-7r82-7xv7-xcpj",
+                "severity": "MODERATE",
+                "description": "Cross-site scripting in Apache HttpClient",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2021-06-03",
+                "updated_at": "2023-02-01"
+            }
+        ]
+    }
+}

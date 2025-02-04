@@ -1,0 +1,94 @@
+{
+    "artemis-core-client:2.6.4": {
+        "name": "artemis-core-client",
+        "version": "2.6.4",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-pr38-qpxm-g88x",
+                "severity": "HIGH",
+                "description": "Apache ActiveMQ Artemis Uncontrolled Resource Consumption (DoS)",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-02-06",
+                "updated_at": "2023-09-25",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-gf8c-j759-86mg",
+                "severity": "MODERATE",
+                "description": "org.apache.activemq:artemis-core-client Vulnerable to Out-of-Bounds Write",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2022-08-25",
+                "updated_at": "2023-01-30",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            }
+        ]
+    },
+    "artemis-server:2.6.4": {
+        "name": "artemis-server",
+        "version": "2.6.4",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-cv6r-h2fm-pvrp",
+                "severity": "MODERATE",
+                "description": "HTML Injection in ActiveMQ Artemis Web Console",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2022-08-24",
+                "updated_at": "2023-01-28",
+                "CWE_ID": "CWE-79",
+                "CWE_DESCRIPTION": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')"
+            }
+        ]
+    },
+    "scikit-learn:1.0.2": {
+        "name": "scikit-learn",
+        "version": "1.0.2",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-jw8x-6495-233v",
+                "severity": "MODERATE",
+                "description": "scikit-learn sensitive data leakage vulnerability",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2024-06-06",
+                "updated_at": "2024-06-17",
+                "CWE_ID": "CWE-921",
+                "CWE_DESCRIPTION": "Storage of Sensitive Data in a Mechanism without Access Control"
+            }
+        ]
+    },
+    "sdk-server:0.6.4": {
+        "name": "sdk-server",
+        "version": "0.6.4",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-fph9-f5r6-vhqf",
+                "severity": "HIGH",
+                "description": "Eclipse Milo vulnerable to Resource Exhaustion (Denial of Service)",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-09-15",
+                "updated_at": "2023-02-02",
+                "CWE_ID": "CWE-770",
+                "CWE_DESCRIPTION": "Allocation of Resources Without Limits or Throttling"
+            }
+        ]
+    }
+}

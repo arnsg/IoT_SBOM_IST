@@ -1,0 +1,322 @@
+{
+    "braces:3.0.2": {
+        "name": "braces",
+        "version": "3.0.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-grv7-fg5c-xmjg",
+                "severity": "HIGH",
+                "description": "Uncontrolled resource consumption in braces",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-05-14",
+                "updated_at": "2024-07-05",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "es5-ext:0.10.62": {
+        "name": "es5-ext",
+        "version": "0.10.62",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-4gmj-3p3h-gm8h",
+                "severity": "LOW",
+                "description": "es5-ext vulnerable to Regular Expression Denial of Service in `function#copy` and `function#toStringTokens`",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-02-26",
+                "updated_at": "2024-02-26",
+                "CWE_ID": "CWE-1333",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "ip:2.0.0": {
+        "name": "ip",
+        "version": "2.0.0",
+        "type": "npm",
+        "licenses": [
+            "MIT"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-2p57-rm9w-gvfp",
+                "severity": "HIGH",
+                "description": "ip SSRF improper categorization in isPublic",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-06-02",
+                "updated_at": "2024-06-02",
+                "CWE_ID": "CWE-918",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-2p57-rm9w-gvfp",
+                "severity": "HIGH",
+                "description": "ip SSRF improper categorization in isPublic",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-06-02",
+                "updated_at": "2024-06-02",
+                "CWE_ID": "CWE-918",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-78xj-cgh5-2h22",
+                "severity": "LOW",
+                "description": "NPM IP package incorrectly identifies some private IP addresses as public",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-02-08",
+                "updated_at": "2024-06-28",
+                "CWE_ID": "CWE-918",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-78xj-cgh5-2h22",
+                "severity": "LOW",
+                "description": "NPM IP package incorrectly identifies some private IP addresses as public",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-02-08",
+                "updated_at": "2024-06-28",
+                "CWE_ID": "CWE-918",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "jsonwebtoken:8.5.1": {
+        "name": "jsonwebtoken",
+        "version": "8.5.1",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-8cf7-32gw-wr33",
+                "severity": "HIGH",
+                "description": "jsonwebtoken unrestricted key type could lead to legacy keys usage ",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+                "published_at": "2022-12-22",
+                "updated_at": "2024-06-24",
+                "CWE_ID": "CWE-327",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-qwph-4952-7xr6",
+                "severity": "MODERATE",
+                "description": "jsonwebtoken vulnerable to signature validation bypass due to insecure default algorithm in jwt.verify()",
+                "links": [],
+                "cvss_score": 6.4,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:H/A:L",
+                "published_at": "2022-12-22",
+                "updated_at": "2024-06-21",
+                "CWE_ID": "CWE-287",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-hjrf-2m68-5959",
+                "severity": "MODERATE",
+                "description": "jsonwebtoken's insecure implementation of key retrieval function could lead to Forgeable Public/Private Tokens from RSA to HMAC",
+                "links": [],
+                "cvss_score": 5.0,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L",
+                "published_at": "2022-12-22",
+                "updated_at": "2024-06-24",
+                "CWE_ID": "CWE-287",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "passport:0.5.2": {
+        "name": "passport",
+        "version": "0.5.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-v923-w3x8-wh69",
+                "severity": "MODERATE",
+                "description": "Passport vulnerable to session regeneration when a users logs in or out",
+                "links": [],
+                "cvss_score": 4.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L",
+                "published_at": "2022-07-02",
+                "updated_at": "2023-09-11",
+                "CWE_ID": "CWE-384",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "request:2.88.2": {
+        "name": "request",
+        "version": "2.88.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-p8p7-x288-28g6",
+                "severity": "MODERATE",
+                "description": "Server-Side Request Forgery in Request",
+                "links": [],
+                "cvss_score": 6.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+                "published_at": "2023-03-16",
+                "updated_at": "2024-03-21",
+                "CWE_ID": "CWE-918",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "tar:4.4.19": {
+        "name": "tar",
+        "version": "4.4.19",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-f5x3-32g6-xq36",
+                "severity": "MODERATE",
+                "description": "Denial of service while parsing a tar file due to lack of folders count validation",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2024-03-22",
+                "updated_at": "2024-06-10",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "tar:6.2.0": {
+        "name": "tar",
+        "version": "6.2.0",
+        "type": "npm",
+        "licenses": [
+            "ISC"
+        ],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-f5x3-32g6-xq36",
+                "severity": "MODERATE",
+                "description": "Denial of service while parsing a tar file due to lack of folders count validation",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2024-03-22",
+                "updated_at": "2024-06-10",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-f5x3-32g6-xq36",
+                "severity": "MODERATE",
+                "description": "Denial of service while parsing a tar file due to lack of folders count validation",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2024-03-22",
+                "updated_at": "2024-06-10",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "tough-cookie:2.5.0": {
+        "name": "tough-cookie",
+        "version": "2.5.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-72xf-g2v4-qvf3",
+                "severity": "MODERATE",
+                "description": "tough-cookie Prototype Pollution vulnerability",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+                "published_at": "2023-07-01",
+                "updated_at": "2024-06-21",
+                "CWE_ID": "CWE-1321",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "undici:5.28.2": {
+        "name": "undici",
+        "version": "5.28.2",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-m4v8-wqvr-p9f7",
+                "severity": "LOW",
+                "description": "Undici's Proxy-Authorization header not cleared on cross-origin redirect for dispatch, request, stream, pipeline",
+                "links": [],
+                "cvss_score": 3.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:L/I:L/A:L",
+                "published_at": "2024-04-04",
+                "updated_at": "2024-04-20",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-9qxr-qj54-h672",
+                "severity": "LOW",
+                "description": "Undici's fetch with integrity option is too lax when algorithm is specified but hash value is in incorrect",
+                "links": [],
+                "cvss_score": 2.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:L/A:N",
+                "published_at": "2024-04-04",
+                "updated_at": "2024-04-29",
+                "CWE_ID": "CWE-284",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-3787-6prv-h9w3",
+                "severity": "LOW",
+                "description": "Undici proxy-authorization header not cleared on cross-origin redirect in fetch",
+                "links": [],
+                "cvss_score": 3.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:L/I:L/A:L",
+                "published_at": "2024-02-16",
+                "updated_at": "2024-05-02",
+                "CWE_ID": "CWE-200",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "ws:8.16.0": {
+        "name": "ws",
+        "version": "8.16.0",
+        "type": "npm",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-3h5v-q93c-6h6q",
+                "severity": "HIGH",
+                "description": "ws affected by a DoS when handling a request with many HTTP headers",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-06-17",
+                "updated_at": "2024-06-17",
+                "CWE_ID": "CWE-476",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    }
+}

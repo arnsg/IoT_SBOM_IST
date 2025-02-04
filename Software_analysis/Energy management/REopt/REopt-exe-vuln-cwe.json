@@ -1,0 +1,42 @@
+{
+    "pipreqs:0.4.11": {
+        "name": "pipreqs",
+        "version": "0.4.11",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-v4f4-23wc-99mh",
+                "severity": "CRITICAL",
+                "description": "pipreqs vulnerable to Dependency Confusion",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2023-06-30",
+                "updated_at": "2023-11-06",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "zipp:3.7.0": {
+        "name": "zipp",
+        "version": "3.7.0",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-jfmj-5v4g-7637",
+                "severity": "MODERATE",
+                "description": "zipp Denial of Service vulnerability",
+                "links": [],
+                "cvss_score": 6.2,
+                "vector_attack": "CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2024-07-09",
+                "updated_at": "2024-07-09",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    }
+}

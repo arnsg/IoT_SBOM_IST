@@ -1,0 +1,54 @@
+{
+    "pillow:10.2.0": {
+        "name": "pillow",
+        "version": "10.2.0",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-44wm-f244-xhp3",
+                "severity": "MODERATE",
+                "description": "Pillow buffer overflow vulnerability",
+                "links": [],
+                "cvss_score": 6.7,
+                "vector_attack": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+                "published_at": "2024-04-03",
+                "updated_at": "2024-04-20",
+                "CWE_ID": "CWE-120",
+                "CWE_DESCRIPTION": "Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')"
+            }
+        ]
+    },
+    "tornado:6.4": {
+        "name": "tornado",
+        "version": "6.4",
+        "type": "python",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-w235-7p84-xx57",
+                "severity": "MODERATE",
+                "description": "Tornado has a CRLF injection in CurlAsyncHTTPClient headers",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+                "published_at": "2024-06-06",
+                "updated_at": "2024-06-07",
+                "CWE_ID": "CWE-93",
+                "CWE_DESCRIPTION": "Improper Neutralization of CRLF Sequences ('CRLF Injection')"
+            },
+            {
+                "id": "GHSA-753j-mpmx-qq6g",
+                "severity": "MODERATE",
+                "description": "Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling') in tornado",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2024-06-06",
+                "updated_at": "2024-06-06",
+                "CWE_ID": "CWE-444",
+                "CWE_DESCRIPTION": "Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling')"
+            }
+        ]
+    }
+}

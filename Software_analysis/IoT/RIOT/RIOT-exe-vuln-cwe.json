@@ -1,0 +1,262 @@
+{
+    "bcpkix-jdk18on:": {
+        "name": "bcpkix-jdk18on",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-wjxj-5m7g-mg7q",
+                "severity": "MODERATE",
+                "description": "Bouncy Castle Denial of Service (DoS)",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2023-11-23",
+                "updated_at": "2024-05-23",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-v435-xc8x-wvr9",
+                "severity": "MODERATE",
+                "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2024-05-14",
+                "updated_at": "2024-06-14",
+                "CWE_ID": "CWE-203",
+                "CWE_DESCRIPTION": "Observable Discrepancy"
+            },
+            {
+                "id": "GHSA-m44j-cfrm-g8qc",
+                "severity": "MODERATE",
+                "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2024-05-14",
+                "updated_at": "2024-06-14",
+                "CWE_ID": "CWE-835",
+                "CWE_DESCRIPTION": "Loop with Unreachable Exit Condition ('Infinite Loop')"
+            },
+            {
+                "id": "GHSA-8xfc-gm6g-vgpv",
+                "severity": "MODERATE",
+                "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2024-05-14",
+                "updated_at": "2024-05-14",
+                "CWE_ID": "CWE-125",
+                "CWE_DESCRIPTION": "Out-of-bounds Read"
+            }
+        ]
+    },
+    "bcprov-jdk18on:": {
+        "name": "bcprov-jdk18on",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-wjxj-5m7g-mg7q",
+                "severity": "MODERATE",
+                "description": "Bouncy Castle Denial of Service (DoS)",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2023-11-23",
+                "updated_at": "2024-05-23",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-wjxj-5m7g-mg7q",
+                "severity": "MODERATE",
+                "description": "Bouncy Castle Denial of Service (DoS)",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2023-11-23",
+                "updated_at": "2024-05-23",
+                "CWE_ID": "CWE-400",
+                "CWE_DESCRIPTION": "Uncontrolled Resource Consumption"
+            },
+            {
+                "id": "GHSA-v435-xc8x-wvr9",
+                "severity": "MODERATE",
+                "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2024-05-14",
+                "updated_at": "2024-06-14",
+                "CWE_ID": "CWE-203",
+                "CWE_DESCRIPTION": "Observable Discrepancy"
+            },
+            {
+                "id": "GHSA-v435-xc8x-wvr9",
+                "severity": "MODERATE",
+                "description": "Bouncy Castle affected by timing side-channel for RSA key exchange (\"The Marvin Attack\")",
+                "links": [],
+                "cvss_score": 5.9,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2024-05-14",
+                "updated_at": "2024-06-14",
+                "CWE_ID": "CWE-203",
+                "CWE_DESCRIPTION": "Observable Discrepancy"
+            },
+            {
+                "id": "GHSA-m44j-cfrm-g8qc",
+                "severity": "MODERATE",
+                "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2024-05-14",
+                "updated_at": "2024-06-14",
+                "CWE_ID": "CWE-835",
+                "CWE_DESCRIPTION": "Loop with Unreachable Exit Condition ('Infinite Loop')"
+            },
+            {
+                "id": "GHSA-m44j-cfrm-g8qc",
+                "severity": "MODERATE",
+                "description": "Bouncy Castle crafted signature and public key can be used to trigger an infinite loop",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2024-05-14",
+                "updated_at": "2024-06-14",
+                "CWE_ID": "CWE-835",
+                "CWE_DESCRIPTION": "Loop with Unreachable Exit Condition ('Infinite Loop')"
+            },
+            {
+                "id": "GHSA-hr8g-6v94-x4m9",
+                "severity": "MODERATE",
+                "description": "Bouncy Castle For Java LDAP injection vulnerability",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+                "published_at": "2023-07-05",
+                "updated_at": "2023-11-04",
+                "CWE_ID": "CWE-295",
+                "CWE_DESCRIPTION": "Improper Certificate Validation"
+            },
+            {
+                "id": "GHSA-hr8g-6v94-x4m9",
+                "severity": "MODERATE",
+                "description": "Bouncy Castle For Java LDAP injection vulnerability",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+                "published_at": "2023-07-05",
+                "updated_at": "2023-11-04",
+                "CWE_ID": "CWE-295",
+                "CWE_DESCRIPTION": "Improper Certificate Validation"
+            },
+            {
+                "id": "GHSA-8xfc-gm6g-vgpv",
+                "severity": "MODERATE",
+                "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2024-05-14",
+                "updated_at": "2024-05-14",
+                "CWE_ID": "CWE-125",
+                "CWE_DESCRIPTION": "Out-of-bounds Read"
+            },
+            {
+                "id": "GHSA-8xfc-gm6g-vgpv",
+                "severity": "MODERATE",
+                "description": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+                "links": [],
+                "cvss_score": 5.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+                "published_at": "2024-05-14",
+                "updated_at": "2024-05-14",
+                "CWE_ID": "CWE-125",
+                "CWE_DESCRIPTION": "Out-of-bounds Read"
+            }
+        ]
+    },
+    "heapless:0.5.6": {
+        "name": "heapless",
+        "version": "0.5.6",
+        "type": "rust-crate",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-qgwf-r2jj-2ccv",
+                "severity": "HIGH",
+                "description": "Use after free in heapless",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-08-25",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "CWE-416",
+                "CWE_DESCRIPTION": "Use After Free"
+            }
+        ]
+    },
+    "shlex:0.1.1": {
+        "name": "shlex",
+        "version": "0.1.1",
+        "type": "rust-crate",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-r7qv-8r2h-pg27",
+                "severity": "HIGH",
+                "description": "Multiple issues involving quote API in shlex",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-01-22",
+                "updated_at": "2024-01-22",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-r7qv-8r2h-pg27",
+                "severity": "HIGH",
+                "description": "Multiple issues involving quote API in shlex",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-01-22",
+                "updated_at": "2024-01-22",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-r7qv-8r2h-pg27",
+                "severity": "HIGH",
+                "description": "Multiple issues involving quote API in shlex",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-01-22",
+                "updated_at": "2024-01-22",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-r7qv-8r2h-pg27",
+                "severity": "HIGH",
+                "description": "Multiple issues involving quote API in shlex",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2024-01-22",
+                "updated_at": "2024-01-22",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    }
+}

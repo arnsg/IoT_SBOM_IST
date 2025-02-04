@@ -1,0 +1,2726 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:7a8b2c94-e936-40a7-bcc7-82e19fb82c4d",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-07-30T16:34:01+02:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.4.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "a700a36dcdb8c94e",
+      "type": "file",
+      "name": "/Users/massimocoppolaro/Desktop/Università/Tirocinio2.0/Software/openPDC"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:nuget/Grid%20Solutions%20Framework@2.4.193.0?package-id=1367d3181b748a0b",
+      "type": "library",
+      "name": "Grid Solutions Framework",
+      "version": "2.4.193.0",
+      "cpe": "cpe:2.3:a:Grid_Solutions_Framework:Grid_Solutions_Framework:2.4.193.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Grid%20Solutions%20Framework@2.4.193.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/ValidateAssemblyBindings.exe"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Grid%20Solutions%20Framework@2.4.193.0?package-id=3eda0cd59b3e1370",
+      "type": "library",
+      "name": "Grid Solutions Framework",
+      "version": "2.4.193.0",
+      "cpe": "cpe:2.3:a:Grid_Solutions_Framework:Grid_Solutions_Framework:2.4.193.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Grid%20Solutions%20Framework@2.4.193.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/WavInputAdapter.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Grid%20Solutions%20Framework@2.4.193.0?package-id=ebc5edf2680dde95",
+      "type": "library",
+      "name": "Grid Solutions Framework",
+      "version": "2.4.193.0",
+      "cpe": "cpe:2.3:a:Grid_Solutions_Framework:Grid_Solutions_Framework:2.4.193.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Grid%20Solutions%20Framework@2.4.193.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/eDNAAdapters.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Grid%20Solutions%20Framework@2.4.193.0?package-id=7b8e072082414405",
+      "type": "library",
+      "name": "Grid Solutions Framework",
+      "version": "2.4.193.0",
+      "cpe": "cpe:2.3:a:Grid_Solutions_Framework:Grid_Solutions_Framework:2.4.193.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Grid%20Solutions%20Framework@2.4.193.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/en/GSF.PhasorProtocols.UI.WPF.resources.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Grid%20Solutions%20Framework@2.4.193.0?package-id=228ea3adbc63d090",
+      "type": "library",
+      "name": "Grid Solutions Framework",
+      "version": "2.4.193.0",
+      "cpe": "cpe:2.3:a:Grid_Solutions_Framework:Grid_Solutions_Framework:2.4.193.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Grid%20Solutions%20Framework@2.4.193.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/en/GSF.TimeSeries.Transport.UI.WPF.resources.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Grid%20Solutions%20Framework@2.4.193.0?package-id=929354ae40b2f3d1",
+      "type": "library",
+      "name": "Grid Solutions Framework",
+      "version": "2.4.193.0",
+      "cpe": "cpe:2.3:a:Grid_Solutions_Framework:Grid_Solutions_Framework:2.4.193.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Grid%20Solutions%20Framework@2.4.193.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/en/GSF.TimeSeries.UI.WPF.resources.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Grid%20Solutions%20Framework@2.4.193.0?package-id=b947b4bd55468a84",
+      "type": "library",
+      "name": "Grid Solutions Framework",
+      "version": "2.4.193.0",
+      "cpe": "cpe:2.3:a:Grid_Solutions_Framework:Grid_Solutions_Framework:2.4.193.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Grid%20Solutions%20Framework@2.4.193.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/es/GSF.PhasorProtocols.UI.WPF.resources.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Grid%20Solutions%20Framework@2.4.193.0?package-id=0fdefad88e96f26c",
+      "type": "library",
+      "name": "Grid Solutions Framework",
+      "version": "2.4.193.0",
+      "cpe": "cpe:2.3:a:Grid_Solutions_Framework:Grid_Solutions_Framework:2.4.193.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Grid%20Solutions%20Framework@2.4.193.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/es/GSF.TimeSeries.Transport.UI.WPF.resources.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Grid%20Solutions%20Framework@2.4.193.0?package-id=02312f545dfa045a",
+      "type": "library",
+      "name": "Grid Solutions Framework",
+      "version": "2.4.193.0",
+      "cpe": "cpe:2.3:a:Grid_Solutions_Framework:Grid_Solutions_Framework:2.4.193.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Grid%20Solutions%20Framework@2.4.193.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/es/GSF.TimeSeries.UI.WPF.resources.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Grid%20Solutions%20Framework@2.4.193.0?package-id=ba2ede4f5259d083",
+      "type": "library",
+      "name": "Grid Solutions Framework",
+      "version": "2.4.193.0",
+      "cpe": "cpe:2.3:a:Grid_Solutions_Framework:Grid_Solutions_Framework:2.4.193.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Grid%20Solutions%20Framework@2.4.193.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/zh/GSF.PhasorProtocols.UI.WPF.resources.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Grid%20Solutions%20Framework@2.4.193.0?package-id=aab500cba0e664c5",
+      "type": "library",
+      "name": "Grid Solutions Framework",
+      "version": "2.4.193.0",
+      "cpe": "cpe:2.3:a:Grid_Solutions_Framework:Grid_Solutions_Framework:2.4.193.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Grid%20Solutions%20Framework@2.4.193.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/zh/GSF.TimeSeries.Transport.UI.WPF.resources.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Grid%20Solutions%20Framework@2.4.193.0?package-id=5d5432a97bcf99dd",
+      "type": "library",
+      "name": "Grid Solutions Framework",
+      "version": "2.4.193.0",
+      "cpe": "cpe:2.3:a:Grid_Solutions_Framework:Grid_Solutions_Framework:2.4.193.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Grid%20Solutions%20Framework@2.4.193.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/zh/GSF.TimeSeries.UI.WPF.resources.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/InfluxDBAdapters@2.4.193.0?package-id=31a0f910e4806f7b",
+      "type": "library",
+      "name": "InfluxDBAdapters",
+      "version": "2.4.193.0",
+      "cpe": "cpe:2.3:a:InfluxDBAdapters:InfluxDBAdapters:2.4.193.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/InfluxDBAdapters@2.4.193.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/InfluxDBAdapters.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Json.NET@13.0.1.25517?package-id=317fd1695ef632e8",
+      "type": "library",
+      "name": "Json.NET",
+      "version": "13.0.1.25517",
+      "cpe": "cpe:2.3:a:Json.NET:Json.NET:13.0.1.25517:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Json.NET@13.0.1.25517",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/Newtonsoft.Json.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/MSBuild%20Extension%20Pack@3.5.4.0?package-id=6fd56572cbae3522",
+      "type": "library",
+      "name": "MSBuild Extension Pack",
+      "version": "3.5.4.0",
+      "cpe": "cpe:2.3:a:MSBuild_Extension_Pack:MSBuild_Extension_Pack:3.5.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/MSBuild%20Extension%20Pack@3.5.4.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Build/Scripts/MSBuild Extension Pack/MSBuild.ExtensionPack.BizTalk.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/MSBuild%20Extension%20Pack@3.5.4.0?package-id=1033d46d1d03c78f",
+      "type": "library",
+      "name": "MSBuild Extension Pack",
+      "version": "3.5.4.0",
+      "cpe": "cpe:2.3:a:MSBuild_Extension_Pack:MSBuild_Extension_Pack:3.5.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/MSBuild%20Extension%20Pack@3.5.4.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Build/Scripts/MSBuild Extension Pack/MSBuild.ExtensionPack.Iis7.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/MSBuild%20Extension%20Pack@3.5.4.0?package-id=7bb39a60acb29db7",
+      "type": "library",
+      "name": "MSBuild Extension Pack",
+      "version": "3.5.4.0",
+      "cpe": "cpe:2.3:a:MSBuild_Extension_Pack:MSBuild_Extension_Pack:3.5.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/MSBuild%20Extension%20Pack@3.5.4.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Build/Scripts/MSBuild Extension Pack/MSBuild.ExtensionPack.JSharp.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/MSBuild%20Extension%20Pack@3.5.4.0?package-id=180cf7fc1256191c",
+      "type": "library",
+      "name": "MSBuild Extension Pack",
+      "version": "3.5.4.0",
+      "cpe": "cpe:2.3:a:MSBuild_Extension_Pack:MSBuild_Extension_Pack:3.5.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/MSBuild%20Extension%20Pack@3.5.4.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Build/Scripts/MSBuild Extension Pack/MSBuild.ExtensionPack.Sql2005.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/MSBuild%20Extension%20Pack@3.5.4.0?package-id=114cc85ac7c9fef1",
+      "type": "library",
+      "name": "MSBuild Extension Pack",
+      "version": "3.5.4.0",
+      "cpe": "cpe:2.3:a:MSBuild_Extension_Pack:MSBuild_Extension_Pack:3.5.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/MSBuild%20Extension%20Pack@3.5.4.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Build/Scripts/MSBuild Extension Pack/MSBuild.ExtensionPack.Sql2008.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/MSBuild%20Extension%20Pack@3.5.4.0?package-id=aa6ae28b1a093710",
+      "type": "library",
+      "name": "MSBuild Extension Pack",
+      "version": "3.5.4.0",
+      "cpe": "cpe:2.3:a:MSBuild_Extension_Pack:MSBuild_Extension_Pack:3.5.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/MSBuild%20Extension%20Pack@3.5.4.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Build/Scripts/MSBuild Extension Pack/MSBuild.ExtensionPack.StyleCop.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/MSBuild%20Extension%20Pack@3.5.4.0?package-id=764b1be63aeebd0c",
+      "type": "library",
+      "name": "MSBuild Extension Pack",
+      "version": "3.5.4.0",
+      "cpe": "cpe:2.3:a:MSBuild_Extension_Pack:MSBuild_Extension_Pack:3.5.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/MSBuild%20Extension%20Pack@3.5.4.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Build/Scripts/MSBuild Extension Pack/MSBuild.ExtensionPack.Sync.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/MSBuild%20Extension%20Pack@3.5.4.0?package-id=a2870ab3f4daa4da",
+      "type": "library",
+      "name": "MSBuild Extension Pack",
+      "version": "3.5.4.0",
+      "cpe": "cpe:2.3:a:MSBuild_Extension_Pack:MSBuild_Extension_Pack:3.5.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/MSBuild%20Extension%20Pack@3.5.4.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Build/Scripts/MSBuild Extension Pack/MSBuild.ExtensionPack.Tfs.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/MSBuild%20Extension%20Pack@3.5.4.0?package-id=b4a4bc1aaf91bd80",
+      "type": "library",
+      "name": "MSBuild Extension Pack",
+      "version": "3.5.4.0",
+      "cpe": "cpe:2.3:a:MSBuild_Extension_Pack:MSBuild_Extension_Pack:3.5.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/MSBuild%20Extension%20Pack@3.5.4.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Build/Scripts/MSBuild Extension Pack/MSBuild.ExtensionPack.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/MSBuild%20Extension%20Pack@3.5.4.0?package-id=7051b1a872b5b123",
+      "type": "library",
+      "name": "MSBuild Extension Pack",
+      "version": "3.5.4.0",
+      "cpe": "cpe:2.3:a:MSBuild_Extension_Pack:MSBuild_Extension_Pack:3.5.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/MSBuild%20Extension%20Pack@3.5.4.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Build/Scripts/Targets/MSBuild Extension Pack/MSBuild.ExtensionPack.BizTalk.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/MSBuild%20Extension%20Pack@3.5.4.0?package-id=1c02709219b45b3d",
+      "type": "library",
+      "name": "MSBuild Extension Pack",
+      "version": "3.5.4.0",
+      "cpe": "cpe:2.3:a:MSBuild_Extension_Pack:MSBuild_Extension_Pack:3.5.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/MSBuild%20Extension%20Pack@3.5.4.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Build/Scripts/Targets/MSBuild Extension Pack/MSBuild.ExtensionPack.Iis7.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/MSBuild%20Extension%20Pack@3.5.4.0?package-id=8257cbf204b18a93",
+      "type": "library",
+      "name": "MSBuild Extension Pack",
+      "version": "3.5.4.0",
+      "cpe": "cpe:2.3:a:MSBuild_Extension_Pack:MSBuild_Extension_Pack:3.5.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/MSBuild%20Extension%20Pack@3.5.4.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Build/Scripts/Targets/MSBuild Extension Pack/MSBuild.ExtensionPack.JSharp.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/MSBuild%20Extension%20Pack@3.5.4.0?package-id=747e98d951fd186c",
+      "type": "library",
+      "name": "MSBuild Extension Pack",
+      "version": "3.5.4.0",
+      "cpe": "cpe:2.3:a:MSBuild_Extension_Pack:MSBuild_Extension_Pack:3.5.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/MSBuild%20Extension%20Pack@3.5.4.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Build/Scripts/Targets/MSBuild Extension Pack/MSBuild.ExtensionPack.Sql2005.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/MSBuild%20Extension%20Pack@3.5.4.0?package-id=0967c8be2ffddea3",
+      "type": "library",
+      "name": "MSBuild Extension Pack",
+      "version": "3.5.4.0",
+      "cpe": "cpe:2.3:a:MSBuild_Extension_Pack:MSBuild_Extension_Pack:3.5.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/MSBuild%20Extension%20Pack@3.5.4.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Build/Scripts/Targets/MSBuild Extension Pack/MSBuild.ExtensionPack.Sql2008.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/MSBuild%20Extension%20Pack@3.5.4.0?package-id=8b7b886c0d7237c2",
+      "type": "library",
+      "name": "MSBuild Extension Pack",
+      "version": "3.5.4.0",
+      "cpe": "cpe:2.3:a:MSBuild_Extension_Pack:MSBuild_Extension_Pack:3.5.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/MSBuild%20Extension%20Pack@3.5.4.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Build/Scripts/Targets/MSBuild Extension Pack/MSBuild.ExtensionPack.StyleCop.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/MSBuild%20Extension%20Pack@3.5.4.0?package-id=f419579cc6f1f5ea",
+      "type": "library",
+      "name": "MSBuild Extension Pack",
+      "version": "3.5.4.0",
+      "cpe": "cpe:2.3:a:MSBuild_Extension_Pack:MSBuild_Extension_Pack:3.5.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/MSBuild%20Extension%20Pack@3.5.4.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Build/Scripts/Targets/MSBuild Extension Pack/MSBuild.ExtensionPack.Sync.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/MSBuild%20Extension%20Pack@3.5.4.0?package-id=6a8e5079fb92a958",
+      "type": "library",
+      "name": "MSBuild Extension Pack",
+      "version": "3.5.4.0",
+      "cpe": "cpe:2.3:a:MSBuild_Extension_Pack:MSBuild_Extension_Pack:3.5.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/MSBuild%20Extension%20Pack@3.5.4.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Build/Scripts/Targets/MSBuild Extension Pack/MSBuild.ExtensionPack.Tfs.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/MSBuild%20Extension%20Pack@3.5.4.0?package-id=9439813b20f639cb",
+      "type": "library",
+      "name": "MSBuild Extension Pack",
+      "version": "3.5.4.0",
+      "cpe": "cpe:2.3:a:MSBuild_Extension_Pack:MSBuild_Extension_Pack:3.5.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/MSBuild%20Extension%20Pack@3.5.4.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Build/Scripts/Targets/MSBuild Extension Pack/MSBuild.ExtensionPack.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Primitives@5.0.20.51904?package-id=f3785ee0a63456f6",
+      "type": "library",
+      "name": "Microsoft.Extensions.Primitives",
+      "version": "5.0.20.51904",
+      "cpe": "cpe:2.3:a:Microsoft.Extensions.Primitives:Microsoft.Extensions.Primitives:5.0.20.51904:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Microsoft.Extensions.Primitives@5.0.20.51904",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/Microsoft.Extensions.Primitives.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Identity.Client@4.49.1.0?package-id=93458f55ba88bb13",
+      "type": "library",
+      "name": "Microsoft.Identity.Client",
+      "version": "4.49.1.0",
+      "cpe": "cpe:2.3:a:Microsoft.Identity.Client:Microsoft.Identity.Client:4.49.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Microsoft.Identity.Client@4.49.1.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/Microsoft.Identity.Client.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Identity.Client.Broker@4.47.0.0?package-id=d1bf3daf88708f62",
+      "type": "library",
+      "name": "Microsoft.Identity.Client.Broker",
+      "version": "4.47.0.0",
+      "cpe": "cpe:2.3:a:Microsoft.Identity.Client.Broker:Microsoft.Identity.Client.Broker:4.47.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Microsoft.Identity.Client.Broker@4.47.0.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/Microsoft.Identity.Client.Broker.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Identity.Client.Desktop@4.49.1.0?package-id=82dbd8c665b06cf6",
+      "type": "library",
+      "name": "Microsoft.Identity.Client.Desktop",
+      "version": "4.49.1.0",
+      "cpe": "cpe:2.3:a:Microsoft.Identity.Client.Desktop:Microsoft.Identity.Client.Desktop:4.49.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Microsoft.Identity.Client.Desktop@4.49.1.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/Microsoft.Identity.Client.Desktop.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Identity.Client.NativeInterop@0.12.4.0?package-id=26843a679777e255",
+      "type": "library",
+      "name": "Microsoft.Identity.Client.NativeInterop",
+      "version": "0.12.4.0",
+      "cpe": "cpe:2.3:a:Microsoft.Identity.Client.NativeInterop:Microsoft.Identity.Client.NativeInterop:0.12.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Microsoft.Identity.Client.NativeInterop@0.12.4.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/Microsoft.Identity.Client.NativeInterop.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Identity.Web.TokenCache@1.26.0.0?package-id=f30527666b264b91",
+      "type": "library",
+      "name": "Microsoft.Identity.Web.TokenCache",
+      "version": "1.26.0.0",
+      "cpe": "cpe:2.3:a:Microsoft.Identity.Web.TokenCache:Microsoft.Identity.Web.TokenCache:1.26.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Microsoft.Identity.Web.TokenCache@1.26.0.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/Microsoft.Identity.Web.TokenCache.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.IdentityModel.Abstractions@6.23.1.30908211045.a502b0fc2d50ff7c9500062b098cfd056a81d283?package-id=781cca651936742c",
+      "type": "library",
+      "name": "Microsoft.IdentityModel.Abstractions",
+      "version": "6.23.1.30908211045.a502b0fc2d50ff7c9500062b098cfd056a81d283",
+      "cpe": "cpe:2.3:a:Microsoft.IdentityModel.Abstractions:Microsoft.IdentityModel.Abstractions:6.23.1.30908211045.a502b0fc2d50ff7c9500062b098cfd056a81d283:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Microsoft.IdentityModel.Abstractions@6.23.1.30908211045.a502b0fc2d50ff7c9500062b098cfd056a81d283",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/Microsoft.IdentityModel.Abstractions.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.IdentityModel.JsonWebTokens@6.23.1.30908211045.a502b0fc2d50ff7c9500062b098cfd056a81d283?package-id=7a29186c204dea0c",
+      "type": "library",
+      "name": "Microsoft.IdentityModel.JsonWebTokens",
+      "version": "6.23.1.30908211045.a502b0fc2d50ff7c9500062b098cfd056a81d283",
+      "cpe": "cpe:2.3:a:Microsoft.IdentityModel.JsonWebTokens:Microsoft.IdentityModel.JsonWebTokens:6.23.1.30908211045.a502b0fc2d50ff7c9500062b098cfd056a81d283:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Microsoft.IdentityModel.JsonWebTokens@6.23.1.30908211045.a502b0fc2d50ff7c9500062b098cfd056a81d283",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/Microsoft.IdentityModel.JsonWebTokens.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.IdentityModel.Logging@6.23.1.30908211045.a502b0fc2d50ff7c9500062b098cfd056a81d283?package-id=d73226a7e0d0b7e0",
+      "type": "library",
+      "name": "Microsoft.IdentityModel.Logging",
+      "version": "6.23.1.30908211045.a502b0fc2d50ff7c9500062b098cfd056a81d283",
+      "cpe": "cpe:2.3:a:Microsoft.IdentityModel.Logging:Microsoft.IdentityModel.Logging:6.23.1.30908211045.a502b0fc2d50ff7c9500062b098cfd056a81d283:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Microsoft.IdentityModel.Logging@6.23.1.30908211045.a502b0fc2d50ff7c9500062b098cfd056a81d283",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/Microsoft.IdentityModel.Logging.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.IdentityModel.Protocols@6.23.1.30908211045.a502b0fc2d50ff7c9500062b098cfd056a81d283?package-id=73bb2f6021f519ba",
+      "type": "library",
+      "name": "Microsoft.IdentityModel.Protocols",
+      "version": "6.23.1.30908211045.a502b0fc2d50ff7c9500062b098cfd056a81d283",
+      "cpe": "cpe:2.3:a:Microsoft.IdentityModel.Protocols:Microsoft.IdentityModel.Protocols:6.23.1.30908211045.a502b0fc2d50ff7c9500062b098cfd056a81d283:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Microsoft.IdentityModel.Protocols@6.23.1.30908211045.a502b0fc2d50ff7c9500062b098cfd056a81d283",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/Microsoft.IdentityModel.Protocols.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.IdentityModel.Protocols.OpenIdConnect@6.23.1.30908211045.a502b0fc2d50ff7c9500062b098cfd056a81d283?package-id=04a200fb25f9741b",
+      "type": "library",
+      "name": "Microsoft.IdentityModel.Protocols.OpenIdConnect",
+      "version": "6.23.1.30908211045.a502b0fc2d50ff7c9500062b098cfd056a81d283",
+      "cpe": "cpe:2.3:a:Microsoft.IdentityModel.Protocols.OpenIdConnect:Microsoft.IdentityModel.Protocols.OpenIdConnect:6.23.1.30908211045.a502b0fc2d50ff7c9500062b098cfd056a81d283:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Microsoft.IdentityModel.Protocols.OpenIdConnect@6.23.1.30908211045.a502b0fc2d50ff7c9500062b098cfd056a81d283",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.IdentityModel.Tokens@6.23.1.30908211045.a502b0fc2d50ff7c9500062b098cfd056a81d283?package-id=d693f697ad85fc52",
+      "type": "library",
+      "name": "Microsoft.IdentityModel.Tokens",
+      "version": "6.23.1.30908211045.a502b0fc2d50ff7c9500062b098cfd056a81d283",
+      "cpe": "cpe:2.3:a:Microsoft.IdentityModel.Tokens:Microsoft.IdentityModel.Tokens:6.23.1.30908211045.a502b0fc2d50ff7c9500062b098cfd056a81d283:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Microsoft.IdentityModel.Tokens@6.23.1.30908211045.a502b0fc2d50ff7c9500062b098cfd056a81d283",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/Microsoft.IdentityModel.Tokens.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Owin%20(1e6aacff317f93f77dacb89c799e0bf1083fb1e9)@3.1.60405.82?package-id=5ad7756670c717f0",
+      "type": "library",
+      "name": "Microsoft.Owin (1e6aacff317f93f77dacb89c799e0bf1083fb1e9)",
+      "version": "3.1.60405.82",
+      "cpe": "cpe:2.3:a:Microsoft.Owin_\\(1e6aacff317f93f77dacb89c799e0bf1083fb1e9\\):Microsoft.Owin_\\(1e6aacff317f93f77dacb89c799e0bf1083fb1e9\\):3.1.60405.82:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Microsoft.Owin%20(1e6aacff317f93f77dacb89c799e0bf1083fb1e9)@3.1.60405.82",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/Microsoft.Owin.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Owin.Cors%20(1e6aacff317f93f77dacb89c799e0bf1083fb1e9)@3.1.60405.82?package-id=57f0d2a26f64ebdd",
+      "type": "library",
+      "name": "Microsoft.Owin.Cors (1e6aacff317f93f77dacb89c799e0bf1083fb1e9)",
+      "version": "3.1.60405.82",
+      "cpe": "cpe:2.3:a:Microsoft.Owin.Cors_\\(1e6aacff317f93f77dacb89c799e0bf1083fb1e9\\):Microsoft.Owin.Cors_\\(1e6aacff317f93f77dacb89c799e0bf1083fb1e9\\):3.1.60405.82:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Microsoft.Owin.Cors%20(1e6aacff317f93f77dacb89c799e0bf1083fb1e9)@3.1.60405.82",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/Microsoft.Owin.Cors.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Owin.Diagnostics%20(1e6aacff317f93f77dacb89c799e0bf1083fb1e9)@3.1.60405.82?package-id=823fd1628f53fd03",
+      "type": "library",
+      "name": "Microsoft.Owin.Diagnostics (1e6aacff317f93f77dacb89c799e0bf1083fb1e9)",
+      "version": "3.1.60405.82",
+      "cpe": "cpe:2.3:a:Microsoft.Owin.Diagnostics_\\(1e6aacff317f93f77dacb89c799e0bf1083fb1e9\\):Microsoft.Owin.Diagnostics_\\(1e6aacff317f93f77dacb89c799e0bf1083fb1e9\\):3.1.60405.82:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Microsoft.Owin.Diagnostics%20(1e6aacff317f93f77dacb89c799e0bf1083fb1e9)@3.1.60405.82",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/Microsoft.Owin.Diagnostics.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Owin.Host.HttpListener%20(1e6aacff317f93f77dacb89c799e0bf1083fb1e9)@3.1.60405.82?package-id=a8ff0ca47982552f",
+      "type": "library",
+      "name": "Microsoft.Owin.Host.HttpListener (1e6aacff317f93f77dacb89c799e0bf1083fb1e9)",
+      "version": "3.1.60405.82",
+      "cpe": "cpe:2.3:a:Microsoft.Owin.Host.HttpListener_\\(1e6aacff317f93f77dacb89c799e0bf1083fb1e9\\):Microsoft.Owin.Host.HttpListener_\\(1e6aacff317f93f77dacb89c799e0bf1083fb1e9\\):3.1.60405.82:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Microsoft.Owin.Host.HttpListener%20(1e6aacff317f93f77dacb89c799e0bf1083fb1e9)@3.1.60405.82",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/Microsoft.Owin.Host.HttpListener.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Owin.Host.SystemWeb%20(1e6aacff317f93f77dacb89c799e0bf1083fb1e9)@3.1.60405.82?package-id=8bab396a79a11f63",
+      "type": "library",
+      "name": "Microsoft.Owin.Host.SystemWeb (1e6aacff317f93f77dacb89c799e0bf1083fb1e9)",
+      "version": "3.1.60405.82",
+      "cpe": "cpe:2.3:a:Microsoft.Owin.Host.SystemWeb_\\(1e6aacff317f93f77dacb89c799e0bf1083fb1e9\\):Microsoft.Owin.Host.SystemWeb_\\(1e6aacff317f93f77dacb89c799e0bf1083fb1e9\\):3.1.60405.82:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Microsoft.Owin.Host.SystemWeb%20(1e6aacff317f93f77dacb89c799e0bf1083fb1e9)@3.1.60405.82",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/Microsoft.Owin.Host.SystemWeb.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Owin.Hosting%20(1e6aacff317f93f77dacb89c799e0bf1083fb1e9)@3.1.60405.82?package-id=1c57aa284a4c86f7",
+      "type": "library",
+      "name": "Microsoft.Owin.Hosting (1e6aacff317f93f77dacb89c799e0bf1083fb1e9)",
+      "version": "3.1.60405.82",
+      "cpe": "cpe:2.3:a:Microsoft.Owin.Hosting_\\(1e6aacff317f93f77dacb89c799e0bf1083fb1e9\\):Microsoft.Owin.Hosting_\\(1e6aacff317f93f77dacb89c799e0bf1083fb1e9\\):3.1.60405.82:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Microsoft.Owin.Hosting%20(1e6aacff317f93f77dacb89c799e0bf1083fb1e9)@3.1.60405.82",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/Microsoft.Owin.Hosting.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Owin.Security%20(1e6aacff317f93f77dacb89c799e0bf1083fb1e9)@3.1.60405.82?package-id=b9ee4c1647de45aa",
+      "type": "library",
+      "name": "Microsoft.Owin.Security (1e6aacff317f93f77dacb89c799e0bf1083fb1e9)",
+      "version": "3.1.60405.82",
+      "cpe": "cpe:2.3:a:Microsoft.Owin.Security_\\(1e6aacff317f93f77dacb89c799e0bf1083fb1e9\\):Microsoft.Owin.Security_\\(1e6aacff317f93f77dacb89c799e0bf1083fb1e9\\):3.1.60405.82:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Microsoft.Owin.Security%20(1e6aacff317f93f77dacb89c799e0bf1083fb1e9)@3.1.60405.82",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/Microsoft.Owin.Security.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Web.Infrastructure@1.0.20105.407?package-id=d57f574cf8db09ef",
+      "type": "library",
+      "name": "Microsoft.Web.Infrastructure",
+      "version": "1.0.20105.407",
+      "cpe": "cpe:2.3:a:Microsoft.Web.Infrastructure:Microsoft.Web.Infrastructure:1.0.20105.407:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Microsoft.Web.Infrastructure@1.0.20105.407",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/Microsoft.Web.Infrastructure.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Web.WebView2.Core@1.0.864.35?package-id=8e61d74a9ec01cd9",
+      "type": "library",
+      "name": "Microsoft.Web.WebView2.Core",
+      "version": "1.0.864.35",
+      "cpe": "cpe:2.3:a:Microsoft.Web.WebView2.Core:Microsoft.Web.WebView2.Core:1.0.864.35:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Microsoft.Web.WebView2.Core@1.0.864.35",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/Microsoft.Web.WebView2.Core.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Web.WebView2.WinForms@1.0.864.35?package-id=66d0ba8d7eb21c53",
+      "type": "library",
+      "name": "Microsoft.Web.WebView2.WinForms",
+      "version": "1.0.864.35",
+      "cpe": "cpe:2.3:a:Microsoft.Web.WebView2.WinForms:Microsoft.Web.WebView2.WinForms:1.0.864.35:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Microsoft.Web.WebView2.WinForms@1.0.864.35",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/Microsoft.Web.WebView2.WinForms.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Web.WebView2.Wpf@1.0.864.35?package-id=afd21b77a64e973e",
+      "type": "library",
+      "name": "Microsoft.Web.WebView2.Wpf",
+      "version": "1.0.864.35",
+      "cpe": "cpe:2.3:a:Microsoft.Web.WebView2.Wpf:Microsoft.Web.WebView2.Wpf:1.0.864.35:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Microsoft.Web.WebView2.Wpf@1.0.864.35",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/Microsoft.Web.WebView2.Wpf.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Microsoft.Win32.Registry@5.0.20.51904?package-id=ed4365770c4028d0",
+      "type": "library",
+      "name": "Microsoft.Win32.Registry",
+      "version": "5.0.20.51904",
+      "cpe": "cpe:2.3:a:Microsoft.Win32.Registry:Microsoft.Win32.Registry:5.0.20.51904:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Microsoft.Win32.Registry@5.0.20.51904",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/Microsoft.Win32.Registry.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/MongoDB-CSharp@0.90.0.1?package-id=943ba23ed9143f59",
+      "type": "library",
+      "name": "MongoDB-CSharp",
+      "version": "0.90.0.1",
+      "cpe": "cpe:2.3:a:MongoDB-CSharp:MongoDB-CSharp:0.90.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/MongoDB-CSharp@0.90.0.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:MongoDB-CSharp:MongoDB_CSharp:0.90.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:MongoDB_CSharp:MongoDB-CSharp:0.90.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:MongoDB_CSharp:MongoDB_CSharp:0.90.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:MongoDB:MongoDB-CSharp:0.90.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:MongoDB:MongoDB_CSharp:0.90.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/MongoDB.GridFS.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/MongoDB-CSharp@0.90.0.1?package-id=8cf72c76b2555d81",
+      "type": "library",
+      "name": "MongoDB-CSharp",
+      "version": "0.90.0.1",
+      "cpe": "cpe:2.3:a:MongoDB-CSharp:MongoDB-CSharp:0.90.0.1:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/MongoDB-CSharp@0.90.0.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:MongoDB-CSharp:MongoDB_CSharp:0.90.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:MongoDB_CSharp:MongoDB-CSharp:0.90.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:MongoDB_CSharp:MongoDB_CSharp:0.90.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:MongoDB:MongoDB-CSharp:0.90.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:MongoDB:MongoDB_CSharp:0.90.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/MongoDB.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/NAudio@1.7.0.15?package-id=0a9b88bb6fcadbf3",
+      "type": "library",
+      "name": "NAudio",
+      "version": "1.7.0.15",
+      "cpe": "cpe:2.3:a:NAudio:NAudio:1.7.0.15:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/NAudio@1.7.0.15",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/NAudio.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/NModbus4@2.1.0.0?package-id=a3a1a5b4ba05ba05",
+      "type": "library",
+      "name": "NModbus4",
+      "version": "2.1.0.0",
+      "cpe": "cpe:2.3:a:NModbus4:NModbus4:2.1.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/NModbus4@2.1.0.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/NModbus4.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/NUglify@1.20.5.0?package-id=a77dd9b34a374d4f",
+      "type": "library",
+      "name": "NUglify",
+      "version": "1.20.5.0",
+      "cpe": "cpe:2.3:a:NUglify:NUglify:1.20.5.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/NUglify@1.20.5.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/NUglify.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Npgsql@4.0.11.0?package-id=b51fbab3dc37e47a",
+      "type": "library",
+      "name": "Npgsql",
+      "version": "4.0.11.0",
+      "cpe": "cpe:2.3:a:Npgsql:Npgsql:4.0.11.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Npgsql@4.0.11.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/Npgsql.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Owin@1.0?package-id=48969ba13f37c722",
+      "type": "library",
+      "name": "Owin",
+      "version": "1.0",
+      "cpe": "cpe:2.3:a:Owin:Owin:1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Owin@1.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/Owin.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/PI%20AF@2.7.5.7166?package-id=a2589104adbab714",
+      "type": "library",
+      "name": "PI AF",
+      "version": "2.7.5.7166",
+      "cpe": "cpe:2.3:a:PI_AF:PI_AF:2.7.5.7166:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/PI%20AF@2.7.5.7166",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/OSIsoft.AFSDK.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/PowerCalculations.UI@2.4.193.0?package-id=195c74b0cbb532a4",
+      "type": "library",
+      "name": "PowerCalculations.UI",
+      "version": "2.4.193.0",
+      "cpe": "cpe:2.3:a:PowerCalculations.UI:PowerCalculations.UI:2.4.193.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/PowerCalculations.UI@2.4.193.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/PowerCalculations.UI.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/PowerCalculations.UI.WPF@2.4.193.0?package-id=0da339c0ee113e33",
+      "type": "library",
+      "name": "PowerCalculations.UI.WPF",
+      "version": "2.4.193.0",
+      "cpe": "cpe:2.3:a:PowerCalculations.UI.WPF:PowerCalculations.UI.WPF:2.4.193.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/PowerCalculations.UI.WPF@2.4.193.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/PowerCalculations.UI.WPF.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/ProtocolBuffers@2.4.1.473?package-id=61a06c988b8465c6",
+      "type": "library",
+      "name": "ProtocolBuffers",
+      "version": "2.4.1.473",
+      "cpe": "cpe:2.3:a:ProtocolBuffers:ProtocolBuffers:2.4.1.473:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/ProtocolBuffers@2.4.1.473",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/Google.ProtocolBuffers.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/RazorEngine@3.10.0?package-id=17ab1582c526d31f",
+      "type": "library",
+      "name": "RazorEngine",
+      "version": "3.10.0",
+      "cpe": "cpe:2.3:a:RazorEngine:RazorEngine:3.10.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/RazorEngine@3.10.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/RazorEngine.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/ReadWriteCSV@1.0.0.0?package-id=cd97bd45e68c88e3",
+      "type": "library",
+      "name": "ReadWriteCSV",
+      "version": "1.0.0.0",
+      "cpe": "cpe:2.3:a:ReadWriteCSV:ReadWriteCSV:1.0.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/ReadWriteCSV@1.0.0.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Documentation/wiki/Developers_Two_Custom_Adapter_Examples.files/ReadWriteCSV.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Report.NET@0.09.06?package-id=a84c8cb2dbd02b3d",
+      "type": "library",
+      "name": "Report.NET",
+      "version": "0.09.06",
+      "cpe": "cpe:2.3:a:Report.NET:Report.NET:0.09.06:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Report.NET@0.09.06",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/Reports.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/SQLite@3.24.0?package-id=92f9656b15a6e429",
+      "type": "library",
+      "name": "SQLite",
+      "version": "3.24.0",
+      "cpe": "cpe:2.3:a:SQLite:SQLite:3.24.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/SQLite@3.24.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Data/SQLite/sqlite3.exe"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/System.Web.WebPages@3.0.60201.0?package-id=84e4b069eb98b001",
+      "type": "library",
+      "name": "System.Web.WebPages",
+      "version": "3.0.60201.0",
+      "cpe": "cpe:2.3:a:System.Web.WebPages:System.Web.WebPages:3.0.60201.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/System.Web.WebPages@3.0.60201.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/System.Web.WebPages.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/System.Web.WebPages.Deployment@3.0.60201.0?package-id=1690a14775672e17",
+      "type": "library",
+      "name": "System.Web.WebPages.Deployment",
+      "version": "3.0.60201.0",
+      "cpe": "cpe:2.3:a:System.Web.WebPages.Deployment:System.Web.WebPages.Deployment:3.0.60201.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/System.Web.WebPages.Deployment@3.0.60201.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/System.Web.WebPages.Deployment.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/System.Web.WebPages.Razor@3.0.60201.0?package-id=e94530e72c1b50b1",
+      "type": "library",
+      "name": "System.Web.WebPages.Razor",
+      "version": "3.0.60201.0",
+      "cpe": "cpe:2.3:a:System.Web.WebPages.Razor:System.Web.WebPages.Razor:3.0.60201.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/System.Web.WebPages.Razor@3.0.60201.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/System.Web.WebPages.Razor.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/System.Windows.Controls.DataVisualization.Toolkit@3.5.50211.1?package-id=c6d1813efe259029",
+      "type": "library",
+      "name": "System.Windows.Controls.DataVisualization.Toolkit",
+      "version": "3.5.50211.1",
+      "cpe": "cpe:2.3:a:System.Windows.Controls.DataVisualization.Toolkit:System.Windows.Controls.DataVisualization.Toolkit:3.5.50211.1:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/System.Windows.Controls.DataVisualization.Toolkit@3.5.50211.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/System.Windows.Controls.DataVisualization.Toolkit.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/System.Windows.Controls.DataVisualization.Toolkit@3.5.50211.1?package-id=19597b78174e3e2b",
+      "type": "library",
+      "name": "System.Windows.Controls.DataVisualization.Toolkit",
+      "version": "3.5.50211.1",
+      "cpe": "cpe:2.3:a:System.Windows.Controls.DataVisualization.Toolkit:System.Windows.Controls.DataVisualization.Toolkit:3.5.50211.1:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/System.Windows.Controls.DataVisualization.Toolkit@3.5.50211.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/Microsoft/WPF/System.Windows.Controls.DataVisualization.Toolkit.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/UpdateTagNames@2.4.193.0?package-id=d710f13bd6ac211f",
+      "type": "library",
+      "name": "UpdateTagNames",
+      "version": "2.4.193.0",
+      "cpe": "cpe:2.3:a:UpdateTagNames:UpdateTagNames:2.4.193.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/UpdateTagNames@2.4.193.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Applications/openPDC/openPDCSetup/UpdateTagNames.exe"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/WPF%20Toolkit@3.5.50211.1?package-id=1c0fde6b8bbc9d89",
+      "type": "library",
+      "name": "WPF Toolkit",
+      "version": "3.5.50211.1",
+      "cpe": "cpe:2.3:a:WPF_Toolkit:WPF_Toolkit:3.5.50211.1:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/WPF%20Toolkit@3.5.50211.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/WPFToolkit.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/WPF%20Toolkit@3.5.50211.1?package-id=0706968fb66c81f5",
+      "type": "library",
+      "name": "WPF Toolkit",
+      "version": "3.5.50211.1",
+      "cpe": "cpe:2.3:a:WPF_Toolkit:WPF_Toolkit:3.5.50211.1:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/WPF%20Toolkit@3.5.50211.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/Microsoft/WPF/WPFToolkit.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/WPF%20Toolkit%20Input@3.5.50211.1?package-id=30ca9408708bfa7b",
+      "type": "library",
+      "name": "WPF Toolkit Input",
+      "version": "3.5.50211.1",
+      "cpe": "cpe:2.3:a:WPF_Toolkit_Input:WPF_Toolkit_Input:3.5.50211.1:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/WPF%20Toolkit%20Input@3.5.50211.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/Microsoft/WPF/System.Windows.Controls.Input.Toolkit.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/WPF%20Toolkit%20Layout@3.5.50211.1?package-id=e08a4bf013e266ad",
+      "type": "library",
+      "name": "WPF Toolkit Layout",
+      "version": "3.5.50211.1",
+      "cpe": "cpe:2.3:a:WPF_Toolkit_Layout:WPF_Toolkit_Layout:3.5.50211.1:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/WPF%20Toolkit%20Layout@3.5.50211.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/Microsoft/WPF/System.Windows.Controls.Layout.Toolkit.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Windows%20Installer%20XML%20Toolset@3.11.2.4516?package-id=317f1cdfc4b29064",
+      "type": "library",
+      "name": "Windows Installer XML Toolset",
+      "version": "3.11.2.4516",
+      "cpe": "cpe:2.3:a:Windows_Installer_XML_Toolset:Windows_Installer_XML_Toolset:3.11.2.4516:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Windows%20Installer%20XML%20Toolset@3.11.2.4516",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/GSF.InstallerActions.CA.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/Windows%20Installer%20XML%20Toolset@3.11.2.4516?package-id=a80d378eb09ab44e",
+      "type": "library",
+      "name": "Windows Installer XML Toolset",
+      "version": "3.11.2.4516",
+      "cpe": "cpe:2.3:a:Windows_Installer_XML_Toolset:Windows_Installer_XML_Toolset:3.11.2.4516:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/Windows%20Installer%20XML%20Toolset@3.11.2.4516",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/Microsoft.Deployment.WindowsInstaller.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/eDNA%20EzDnaApi%20DLL@2.24.0.107?package-id=4d38f10d6e8d4e04",
+      "type": "library",
+      "name": "eDNA EzDnaApi DLL",
+      "version": "2.24.0.107",
+      "cpe": "cpe:2.3:a:eDNA_EzDnaApi_DLL:eDNA_EzDnaApi_DLL:2.24.0.107:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/eDNA%20EzDnaApi%20DLL@2.24.0.107",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/EzDnaApi64.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/kafka-net@1.0.14?package-id=104aa116f306ff83",
+      "type": "library",
+      "name": "kafka-net",
+      "version": "1.0.14",
+      "cpe": "cpe:2.3:a:kafka-net:kafka-net:1.0.14:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/kafka-net@1.0.14",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:kafka-net:kafka_net:1.0.14:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:kafka_net:kafka-net:1.0.14:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:kafka_net:kafka_net:1.0.14:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:kafka:kafka-net:1.0.14:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:kafka:kafka_net:1.0.14:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/Misakai.Kafka.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/sttp@1.0.15.0?package-id=73fd000dbf4e32cd",
+      "type": "library",
+      "name": "sttp",
+      "version": "1.0.15.0",
+      "cpe": "cpe:2.3:a:sttp:sttp:1.0.15.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/sttp@1.0.15.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/sttp.net.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/sttp@1.0.501.0?package-id=7969673450aa8949",
+      "type": "library",
+      "name": "sttp",
+      "version": "1.0.501.0",
+      "cpe": "cpe:2.3:a:sttp:sttp:1.0.501.0:*:*:*:*:*:*:*",
+      "purl": "pkg:nuget/sttp@1.0.501.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/sttp.gsf.dll"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:nuget/%C3%98MQ@4.1.0.25?package-id=a47f8b8e2d98a401",
+      "type": "library",
+      "name": "ØMQ",
+      "version": "4.1.0.25",
+      "purl": "pkg:nuget/%C3%98MQ@4.1.0.25",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "dotnet-portable-executable-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "dotnet"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "dotnet-portable-executable-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/Source/Dependencies/GSF/ZeroMQ.dll"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,974 @@
+{
+    "jdom:1.1": {
+        "name": "jdom",
+        "version": "1.1",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-2363-cqg2-863c",
+                "severity": "HIGH",
+                "description": "XML External Entity (XXE) Injection in JDOM",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-07-27",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-2363-cqg2-863c",
+                "severity": "HIGH",
+                "description": "XML External Entity (XXE) Injection in JDOM",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-07-27",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-2363-cqg2-863c",
+                "severity": "HIGH",
+                "description": "XML External Entity (XXE) Injection in JDOM",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-07-27",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "logback-core:1.1.2": {
+        "name": "logback-core",
+        "version": "1.1.2",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-vmfg-rjjm-rjrj",
+                "severity": "CRITICAL",
+                "description": "QOS.ch Logback vulnerable to Deserialization of Untrusted Data",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-06-07",
+                "updated_at": "2023-01-28",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-vmq6-5m68-f53m",
+                "severity": "HIGH",
+                "description": "logback serialization vulnerability",
+                "links": [],
+                "cvss_score": 7.1,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+                "published_at": "2023-11-29",
+                "updated_at": "2023-12-05",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-668q-qrv7-99fm",
+                "severity": "MODERATE",
+                "description": "Deserialization of Untrusted Data in logback",
+                "links": [],
+                "cvss_score": 6.6,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-12-17",
+                "updated_at": "2023-01-30",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "poi:3.0.1-FINAL": {
+        "name": "poi",
+        "version": "3.0.1-FINAL",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-523c-xh4g-mh5m",
+                "severity": "HIGH",
+                "description": "Denial of Service in Apache POI",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-01-14",
+                "updated_at": "2023-01-28",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-523c-xh4g-mh5m",
+                "severity": "HIGH",
+                "description": "Denial of Service in Apache POI",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-01-14",
+                "updated_at": "2023-01-28",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-523c-xh4g-mh5m",
+                "severity": "HIGH",
+                "description": "Denial of Service in Apache POI",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2021-01-14",
+                "updated_at": "2023-01-28",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-x9mm-6gpf-f749",
+                "severity": "MODERATE",
+                "description": "Loop with Unreachable Exit Condition in Apache POI",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-17",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-x9mm-6gpf-f749",
+                "severity": "MODERATE",
+                "description": "Loop with Unreachable Exit Condition in Apache POI",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-17",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-x9mm-6gpf-f749",
+                "severity": "MODERATE",
+                "description": "Loop with Unreachable Exit Condition in Apache POI",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-17",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-q56h-jjj6-52mf",
+                "severity": "MODERATE",
+                "description": "Improper Restriction of XML External Entity Reference in Apache POI",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-17",
+                "updated_at": "2024-04-16",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-q56h-jjj6-52mf",
+                "severity": "MODERATE",
+                "description": "Improper Restriction of XML External Entity Reference in Apache POI",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-17",
+                "updated_at": "2024-04-16",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-q56h-jjj6-52mf",
+                "severity": "MODERATE",
+                "description": "Improper Restriction of XML External Entity Reference in Apache POI",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-17",
+                "updated_at": "2024-04-16",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-jqx5-h2hw-5q4f",
+                "severity": "MODERATE",
+                "description": "Denial of Service in Apache POI",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-04",
+                "updated_at": "2024-03-05",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-jqx5-h2hw-5q4f",
+                "severity": "MODERATE",
+                "description": "Denial of Service in Apache POI",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-04",
+                "updated_at": "2024-03-05",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-jqx5-h2hw-5q4f",
+                "severity": "MODERATE",
+                "description": "Denial of Service in Apache POI",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-04",
+                "updated_at": "2024-03-05",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-9jwc-q6j3-8g9g",
+                "severity": "MODERATE",
+                "description": "Improper Restriction of XML External Entity Reference in Apache POI ",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2022-05-24",
+                "updated_at": "2023-01-28",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-9jwc-q6j3-8g9g",
+                "severity": "MODERATE",
+                "description": "Improper Restriction of XML External Entity Reference in Apache POI ",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2022-05-24",
+                "updated_at": "2023-01-28",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-9jwc-q6j3-8g9g",
+                "severity": "MODERATE",
+                "description": "Improper Restriction of XML External Entity Reference in Apache POI ",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2022-05-24",
+                "updated_at": "2023-01-28",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-78vv-qj73-h9m5",
+                "severity": "MODERATE",
+                "description": "Improper Restriction of Recursive Entity References in DTDs in Apache POI",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2022-05-13",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-78vv-qj73-h9m5",
+                "severity": "MODERATE",
+                "description": "Improper Restriction of Recursive Entity References in DTDs in Apache POI",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2022-05-13",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-78vv-qj73-h9m5",
+                "severity": "MODERATE",
+                "description": "Improper Restriction of Recursive Entity References in DTDs in Apache POI",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2022-05-13",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-5wfp-8643-c58x",
+                "severity": "MODERATE",
+                "description": "Improper Input Validation in Apache POI",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-17",
+                "updated_at": "2024-04-16",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-5wfp-8643-c58x",
+                "severity": "MODERATE",
+                "description": "Improper Input Validation in Apache POI",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-17",
+                "updated_at": "2024-04-16",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-5wfp-8643-c58x",
+                "severity": "MODERATE",
+                "description": "Improper Input Validation in Apache POI",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-17",
+                "updated_at": "2024-04-16",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "quartz:": {
+        "name": "quartz",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-9qcf-c26r-x5rf",
+                "severity": "CRITICAL",
+                "description": "XML external entity injection in Terracotta Quartz Scheduler",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2020-07-01",
+                "updated_at": "2023-12-22",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-9qcf-c26r-x5rf",
+                "severity": "CRITICAL",
+                "description": "XML external entity injection in Terracotta Quartz Scheduler",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2020-07-01",
+                "updated_at": "2023-12-22",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "spring-context:3.2.18.RELEASE": {
+        "name": "spring-context",
+        "version": "3.2.18.RELEASE",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-g5mm-vmx4-3rg7",
+                "severity": "HIGH",
+                "description": "Improper handling of case sensitivity in Spring Framework",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2022-04-15",
+                "updated_at": "2024-05-15",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "spring-security-core:3.2.10.RELEASE": {
+        "name": "spring-security-core",
+        "version": "3.2.10.RELEASE",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-hh32-7344-cg2f",
+                "severity": "CRITICAL",
+                "description": "Authorization bypass in Spring Security",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-05-20",
+                "updated_at": "2024-07-05",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-v33x-prhc-gph5",
+                "severity": "HIGH",
+                "description": "Insufficiently Protected Credentials and Improper Authentication in Spring Security",
+                "links": [],
+                "cvss_score": 7.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+                "published_at": "2019-06-27",
+                "updated_at": "2023-01-28",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-f3jh-qvm4-mg39",
+                "severity": "HIGH",
+                "description": "Erroneous authentication pass in Spring Security",
+                "links": [],
+                "cvss_score": 8.2,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+                "published_at": "2024-03-18",
+                "updated_at": "2024-04-19",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-8crv-49fr-2h6j",
+                "severity": "HIGH",
+                "description": "Spring Security and Spring Framework may not recognize certain paths that should be protected",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+                "published_at": "2018-10-17",
+                "updated_at": "2024-03-05",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-2ppp-9496-p23q",
+                "severity": "MODERATE",
+                "description": "Insufficient Entropy in Spring Security",
+                "links": [],
+                "cvss_score": 6.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2020-06-15",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "spring-security-web:3.2.10.RELEASE": {
+        "name": "spring-security-web",
+        "version": "3.2.10.RELEASE",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-gq28-h5vg-8prx",
+                "severity": "HIGH",
+                "description": "Privilege escalation in spring security",
+                "links": [],
+                "cvss_score": 8.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-05-10",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-gq28-h5vg-8prx",
+                "severity": "HIGH",
+                "description": "Privilege escalation in spring security",
+                "links": [],
+                "cvss_score": 8.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-05-10",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-gq28-h5vg-8prx",
+                "severity": "HIGH",
+                "description": "Privilege escalation in spring security",
+                "links": [],
+                "cvss_score": 8.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2021-05-10",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "spring-web:": {
+        "name": "spring-web",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-4wrc-f8pq-fpqp",
+                "severity": "CRITICAL",
+                "description": "Pivotal Spring Framework contains unsafe Java deserialization methods",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-05-24",
+                "updated_at": "2023-06-01",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-hgjh-9rj2-g67j",
+                "severity": "HIGH",
+                "description": "Spring Framework URL Parsing with Host Validation Vulnerability",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+                "published_at": "2024-03-16",
+                "updated_at": "2024-06-10",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-ccgv-vj62-xf9h",
+                "severity": "HIGH",
+                "description": "Spring Web vulnerable to Open Redirect or Server Side Request Forgery",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+                "published_at": "2024-02-23",
+                "updated_at": "2024-06-10",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-2wrp-6fg6-hmc5",
+                "severity": "HIGH",
+                "description": "Spring Framework URL Parsing with Host Validation",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+                "published_at": "2024-04-16",
+                "updated_at": "2024-06-10",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-g6hf-f9cq-q7w7",
+                "severity": "MODERATE",
+                "description": "Cross-Site Request Forgery in Spring Framework",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-13",
+                "updated_at": "2024-02-27",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-6v7w-535j-rq5m",
+                "severity": "MODERATE",
+                "description": "Pivotal Spring Framework DoS Attack with XML Input",
+                "links": [],
+                "cvss_score": 5.5,
+                "vector_attack": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+                "published_at": "2018-10-17",
+                "updated_at": "2024-03-15",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "spring-web:3.2.18.RELEASE": {
+        "name": "spring-web",
+        "version": "3.2.18.RELEASE",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-4wrc-f8pq-fpqp",
+                "severity": "CRITICAL",
+                "description": "Pivotal Spring Framework contains unsafe Java deserialization methods",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-05-24",
+                "updated_at": "2023-06-01",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-hgjh-9rj2-g67j",
+                "severity": "HIGH",
+                "description": "Spring Framework URL Parsing with Host Validation Vulnerability",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+                "published_at": "2024-03-16",
+                "updated_at": "2024-06-10",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-ccgv-vj62-xf9h",
+                "severity": "HIGH",
+                "description": "Spring Web vulnerable to Open Redirect or Server Side Request Forgery",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+                "published_at": "2024-02-23",
+                "updated_at": "2024-06-10",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-2wrp-6fg6-hmc5",
+                "severity": "HIGH",
+                "description": "Spring Framework URL Parsing with Host Validation",
+                "links": [],
+                "cvss_score": 8.1,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+                "published_at": "2024-04-16",
+                "updated_at": "2024-06-10",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "spring-webmvc:": {
+        "name": "spring-webmvc",
+        "version": "",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-36p3-wjmg-h94x",
+                "severity": "CRITICAL",
+                "description": "Remote Code Execution in Spring Framework",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-03-31",
+                "updated_at": "2023-01-31",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-36p3-wjmg-h94x",
+                "severity": "CRITICAL",
+                "description": "Remote Code Execution in Spring Framework",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-03-31",
+                "updated_at": "2023-01-31",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-36p3-wjmg-h94x",
+                "severity": "CRITICAL",
+                "description": "Remote Code Execution in Spring Framework",
+                "links": [],
+                "cvss_score": 9.8,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+                "published_at": "2022-03-31",
+                "updated_at": "2023-01-31",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-2m8h-fgr8-2q9w",
+                "severity": "HIGH",
+                "description": "Pivotal Spring Framework Paths provided to the ResourceServlet were not properly sanitized",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2018-10-04",
+                "updated_at": "2024-03-05",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-2m8h-fgr8-2q9w",
+                "severity": "HIGH",
+                "description": "Pivotal Spring Framework Paths provided to the ResourceServlet were not properly sanitized",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2018-10-04",
+                "updated_at": "2024-03-05",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-2m8h-fgr8-2q9w",
+                "severity": "HIGH",
+                "description": "Pivotal Spring Framework Paths provided to the ResourceServlet were not properly sanitized",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+                "published_at": "2018-10-04",
+                "updated_at": "2024-03-05",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-8cmm-qj8g-fcp6",
+                "severity": "MODERATE",
+                "description": "Cross-Site Request Forgery in Spring Framework",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-13",
+                "updated_at": "2024-02-27",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-8cmm-qj8g-fcp6",
+                "severity": "MODERATE",
+                "description": "Cross-Site Request Forgery in Spring Framework",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-13",
+                "updated_at": "2024-02-27",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-8cmm-qj8g-fcp6",
+                "severity": "MODERATE",
+                "description": "Cross-Site Request Forgery in Spring Framework",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-13",
+                "updated_at": "2024-02-27",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "struts:1.2.4": {
+        "name": "struts",
+        "version": "1.2.4",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-vf8g-mpmw-qv87",
+                "severity": "HIGH",
+                "description": "Apache Struts vulnerable to Improper Input Validation",
+                "links": [],
+                "cvss_score": 7.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+                "published_at": "2022-05-01",
+                "updated_at": "2023-02-13",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-vf8g-mpmw-qv87",
+                "severity": "HIGH",
+                "description": "Apache Struts vulnerable to Improper Input Validation",
+                "links": [],
+                "cvss_score": 7.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+                "published_at": "2022-05-01",
+                "updated_at": "2023-02-13",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-vf8g-mpmw-qv87",
+                "severity": "HIGH",
+                "description": "Apache Struts vulnerable to Improper Input Validation",
+                "links": [],
+                "cvss_score": 7.3,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+                "published_at": "2022-05-01",
+                "updated_at": "2023-02-13",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-7qwv-cwgj-c8rj",
+                "severity": "HIGH",
+                "description": "Improper Input Validation in Apache Struts",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-05-01",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-7qwv-cwgj-c8rj",
+                "severity": "HIGH",
+                "description": "Improper Input Validation in Apache Struts",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-05-01",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-7qwv-cwgj-c8rj",
+                "severity": "HIGH",
+                "description": "Improper Input Validation in Apache Struts",
+                "links": [],
+                "cvss_score": 7.5,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+                "published_at": "2022-05-01",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-wcgx-2hvx-5cwr",
+                "severity": "MODERATE",
+                "description": "Apache Struts Cross-site Scripting vulnerability",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-01",
+                "updated_at": "2024-02-09",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-wcgx-2hvx-5cwr",
+                "severity": "MODERATE",
+                "description": "Apache Struts Cross-site Scripting vulnerability",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-01",
+                "updated_at": "2024-02-09",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-wcgx-2hvx-5cwr",
+                "severity": "MODERATE",
+                "description": "Apache Struts Cross-site Scripting vulnerability",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-01",
+                "updated_at": "2024-02-09",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-9848-v244-962p",
+                "severity": "MODERATE",
+                "description": "Apache Struts XSS",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-14",
+                "updated_at": "2024-04-30",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-9848-v244-962p",
+                "severity": "MODERATE",
+                "description": "Apache Struts XSS",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-14",
+                "updated_at": "2024-04-30",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-9848-v244-962p",
+                "severity": "MODERATE",
+                "description": "Apache Struts XSS",
+                "links": [],
+                "cvss_score": 0.0,
+                "vector_attack": null,
+                "published_at": "2022-05-14",
+                "updated_at": "2024-04-30",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-p3vw-fvwx-qcv5",
+                "severity": "LOW",
+                "description": "Cross-site scripting in Apache Struts",
+                "links": [],
+                "cvss_score": 3.7,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2022-05-01",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-p3vw-fvwx-qcv5",
+                "severity": "LOW",
+                "description": "Cross-site scripting in Apache Struts",
+                "links": [],
+                "cvss_score": 3.7,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2022-05-01",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            },
+            {
+                "id": "GHSA-p3vw-fvwx-qcv5",
+                "severity": "LOW",
+                "description": "Cross-site scripting in Apache Struts",
+                "links": [],
+                "cvss_score": 3.7,
+                "vector_attack": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+                "published_at": "2022-05-01",
+                "updated_at": "2023-01-27",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    },
+    "xmlgraphics-commons:1.4": {
+        "name": "xmlgraphics-commons",
+        "version": "1.4",
+        "type": "java-archive",
+        "licenses": [],
+        "vulnerabilities": [
+            {
+                "id": "GHSA-fmj2-7wx8-qj4v",
+                "severity": "HIGH",
+                "description": "Server-side request forgery (SSRF) in Apache XmlGraphics Commons",
+                "links": [],
+                "cvss_score": 8.2,
+                "vector_attack": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+                "published_at": "2022-02-09",
+                "updated_at": "2023-02-01",
+                "CWE_ID": "N/A",
+                "CWE_DESCRIPTION": "N/A"
+            }
+        ]
+    }
+}

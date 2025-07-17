@@ -17,4 +17,4 @@ Description of the content:
 
 List of Authors:
 
-Arnaldo Sgueglia, Gregorio Dalia, Massimo Coppolaro, Andrea Di Sorbo, and Corrado Aaron Visaggio.
+Gregorio Dalia, Arnaldo Sgueglia, Massimo Coppolaro, Andrea Di Sorbo, and Corrado Aaron Visaggio.

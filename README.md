@@ -1,4 +1,4 @@
-Replication Package for the paper "Come Together: SBOM-Enhanced Vulnerability Assessment in Safety-Critical Systems".
+Replication Package for the paper "Advancing the Security of IoT and Safety-Critical Systems through SBOM-Driven Vulnerability Assessment".
 
 Description of the content:
 
